@@ -3909,6 +3909,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 36.83) (xy 109.22 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12f3ecbc-fc0e-4064-9ba5-2541bee2377e")
+	)
+	(wire
+		(pts
 			(xy 232.41 90.17) (xy 232.41 97.79)
 		)
 		(stroke
@@ -4959,16 +4969,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 36.83) (xy 109.22 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac24bb06-0fdf-4b8d-9efb-0727cbc96ff7")
-	)
-	(wire
-		(pts
 			(xy 179.07 35.56) (xy 185.42 35.56)
 		)
 		(stroke
@@ -5461,6 +5461,17 @@
 		)
 		(uuid "cb26974f-35ba-4b60-ab4a-1b6b35a4902d")
 	)
+	(label "12MUXLED"
+		(at 144.78 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0008f1e7-8033-4bf4-8983-e2edf4341e06")
+	)
 	(label "OV2"
 		(at 58.42 129.54 180)
 		(fields_autoplaced yes)
@@ -5483,6 +5494,61 @@
 		)
 		(uuid "1b69d64c-41cf-48d6-b562-d348785ba26e")
 	)
+	(label "CP2"
+		(at 80.01 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1cef406e-863c-4979-aeb5-e001551afd3b")
+	)
+	(label "SS"
+		(at 115.57 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "44f6d6ea-4ecb-4669-8bd6-eadbfffac8a1")
+	)
+	(label "SW_12to5"
+		(at 213.36 35.56 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "48b46973-37e4-4c00-9a38-b007eb13e74e")
+	)
+	(label "5to3V3LED"
+		(at 218.44 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4986ea0b-ffa7-4c64-aba2-5059fd9f8967")
+	)
+	(label "ILIM"
+		(at 115.57 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ebfe7be-8392-4836-bc3d-ba34f570ff3c")
+	)
 	(label "PG"
 		(at 53.34 25.4 0)
 		(fields_autoplaced yes)
@@ -5493,6 +5559,61 @@
 			(justify left bottom)
 		)
 		(uuid "4f1630fd-7ec1-44b5-a33e-e27be20097cd")
+	)
+	(label "5VISO_RAW"
+		(at 223.52 80.01 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5de3a10e-319f-4484-b105-8470ce086f15")
+	)
+	(label "+V_ARR"
+		(at 44.45 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "672e3744-229a-442f-a8cf-b5d08b31694c")
+	)
+	(label "RT{slash}Sync"
+		(at 69.85 44.45 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6aeb4185-e95c-4d05-9bf7-66d53a6f8421")
+	)
+	(label "FB_VINto12"
+		(at 107.95 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "79aa7235-1116-450c-8161-7444018ca802")
+	)
+	(label "12to5LED"
+		(at 243.84 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "94c9140b-9465-4b2b-85a7-bb1329cd0bcb")
 	)
 	(label "PG"
 		(at 107.95 44.45 0)
@@ -5505,6 +5626,61 @@
 		)
 		(uuid "9cdb5d62-4c44-4382-bc69-7e1c43885312")
 	)
+	(label "EN_VINto12"
+		(at 67.31 39.37 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a160e971-4e17-45a2-89cc-2363d125f3fd")
+	)
+	(label "EN_inner"
+		(at 57.15 43.18 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "afdf6ad2-32f9-41c1-a43b-cf4eecb7200c")
+	)
+	(label "FB_inner"
+		(at 134.62 41.91 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bea0359e-ccec-46c6-ab8d-a537bda098b3")
+	)
+	(label "FB_12to5"
+		(at 222.25 35.56 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c83da3d8-f3fb-477c-89b1-08775d0724e7")
+	)
+	(label "BOOT_VINto12"
+		(at 107.95 36.83 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf31952f-02d3-466c-a6c5-75562ad3f572")
+	)
 	(label "OV1"
 		(at 58.42 111.76 180)
 		(fields_autoplaced yes)
@@ -5516,6 +5692,28 @@
 		)
 		(uuid "d5fe906a-9d3b-4ef0-b8b8-4a9b167e540f")
 	)
+	(label "PR1"
+		(at 80.01 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "da0f41c4-35a5-4f55-9124-2a4dc4da6aff")
+	)
+	(label "SW_VINto12"
+		(at 116.84 36.83 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eaa1bd28-ff92-4965-b7d3-309f6ee3d3f7")
+	)
 	(label "OV2"
 		(at 83.82 135.89 180)
 		(fields_autoplaced yes)
@@ -5526,6 +5724,17 @@
 			(justify right bottom)
 		)
 		(uuid "ee75826d-b6a8-4cea-80c7-daa0078893a1")
+	)
+	(label "5VISO_LED"
+		(at 246.38 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff178493-2e3f-41bb-bdb9-f2601dd4bce9")
 	)
 	(symbol
 		(lib_id "Device:R_Small")
