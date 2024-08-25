@@ -8,7 +8,7 @@
 		(title "Mighty MPPT Power Regulation Breakout")
 		(date "2024-08-25")
 		(rev "v0.1.0rc")
-		(comment 1 "Matthew Yu")
+		(comment 1 "Matthew Yu & Jacob Pustilnik")
 	)
 	(lib_symbols
 		(symbol "CT3151_1"
