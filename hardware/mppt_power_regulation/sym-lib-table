@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ti_LMR38010")(type "KiCad")(uri "${KIPRJMOD}/symbols/ti_LMR38010.kicad_sym")(options "")(descr ""))
+  (lib (name "ti_TPS2121")(type "KiCad")(uri "${KIPRJMOD}/symbols/ti_TPS2121.kicad_sym")(options "")(descr ""))
+  (lib (name "caltest_ct3151")(type "KiCad")(uri "${KIPRJMOD}/symbols/caltest_ct3151.kicad_sym")(options "")(descr ""))
+  (lib (name "murata_CRE1_S0505MEC")(type "KiCad")(uri "${KIPRJMOD}/symbols/murata_CRE1_S0505MEC.kicad_sym")(options "")(descr ""))
+)
