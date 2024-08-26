@@ -605,7 +605,7 @@
           "group_by": false,
           "label": "LCSC Part #",
           "name": "LCSC Part #",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -617,7 +617,7 @@
           "group_by": false,
           "label": "Notes",
           "name": "Notes",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
