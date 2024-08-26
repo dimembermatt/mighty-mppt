@@ -22266,7 +22266,7 @@
 		(property "Reference" "TP105"
 			(at 0 -2.5 0)
 			(layer "F.SilkS")
-			(uuid "2beb09bf-861e-47c3-9d21-3766040addec")
+			(uuid "87e09de4-ebd7-4617-bff0-532da2a5260a")
 			(effects
 				(font
 					(size 1 1)
@@ -22277,7 +22277,7 @@
 		(property "Value" "TestPoint"
 			(at 0 2.5 0)
 			(layer "F.Fab")
-			(uuid "8bd8593f-a41a-4608-8a47-2fd82693be41")
+			(uuid "73ff2921-cc27-459c-8f04-c323151f04d1")
 			(effects
 				(font
 					(size 1 1)
@@ -22416,7 +22416,7 @@
 			)
 			(fill none)
 			(layer "F.SilkS")
-			(uuid "90fa1e81-23f2-478f-86f9-6a0eae6252cb")
+			(uuid "e87eafac-e244-4ea3-aa7b-4ea1745e589d")
 		)
 		(fp_circle
 			(center 0 0)
@@ -22427,7 +22427,7 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "c280e97a-26f0-4a17-bc0b-dec2093bc219")
+			(uuid "9854d5b8-e454-4c0c-b87e-dcafe39485e7")
 		)
 		(fp_line
 			(start -0.75 -0.25)
@@ -22437,7 +22437,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ba0c7c01-b156-47dc-8664-3494eb61d7f4")
+			(uuid "f5e2e6c7-a722-432c-80e1-8c27ef77c8f7")
 		)
 		(fp_line
 			(start -0.75 0.25)
@@ -22447,7 +22447,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "f04e6cc5-f462-4cb9-b342-5b4975bf3375")
+			(uuid "13bbdae0-ff90-4324-b870-379bdda9704a")
 		)
 		(fp_line
 			(start 0.75 -0.25)
@@ -22457,7 +22457,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d99fd1ca-3f36-488b-9e64-06700ab25b20")
+			(uuid "ec3d8b11-39b4-4f76-aa16-545458bcf680")
 		)
 		(fp_line
 			(start 0.75 0.25)
@@ -22467,7 +22467,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d39ad745-c410-43f2-b03f-4b51f9c6f4e5")
+			(uuid "5c69d35c-c0bf-47b4-9a1e-37c1e538288d")
 		)
 		(fp_circle
 			(center 0 0)
@@ -22478,12 +22478,12 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "cd5a5c62-ad84-4237-a0fc-5f7054411454")
+			(uuid "cc8b3f98-4375-4b18-a8e0-b054398c2003")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -2.5 0)
 			(layer "F.Fab")
-			(uuid "fee74086-891f-479d-b50a-86fbcca0a842")
+			(uuid "6dcdbf22-c495-4533-86ff-6ab04dbab623")
 			(effects
 				(font
 					(size 1 1)
@@ -22500,7 +22500,7 @@
 			(net 7 "GND")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "26e8bc9d-ae07-42b7-84dc-9c4f8fc7311d")
+			(uuid "55f4d194-366d-48e9-b63d-9dd197f6b9ff")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5000-5004_Miniature.wrl"
 			(offset
