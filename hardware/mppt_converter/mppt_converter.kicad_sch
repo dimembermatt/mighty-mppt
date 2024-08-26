@@ -8,7 +8,7 @@
 		(title "Mighty MPPT Power Converter Breakout")
 		(date "2024-08-25")
 		(rev "v0.1.0rc")
-		(comment 1 "Matthew Yu")
+		(comment 1 "Matthew Yu & Jacob Pustilnik")
 	)
 	(lib_symbols
 		(symbol "021306_3MXP_1"
@@ -4486,6 +4486,12 @@
 		(uuid "37acf7e4-cead-4111-9d93-ef0c4541453d")
 	)
 	(junction
+		(at 161.29 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44129a40-d7dd-4232-bbf3-b5ffa7db38f7")
+	)
+	(junction
 		(at 140.97 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4588,6 +4594,12 @@
 		(uuid "8e0ddf01-4c7e-4686-af88-2d57704b9eab")
 	)
 	(junction
+		(at 161.29 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9700447a-dea1-4d26-a23c-024f4d7723be")
+	)
+	(junction
 		(at 85.09 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4604,6 +4616,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae2e5e5b-5b66-475d-ad21-d95b48c2e795")
+	)
+	(junction
+		(at 38.1 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae74c4c8-3922-48bc-b1cd-101c41d7c07c")
 	)
 	(junction
 		(at 151.13 101.6)
@@ -4640,6 +4658,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d51aa5c1-8f61-4d9d-99e8-9d65ec7fca36")
+	)
+	(junction
+		(at 38.1 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e48ae3da-9db1-4403-9af0-e09f859f1606")
 	)
 	(junction
 		(at 29.21 151.13)
@@ -4773,7 +4797,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 120.65) (xy 208.28 118.11)
+			(xy 214.63 120.65) (xy 214.63 118.11)
 		)
 		(stroke
 			(width 0)
@@ -4941,6 +4965,16 @@
 		)
 		(uuid "2fa80d31-e6e6-45eb-8238-8d14e1632965")
 	)
+	(wire
+		(pts
+			(xy 161.29 101.6) (xy 161.29 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3089d6d2-7c4f-4d31-8aa8-779a7c45d9e1")
+	)
 	(polyline
 		(pts
 			(xy 190.5 25.4) (xy 196.85 25.4)
@@ -4960,16 +4994,6 @@
 			(type default)
 		)
 		(uuid "366d6f9b-3a7b-4bb7-9cc9-67d67e9788cd")
-	)
-	(wire
-		(pts
-			(xy 31.75 127) (xy 44.45 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37caefd8-ebf1-4c26-9368-b025a6f2e5e2")
 	)
 	(wire
 		(pts
@@ -5043,7 +5067,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 127) (xy 163.83 127)
+			(xy 151.13 127) (xy 161.29 127)
 		)
 		(stroke
 			(width 0)
@@ -5053,7 +5077,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 118.11) (xy 220.98 120.65)
+			(xy 227.33 118.11) (xy 227.33 120.65)
 		)
 		(stroke
 			(width 0)
@@ -5123,6 +5147,26 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 101.6) (xy 44.45 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4de97ce8-4025-466a-b74f-9fe7e6b5f3ed")
+	)
+	(wire
+		(pts
+			(xy 25.4 127) (xy 38.1 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4df3258c-3893-48eb-a3d4-9b1bdad46202")
+	)
+	(wire
+		(pts
 			(xy 54.61 127) (xy 64.77 127)
 		)
 		(stroke
@@ -5173,13 +5217,23 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 101.6) (xy 151.13 101.6)
+			(xy 151.13 101.6) (xy 161.29 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5a78da40-5aad-4626-8add-c82373ea4cf2")
+	)
+	(wire
+		(pts
+			(xy 38.1 101.6) (xy 38.1 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ccd914c-9b85-4a95-a77d-27deae5b2fed")
 	)
 	(wire
 		(pts
@@ -5233,6 +5287,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 127) (xy 175.26 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d9270d5-2bf3-4df1-9ec2-eb5d23a4518d")
+	)
+	(wire
+		(pts
 			(xy 78.74 179.07) (xy 85.09 179.07)
 		)
 		(stroke
@@ -5250,6 +5314,16 @@
 			(type default)
 		)
 		(uuid "738d782d-5f35-4107-b453-647ad673bc06")
+	)
+	(wire
+		(pts
+			(xy 161.29 116.84) (xy 161.29 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74e1df73-2dd7-4937-8e4c-7453cf2fc7a4")
 	)
 	(wire
 		(pts
@@ -5333,6 +5407,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 101.6) (xy 167.64 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e214e2e-afd2-41a1-ae9b-c184a4714d5e")
+	)
+	(wire
+		(pts
 			(xy 90.17 186.69) (xy 92.71 186.69)
 		)
 		(stroke
@@ -5340,6 +5424,16 @@
 			(type default)
 		)
 		(uuid "8e9740d0-d582-4be0-a931-eca0f834676c")
+	)
+	(wire
+		(pts
+			(xy 38.1 116.84) (xy 38.1 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91c6aaaa-6fb3-451e-ba24-ff9f5a183106")
 	)
 	(wire
 		(pts
@@ -5383,23 +5477,13 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 104.14) (xy 248.92 106.68)
+			(xy 255.27 104.14) (xy 255.27 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9e944318-5da8-4e8c-b6b4-8f988032d4f1")
-	)
-	(wire
-		(pts
-			(xy 163.83 101.6) (xy 161.29 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a19a1f19-5974-4617-b82e-78046a6aa318")
 	)
 	(polyline
 		(pts
@@ -5430,6 +5514,16 @@
 			(type default)
 		)
 		(uuid "ac434707-40e9-417b-8c6f-9b265dee3c89")
+	)
+	(wire
+		(pts
+			(xy 33.02 101.6) (xy 38.1 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeb2ba94-f585-483e-8240-379f713bb54e")
 	)
 	(polyline
 		(pts
@@ -5473,7 +5567,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 106.68) (xy 234.95 104.14)
+			(xy 241.3 106.68) (xy 241.3 104.14)
 		)
 		(stroke
 			(width 0)
@@ -5533,7 +5627,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 106.68) (xy 222.25 104.14)
+			(xy 228.6 106.68) (xy 228.6 104.14)
 		)
 		(stroke
 			(width 0)
@@ -5543,7 +5637,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 120.65) (xy 195.58 118.11)
+			(xy 201.93 120.65) (xy 201.93 118.11)
 		)
 		(stroke
 			(width 0)
@@ -5560,16 +5654,6 @@
 			(type default)
 		)
 		(uuid "c73d7cce-63ed-424c-ae84-2e516d9776e1")
-	)
-	(wire
-		(pts
-			(xy 31.75 101.6) (xy 34.29 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c747a1ad-7bed-4709-a592-41296873ede8")
 	)
 	(polyline
 		(pts
@@ -5633,6 +5717,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 127) (xy 44.45 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3c68d89-b1a9-4aa6-a610-38f1f2e7ef08")
+	)
+	(wire
+		(pts
 			(xy 29.21 166.37) (xy 54.61 166.37)
 		)
 		(stroke
@@ -5670,16 +5764,6 @@
 			(type default)
 		)
 		(uuid "e2466792-6aac-4cee-a81c-233dacde6fbe")
-	)
-	(wire
-		(pts
-			(xy 41.91 101.6) (xy 44.45 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e32f7156-df07-4228-8443-19656d0ec64c")
 	)
 	(wire
 		(pts
@@ -6167,8 +6251,19 @@
 		)
 		(uuid "0c15b758-6a4f-4751-ae50-23676222463a")
 	)
+	(label "DISABLE"
+		(at 59.69 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1dcb1bee-2e45-4601-a98f-2f6878e78696")
+	)
 	(label "CONV_PWM"
-		(at 234.95 106.68 0)
+		(at 241.3 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6233,6 +6328,39 @@
 		)
 		(uuid "4ecd77b2-15f8-42c4-8896-b62b5349b5f0")
 	)
+	(label "VIN_fused"
+		(at 44.45 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "57fdbbbf-eaa9-420a-9585-d93e3cb4dadf")
+	)
+	(label "VIN"
+		(at 22.86 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5baeb246-434b-4ac3-96df-d56d0c7703c3")
+	)
+	(label "VOUT"
+		(at 121.92 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6354ec86-c0c3-4c53-ba42-32a9ba884d89")
+	)
 	(label "SWH"
 		(at 109.22 93.98 0)
 		(fields_autoplaced yes)
@@ -6256,7 +6384,7 @@
 		(uuid "76066d00-c011-4203-9281-07112025c1c4")
 	)
 	(label "SWL"
-		(at 208.28 120.65 0)
+		(at 214.63 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6278,7 +6406,7 @@
 		(uuid "776c7fce-c954-43e4-bab3-c5170cec7554")
 	)
 	(label "VSW"
-		(at 220.98 120.65 0)
+		(at 227.33 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6332,6 +6460,17 @@
 		)
 		(uuid "bb30c4b6-7094-44f5-8cfd-062ecfcc403e")
 	)
+	(label "VBOOT"
+		(at 99.06 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bcd7a479-6a38-4da1-a576-39b16fcdeba7")
+	)
 	(label "VOB"
 		(at 99.06 163.83 0)
 		(fields_autoplaced yes)
@@ -6354,8 +6493,19 @@
 		)
 		(uuid "cc820e47-6764-4ae2-bc50-ffc9b54d34a9")
 	)
+	(label "VBOOT_inner"
+		(at 127 153.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cfe8e644-7e95-4e8e-85ed-8463d04a1797")
+	)
 	(label "CONV_EN"
-		(at 222.25 106.68 0)
+		(at 228.6 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6366,7 +6516,7 @@
 		(uuid "d37f1042-5ec5-4eb2-803a-9ca43d23f431")
 	)
 	(label "SWH"
-		(at 195.58 120.65 0)
+		(at 201.93 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6377,7 +6527,7 @@
 		(uuid "dcba4377-4ee0-494c-bf3a-bf2ba776d95c")
 	)
 	(label "DT"
-		(at 248.92 106.68 0)
+		(at 255.27 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6386,6 +6536,17 @@
 			(justify left bottom)
 		)
 		(uuid "e6a2c914-bde2-43eb-9089-ef90ab9ead43")
+	)
+	(label "VOUT_fused"
+		(at 154.94 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f2f00629-b24c-4a4f-a5e5-7071217e5896")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -6876,7 +7037,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 222.25 104.14 0)
+		(at 228.6 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6885,7 +7046,7 @@
 		(fields_autoplaced yes)
 		(uuid "192ed81b-f109-4963-86cb-7d7b918583de")
 		(property "Reference" "TP106"
-			(at 224.79 99.5679 0)
+			(at 231.14 99.5679 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6894,7 +7055,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 224.79 102.1079 0)
+			(at 231.14 102.1079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6903,7 +7064,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 227.33 104.14 0)
+			(at 233.68 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6912,7 +7073,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
-			(at 227.33 104.14 0)
+			(at 233.68 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6921,7 +7082,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 222.25 104.14 0)
+			(at 228.6 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6930,7 +7091,7 @@
 			)
 		)
 		(property "Cost" ""
-			(at 222.25 104.14 0)
+			(at 228.6 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6939,7 +7100,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 222.25 104.14 0)
+			(at 228.6 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6948,7 +7109,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
-			(at 222.25 104.14 0)
+			(at 228.6 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6957,7 +7118,7 @@
 			)
 		)
 		(property "P/N" "5000"
-			(at 222.25 104.14 0)
+			(at 228.6 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7085,7 +7246,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 182.88 118.11 0)
+		(at 189.23 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7094,7 +7255,7 @@
 		(fields_autoplaced yes)
 		(uuid "1cb1ae11-64f5-483b-9343-fd89749d6de2")
 		(property "Reference" "TP109"
-			(at 185.42 113.5379 0)
+			(at 191.77 113.5379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7103,7 +7264,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 185.42 116.0779 0)
+			(at 191.77 116.0779 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7112,7 +7273,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 187.96 118.11 0)
+			(at 194.31 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7121,7 +7282,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
-			(at 187.96 118.11 0)
+			(at 194.31 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7130,7 +7291,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 182.88 118.11 0)
+			(at 189.23 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7139,7 +7300,7 @@
 			)
 		)
 		(property "Cost" ""
-			(at 182.88 118.11 0)
+			(at 189.23 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7148,7 +7309,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 182.88 118.11 0)
+			(at 189.23 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7157,7 +7318,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
-			(at 182.88 118.11 0)
+			(at 189.23 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7166,7 +7327,7 @@
 			)
 		)
 		(property "P/N" "5000"
-			(at 182.88 118.11 0)
+			(at 189.23 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7187,8 +7348,95 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 161.29 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "26617a2a-0b95-41ad-ade9-b6a64dd00ec4")
+		(property "Reference" "C113"
+			(at 163.322 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 162.814 115.824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 161.29 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf"
+			(at 161.29 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 161.29 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 161.29 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CL21B104KCFNNNE"
+			(at 161.29 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d8ac963d-7be2-4b27-a178-9d93b472e55c")
+		)
+		(pin "1"
+			(uuid "975412f4-21af-4825-ab88-511fe853c033")
+		)
+		(instances
+			(project "mppt_converter"
+				(path "/714d7e26-ded9-4cad-b24d-404c82425d67"
+					(reference "C113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 209.55 104.14 0)
+		(at 215.9 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7196,7 +7444,7 @@
 		(dnp no)
 		(uuid "293af4d5-5e75-490a-a7be-a9122895faf4")
 		(property "Reference" "#PWR0103"
-			(at 209.55 110.49 0)
+			(at 215.9 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7205,7 +7453,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 209.55 108.458 0)
+			(at 215.9 108.458 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7213,7 +7461,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 104.14 0)
+			(at 215.9 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7222,7 +7470,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 104.14 0)
+			(at 215.9 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7231,7 +7479,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 209.55 104.14 0)
+			(at 215.9 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7441,7 +7689,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 195.58 118.11 0)
+		(at 201.93 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7450,7 +7698,7 @@
 		(fields_autoplaced yes)
 		(uuid "2c71a0eb-ee64-44ad-926c-269bd5c39a8c")
 		(property "Reference" "TP110"
-			(at 198.12 113.5379 0)
+			(at 204.47 113.5379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7459,7 +7707,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 198.12 116.0779 0)
+			(at 204.47 116.0779 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7468,7 +7716,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 200.66 118.11 0)
+			(at 207.01 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7477,7 +7725,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
-			(at 200.66 118.11 0)
+			(at 207.01 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7486,7 +7734,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 195.58 118.11 0)
+			(at 201.93 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7495,7 +7743,7 @@
 			)
 		)
 		(property "Cost" ""
-			(at 195.58 118.11 0)
+			(at 201.93 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7504,7 +7752,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 195.58 118.11 0)
+			(at 201.93 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7513,7 +7761,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
-			(at 195.58 118.11 0)
+			(at 201.93 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7522,7 +7770,7 @@
 			)
 		)
 		(property "P/N" "5000"
-			(at 195.58 118.11 0)
+			(at 201.93 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7544,7 +7792,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 234.95 104.14 0)
+		(at 241.3 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7553,7 +7801,7 @@
 		(fields_autoplaced yes)
 		(uuid "2fb72562-228f-4671-89b4-a969322e1c08")
 		(property "Reference" "TP107"
-			(at 237.49 99.5679 0)
+			(at 243.84 99.5679 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7562,7 +7810,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 237.49 102.1079 0)
+			(at 243.84 102.1079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7571,7 +7819,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 240.03 104.14 0)
+			(at 246.38 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7580,7 +7828,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
-			(at 240.03 104.14 0)
+			(at 246.38 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7589,7 +7837,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 234.95 104.14 0)
+			(at 241.3 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7598,7 +7846,7 @@
 			)
 		)
 		(property "Cost" ""
-			(at 234.95 104.14 0)
+			(at 241.3 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7607,7 +7855,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 234.95 104.14 0)
+			(at 241.3 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7616,7 +7864,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
-			(at 234.95 104.14 0)
+			(at 241.3 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7625,7 +7873,7 @@
 			)
 		)
 		(property "P/N" "5000"
-			(at 234.95 104.14 0)
+			(at 241.3 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7960,7 +8208,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 209.55 104.14 0)
+		(at 215.9 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7969,7 +8217,7 @@
 		(fields_autoplaced yes)
 		(uuid "4eb03457-dfcb-4ec7-af5a-d1ff9f2e7937")
 		(property "Reference" "TP105"
-			(at 212.09 99.5679 0)
+			(at 218.44 99.5679 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7978,7 +8226,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 212.09 102.1079 0)
+			(at 218.44 102.1079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7987,7 +8235,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 214.63 104.14 0)
+			(at 220.98 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7996,7 +8244,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
-			(at 214.63 104.14 0)
+			(at 220.98 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8005,7 +8253,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 209.55 104.14 0)
+			(at 215.9 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8014,7 +8262,7 @@
 			)
 		)
 		(property "Cost" ""
-			(at 209.55 104.14 0)
+			(at 215.9 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8023,7 +8271,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 209.55 104.14 0)
+			(at 215.9 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8032,7 +8280,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
-			(at 209.55 104.14 0)
+			(at 215.9 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8041,7 +8289,7 @@
 			)
 		)
 		(property "P/N" "5000"
-			(at 209.55 104.14 0)
+			(at 215.9 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8780,7 +9028,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 182.88 118.11 0)
+		(at 189.23 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8788,7 +9036,7 @@
 		(dnp no)
 		(uuid "68a73085-8f50-4145-b519-0e5da26c7556")
 		(property "Reference" "#PWR0104"
-			(at 182.88 124.46 0)
+			(at 189.23 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8797,7 +9045,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 182.88 122.428 0)
+			(at 189.23 122.428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8805,7 +9053,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 118.11 0)
+			(at 189.23 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8814,7 +9062,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 118.11 0)
+			(at 189.23 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8823,7 +9071,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 118.11 0)
+			(at 189.23 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8845,7 +9093,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 248.92 104.14 0)
+		(at 255.27 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8854,7 +9102,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a3a76d7-2819-432d-88bb-bdfab4cff1c6")
 		(property "Reference" "TP108"
-			(at 251.46 99.5679 0)
+			(at 257.81 99.5679 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8863,7 +9111,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 251.46 102.1079 0)
+			(at 257.81 102.1079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8872,7 +9120,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 254 104.14 0)
+			(at 260.35 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8881,7 +9129,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
-			(at 254 104.14 0)
+			(at 260.35 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8890,7 +9138,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 248.92 104.14 0)
+			(at 255.27 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8899,7 +9147,7 @@
 			)
 		)
 		(property "Cost" ""
-			(at 248.92 104.14 0)
+			(at 255.27 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8908,7 +9156,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 248.92 104.14 0)
+			(at 255.27 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8917,7 +9165,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
-			(at 248.92 104.14 0)
+			(at 255.27 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8926,7 +9174,7 @@
 			)
 		)
 		(property "P/N" "5000"
-			(at 248.92 104.14 0)
+			(at 255.27 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10010,7 +10258,7 @@
 	)
 	(symbol
 		(lib_id "caltest_ct3151:CT3151")
-		(at 24.13 127 180)
+		(at 17.78 127 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10019,7 +10267,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ff09f61-c85b-4b88-913d-d772269a68db")
 		(property "Reference" "J103"
-			(at 24.13 119.38 0)
+			(at 17.78 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10027,7 +10275,7 @@
 			)
 		)
 		(property "Value" "CT3151"
-			(at 24.13 121.92 0)
+			(at 17.78 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10035,7 +10283,7 @@
 			)
 		)
 		(property "Footprint" "footprints:caltest_ct3151"
-			(at 24.13 127 0)
+			(at 17.78 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10045,7 +10293,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4846/DS_1768_Catalog.pdf"
-			(at 24.13 127 0)
+			(at 17.78 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10054,7 +10302,7 @@
 			)
 		)
 		(property "Description" "CONN BANANA JACK SOLDER"
-			(at 24.13 127 0)
+			(at 17.78 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10063,7 +10311,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 24.13 127 0)
+			(at 17.78 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10072,7 +10320,7 @@
 			)
 		)
 		(property "Manufacturer" "Caltest"
-			(at 24.13 127 0)
+			(at 17.78 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10081,7 +10329,7 @@
 			)
 		)
 		(property "P/N" "  CT3151-0"
-			(at 24.13 127 0)
+			(at 17.78 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10090,7 +10338,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 24.13 127 0)
+			(at 17.78 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10099,7 +10347,7 @@
 			)
 		)
 		(property "Cost" ""
-			(at 24.13 127 0)
+			(at 17.78 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10108,7 +10356,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 24.13 127 0)
+			(at 17.78 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10378,7 +10626,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 196.85 104.14 180)
+		(at 203.2 104.14 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10387,7 +10635,7 @@
 		(fields_autoplaced yes)
 		(uuid "8891a8d4-4e6d-4538-8c5f-b8cda02fe22d")
 		(property "Reference" "#PWR0102"
-			(at 196.85 100.33 0)
+			(at 203.2 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10396,7 +10644,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 196.85 109.22 0)
+			(at 203.2 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10404,7 +10652,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 104.14 0)
+			(at 203.2 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10413,7 +10661,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 104.14 0)
+			(at 203.2 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10422,7 +10670,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 196.85 104.14 0)
+			(at 203.2 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10561,7 +10809,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 196.85 104.14 0)
+		(at 203.2 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10570,7 +10818,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ca13fc3-9aee-47d0-90c5-9b756d219486")
 		(property "Reference" "TP104"
-			(at 199.39 99.5679 0)
+			(at 205.74 99.5679 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10579,7 +10827,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 199.39 102.1079 0)
+			(at 205.74 102.1079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10588,7 +10836,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 201.93 104.14 0)
+			(at 208.28 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10597,7 +10845,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
-			(at 201.93 104.14 0)
+			(at 208.28 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10606,7 +10854,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 196.85 104.14 0)
+			(at 203.2 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10615,7 +10863,7 @@
 			)
 		)
 		(property "Cost" ""
-			(at 196.85 104.14 0)
+			(at 203.2 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10624,7 +10872,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 196.85 104.14 0)
+			(at 203.2 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10633,7 +10881,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
-			(at 196.85 104.14 0)
+			(at 203.2 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10642,7 +10890,7 @@
 			)
 		)
 		(property "P/N" "5000"
-			(at 196.85 104.14 0)
+			(at 203.2 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10664,7 +10912,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 182.88 104.14 0)
+		(at 189.23 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10673,7 +10921,7 @@
 		(fields_autoplaced yes)
 		(uuid "92c38e3e-1d60-4fa6-84d7-9346547f8436")
 		(property "Reference" "TP103"
-			(at 185.42 99.5679 0)
+			(at 191.77 99.5679 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10682,7 +10930,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 185.42 102.1079 0)
+			(at 191.77 102.1079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10691,7 +10939,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 187.96 104.14 0)
+			(at 194.31 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10700,7 +10948,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
-			(at 187.96 104.14 0)
+			(at 194.31 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10709,7 +10957,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 182.88 104.14 0)
+			(at 189.23 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10718,7 +10966,7 @@
 			)
 		)
 		(property "Cost" ""
-			(at 182.88 104.14 0)
+			(at 189.23 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10727,7 +10975,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 182.88 104.14 0)
+			(at 189.23 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10736,7 +10984,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
-			(at 182.88 104.14 0)
+			(at 189.23 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10745,7 +10993,7 @@
 			)
 		)
 		(property "P/N" "5000"
-			(at 182.88 104.14 0)
+			(at 189.23 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12290,7 +12538,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 208.28 118.11 0)
+		(at 214.63 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12299,7 +12547,7 @@
 		(fields_autoplaced yes)
 		(uuid "b00df3f2-36ba-4c6c-8a9a-35bc35f1f19f")
 		(property "Reference" "TP111"
-			(at 210.82 113.5379 0)
+			(at 217.17 113.5379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12308,7 +12556,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 210.82 116.0779 0)
+			(at 217.17 116.0779 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12317,7 +12565,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 213.36 118.11 0)
+			(at 219.71 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12326,7 +12574,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
-			(at 213.36 118.11 0)
+			(at 219.71 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12335,7 +12583,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 208.28 118.11 0)
+			(at 214.63 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12344,7 +12592,7 @@
 			)
 		)
 		(property "Cost" ""
-			(at 208.28 118.11 0)
+			(at 214.63 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12353,7 +12601,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 208.28 118.11 0)
+			(at 214.63 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12362,7 +12610,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
-			(at 208.28 118.11 0)
+			(at 214.63 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12371,7 +12619,7 @@
 			)
 		)
 		(property "P/N" "5000"
-			(at 208.28 118.11 0)
+			(at 214.63 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12516,7 +12764,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 38.1 101.6 90)
+		(at 29.21 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12525,7 +12773,7 @@
 		(fields_autoplaced yes)
 		(uuid "c1766bc7-a910-4bcc-bedf-b1ee6906e8e4")
 		(property "Reference" "F101"
-			(at 38.1 95.25 90)
+			(at 29.21 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12533,7 +12781,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 38.1 97.79 90)
+			(at 29.21 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12541,7 +12789,7 @@
 			)
 		)
 		(property "Footprint" "footprints:littelfuse_65600001009"
-			(at 38.1 103.378 90)
+			(at 29.21 103.378 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12550,7 +12798,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuse_blocks/littelfuse_fuse_block_656_datasheet.pdf.pdf"
-			(at 38.1 101.6 0)
+			(at 29.21 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12559,7 +12807,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 38.1 101.6 0)
+			(at 29.21 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12568,7 +12816,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 38.1 101.6 90)
+			(at 29.21 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12577,7 +12825,7 @@
 			)
 		)
 		(property "Manufacturer" "Littelfuse"
-			(at 38.1 101.6 90)
+			(at 29.21 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12586,7 +12834,7 @@
 			)
 		)
 		(property "P/N" "65600001009"
-			(at 38.1 101.6 90)
+			(at 29.21 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12595,7 +12843,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 38.1 101.6 90)
+			(at 29.21 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12604,7 +12852,7 @@
 			)
 		)
 		(property "Cost" ""
-			(at 38.1 101.6 90)
+			(at 29.21 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12613,7 +12861,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 38.1 101.6 90)
+			(at 29.21 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12704,7 +12952,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 220.98 118.11 0)
+		(at 227.33 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12713,7 +12961,7 @@
 		(fields_autoplaced yes)
 		(uuid "cd4a07cd-0c76-4540-a6da-d157825ab1c2")
 		(property "Reference" "TP112"
-			(at 223.52 113.5379 0)
+			(at 229.87 113.5379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12722,7 +12970,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 223.52 116.0779 0)
+			(at 229.87 116.0779 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12731,7 +12979,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 226.06 118.11 0)
+			(at 232.41 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12740,7 +12988,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
-			(at 226.06 118.11 0)
+			(at 232.41 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12749,7 +12997,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 220.98 118.11 0)
+			(at 227.33 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12758,7 +13006,7 @@
 			)
 		)
 		(property "Cost" ""
-			(at 220.98 118.11 0)
+			(at 227.33 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12767,7 +13015,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 220.98 118.11 0)
+			(at 227.33 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12776,7 +13024,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
-			(at 220.98 118.11 0)
+			(at 227.33 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12785,7 +13033,7 @@
 			)
 		)
 		(property "P/N" "5000"
-			(at 220.98 118.11 0)
+			(at 227.33 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13128,7 +13376,7 @@
 	)
 	(symbol
 		(lib_id "caltest_ct3151:CT3151")
-		(at 171.45 127 0)
+		(at 182.88 127 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13137,7 +13385,7 @@
 		(dnp no)
 		(uuid "d822fd6f-6c03-4a94-8bc6-00b53b02ef8d")
 		(property "Reference" "J104"
-			(at 171.45 119.38 0)
+			(at 182.88 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13145,7 +13393,7 @@
 			)
 		)
 		(property "Value" "CT3151"
-			(at 171.45 121.92 0)
+			(at 182.88 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13153,7 +13401,7 @@
 			)
 		)
 		(property "Footprint" "footprints:caltest_ct3151"
-			(at 171.45 127 0)
+			(at 182.88 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13163,7 +13411,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4846/DS_1768_Catalog.pdf"
-			(at 171.45 127 0)
+			(at 182.88 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13172,7 +13420,7 @@
 			)
 		)
 		(property "Description" "CONN BANANA JACK SOLDER"
-			(at 171.45 127 0)
+			(at 182.88 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13181,7 +13429,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 171.45 127 0)
+			(at 182.88 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13190,7 +13438,7 @@
 			)
 		)
 		(property "Manufacturer" "Caltest"
-			(at 171.45 127 0)
+			(at 182.88 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13199,7 +13447,7 @@
 			)
 		)
 		(property "P/N" "  CT3151-0"
-			(at 171.45 127 0)
+			(at 182.88 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13208,7 +13456,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 171.45 127 0)
+			(at 182.88 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13217,7 +13465,7 @@
 			)
 		)
 		(property "Cost" ""
-			(at 171.45 127 0)
+			(at 182.88 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13226,7 +13474,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 171.45 127 0)
+			(at 182.88 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13377,7 +13625,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 182.88 104.14 180)
+		(at 189.23 104.14 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13386,7 +13634,7 @@
 		(fields_autoplaced yes)
 		(uuid "db26ebed-d768-41cb-93ef-489acd20c54e")
 		(property "Reference" "#PWR0101"
-			(at 182.88 100.33 0)
+			(at 189.23 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13395,7 +13643,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 182.88 109.22 0)
+			(at 189.23 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13403,7 +13651,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 104.14 0)
+			(at 189.23 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13412,7 +13660,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 104.14 0)
+			(at 189.23 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13421,7 +13669,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 182.88 104.14 0)
+			(at 189.23 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13756,7 +14004,7 @@
 	)
 	(symbol
 		(lib_id "caltest_ct3151:CT3151")
-		(at 171.45 101.6 0)
+		(at 182.88 101.6 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13765,7 +14013,7 @@
 		(dnp no)
 		(uuid "e9560fa6-c80b-4eb6-921e-7ec5db0fbc67")
 		(property "Reference" "J102"
-			(at 171.45 93.98 0)
+			(at 182.88 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13773,7 +14021,7 @@
 			)
 		)
 		(property "Value" "CT3151"
-			(at 171.45 96.52 0)
+			(at 182.88 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13781,7 +14029,7 @@
 			)
 		)
 		(property "Footprint" "footprints:caltest_ct3151"
-			(at 171.45 101.6 0)
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13791,7 +14039,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4846/DS_1768_Catalog.pdf"
-			(at 171.45 101.6 0)
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13800,7 +14048,7 @@
 			)
 		)
 		(property "Description" "CONN BANANA JACK SOLDER"
-			(at 171.45 101.6 0)
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13809,7 +14057,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 171.45 101.6 0)
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13818,7 +14066,7 @@
 			)
 		)
 		(property "Manufacturer" "Caltest"
-			(at 171.45 101.6 0)
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13827,7 +14075,7 @@
 			)
 		)
 		(property "P/N" "  CT3151-2"
-			(at 171.45 101.6 0)
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13836,7 +14084,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 171.45 101.6 0)
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13845,7 +14093,7 @@
 			)
 		)
 		(property "Cost" ""
-			(at 171.45 101.6 0)
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13854,7 +14102,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 171.45 101.6 0)
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13885,7 +14133,7 @@
 	)
 	(symbol
 		(lib_id "caltest_ct3151:CT3151")
-		(at 24.13 101.6 180)
+		(at 17.78 101.6 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13894,7 +14142,7 @@
 		(fields_autoplaced yes)
 		(uuid "edd351ea-88aa-4110-b570-cb2d1763f4ed")
 		(property "Reference" "J101"
-			(at 24.13 93.98 0)
+			(at 17.78 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13902,7 +14150,7 @@
 			)
 		)
 		(property "Value" "CT3151"
-			(at 24.13 96.52 0)
+			(at 17.78 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13910,7 +14158,7 @@
 			)
 		)
 		(property "Footprint" "footprints:caltest_ct3151"
-			(at 24.13 101.6 0)
+			(at 17.78 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13920,7 +14168,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4846/DS_1768_Catalog.pdf"
-			(at 24.13 101.6 0)
+			(at 17.78 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13929,7 +14177,7 @@
 			)
 		)
 		(property "Description" "CONN BANANA JACK SOLDER"
-			(at 24.13 101.6 0)
+			(at 17.78 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13938,7 +14186,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 24.13 101.6 0)
+			(at 17.78 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13947,7 +14195,7 @@
 			)
 		)
 		(property "Manufacturer" "Caltest"
-			(at 24.13 101.6 0)
+			(at 17.78 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13956,7 +14204,7 @@
 			)
 		)
 		(property "P/N" "  CT3151-2"
-			(at 24.13 101.6 0)
+			(at 17.78 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13965,7 +14213,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 24.13 101.6 0)
+			(at 17.78 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13974,7 +14222,7 @@
 			)
 		)
 		(property "Cost" ""
-			(at 24.13 101.6 0)
+			(at 17.78 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13983,7 +14231,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 24.13 101.6 0)
+			(at 17.78 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14148,7 +14396,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 157.48 101.6 90)
+		(at 171.45 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14157,7 +14405,7 @@
 		(fields_autoplaced yes)
 		(uuid "f8417647-b09b-4c22-b956-62579f382d9b")
 		(property "Reference" "F102"
-			(at 157.48 95.25 90)
+			(at 171.45 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14165,7 +14413,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 157.48 97.79 90)
+			(at 171.45 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14173,7 +14421,7 @@
 			)
 		)
 		(property "Footprint" "footprints:littelfuse_65600001009"
-			(at 157.48 103.378 90)
+			(at 171.45 103.378 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14182,7 +14430,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuse_blocks/littelfuse_fuse_block_656_datasheet.pdf.pdf"
-			(at 157.48 101.6 0)
+			(at 171.45 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14191,7 +14439,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 157.48 101.6 0)
+			(at 171.45 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14200,7 +14448,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 157.48 101.6 90)
+			(at 171.45 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14209,7 +14457,7 @@
 			)
 		)
 		(property "Manufacturer" "Littelfuse"
-			(at 157.48 101.6 90)
+			(at 171.45 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14218,7 +14466,7 @@
 			)
 		)
 		(property "P/N" "65600001009"
-			(at 157.48 101.6 90)
+			(at 171.45 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14227,7 +14475,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 157.48 101.6 90)
+			(at 171.45 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14236,7 +14484,7 @@
 			)
 		)
 		(property "Cost" ""
-			(at 157.48 101.6 90)
+			(at 171.45 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14245,7 +14493,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 157.48 101.6 90)
+			(at 171.45 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14263,6 +14511,93 @@
 			(project "mppt_converter"
 				(path "/714d7e26-ded9-4cad-b24d-404c82425d67"
 					(reference "F102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 38.1 114.3 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa3b2d6d-2889-4f79-81a2-0d643e45ddd7")
+		(property "Reference" "C112"
+			(at 36.83 115.824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 36.83 112.268 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 38.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf"
+			(at 38.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 38.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CL21B104KCFNNNE"
+			(at 38.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 38.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ec7948f8-3824-44d2-8153-37517575ae52")
+		)
+		(pin "1"
+			(uuid "53dbd102-344c-4cf4-ab27-f0671c3065db")
+		)
+		(instances
+			(project ""
+				(path "/714d7e26-ded9-4cad-b24d-404c82425d67"
+					(reference "C112")
 					(unit 1)
 				)
 			)
