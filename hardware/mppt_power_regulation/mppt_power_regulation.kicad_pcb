@@ -8,7 +8,11 @@
 	)
 	(paper "A4")
 	(title_block
-		(comment 1 "Matthew Yu & Jacob Pustilnik")
+		(title "Mighty MPPT Power Regulation Breakout")
+		(date "2024-08-27")
+		(rev "v0.1.0rc")
+		(comment 1 "Matthew Yu")
+		(comment 2 "Jacob Pustilnik")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -222,7 +226,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.0096"
+		(property "Cost" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -235,7 +239,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -248,7 +252,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C15850"
+		(property "LCSC Part #" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -274,7 +278,7 @@
 				)
 			)
 		)
-		(property "P/N" "CL21A106KAYNNNE"
+		(property "P/N" "CL21B106KOQNNNE"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -550,7 +554,7 @@
 				)
 			)
 		)
-		(property "Cost" "2.054"
+		(property "Cost" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -895,7 +899,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Digikey"
+		(property "Distributor" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -934,7 +938,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C5151734"
+		(property "LCSC Part #" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -947,7 +951,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.2673"
+		(property "Cost" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -960,7 +964,7 @@
 				)
 			)
 		)
-		(property "Notes" "Digikey/Mouser for normal run"
+		(property "Notes" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1224,7 +1228,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.0764"
+		(property "Cost" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1237,7 +1241,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1250,7 +1254,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C170101"
+		(property "LCSC Part #" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1502,7 +1506,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.0062"
+		(property "Cost" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1515,7 +1519,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1528,7 +1532,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C28233"
+		(property "LCSC Part #" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1780,7 +1784,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1793,7 +1797,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+		(property "Manufacturer" "Harvatek Corporation"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1806,7 +1810,7 @@
 				)
 			)
 		)
-		(property "P/N" "NCD0805R1"
+		(property "P/N" "B1701URO-20D000114U1930"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1819,7 +1823,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C84256"
+		(property "LCSC Part #" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1832,7 +1836,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.0119"
+		(property "Cost" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1845,7 +1849,7 @@
 				)
 			)
 		)
-		(property "Notes" "Harvatek B1701URO-20D000114U1930 for normal run"
+		(property "Notes" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2207,7 +2211,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.0764"
+		(property "Cost" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2220,7 +2224,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2233,7 +2237,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C170101"
+		(property "LCSC Part #" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2483,7 +2487,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Digikey"
+		(property "Distributor" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2535,7 +2539,7 @@
 				)
 			)
 		)
-		(property "Cost" "4.40"
+		(property "Cost" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2904,7 +2908,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.0950"
+		(property "Cost" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2917,7 +2921,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2930,7 +2934,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C223985"
+		(property "LCSC Part #" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3254,7 +3258,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3267,7 +3271,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+		(property "Manufacturer" "Harvatek Corporation"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3280,7 +3284,7 @@
 				)
 			)
 		)
-		(property "P/N" "NCD0805R1"
+		(property "P/N" "B1701URO-20D000114U1930"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3293,7 +3297,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C84256"
+		(property "LCSC Part #" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3306,7 +3310,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.0119"
+		(property "Cost" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3319,7 +3323,7 @@
 				)
 			)
 		)
-		(property "Notes" "Harvatek B1701URO-20D000114U1930 for normal run"
+		(property "Notes" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3567,7 +3571,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.0082"
+		(property "Cost" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3580,7 +3584,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3593,7 +3597,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C28323"
+		(property "LCSC Part #" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3619,7 +3623,7 @@
 				)
 			)
 		)
-		(property "P/N" "CL21B105KBFNNNE"
+		(property "P/N" "CL21B105KAFVPNE"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3840,7 +3844,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Digikey"
+		(property "Distributor" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3892,7 +3896,7 @@
 				)
 			)
 		)
-		(property "Cost" "2.45"
+		(property "Cost" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4374,7 +4378,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.2627"
+		(property "Cost" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4387,7 +4391,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4426,7 +4430,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C5199900"
+		(property "LCSC Part #" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4439,7 +4443,7 @@
 				)
 			)
 		)
-		(property "Notes" "Digikey/Mouser for normal run"
+		(property "Notes" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4605,7 +4609,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010145_UNI-ROYAL-Uniroyal-Elec-0805W8F1742T5E_C19796.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4631,7 +4635,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.0016"
+		(property "Cost" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4644,7 +4648,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4657,7 +4661,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C19796"
+		(property "LCSC Part #" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4670,7 +4674,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "Vishay Dale"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4683,7 +4687,7 @@
 				)
 			)
 		)
-		(property "P/N" "0805W8F1742T5E"
+		(property "P/N" "CRCW080517K4FKEA"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4909,7 +4913,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.2627"
+		(property "Cost" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4922,7 +4926,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4961,7 +4965,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C5199900"
+		(property "LCSC Part #" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4974,7 +4978,7 @@
 				)
 			)
 		)
-		(property "Notes" "Digikey/Mouser for normal run"
+		(property "Notes" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5161,7 +5165,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Digikey"
+		(property "Distributor" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5213,7 +5217,7 @@
 				)
 			)
 		)
-		(property "Cost" "2.45"
+		(property "Cost" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5669,7 +5673,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2205311830_UNI-ROYAL-Uniroyal-Elec-0805W8F6492T5E_C17788.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5695,7 +5699,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.0018"
+		(property "Cost" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5708,7 +5712,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5721,7 +5725,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C17788"
+		(property "LCSC Part #" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5734,7 +5738,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "Vishay Dale"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5747,7 +5751,7 @@
 				)
 			)
 		)
-		(property "P/N" "0805W8F6492T5E"
+		(property "P/N" "CRCW080564K9FKEA"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5947,7 +5951,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0805W8F3301T5E_C26010.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5973,7 +5977,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.0017"
+		(property "Cost" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5986,7 +5990,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5999,7 +6003,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C26010"
+		(property "LCSC Part #" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6012,7 +6016,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "Vishay Dale"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6025,7 +6029,7 @@
 				)
 			)
 		)
-		(property "P/N" "0805W8F3301T5E"
+		(property "P/N" "CRCW08053K30FKEA"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6225,7 +6229,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010216_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6251,7 +6255,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.0016"
+		(property "Cost" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6264,7 +6268,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6277,7 +6281,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C17414"
+		(property "LCSC Part #" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6290,7 +6294,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "Vishay Dale"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6303,7 +6307,7 @@
 				)
 			)
 		)
-		(property "P/N" "0805W8F1002T5E"
+		(property "P/N" "CRCW080510K0FKEA"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6529,7 +6533,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.2627"
+		(property "Cost" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6542,7 +6546,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6581,7 +6585,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C5199900"
+		(property "LCSC Part #" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6594,7 +6598,7 @@
 				)
 			)
 		)
-		(property "Notes" "Digikey/Mouser for normal run"
+		(property "Notes" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6786,7 +6790,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.0215"
+		(property "Cost" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6799,7 +6803,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6812,7 +6816,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C45783"
+		(property "LCSC Part #" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6838,7 +6842,7 @@
 				)
 			)
 		)
-		(property "P/N" "CL21A226MAQNNNE"
+		(property "P/N" "CL21A226MOCLRNC"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7064,7 +7068,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.0062"
+		(property "Cost" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7077,7 +7081,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7090,7 +7094,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C28233"
+		(property "LCSC Part #" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7430,7 +7434,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010216_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7456,7 +7460,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.0016"
+		(property "Cost" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7469,7 +7473,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7482,7 +7486,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C17414"
+		(property "LCSC Part #" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7495,7 +7499,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "Vishay Dale"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7508,7 +7512,7 @@
 				)
 			)
 		)
-		(property "P/N" "0805W8F1002T5E"
+		(property "P/N" "CRCW080510K0FKEA"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7734,7 +7738,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.0082"
+		(property "Cost" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7747,7 +7751,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7760,7 +7764,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C28323"
+		(property "LCSC Part #" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7786,7 +7790,7 @@
 				)
 			)
 		)
-		(property "P/N" "CL21B105KBFNNNE"
+		(property "P/N" "CL21B105KAFVPNE"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8007,7 +8011,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Digikey"
+		(property "Distributor" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8059,7 +8063,7 @@
 				)
 			)
 		)
-		(property "Cost" "2.45"
+		(property "Cost" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8476,259 +8480,6 @@
 	)
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
-		(uuid "6ae54506-bb35-4ba4-b486-925216a2c8bd")
-		(at 71.3 35.9)
-		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
-		(tags "Through Hole Mount Test Points")
-		(property "Reference" "TP105"
-			(at 0 -2.5 0)
-			(layer "F.SilkS")
-			(uuid "2beb09bf-861e-47c3-9d21-3766040addec")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 0 2.5 0)
-			(layer "F.Fab")
-			(uuid "8bd8593f-a41a-4608-8a47-2fd82693be41")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4132bb3a-e6a6-44f5-a1c2-9d68c10812c2")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a57b171f-6257-420a-9aa8-60da0390298e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "47060465-5b2f-40a2-903a-fd04e4249e71")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Cost" "0.2627"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3e7038e4-e5d9-40e9-9428-63f404d8d4fd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Distributor" "LCSC"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a274b937-91be-4aaf-ada0-5b3df5683618")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "Keystone Electronics"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b90599aa-358f-4c3d-b537-0633a362e86a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "P/N" "5000"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a94d11fd-a268-4dc9-8a95-c65c56adefe6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC Part #" "C5199900"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "52e733d1-a902-41c2-ba06-65b5018531e6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Notes" "Digikey/Mouser for normal run"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4167301e-4640-4515-beca-f6d37f2bb8ff")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr through_hole)
-		(fp_circle
-			(center 0 0)
-			(end 1.4 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.SilkS")
-			(uuid "90fa1e81-23f2-478f-86f9-6a0eae6252cb")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1.65 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "c280e97a-26f0-4a17-bc0b-dec2093bc219")
-		)
-		(fp_line
-			(start -0.75 -0.25)
-			(end 0.75 -0.25)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "ba0c7c01-b156-47dc-8664-3494eb61d7f4")
-		)
-		(fp_line
-			(start -0.75 0.25)
-			(end -0.75 -0.25)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "f04e6cc5-f462-4cb9-b342-5b4975bf3375")
-		)
-		(fp_line
-			(start 0.75 -0.25)
-			(end 0.75 0.25)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "d99fd1ca-3f36-488b-9e64-06700ab25b20")
-		)
-		(fp_line
-			(start 0.75 0.25)
-			(end -0.75 0.25)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "d39ad745-c410-43f2-b03f-4b51f9c6f4e5")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1.25 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.Fab")
-			(uuid "cd5a5c62-ad84-4237-a0fc-5f7054411454")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 0)
-			(layer "F.Fab")
-			(uuid "fee74086-891f-479d-b50a-86fbcca0a842")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 2 2)
-			(drill 1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 7 "GND")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "26e8bc9d-ae07-42b7-84dc-9c4f8fc7311d")
-		)
-		(model "${KICAD8_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5000-5004_Miniature.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-		(layer "F.Cu")
 		(uuid "6b6b8ce7-54d5-4fa5-97eb-8b442bfa1af0")
 		(at 62.45 35.9 180)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
@@ -8794,7 +8545,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.2627"
+		(property "Cost" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8807,7 +8558,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8846,7 +8597,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C5199900"
+		(property "LCSC Part #" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8859,7 +8610,7 @@
 				)
 			)
 		)
-		(property "Notes" "Digikey/Mouser for normal run"
+		(property "Notes" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9051,7 +8802,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Digikey"
+		(property "Distributor" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9090,7 +8841,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C1330786"
+		(property "LCSC Part #" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9103,7 +8854,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.2427"
+		(property "Cost" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9116,7 +8867,7 @@
 				)
 			)
 		)
-		(property "Notes" "Digikey/Mouser for normal run"
+		(property "Notes" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9380,7 +9131,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.2627"
+		(property "Cost" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9393,7 +9144,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9432,7 +9183,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C5199900"
+		(property "LCSC Part #" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9445,7 +9196,7 @@
 				)
 			)
 		)
-		(property "Notes" "Digikey/Mouser for normal run"
+		(property "Notes" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9611,7 +9362,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010216_UNI-ROYAL-Uniroyal-Elec-0805W8F1402T5E_C17464.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9637,7 +9388,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.0016"
+		(property "Cost" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9650,7 +9401,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9663,7 +9414,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C17464"
+		(property "LCSC Part #" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9676,7 +9427,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "Vishay Dale"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9689,7 +9440,7 @@
 				)
 			)
 		)
-		(property "P/N" "0805W8J0143T5E"
+		(property "P/N" "CRCW080514K0FKEA"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9910,7 +9661,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Digikey"
+		(property "Distributor" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9962,7 +9713,7 @@
 				)
 			)
 		)
-		(property "Cost" "2.45"
+		(property "Cost" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10444,7 +10195,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.2627"
+		(property "Cost" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10457,7 +10208,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10496,7 +10247,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C5199900"
+		(property "LCSC Part #" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10509,7 +10260,7 @@
 				)
 			)
 		)
-		(property "Notes" "Digikey/Mouser for normal run"
+		(property "Notes" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10701,7 +10452,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10714,7 +10465,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+		(property "Manufacturer" "Harvatek Corporation"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10727,7 +10478,7 @@
 				)
 			)
 		)
-		(property "P/N" "NCD0805R1"
+		(property "P/N" "B1701URO-20D000114U1930"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10740,7 +10491,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C84256"
+		(property "LCSC Part #" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10753,7 +10504,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.0119"
+		(property "Cost" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10766,7 +10517,7 @@
 				)
 			)
 		)
-		(property "Notes" "Harvatek B1701URO-20D000114U1930 for normal run"
+		(property "Notes" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11351,7 +11102,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11390,7 +11141,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2071056"
+		(property "LCSC Part #" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11403,7 +11154,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.4380"
+		(property "Cost" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11416,7 +11167,7 @@
 				)
 			)
 		)
-		(property "Notes" "Digikey/Mouser for normal run"
+		(property "Notes" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11711,7 +11462,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Digikey"
+		(property "Distributor" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11763,7 +11514,7 @@
 				)
 			)
 		)
-		(property "Cost" "2.45"
+		(property "Cost" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12219,7 +11970,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010216_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12245,7 +11996,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.0016"
+		(property "Cost" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12258,7 +12009,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12271,7 +12022,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C17414"
+		(property "LCSC Part #" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12284,7 +12035,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "Vishay Dale"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12297,7 +12048,7 @@
 				)
 			)
 		)
-		(property "P/N" "0805W8F1002T5E"
+		(property "P/N" "CRCW080510K0FKEA"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12523,7 +12274,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.2627"
+		(property "Cost" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12536,7 +12287,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12575,7 +12326,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C5199900"
+		(property "LCSC Part #" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12588,7 +12339,7 @@
 				)
 			)
 		)
-		(property "Notes" "Digikey/Mouser for normal run"
+		(property "Notes" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12780,7 +12531,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.0062"
+		(property "Cost" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12793,7 +12544,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12806,7 +12557,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C28233"
+		(property "LCSC Part #" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13032,7 +12783,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2205312316_UNI-ROYAL-Uniroyal-Elec-0805W8F1003T5E_C149504.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13058,7 +12809,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.0017"
+		(property "Cost" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13071,7 +12822,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13084,7 +12835,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C149504"
+		(property "LCSC Part #" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13097,7 +12848,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "Vishay Dale"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13110,7 +12861,7 @@
 				)
 			)
 		)
-		(property "P/N" "0805W8F1003T5E"
+		(property "P/N" "CRCW0805100KFKEA"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13336,7 +13087,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.0215"
+		(property "Cost" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13349,7 +13100,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13362,7 +13113,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C45783"
+		(property "LCSC Part #" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13388,7 +13139,7 @@
 				)
 			)
 		)
-		(property "P/N" "CL21A226MAQNNNE"
+		(property "P/N" "CL21A226MOCLRNC"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13588,7 +13339,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2205312316_UNI-ROYAL-Uniroyal-Elec-0805W8F1003T5E_C149504.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13614,7 +13365,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.0017"
+		(property "Cost" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13627,7 +13378,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13640,7 +13391,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C149504"
+		(property "LCSC Part #" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13653,7 +13404,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "Vishay Dale"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13666,7 +13417,7 @@
 				)
 			)
 		)
-		(property "P/N" "0805W8F1003T5E"
+		(property "P/N" "CRCW0805100KFKEA"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13892,7 +13643,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.0082"
+		(property "Cost" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13905,7 +13656,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13918,7 +13669,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C28323"
+		(property "LCSC Part #" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13944,7 +13695,7 @@
 				)
 			)
 		)
-		(property "P/N" "CL21B105KBFNNNE"
+		(property "P/N" "CL21B105KAFVPNE"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14144,7 +13895,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010030_UNI-ROYAL-Uniroyal-Elec-0805W8F7681T5E_C30041.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14170,7 +13921,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.0011"
+		(property "Cost" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14183,7 +13934,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14196,7 +13947,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C30041"
+		(property "LCSC Part #" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14209,7 +13960,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "Vishay Dale"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14222,7 +13973,7 @@
 				)
 			)
 		)
-		(property "P/N" "0805W8F7681T5E"
+		(property "P/N" "CRCW08057K68FKEA"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14422,7 +14173,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2205312316_UNI-ROYAL-Uniroyal-Elec-0805W8F1003T5E_C149504.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14448,7 +14199,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.0017"
+		(property "Cost" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14461,7 +14212,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14474,7 +14225,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C149504"
+		(property "LCSC Part #" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14487,7 +14238,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "Vishay Dale"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14500,7 +14251,7 @@
 				)
 			)
 		)
-		(property "P/N" "0805W8F1003T5E"
+		(property "P/N" "CRCW0805100KFKEA"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14721,7 +14472,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Digikey"
+		(property "Distributor" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14773,7 +14524,7 @@
 				)
 			)
 		)
-		(property "Cost" "2.45"
+		(property "Cost" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15255,7 +15006,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.0082"
+		(property "Cost" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15268,7 +15019,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15281,7 +15032,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C28323"
+		(property "LCSC Part #" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15307,7 +15058,7 @@
 				)
 			)
 		)
-		(property "P/N" "CL21B105KBFNNNE"
+		(property "P/N" "CL21B105KAFVPNE"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15533,7 +15284,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.2627"
+		(property "Cost" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15546,7 +15297,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15585,7 +15336,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C5199900"
+		(property "LCSC Part #" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15598,7 +15349,7 @@
 				)
 			)
 		)
-		(property "Notes" "Digikey/Mouser for normal run"
+		(property "Notes" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15790,7 +15541,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.0215"
+		(property "Cost" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15803,7 +15554,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15816,7 +15567,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C45783"
+		(property "LCSC Part #" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15842,7 +15593,7 @@
 				)
 			)
 		)
-		(property "P/N" "CL21A226MAQNNNE"
+		(property "P/N" "CL21A226MOCLRNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16042,7 +15793,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2205312316_UNI-ROYAL-Uniroyal-Elec-0805W8F1003T5E_C149504.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16068,7 +15819,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.0017"
+		(property "Cost" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16081,7 +15832,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16094,7 +15845,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C149504"
+		(property "LCSC Part #" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16107,7 +15858,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "Vishay Dale"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16120,7 +15871,7 @@
 				)
 			)
 		)
-		(property "P/N" "0805W8F1003T5E"
+		(property "P/N" "CRCW0805100KFKEA"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16341,7 +16092,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Digikey"
+		(property "Distributor" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16393,7 +16144,7 @@
 				)
 			)
 		)
-		(property "Cost" "2.45"
+		(property "Cost" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16875,7 +16626,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.0215"
+		(property "Cost" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16888,7 +16639,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16901,7 +16652,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C45783"
+		(property "LCSC Part #" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16927,7 +16678,7 @@
 				)
 			)
 		)
-		(property "P/N" "CL21A226MAQNNNE"
+		(property "P/N" "CL21A226MOCLRNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17153,7 +16904,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.0215"
+		(property "Cost" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17166,7 +16917,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17179,7 +16930,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C45783"
+		(property "LCSC Part #" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17205,7 +16956,7 @@
 				)
 			)
 		)
-		(property "P/N" "CL21A226MAQNNNE"
+		(property "P/N" "CL21A226MOCLRNC"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17367,7 +17118,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "c79efe71-b0d1-4358-ae39-addac337a250")
-		(at 57 83 180)
+		(at 71.2 36 180)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP104"
@@ -17431,7 +17182,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.2627"
+		(property "Cost" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17444,7 +17195,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17483,7 +17234,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C5199900"
+		(property "LCSC Part #" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17496,7 +17247,7 @@
 				)
 			)
 		)
-		(property "Notes" "Digikey/Mouser for normal run"
+		(property "Notes" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17686,7 +17437,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" "Texas Instruments"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17725,7 +17476,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C485916"
+		(property "LCSC Part #" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17738,7 +17489,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.9435"
+		(property "Cost" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17751,7 +17502,7 @@
 				)
 			)
 		)
-		(property "Notes" "TI for normal run"
+		(property "Notes" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18099,7 +17850,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.0950"
+		(property "Cost" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18112,7 +17863,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18125,7 +17876,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C223985"
+		(property "LCSC Part #" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18449,7 +18200,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" "Texas Instruments"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18488,7 +18239,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C189779"
+		(property "LCSC Part #" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18501,7 +18252,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.1677"
+		(property "Cost" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18514,7 +18265,7 @@
 				)
 			)
 		)
-		(property "Notes" "Digikey/Mouser for normal run"
+		(property "Notes" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18778,7 +18529,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010216_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18804,7 +18555,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.0016"
+		(property "Cost" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18817,7 +18568,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18830,7 +18581,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C17414"
+		(property "LCSC Part #" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18843,7 +18594,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "Vishay Dale"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18856,7 +18607,7 @@
 				)
 			)
 		)
-		(property "P/N" "0805W8F1002T5E"
+		(property "P/N" "CRCW080510K0FKEA"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19196,7 +18947,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Digikey"
+		(property "Distributor" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19235,7 +18986,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2044594"
+		(property "LCSC Part #" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19248,7 +18999,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.2931"
+		(property "Cost" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19261,7 +19012,7 @@
 				)
 			)
 		)
-		(property "Notes" "Digikey/Mouser for normal run"
+		(property "Notes" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19525,7 +19276,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19538,7 +19289,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+		(property "Manufacturer" "Harvatek Corporation"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19551,7 +19302,7 @@
 				)
 			)
 		)
-		(property "P/N" "NCD0805R1"
+		(property "P/N" "B1701URO-20D000114U1930"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19564,7 +19315,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C84256"
+		(property "LCSC Part #" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19577,7 +19328,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.0119"
+		(property "Cost" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19590,7 +19341,7 @@
 				)
 			)
 		)
-		(property "Notes" "Harvatek B1701URO-20D000114U1930 for normal run"
+		(property "Notes" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19812,7 +19563,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010030_UNI-ROYAL-Uniroyal-Elec-0805W8F7681T5E_C30041.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19838,7 +19589,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.0011"
+		(property "Cost" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19851,7 +19602,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19864,7 +19615,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C30041"
+		(property "LCSC Part #" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19877,7 +19628,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "Vishay Dale"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19890,7 +19641,7 @@
 				)
 			)
 		)
-		(property "P/N" "0805W8F7681T5E"
+		(property "P/N" "CRCW08057K68FKEA"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20090,7 +19841,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2205312316_UNI-ROYAL-Uniroyal-Elec-0805W8F1003T5E_C149504.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20116,7 +19867,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.0017"
+		(property "Cost" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20129,7 +19880,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20142,7 +19893,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C149504"
+		(property "LCSC Part #" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20155,7 +19906,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "Vishay Dale"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20168,7 +19919,7 @@
 				)
 			)
 		)
-		(property "P/N" "0805W8F1003T5E"
+		(property "P/N" "CRCW0805100KFKEA"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20368,7 +20119,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2205311830_UNI-ROYAL-Uniroyal-Elec-0805W8F6492T5E_C17788.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20394,7 +20145,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.0018"
+		(property "Cost" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20407,7 +20158,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20420,7 +20171,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C17788"
+		(property "LCSC Part #" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20433,7 +20184,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "Vishay Dale"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20446,7 +20197,7 @@
 				)
 			)
 		)
-		(property "P/N" "0805W8F6492T5E"
+		(property "P/N" "CRCW080564K9FKEA"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20646,7 +20397,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0805W8F3301T5E_C26010.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20672,7 +20423,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.0017"
+		(property "Cost" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20685,7 +20436,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20698,7 +20449,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C26010"
+		(property "LCSC Part #" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20711,7 +20462,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "Vishay Dale"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20724,7 +20475,7 @@
 				)
 			)
 		)
-		(property "P/N" "0805W8F3301T5E"
+		(property "P/N" "CRCW08053K30FKEA"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20924,7 +20675,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2205312316_UNI-ROYAL-Uniroyal-Elec-0805W8F1003T5E_C149504.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20950,7 +20701,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.0017"
+		(property "Cost" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20963,7 +20714,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20976,7 +20727,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C149504"
+		(property "LCSC Part #" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20989,7 +20740,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "Vishay Dale"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21002,7 +20753,7 @@
 				)
 			)
 		)
-		(property "P/N" "0805W8F1003T5E"
+		(property "P/N" "CRCW0805100KFKEA"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21512,7 +21263,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Digikey"
+		(property "Distributor" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21564,7 +21315,7 @@
 				)
 			)
 		)
-		(property "Cost" "2.45"
+		(property "Cost" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22020,7 +21771,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2205312316_UNI-ROYAL-Uniroyal-Elec-0805W8F1003T5E_C149504.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22046,7 +21797,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.0017"
+		(property "Cost" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22059,7 +21810,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22072,7 +21823,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C149504"
+		(property "LCSC Part #" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22085,7 +21836,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "Vishay Dale"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22098,7 +21849,7 @@
 				)
 			)
 		)
-		(property "P/N" "0805W8F1003T5E"
+		(property "P/N" "CRCW0805100KFKEA"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22324,7 +22075,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.2627"
+		(property "Cost" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22337,7 +22088,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22376,7 +22127,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C5199900"
+		(property "LCSC Part #" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22389,7 +22140,7 @@
 				)
 			)
 		)
-		(property "Notes" "Digikey/Mouser for normal run"
+		(property "Notes" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22555,7 +22306,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0805W8F3301T5E_C26010.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22581,7 +22332,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.0017"
+		(property "Cost" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22594,7 +22345,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22607,7 +22358,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C26010"
+		(property "LCSC Part #" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22620,7 +22371,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "Vishay Dale"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22633,7 +22384,7 @@
 				)
 			)
 		)
-		(property "P/N" "0805W8F3301T5E"
+		(property "P/N" "CRCW08053K30FKEA"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22833,7 +22584,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0805W8F3301T5E_C26010.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22859,7 +22610,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.0017"
+		(property "Cost" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22872,7 +22623,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22885,7 +22636,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C26010"
+		(property "LCSC Part #" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22898,7 +22649,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "Vishay Dale"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22911,7 +22662,7 @@
 				)
 			)
 		)
-		(property "P/N" "0805W8F3301T5E"
+		(property "P/N" "CRCW08053K30FKEA"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23137,7 +22888,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.0082"
+		(property "Cost" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23150,7 +22901,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23163,7 +22914,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C28323"
+		(property "LCSC Part #" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23189,7 +22940,7 @@
 				)
 			)
 		)
-		(property "P/N" "CL21B105KBFNNNE"
+		(property "P/N" "CL21B105KAFVPNE"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23820,7 +23571,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "10u"
 			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "82ce3893-78c5-4481-9377-40981c92ec77")
@@ -23870,7 +23621,7 @@
 				)
 			)
 		)
-		(property "Cost" "0.0230"
+		(property "Cost" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23883,7 +23634,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LCSC"
+		(property "Distributor" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23896,7 +23647,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C98195"
+		(property "LCSC Part #" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23922,7 +23673,7 @@
 				)
 			)
 		)
-		(property "P/N" "CL21B475KAFNNNE"
+		(property "P/N" "CL21B106KOQNNNE"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25940,6 +25691,14 @@
 		(uuid "e20705d7-0673-4478-932f-bfa7c8829d44")
 	)
 	(segment
+		(start 91.425 50.19)
+		(end 91.425 50.075)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 11)
+		(uuid "048edd3e-8d44-4d72-afe8-63eadca3ad81")
+	)
+	(segment
 		(start 88.575 45.625)
 		(end 90.2 44)
 		(width 0.35)
@@ -25956,20 +25715,20 @@
 		(uuid "1d2605a9-6c1f-4462-8af4-1ec4af8f3aa5")
 	)
 	(segment
+		(start 91.075 50.19)
+		(end 88.575 47.69)
+		(width 1)
+		(layer "F.Cu")
+		(net 11)
+		(uuid "2b97c3d7-53e2-4d9a-9656-0b393abce6c0")
+	)
+	(segment
 		(start 88.575 45.275)
 		(end 88.575 47.69)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 11)
 		(uuid "5a2a9072-2acf-405b-8a4d-1812a842cac6")
-	)
-	(segment
-		(start 91.425 50.19)
-		(end 91.075 50.19)
-		(width 1)
-		(layer "F.Cu")
-		(net 11)
-		(uuid "6dbc92aa-25c9-47a1-9424-096552c000be")
 	)
 	(segment
 		(start 48.35 104.3)
@@ -25988,6 +25747,14 @@
 		(uuid "ad217982-76ee-4127-aab1-444050c0a106")
 	)
 	(segment
+		(start 91.425 50.075)
+		(end 92.6 48.9)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 11)
+		(uuid "c7422667-92bb-4b38-9b53-9a82d91d269b")
+	)
+	(segment
 		(start 88.575 47.69)
 		(end 88.575 45.625)
 		(width 0.35)
@@ -26004,12 +25771,12 @@
 		(uuid "db3efd81-c5f9-4b3b-ac31-c1510a6f12cc")
 	)
 	(segment
-		(start 91.075 50.19)
-		(end 88.575 47.69)
+		(start 91.425 50.19)
+		(end 91.075 50.19)
 		(width 1)
 		(layer "F.Cu")
 		(net 11)
-		(uuid "ef5c8796-5a02-49a7-8714-712c1995a46c")
+		(uuid "f7de0903-6709-412d-8c79-03f52a35815f")
 	)
 	(segment
 		(start 85.9 107.2)
@@ -26662,7 +26429,7 @@
 				(xy 100.326983 47.315) (xy 100.593017 47.315) (xy 100.593023 47.314999) (xy 100.856084 47.275347)
 				(xy 100.85609 47.275346) (xy 101.110299 47.196933) (xy 101.349992 47.081503) (xy 101.527158 46.960711)
 				(xy 100.860562 46.294114) (xy 100.862626 46.29326) (xy 101.001844 46.200238) (xy 101.120238 46.081844)
-				(xy 101.21326 45.942626) (xy 101.214114 45.940561) (xy 101.879914 46.606361) (xy 101.879915 46.60636)
+				(xy 101.21326 45.942626) (xy 101.214114 45.940562) (xy 101.879914 46.606361) (xy 101.879915 46.60636)
 				(xy 101.930679 46.542706) (xy 101.930686 46.542695) (xy 102.063703 46.312303) (xy 102.160895 46.064662)
 				(xy 102.160901 46.064643) (xy 102.220096 45.805292) (xy 102.220096 45.80529) (xy 102.239977 45.540004)
 				(xy 102.239977 45.539995) (xy 103.760023 45.539995) (xy 103.760023 45.540004) (xy 103.779903 45.80529)
@@ -26674,7 +26441,7 @@
 				(xy 105.406976 47.314999) (xy 105.406983 47.315) (xy 105.673017 47.315) (xy 105.673023 47.314999)
 				(xy 105.936084 47.275347) (xy 105.93609 47.275346) (xy 106.190299 47.196933) (xy 106.429992 47.081503)
 				(xy 106.607158 46.960711) (xy 105.940562 46.294114) (xy 105.942626 46.29326) (xy 106.081844 46.200238)
-				(xy 106.200238 46.081844) (xy 106.29326 45.942626) (xy 106.294114 45.940561) (xy 106.959914 46.606361)
+				(xy 106.200238 46.081844) (xy 106.29326 45.942626) (xy 106.294114 45.940562) (xy 106.959914 46.606361)
 				(xy 106.959915 46.60636) (xy 107.010679 46.542706) (xy 107.010686 46.542695) (xy 107.143703 46.312303)
 				(xy 107.240895 46.064662) (xy 107.240901 46.064643) (xy 107.300096 45.805292) (xy 107.300096 45.80529)
 				(xy 107.319977 45.540004) (xy 107.319977 45.539995) (xy 107.300096 45.274709) (xy 107.300096 45.274707)
@@ -26719,7 +26486,7 @@
 				(xy 100.593017 42.235) (xy 100.593023 42.234999) (xy 100.856084 42.195347) (xy 100.85609 42.195346)
 				(xy 101.110299 42.116933) (xy 101.349992 42.001503) (xy 101.527158 41.880711) (xy 100.860562 41.214114)
 				(xy 100.862626 41.21326) (xy 101.001844 41.120238) (xy 101.120238 41.001844) (xy 101.21326 40.862626)
-				(xy 101.214114 40.860561) (xy 101.879914 41.526361) (xy 101.879915 41.52636) (xy 101.930679 41.462706)
+				(xy 101.214114 40.860562) (xy 101.879914 41.526361) (xy 101.879915 41.52636) (xy 101.930679 41.462706)
 				(xy 101.930686 41.462695) (xy 102.063703 41.232303) (xy 102.160895 40.984662) (xy 102.160901 40.984643)
 				(xy 102.220096 40.725292) (xy 102.220096 40.72529) (xy 102.239977 40.460004) (xy 102.239977 40.459995)
 				(xy 103.760023 40.459995) (xy 103.760023 40.460004) (xy 103.779903 40.72529) (xy 103.779903 40.725292)
@@ -26731,7 +26498,7 @@
 				(xy 105.406983 42.235) (xy 105.673017 42.235) (xy 105.673023 42.234999) (xy 105.936084 42.195347)
 				(xy 105.93609 42.195346) (xy 106.190299 42.116933) (xy 106.429992 42.001503) (xy 106.607158 41.880711)
 				(xy 105.940562 41.214114) (xy 105.942626 41.21326) (xy 106.081844 41.120238) (xy 106.200238 41.001844)
-				(xy 106.29326 40.862626) (xy 106.294114 40.860561) (xy 106.959914 41.526361) (xy 106.959915 41.52636)
+				(xy 106.29326 40.862626) (xy 106.294114 40.860562) (xy 106.959914 41.526361) (xy 106.959915 41.52636)
 				(xy 107.010679 41.462706) (xy 107.010686 41.462695) (xy 107.143703 41.232303) (xy 107.240895 40.984662)
 				(xy 107.240901 40.984643) (xy 107.300096 40.725292) (xy 107.300096 40.72529) (xy 107.319977 40.460004)
 				(xy 107.319977 40.459995) (xy 107.300096 40.194709) (xy 107.300096 40.194707) (xy 107.240901 39.935356)
@@ -26880,166 +26647,165 @@
 				(xy 88.011206 79.418675) (xy 88 79.367164) (xy 88 78.919735) (xy 88.019685 78.852696) (xy 88.072489 78.806941)
 				(xy 88.141647 78.796997) (xy 88.189097 78.814196) (xy 88.343375 78.909356) (xy 88.34338 78.909358)
 				(xy 88.509802 78.964505) (xy 88.509809 78.964506) (xy 88.612519 78.974999) (xy 88.749999 78.974999)
-				(xy 88.75 78.974998) (xy 88.75 78) (xy 88 78) (xy 88 77.5) (xy 88.75 77.5) (xy 88.75 76.525) (xy 89.25 76.525)
-				(xy 89.25 78.974999) (xy 89.387472 78.974999) (xy 89.387486 78.974998) (xy 89.490197 78.964505)
-				(xy 89.656619 78.909358) (xy 89.656624 78.909356) (xy 89.805845 78.817315) (xy 89.929818 78.693342)
-				(xy 89.931665 78.690348) (xy 89.933469 78.688724) (xy 89.934298 78.687677) (xy 89.934476 78.687818)
-				(xy 89.98361 78.643621) (xy 90.052573 78.632396) (xy 90.116656 78.660236) (xy 90.142743 78.690341)
-				(xy 90.144788 78.693656) (xy 90.268844 78.817712) (xy 90.418166 78.909814) (xy 90.584703 78.964999)
-				(xy 90.687491 78.9755) (xy 91.462508 78.975499) (xy 91.462516 78.975498) (xy 91.462519 78.975498)
-				(xy 91.518802 78.969748) (xy 91.565297 78.964999) (xy 91.731834 78.909814) (xy 91.881156 78.817712)
-				(xy 92.005212 78.693656) (xy 92.097314 78.544334) (xy 92.152499 78.377797) (xy 92.163 78.275009)
-				(xy 92.162999 77.224992) (xy 92.162499 77.220101) (xy 92.152499 77.122203) (xy 92.152498 77.1222)
-				(xy 92.12933 77.052285) (xy 92.097314 76.955666) (xy 92.005212 76.806344) (xy 91.881156 76.682288)
-				(xy 91.788388 76.625069) (xy 91.731836 76.590187) (xy 91.731831 76.590185) (xy 91.700497 76.579802)
-				(xy 91.565297 76.535001) (xy 91.565295 76.535) (xy 91.46251 76.5245) (xy 90.687498 76.5245) (xy 90.68748 76.524501)
-				(xy 90.584703 76.535) (xy 90.5847 76.535001) (xy 90.418168 76.590185) (xy 90.418163 76.590187) (xy 90.268842 76.682289)
-				(xy 90.144788 76.806343) (xy 90.144783 76.806349) (xy 90.142741 76.809661) (xy 90.140747 76.811453)
-				(xy 90.140307 76.812011) (xy 90.140211 76.811935) (xy 90.090791 76.856383) (xy 90.021828 76.867602)
-				(xy 89.957747 76.839755) (xy 89.931668 76.809656) (xy 89.929819 76.806659) (xy 89.929816 76.806655)
-				(xy 89.805845 76.682684) (xy 89.656624 76.590643) (xy 89.656619 76.590641) (xy 89.490197 76.535494)
-				(xy 89.49019 76.535493) (xy 89.387486 76.525) (xy 89.25 76.525) (xy 88.75 76.525) (xy 88.612527 76.525)
-				(xy 88.612512 76.525001) (xy 88.509802 76.535494) (xy 88.34338 76.590641) (xy 88.343371 76.590645)
-				(xy 88.189096 76.685803) (xy 88.121704 76.704243) (xy 88.05504 76.68332) (xy 88.010271 76.629678)
-				(xy 88 76.580264) (xy 88 76.174499) (xy 88.019685 76.10746) (xy 88.072489 76.061705) (xy 88.123999 76.050499)
-				(xy 88.472872 76.050499) (xy 88.532483 76.044091) (xy 88.667331 75.993796) (xy 88.782546 75.907546)
-				(xy 88.868796 75.792331) (xy 88.919091 75.657483) (xy 88.9255 75.597873) (xy 88.9255 75.597844)
-				(xy 89.725 75.597844) (xy 89.731401 75.657372) (xy 89.731403 75.657379) (xy 89.781645 75.792086)
-				(xy 89.781649 75.792093) (xy 89.867809 75.907187) (xy 89.867812 75.90719) (xy 89.982906 75.99335)
-				(xy 89.982913 75.993354) (xy 90.11762 76.043596) (xy 90.117627 76.043598) (xy 90.177155 76.049999)
-				(xy 90.177172 76.05) (xy 91.15 76.05) (xy 91.65 76.05) (xy 92.622828 76.05) (xy 92.622844 76.049999)
-				(xy 92.682372 76.043598) (xy 92.682379 76.043596) (xy 92.817086 75.993354) (xy 92.817093 75.99335)
-				(xy 92.932187 75.90719) (xy 92.93219 75.907187) (xy 93.01835 75.792093) (xy 93.018354 75.792086)
-				(xy 93.068596 75.657379) (xy 93.068598 75.657372) (xy 93.074999 75.597844) (xy 93.075 75.597827)
-				(xy 93.075 73.519983) (xy 95.7995 73.519983) (xy 95.7995 74.320001) (xy 95.799501 74.320019) (xy 95.81 74.422796)
-				(xy 95.810001 74.422799) (xy 95.865185 74.589331) (xy 95.865187 74.589336) (xy 95.957289 74.738657)
-				(xy 96.063451 74.844819) (xy 96.096936 74.906142) (xy 96.091952 74.975834) (xy 96.063451 75.020181)
-				(xy 95.957289 75.126342) (xy 95.865187 75.275663) (xy 95.865186 75.275666) (xy 95.810001 75.442203)
-				(xy 95.810001 75.442204) (xy 95.81 75.442204) (xy 95.7995 75.544983) (xy 95.7995 76.295001) (xy 95.799501 76.295019)
-				(xy 95.81 76.397796) (xy 95.810001 76.397799) (xy 95.865185 76.564331) (xy 95.865187 76.564336)
-				(xy 95.881132 76.590187) (xy 95.940108 76.685803) (xy 95.957289 76.713657) (xy 96.081346 76.837714)
-				(xy 96.084182 76.839463) (xy 96.085717 76.84117) (xy 96.087011 76.842193) (xy 96.086836 76.842414)
-				(xy 96.130905 76.891411) (xy 96.142126 76.960374) (xy 96.114282 77.024456) (xy 96.084182 77.050537)
-				(xy 96.081346 77.052285) (xy 95.957289 77.176342) (xy 95.865187 77.325663) (xy 95.865185 77.325668)
-				(xy 95.857059 77.350191) (xy 95.810001 77.492203) (xy 95.810001 77.492204) (xy 95.81 77.492204)
-				(xy 95.7995 77.594983) (xy 95.7995 78.345001) (xy 95.799501 78.345019) (xy 95.81 78.447796) (xy 95.810001 78.447799)
-				(xy 95.841989 78.544331) (xy 95.865186 78.614334) (xy 95.957288 78.763656) (xy 96.081344 78.887712)
-				(xy 96.230666 78.979814) (xy 96.397203 79.034999) (xy 96.499991 79.0455) (xy 97.500008 79.045499)
-				(xy 97.500016 79.045498) (xy 97.500019 79.045498) (xy 97.556302 79.039748) (xy 97.602797 79.034999)
-				(xy 97.769334 78.979814) (xy 97.918656 78.887712) (xy 98.042712 78.763656) (xy 98.134814 78.614334)
-				(xy 98.189999 78.447797) (xy 98.2005 78.345009) (xy 98.200499 77.594992) (xy 98.194881 77.539999)
-				(xy 98.194881 77.539995) (xy 98.680023 77.539995) (xy 98.680023 77.540004) (xy 98.699903 77.80529)
-				(xy 98.699903 77.805292) (xy 98.759098 78.064643) (xy 98.759104 78.064662) (xy 98.856296 78.312303)
-				(xy 98.989316 78.5427) (xy 99.040083 78.606361) (xy 99.040084 78.606361) (xy 99.705884 77.94056)
-				(xy 99.70674 77.942626) (xy 99.799762 78.081844) (xy 99.918156 78.200238) (xy 100.057374 78.29326)
-				(xy 100.059437 78.294114) (xy 99.39284 78.960711) (xy 99.570011 79.081504) (xy 99.570015 79.081506)
-				(xy 99.809695 79.196931) (xy 99.809699 79.196932) (xy 100.063909 79.275346) (xy 100.063915 79.275347)
-				(xy 100.326976 79.314999) (xy 100.326983 79.315) (xy 100.593017 79.315) (xy 100.593023 79.314999)
-				(xy 100.856084 79.275347) (xy 100.85609 79.275346) (xy 101.110299 79.196933) (xy 101.349992 79.081503)
-				(xy 101.527158 78.960711) (xy 100.860562 78.294114) (xy 100.862626 78.29326) (xy 101.001844 78.200238)
-				(xy 101.120238 78.081844) (xy 101.21326 77.942626) (xy 101.214114 77.940561) (xy 101.879914 78.606361)
-				(xy 101.879915 78.60636) (xy 101.930679 78.542706) (xy 101.930686 78.542695) (xy 102.063703 78.312303)
-				(xy 102.160895 78.064662) (xy 102.160901 78.064643) (xy 102.220096 77.805292) (xy 102.220096 77.80529)
-				(xy 102.239977 77.540004) (xy 102.239977 77.539995) (xy 103.760023 77.539995) (xy 103.760023 77.540004)
-				(xy 103.779903 77.80529) (xy 103.779903 77.805292) (xy 103.839098 78.064643) (xy 103.839104 78.064662)
-				(xy 103.936296 78.312303) (xy 104.069316 78.5427) (xy 104.120083 78.606361) (xy 104.120084 78.606361)
-				(xy 104.785884 77.94056) (xy 104.78674 77.942626) (xy 104.879762 78.081844) (xy 104.998156 78.200238)
-				(xy 105.137374 78.29326) (xy 105.139437 78.294114) (xy 104.47284 78.960711) (xy 104.650011 79.081504)
-				(xy 104.650015 79.081506) (xy 104.889695 79.196931) (xy 104.889699 79.196932) (xy 105.143909 79.275346)
-				(xy 105.143915 79.275347) (xy 105.406976 79.314999) (xy 105.406983 79.315) (xy 105.673017 79.315)
-				(xy 105.673023 79.314999) (xy 105.936084 79.275347) (xy 105.93609 79.275346) (xy 106.190299 79.196933)
-				(xy 106.429992 79.081503) (xy 106.607158 78.960711) (xy 105.940562 78.294114) (xy 105.942626 78.29326)
-				(xy 106.081844 78.200238) (xy 106.200238 78.081844) (xy 106.29326 77.942626) (xy 106.294114 77.940561)
-				(xy 106.959914 78.606361) (xy 106.959915 78.60636) (xy 107.010679 78.542706) (xy 107.010686 78.542695)
-				(xy 107.143703 78.312303) (xy 107.240895 78.064662) (xy 107.240901 78.064643) (xy 107.300096 77.805292)
-				(xy 107.300096 77.80529) (xy 107.319977 77.540004) (xy 107.319977 77.539995) (xy 107.300096 77.274709)
-				(xy 107.300096 77.274707) (xy 107.240901 77.015356) (xy 107.240895 77.015337) (xy 107.143703 76.767696)
-				(xy 107.010683 76.537299) (xy 106.959915 76.473637) (xy 106.294114 77.139437) (xy 106.29326 77.137374)
-				(xy 106.200238 76.998156) (xy 106.081844 76.879762) (xy 105.942626 76.78674) (xy 105.940561 76.785884)
-				(xy 106.607158 76.119287) (xy 106.429984 75.998492) (xy 106.190299 75.883066) (xy 105.93609 75.804653)
-				(xy 105.936084 75.804652) (xy 105.673023 75.765) (xy 105.406976 75.765) (xy 105.143915 75.804652)
-				(xy 105.143909 75.804653) (xy 104.889699 75.883067) (xy 104.889695 75.883068) (xy 104.650015 75.998493)
-				(xy 104.650011 75.998495) (xy 104.47284 76.119287) (xy 105.139438 76.785884) (xy 105.137374 76.78674)
-				(xy 104.998156 76.879762) (xy 104.879762 76.998156) (xy 104.78674 77.137374) (xy 104.785884 77.139438)
-				(xy 104.120084 76.473638) (xy 104.069314 76.537302) (xy 103.936296 76.767696) (xy 103.839104 77.015337)
-				(xy 103.839098 77.015356) (xy 103.779903 77.274707) (xy 103.779903 77.274709) (xy 103.760023 77.539995)
-				(xy 102.239977 77.539995) (xy 102.220096 77.274709) (xy 102.220096 77.274707) (xy 102.160901 77.015356)
-				(xy 102.160895 77.015337) (xy 102.063703 76.767696) (xy 101.930683 76.537299) (xy 101.879915 76.473637)
-				(xy 101.214114 77.139437) (xy 101.21326 77.137374) (xy 101.120238 76.998156) (xy 101.001844 76.879762)
-				(xy 100.862626 76.78674) (xy 100.860561 76.785884) (xy 101.527158 76.119287) (xy 101.349984 75.998492)
-				(xy 101.110299 75.883066) (xy 100.85609 75.804653) (xy 100.856084 75.804652) (xy 100.593023 75.765)
-				(xy 100.326976 75.765) (xy 100.063915 75.804652) (xy 100.063909 75.804653) (xy 99.809699 75.883067)
-				(xy 99.809695 75.883068) (xy 99.570015 75.998493) (xy 99.570011 75.998495) (xy 99.39284 76.119287)
-				(xy 100.059438 76.785884) (xy 100.057374 76.78674) (xy 99.918156 76.879762) (xy 99.799762 76.998156)
-				(xy 99.70674 77.137374) (xy 99.705884 77.139438) (xy 99.040084 76.473638) (xy 98.989314 76.537302)
-				(xy 98.856296 76.767696) (xy 98.759104 77.015337) (xy 98.759098 77.015356) (xy 98.699903 77.274707)
-				(xy 98.699903 77.274709) (xy 98.680023 77.539995) (xy 98.194881 77.539995) (xy 98.189999 77.492203)
-				(xy 98.189998 77.4922) (xy 98.178096 77.456282) (xy 98.134814 77.325666) (xy 98.042712 77.176344)
-				(xy 97.918656 77.052288) (xy 97.915819 77.050538) (xy 97.914283 77.04883) (xy 97.912989 77.047807)
-				(xy 97.913163 77.047585) (xy 97.869096 76.998594) (xy 97.857872 76.929632) (xy 97.885713 76.865549)
-				(xy 97.915817 76.839462) (xy 97.918656 76.837712) (xy 98.042712 76.713656) (xy 98.134814 76.564334)
-				(xy 98.189999 76.397797) (xy 98.2005 76.295009) (xy 98.200499 75.544992) (xy 98.189999 75.442203)
-				(xy 98.134814 75.275666) (xy 98.042712 75.126344) (xy 97.936549 75.020181) (xy 97.903064 74.958858)
-				(xy 97.908048 74.889166) (xy 97.936549 74.844819) (xy 98.042712 74.738656) (xy 98.134814 74.589334)
-				(xy 98.189999 74.422797) (xy 98.2005 74.320009) (xy 98.200499 73.519992) (xy 98.189999 73.417203)
-				(xy 98.134814 73.250666) (xy 98.042712 73.101344) (xy 97.948695 73.007327) (xy 97.91521 72.946004)
-				(xy 97.920194 72.876312) (xy 97.948695 72.831964) (xy 98.042317 72.738342) (xy 98.134356 72.589124)
-				(xy 98.134358 72.589119) (xy 98.177146 72.459995) (xy 98.680023 72.459995) (xy 98.680023 72.460004)
-				(xy 98.699903 72.72529) (xy 98.699903 72.725292) (xy 98.759098 72.984643) (xy 98.759104 72.984662)
-				(xy 98.856296 73.232303) (xy 98.989316 73.4627) (xy 99.040083 73.526361) (xy 99.040084 73.526361)
-				(xy 99.705884 72.86056) (xy 99.70674 72.862626) (xy 99.799762 73.001844) (xy 99.918156 73.120238)
-				(xy 100.057374 73.21326) (xy 100.059437 73.214114) (xy 99.39284 73.880711) (xy 99.570011 74.001504)
-				(xy 99.570015 74.001506) (xy 99.809695 74.116931) (xy 99.809699 74.116932) (xy 100.063909 74.195346)
-				(xy 100.063915 74.195347) (xy 100.326976 74.234999) (xy 100.326983 74.235) (xy 100.593017 74.235)
-				(xy 100.593023 74.234999) (xy 100.856084 74.195347) (xy 100.85609 74.195346) (xy 101.110299 74.116933)
-				(xy 101.349992 74.001503) (xy 101.527158 73.880711) (xy 100.860562 73.214114) (xy 100.862626 73.21326)
-				(xy 101.001844 73.120238) (xy 101.120238 73.001844) (xy 101.21326 72.862626) (xy 101.214114 72.860561)
-				(xy 101.879914 73.526361) (xy 101.879915 73.52636) (xy 101.930679 73.462706) (xy 101.930686 73.462695)
-				(xy 102.063703 73.232303) (xy 102.160895 72.984662) (xy 102.160901 72.984643) (xy 102.220096 72.725292)
-				(xy 102.220096 72.72529) (xy 102.239977 72.460004) (xy 102.239977 72.459995) (xy 103.760023 72.459995)
-				(xy 103.760023 72.460004) (xy 103.779903 72.72529) (xy 103.779903 72.725292) (xy 103.839098 72.984643)
-				(xy 103.839104 72.984662) (xy 103.936296 73.232303) (xy 104.069316 73.4627) (xy 104.120083 73.526361)
-				(xy 104.120084 73.526361) (xy 104.785884 72.86056) (xy 104.78674 72.862626) (xy 104.879762 73.001844)
-				(xy 104.998156 73.120238) (xy 105.137374 73.21326) (xy 105.139437 73.214114) (xy 104.47284 73.880711)
-				(xy 104.650011 74.001504) (xy 104.650015 74.001506) (xy 104.889695 74.116931) (xy 104.889699 74.116932)
-				(xy 105.143909 74.195346) (xy 105.143915 74.195347) (xy 105.406976 74.234999) (xy 105.406983 74.235)
-				(xy 105.673017 74.235) (xy 105.673023 74.234999) (xy 105.936084 74.195347) (xy 105.93609 74.195346)
-				(xy 106.190299 74.116933) (xy 106.429992 74.001503) (xy 106.607158 73.880711) (xy 105.940562 73.214114)
-				(xy 105.942626 73.21326) (xy 106.081844 73.120238) (xy 106.200238 73.001844) (xy 106.29326 72.862626)
-				(xy 106.294114 72.860561) (xy 106.959914 73.526361) (xy 106.959915 73.52636) (xy 107.010679 73.462706)
-				(xy 107.010686 73.462695) (xy 107.143703 73.232303) (xy 107.240895 72.984662) (xy 107.240901 72.984643)
-				(xy 107.300096 72.725292) (xy 107.300096 72.72529) (xy 107.319977 72.460004) (xy 107.319977 72.459995)
-				(xy 107.300096 72.194709) (xy 107.300096 72.194707) (xy 107.240901 71.935356) (xy 107.240895 71.935337)
-				(xy 107.143703 71.687696) (xy 107.010683 71.457299) (xy 106.959915 71.393637) (xy 106.294114 72.059437)
-				(xy 106.29326 72.057374) (xy 106.200238 71.918156) (xy 106.081844 71.799762) (xy 105.942626 71.70674)
-				(xy 105.940561 71.705884) (xy 106.607158 71.039287) (xy 106.429984 70.918492) (xy 106.190299 70.803066)
-				(xy 105.93609 70.724653) (xy 105.936084 70.724652) (xy 105.673023 70.685) (xy 105.406976 70.685)
-				(xy 105.143915 70.724652) (xy 105.143909 70.724653) (xy 104.889699 70.803067) (xy 104.889695 70.803068)
-				(xy 104.650015 70.918493) (xy 104.650011 70.918495) (xy 104.47284 71.039287) (xy 105.139438 71.705884)
-				(xy 105.137374 71.70674) (xy 104.998156 71.799762) (xy 104.879762 71.918156) (xy 104.78674 72.057374)
-				(xy 104.785884 72.059438) (xy 104.120084 71.393638) (xy 104.069314 71.457302) (xy 103.936296 71.687696)
-				(xy 103.839104 71.935337) (xy 103.839098 71.935356) (xy 103.779903 72.194707) (xy 103.779903 72.194709)
-				(xy 103.760023 72.459995) (xy 102.239977 72.459995) (xy 102.220096 72.194709) (xy 102.220096 72.194707)
-				(xy 102.160901 71.935356) (xy 102.160895 71.935337) (xy 102.063703 71.687696) (xy 101.930683 71.457299)
-				(xy 101.879915 71.393637) (xy 101.214114 72.059437) (xy 101.21326 72.057374) (xy 101.120238 71.918156)
-				(xy 101.001844 71.799762) (xy 100.862626 71.70674) (xy 100.860561 71.705884) (xy 101.527158 71.039287)
-				(xy 101.349984 70.918492) (xy 101.110299 70.803066) (xy 100.85609 70.724653) (xy 100.856084 70.724652)
-				(xy 100.593023 70.685) (xy 100.326976 70.685) (xy 100.063915 70.724652) (xy 100.063909 70.724653)
-				(xy 99.809699 70.803067) (xy 99.809695 70.803068) (xy 99.570015 70.918493) (xy 99.570011 70.918495)
-				(xy 99.39284 71.039287) (xy 100.059438 71.705884) (xy 100.057374 71.70674) (xy 99.918156 71.799762)
-				(xy 99.799762 71.918156) (xy 99.70674 72.057374) (xy 99.705884 72.059438) (xy 99.040084 71.393638)
-				(xy 98.989314 71.457302) (xy 98.856296 71.687696) (xy 98.759104 71.935337) (xy 98.759098 71.935356)
-				(xy 98.699903 72.194707) (xy 98.699903 72.194709) (xy 98.680023 72.459995) (xy 98.177146 72.459995)
-				(xy 98.189505 72.422697) (xy 98.189506 72.42269) (xy 98.199999 72.319986) (xy 98.2 72.319973) (xy 98.2 72.17)
-				(xy 95.800001 72.17) (xy 95.800001 72.319986) (xy 95.810494 72.422697) (xy 95.865641 72.589119)
-				(xy 95.865643 72.589124) (xy 95.957684 72.738345) (xy 96.051304 72.831965) (xy 96.084789 72.893288)
-				(xy 96.079805 72.96298) (xy 96.051305 73.007327) (xy 95.957287 73.101345) (xy 95.865187 73.250663)
-				(xy 95.865185 73.250668) (xy 95.848838 73.3) (xy 95.810001 73.417203) (xy 95.810001 73.417204) (xy 95.81 73.417204)
-				(xy 95.7995 73.519983) (xy 93.075 73.519983) (xy 93.075 73.25) (xy 91.65 73.25) (xy 91.65 76.05)
-				(xy 91.15 76.05) (xy 91.15 73.25) (xy 89.725 73.25) (xy 89.725 75.597844) (xy 88.9255 75.597844)
-				(xy 88.925499 70.402155) (xy 89.725 70.402155) (xy 89.725 72.75) (xy 91.15 72.75) (xy 91.65 72.75)
-				(xy 93.075 72.75) (xy 93.075 71.520013) (xy 95.8 71.520013) (xy 95.8 71.67) (xy 96.75 71.67) (xy 97.25 71.67)
-				(xy 98.199999 71.67) (xy 98.199999 71.520028) (xy 98.199998 71.520013) (xy 98.189505 71.417302)
+				(xy 88.75 78.974998) (xy 88.75 76.525) (xy 89.25 76.525) (xy 89.25 78.974999) (xy 89.387472 78.974999)
+				(xy 89.387486 78.974998) (xy 89.490197 78.964505) (xy 89.656619 78.909358) (xy 89.656624 78.909356)
+				(xy 89.805845 78.817315) (xy 89.929818 78.693342) (xy 89.931665 78.690348) (xy 89.933469 78.688724)
+				(xy 89.934298 78.687677) (xy 89.934476 78.687818) (xy 89.98361 78.643621) (xy 90.052573 78.632396)
+				(xy 90.116656 78.660236) (xy 90.142743 78.690341) (xy 90.144788 78.693656) (xy 90.268844 78.817712)
+				(xy 90.418166 78.909814) (xy 90.584703 78.964999) (xy 90.687491 78.9755) (xy 91.462508 78.975499)
+				(xy 91.462516 78.975498) (xy 91.462519 78.975498) (xy 91.518802 78.969748) (xy 91.565297 78.964999)
+				(xy 91.731834 78.909814) (xy 91.881156 78.817712) (xy 92.005212 78.693656) (xy 92.097314 78.544334)
+				(xy 92.152499 78.377797) (xy 92.163 78.275009) (xy 92.162999 77.224992) (xy 92.162499 77.220101)
+				(xy 92.152499 77.122203) (xy 92.152498 77.1222) (xy 92.12933 77.052285) (xy 92.097314 76.955666)
+				(xy 92.005212 76.806344) (xy 91.881156 76.682288) (xy 91.788388 76.625069) (xy 91.731836 76.590187)
+				(xy 91.731831 76.590185) (xy 91.700497 76.579802) (xy 91.565297 76.535001) (xy 91.565295 76.535)
+				(xy 91.46251 76.5245) (xy 90.687498 76.5245) (xy 90.68748 76.524501) (xy 90.584703 76.535) (xy 90.5847 76.535001)
+				(xy 90.418168 76.590185) (xy 90.418163 76.590187) (xy 90.268842 76.682289) (xy 90.144788 76.806343)
+				(xy 90.144783 76.806349) (xy 90.142741 76.809661) (xy 90.140747 76.811453) (xy 90.140307 76.812011)
+				(xy 90.140211 76.811935) (xy 90.090791 76.856383) (xy 90.021828 76.867602) (xy 89.957747 76.839755)
+				(xy 89.931668 76.809656) (xy 89.929819 76.806659) (xy 89.929816 76.806655) (xy 89.805845 76.682684)
+				(xy 89.656624 76.590643) (xy 89.656619 76.590641) (xy 89.490197 76.535494) (xy 89.49019 76.535493)
+				(xy 89.387486 76.525) (xy 89.25 76.525) (xy 88.75 76.525) (xy 88.612527 76.525) (xy 88.612512 76.525001)
+				(xy 88.509802 76.535494) (xy 88.34338 76.590641) (xy 88.343371 76.590645) (xy 88.189096 76.685803)
+				(xy 88.121704 76.704243) (xy 88.05504 76.68332) (xy 88.010271 76.629678) (xy 88 76.580264) (xy 88 76.174499)
+				(xy 88.019685 76.10746) (xy 88.072489 76.061705) (xy 88.123999 76.050499) (xy 88.472872 76.050499)
+				(xy 88.532483 76.044091) (xy 88.667331 75.993796) (xy 88.782546 75.907546) (xy 88.868796 75.792331)
+				(xy 88.919091 75.657483) (xy 88.9255 75.597873) (xy 88.9255 75.597844) (xy 89.725 75.597844) (xy 89.731401 75.657372)
+				(xy 89.731403 75.657379) (xy 89.781645 75.792086) (xy 89.781649 75.792093) (xy 89.867809 75.907187)
+				(xy 89.867812 75.90719) (xy 89.982906 75.99335) (xy 89.982913 75.993354) (xy 90.11762 76.043596)
+				(xy 90.117627 76.043598) (xy 90.177155 76.049999) (xy 90.177172 76.05) (xy 91.15 76.05) (xy 91.65 76.05)
+				(xy 92.622828 76.05) (xy 92.622844 76.049999) (xy 92.682372 76.043598) (xy 92.682379 76.043596)
+				(xy 92.817086 75.993354) (xy 92.817093 75.99335) (xy 92.932187 75.90719) (xy 92.93219 75.907187)
+				(xy 93.01835 75.792093) (xy 93.018354 75.792086) (xy 93.068596 75.657379) (xy 93.068598 75.657372)
+				(xy 93.074999 75.597844) (xy 93.075 75.597827) (xy 93.075 73.519983) (xy 95.7995 73.519983) (xy 95.7995 74.320001)
+				(xy 95.799501 74.320019) (xy 95.81 74.422796) (xy 95.810001 74.422799) (xy 95.865185 74.589331)
+				(xy 95.865187 74.589336) (xy 95.957289 74.738657) (xy 96.063451 74.844819) (xy 96.096936 74.906142)
+				(xy 96.091952 74.975834) (xy 96.063451 75.020181) (xy 95.957289 75.126342) (xy 95.865187 75.275663)
+				(xy 95.865186 75.275666) (xy 95.810001 75.442203) (xy 95.810001 75.442204) (xy 95.81 75.442204)
+				(xy 95.7995 75.544983) (xy 95.7995 76.295001) (xy 95.799501 76.295019) (xy 95.81 76.397796) (xy 95.810001 76.397799)
+				(xy 95.865185 76.564331) (xy 95.865187 76.564336) (xy 95.881132 76.590187) (xy 95.940108 76.685803)
+				(xy 95.957289 76.713657) (xy 96.081346 76.837714) (xy 96.084182 76.839463) (xy 96.085717 76.84117)
+				(xy 96.087011 76.842193) (xy 96.086836 76.842414) (xy 96.130905 76.891411) (xy 96.142126 76.960374)
+				(xy 96.114282 77.024456) (xy 96.084182 77.050537) (xy 96.081346 77.052285) (xy 95.957289 77.176342)
+				(xy 95.865187 77.325663) (xy 95.865185 77.325668) (xy 95.857059 77.350191) (xy 95.810001 77.492203)
+				(xy 95.810001 77.492204) (xy 95.81 77.492204) (xy 95.7995 77.594983) (xy 95.7995 78.345001) (xy 95.799501 78.345019)
+				(xy 95.81 78.447796) (xy 95.810001 78.447799) (xy 95.841989 78.544331) (xy 95.865186 78.614334)
+				(xy 95.957288 78.763656) (xy 96.081344 78.887712) (xy 96.230666 78.979814) (xy 96.397203 79.034999)
+				(xy 96.499991 79.0455) (xy 97.500008 79.045499) (xy 97.500016 79.045498) (xy 97.500019 79.045498)
+				(xy 97.556302 79.039748) (xy 97.602797 79.034999) (xy 97.769334 78.979814) (xy 97.918656 78.887712)
+				(xy 98.042712 78.763656) (xy 98.134814 78.614334) (xy 98.189999 78.447797) (xy 98.2005 78.345009)
+				(xy 98.200499 77.594992) (xy 98.194881 77.539999) (xy 98.194881 77.539995) (xy 98.680023 77.539995)
+				(xy 98.680023 77.540004) (xy 98.699903 77.80529) (xy 98.699903 77.805292) (xy 98.759098 78.064643)
+				(xy 98.759104 78.064662) (xy 98.856296 78.312303) (xy 98.989316 78.5427) (xy 99.040083 78.606361)
+				(xy 99.040084 78.606361) (xy 99.705884 77.94056) (xy 99.70674 77.942626) (xy 99.799762 78.081844)
+				(xy 99.918156 78.200238) (xy 100.057374 78.29326) (xy 100.059437 78.294114) (xy 99.39284 78.960711)
+				(xy 99.570011 79.081504) (xy 99.570015 79.081506) (xy 99.809695 79.196931) (xy 99.809699 79.196932)
+				(xy 100.063909 79.275346) (xy 100.063915 79.275347) (xy 100.326976 79.314999) (xy 100.326983 79.315)
+				(xy 100.593017 79.315) (xy 100.593023 79.314999) (xy 100.856084 79.275347) (xy 100.85609 79.275346)
+				(xy 101.110299 79.196933) (xy 101.349992 79.081503) (xy 101.527158 78.960711) (xy 100.860562 78.294114)
+				(xy 100.862626 78.29326) (xy 101.001844 78.200238) (xy 101.120238 78.081844) (xy 101.21326 77.942626)
+				(xy 101.214114 77.940562) (xy 101.879914 78.606361) (xy 101.879915 78.60636) (xy 101.930679 78.542706)
+				(xy 101.930686 78.542695) (xy 102.063703 78.312303) (xy 102.160895 78.064662) (xy 102.160901 78.064643)
+				(xy 102.220096 77.805292) (xy 102.220096 77.80529) (xy 102.239977 77.540004) (xy 102.239977 77.539995)
+				(xy 103.760023 77.539995) (xy 103.760023 77.540004) (xy 103.779903 77.80529) (xy 103.779903 77.805292)
+				(xy 103.839098 78.064643) (xy 103.839104 78.064662) (xy 103.936296 78.312303) (xy 104.069316 78.5427)
+				(xy 104.120083 78.606361) (xy 104.120084 78.606361) (xy 104.785884 77.94056) (xy 104.78674 77.942626)
+				(xy 104.879762 78.081844) (xy 104.998156 78.200238) (xy 105.137374 78.29326) (xy 105.139437 78.294114)
+				(xy 104.47284 78.960711) (xy 104.650011 79.081504) (xy 104.650015 79.081506) (xy 104.889695 79.196931)
+				(xy 104.889699 79.196932) (xy 105.143909 79.275346) (xy 105.143915 79.275347) (xy 105.406976 79.314999)
+				(xy 105.406983 79.315) (xy 105.673017 79.315) (xy 105.673023 79.314999) (xy 105.936084 79.275347)
+				(xy 105.93609 79.275346) (xy 106.190299 79.196933) (xy 106.429992 79.081503) (xy 106.607158 78.960711)
+				(xy 105.940562 78.294114) (xy 105.942626 78.29326) (xy 106.081844 78.200238) (xy 106.200238 78.081844)
+				(xy 106.29326 77.942626) (xy 106.294114 77.940562) (xy 106.959914 78.606361) (xy 106.959915 78.60636)
+				(xy 107.010679 78.542706) (xy 107.010686 78.542695) (xy 107.143703 78.312303) (xy 107.240895 78.064662)
+				(xy 107.240901 78.064643) (xy 107.300096 77.805292) (xy 107.300096 77.80529) (xy 107.319977 77.540004)
+				(xy 107.319977 77.539995) (xy 107.300096 77.274709) (xy 107.300096 77.274707) (xy 107.240901 77.015356)
+				(xy 107.240895 77.015337) (xy 107.143703 76.767696) (xy 107.010683 76.537299) (xy 106.959915 76.473637)
+				(xy 106.294114 77.139437) (xy 106.29326 77.137374) (xy 106.200238 76.998156) (xy 106.081844 76.879762)
+				(xy 105.942626 76.78674) (xy 105.940561 76.785884) (xy 106.607158 76.119287) (xy 106.429984 75.998492)
+				(xy 106.190299 75.883066) (xy 105.93609 75.804653) (xy 105.936084 75.804652) (xy 105.673023 75.765)
+				(xy 105.406976 75.765) (xy 105.143915 75.804652) (xy 105.143909 75.804653) (xy 104.889699 75.883067)
+				(xy 104.889695 75.883068) (xy 104.650015 75.998493) (xy 104.650011 75.998495) (xy 104.47284 76.119287)
+				(xy 105.139438 76.785884) (xy 105.137374 76.78674) (xy 104.998156 76.879762) (xy 104.879762 76.998156)
+				(xy 104.78674 77.137374) (xy 104.785884 77.139438) (xy 104.120084 76.473638) (xy 104.069314 76.537302)
+				(xy 103.936296 76.767696) (xy 103.839104 77.015337) (xy 103.839098 77.015356) (xy 103.779903 77.274707)
+				(xy 103.779903 77.274709) (xy 103.760023 77.539995) (xy 102.239977 77.539995) (xy 102.220096 77.274709)
+				(xy 102.220096 77.274707) (xy 102.160901 77.015356) (xy 102.160895 77.015337) (xy 102.063703 76.767696)
+				(xy 101.930683 76.537299) (xy 101.879915 76.473637) (xy 101.214114 77.139437) (xy 101.21326 77.137374)
+				(xy 101.120238 76.998156) (xy 101.001844 76.879762) (xy 100.862626 76.78674) (xy 100.860561 76.785884)
+				(xy 101.527158 76.119287) (xy 101.349984 75.998492) (xy 101.110299 75.883066) (xy 100.85609 75.804653)
+				(xy 100.856084 75.804652) (xy 100.593023 75.765) (xy 100.326976 75.765) (xy 100.063915 75.804652)
+				(xy 100.063909 75.804653) (xy 99.809699 75.883067) (xy 99.809695 75.883068) (xy 99.570015 75.998493)
+				(xy 99.570011 75.998495) (xy 99.39284 76.119287) (xy 100.059438 76.785884) (xy 100.057374 76.78674)
+				(xy 99.918156 76.879762) (xy 99.799762 76.998156) (xy 99.70674 77.137374) (xy 99.705884 77.139438)
+				(xy 99.040084 76.473638) (xy 98.989314 76.537302) (xy 98.856296 76.767696) (xy 98.759104 77.015337)
+				(xy 98.759098 77.015356) (xy 98.699903 77.274707) (xy 98.699903 77.274709) (xy 98.680023 77.539995)
+				(xy 98.194881 77.539995) (xy 98.189999 77.492203) (xy 98.189998 77.4922) (xy 98.178096 77.456282)
+				(xy 98.134814 77.325666) (xy 98.042712 77.176344) (xy 97.918656 77.052288) (xy 97.915819 77.050538)
+				(xy 97.914283 77.04883) (xy 97.912989 77.047807) (xy 97.913163 77.047585) (xy 97.869096 76.998594)
+				(xy 97.857872 76.929632) (xy 97.885713 76.865549) (xy 97.915817 76.839462) (xy 97.918656 76.837712)
+				(xy 98.042712 76.713656) (xy 98.134814 76.564334) (xy 98.189999 76.397797) (xy 98.2005 76.295009)
+				(xy 98.200499 75.544992) (xy 98.189999 75.442203) (xy 98.134814 75.275666) (xy 98.042712 75.126344)
+				(xy 97.936549 75.020181) (xy 97.903064 74.958858) (xy 97.908048 74.889166) (xy 97.936549 74.844819)
+				(xy 98.042712 74.738656) (xy 98.134814 74.589334) (xy 98.189999 74.422797) (xy 98.2005 74.320009)
+				(xy 98.200499 73.519992) (xy 98.189999 73.417203) (xy 98.134814 73.250666) (xy 98.042712 73.101344)
+				(xy 97.948695 73.007327) (xy 97.91521 72.946004) (xy 97.920194 72.876312) (xy 97.948695 72.831964)
+				(xy 98.042317 72.738342) (xy 98.134356 72.589124) (xy 98.134358 72.589119) (xy 98.177146 72.459995)
+				(xy 98.680023 72.459995) (xy 98.680023 72.460004) (xy 98.699903 72.72529) (xy 98.699903 72.725292)
+				(xy 98.759098 72.984643) (xy 98.759104 72.984662) (xy 98.856296 73.232303) (xy 98.989316 73.4627)
+				(xy 99.040083 73.526361) (xy 99.040084 73.526361) (xy 99.705884 72.86056) (xy 99.70674 72.862626)
+				(xy 99.799762 73.001844) (xy 99.918156 73.120238) (xy 100.057374 73.21326) (xy 100.059437 73.214114)
+				(xy 99.39284 73.880711) (xy 99.570011 74.001504) (xy 99.570015 74.001506) (xy 99.809695 74.116931)
+				(xy 99.809699 74.116932) (xy 100.063909 74.195346) (xy 100.063915 74.195347) (xy 100.326976 74.234999)
+				(xy 100.326983 74.235) (xy 100.593017 74.235) (xy 100.593023 74.234999) (xy 100.856084 74.195347)
+				(xy 100.85609 74.195346) (xy 101.110299 74.116933) (xy 101.349992 74.001503) (xy 101.527158 73.880711)
+				(xy 100.860562 73.214114) (xy 100.862626 73.21326) (xy 101.001844 73.120238) (xy 101.120238 73.001844)
+				(xy 101.21326 72.862626) (xy 101.214114 72.860562) (xy 101.879914 73.526361) (xy 101.879915 73.52636)
+				(xy 101.930679 73.462706) (xy 101.930686 73.462695) (xy 102.063703 73.232303) (xy 102.160895 72.984662)
+				(xy 102.160901 72.984643) (xy 102.220096 72.725292) (xy 102.220096 72.72529) (xy 102.239977 72.460004)
+				(xy 102.239977 72.459995) (xy 103.760023 72.459995) (xy 103.760023 72.460004) (xy 103.779903 72.72529)
+				(xy 103.779903 72.725292) (xy 103.839098 72.984643) (xy 103.839104 72.984662) (xy 103.936296 73.232303)
+				(xy 104.069316 73.4627) (xy 104.120083 73.526361) (xy 104.120084 73.526361) (xy 104.785884 72.86056)
+				(xy 104.78674 72.862626) (xy 104.879762 73.001844) (xy 104.998156 73.120238) (xy 105.137374 73.21326)
+				(xy 105.139437 73.214114) (xy 104.47284 73.880711) (xy 104.650011 74.001504) (xy 104.650015 74.001506)
+				(xy 104.889695 74.116931) (xy 104.889699 74.116932) (xy 105.143909 74.195346) (xy 105.143915 74.195347)
+				(xy 105.406976 74.234999) (xy 105.406983 74.235) (xy 105.673017 74.235) (xy 105.673023 74.234999)
+				(xy 105.936084 74.195347) (xy 105.93609 74.195346) (xy 106.190299 74.116933) (xy 106.429992 74.001503)
+				(xy 106.607158 73.880711) (xy 105.940562 73.214114) (xy 105.942626 73.21326) (xy 106.081844 73.120238)
+				(xy 106.200238 73.001844) (xy 106.29326 72.862626) (xy 106.294114 72.860562) (xy 106.959914 73.526361)
+				(xy 106.959915 73.52636) (xy 107.010679 73.462706) (xy 107.010686 73.462695) (xy 107.143703 73.232303)
+				(xy 107.240895 72.984662) (xy 107.240901 72.984643) (xy 107.300096 72.725292) (xy 107.300096 72.72529)
+				(xy 107.319977 72.460004) (xy 107.319977 72.459995) (xy 107.300096 72.194709) (xy 107.300096 72.194707)
+				(xy 107.240901 71.935356) (xy 107.240895 71.935337) (xy 107.143703 71.687696) (xy 107.010683 71.457299)
+				(xy 106.959915 71.393637) (xy 106.294114 72.059437) (xy 106.29326 72.057374) (xy 106.200238 71.918156)
+				(xy 106.081844 71.799762) (xy 105.942626 71.70674) (xy 105.940561 71.705884) (xy 106.607158 71.039287)
+				(xy 106.429984 70.918492) (xy 106.190299 70.803066) (xy 105.93609 70.724653) (xy 105.936084 70.724652)
+				(xy 105.673023 70.685) (xy 105.406976 70.685) (xy 105.143915 70.724652) (xy 105.143909 70.724653)
+				(xy 104.889699 70.803067) (xy 104.889695 70.803068) (xy 104.650015 70.918493) (xy 104.650011 70.918495)
+				(xy 104.47284 71.039287) (xy 105.139438 71.705884) (xy 105.137374 71.70674) (xy 104.998156 71.799762)
+				(xy 104.879762 71.918156) (xy 104.78674 72.057374) (xy 104.785884 72.059438) (xy 104.120084 71.393638)
+				(xy 104.069314 71.457302) (xy 103.936296 71.687696) (xy 103.839104 71.935337) (xy 103.839098 71.935356)
+				(xy 103.779903 72.194707) (xy 103.779903 72.194709) (xy 103.760023 72.459995) (xy 102.239977 72.459995)
+				(xy 102.220096 72.194709) (xy 102.220096 72.194707) (xy 102.160901 71.935356) (xy 102.160895 71.935337)
+				(xy 102.063703 71.687696) (xy 101.930683 71.457299) (xy 101.879915 71.393637) (xy 101.214114 72.059437)
+				(xy 101.21326 72.057374) (xy 101.120238 71.918156) (xy 101.001844 71.799762) (xy 100.862626 71.70674)
+				(xy 100.860561 71.705884) (xy 101.527158 71.039287) (xy 101.349984 70.918492) (xy 101.110299 70.803066)
+				(xy 100.85609 70.724653) (xy 100.856084 70.724652) (xy 100.593023 70.685) (xy 100.326976 70.685)
+				(xy 100.063915 70.724652) (xy 100.063909 70.724653) (xy 99.809699 70.803067) (xy 99.809695 70.803068)
+				(xy 99.570015 70.918493) (xy 99.570011 70.918495) (xy 99.39284 71.039287) (xy 100.059438 71.705884)
+				(xy 100.057374 71.70674) (xy 99.918156 71.799762) (xy 99.799762 71.918156) (xy 99.70674 72.057374)
+				(xy 99.705884 72.059438) (xy 99.040084 71.393638) (xy 98.989314 71.457302) (xy 98.856296 71.687696)
+				(xy 98.759104 71.935337) (xy 98.759098 71.935356) (xy 98.699903 72.194707) (xy 98.699903 72.194709)
+				(xy 98.680023 72.459995) (xy 98.177146 72.459995) (xy 98.189505 72.422697) (xy 98.189506 72.42269)
+				(xy 98.199999 72.319986) (xy 98.2 72.319973) (xy 98.2 72.17) (xy 95.800001 72.17) (xy 95.800001 72.319986)
+				(xy 95.810494 72.422697) (xy 95.865641 72.589119) (xy 95.865643 72.589124) (xy 95.957684 72.738345)
+				(xy 96.051304 72.831965) (xy 96.084789 72.893288) (xy 96.079805 72.96298) (xy 96.051305 73.007327)
+				(xy 95.957287 73.101345) (xy 95.865187 73.250663) (xy 95.865185 73.250668) (xy 95.848838 73.3) (xy 95.810001 73.417203)
+				(xy 95.810001 73.417204) (xy 95.81 73.417204) (xy 95.7995 73.519983) (xy 93.075 73.519983) (xy 93.075 73.25)
+				(xy 91.65 73.25) (xy 91.65 76.05) (xy 91.15 76.05) (xy 91.15 73.25) (xy 89.725 73.25) (xy 89.725 75.597844)
+				(xy 88.9255 75.597844) (xy 88.925499 70.402155) (xy 89.725 70.402155) (xy 89.725 72.75) (xy 91.15 72.75)
+				(xy 91.65 72.75) (xy 93.075 72.75) (xy 93.075 71.520013) (xy 95.8 71.520013) (xy 95.8 71.67) (xy 96.75 71.67)
+				(xy 97.25 71.67) (xy 98.199999 71.67) (xy 98.199999 71.520028) (xy 98.199998 71.520013) (xy 98.189505 71.417302)
 				(xy 98.134358 71.25088) (xy 98.134356 71.250875) (xy 98.042315 71.101654) (xy 97.918345 70.977684)
 				(xy 97.769124 70.885643) (xy 97.769119 70.885641) (xy 97.602697 70.830494) (xy 97.60269 70.830493)
 				(xy 97.499986 70.82) (xy 97.25 70.82) (xy 97.25 71.67) (xy 96.75 71.67) (xy 96.75 70.82) (xy 96.500029 70.82)
@@ -27342,7 +27108,7 @@
 				(xy 100.326983 95.235) (xy 100.593017 95.235) (xy 100.593023 95.234999) (xy 100.856084 95.195347)
 				(xy 100.85609 95.195346) (xy 101.110299 95.116933) (xy 101.349992 95.001503) (xy 101.527158 94.880711)
 				(xy 100.860562 94.214114) (xy 100.862626 94.21326) (xy 101.001844 94.120238) (xy 101.120238 94.001844)
-				(xy 101.21326 93.862626) (xy 101.214114 93.860561) (xy 101.879914 94.526361) (xy 101.879915 94.52636)
+				(xy 101.21326 93.862626) (xy 101.214114 93.860562) (xy 101.879914 94.526361) (xy 101.879915 94.52636)
 				(xy 101.930679 94.462706) (xy 101.930686 94.462695) (xy 102.063703 94.232303) (xy 102.160895 93.984662)
 				(xy 102.160901 93.984643) (xy 102.220096 93.725292) (xy 102.220096 93.72529) (xy 102.239977 93.460004)
 				(xy 102.239977 93.459995) (xy 103.760023 93.459995) (xy 103.760023 93.460004) (xy 103.779903 93.72529)
@@ -27354,7 +27120,7 @@
 				(xy 105.406976 95.234999) (xy 105.406983 95.235) (xy 105.673017 95.235) (xy 105.673023 95.234999)
 				(xy 105.936084 95.195347) (xy 105.93609 95.195346) (xy 106.190299 95.116933) (xy 106.429992 95.001503)
 				(xy 106.607158 94.880711) (xy 105.940562 94.214114) (xy 105.942626 94.21326) (xy 106.081844 94.120238)
-				(xy 106.200238 94.001844) (xy 106.29326 93.862626) (xy 106.294114 93.860561) (xy 106.959914 94.526361)
+				(xy 106.200238 94.001844) (xy 106.29326 93.862626) (xy 106.294114 93.860562) (xy 106.959914 94.526361)
 				(xy 106.959915 94.52636) (xy 107.010679 94.462706) (xy 107.010686 94.462695) (xy 107.143703 94.232303)
 				(xy 107.240895 93.984662) (xy 107.240901 93.984643) (xy 107.300096 93.725292) (xy 107.300096 93.72529)
 				(xy 107.319977 93.460004) (xy 107.319977 93.459995) (xy 107.300096 93.194709) (xy 107.300096 93.194707)
@@ -27399,7 +27165,7 @@
 				(xy 100.063915 90.115347) (xy 100.326976 90.154999) (xy 100.326983 90.155) (xy 100.593017 90.155)
 				(xy 100.593023 90.154999) (xy 100.856084 90.115347) (xy 100.85609 90.115346) (xy 101.110299 90.036933)
 				(xy 101.349992 89.921503) (xy 101.527158 89.800711) (xy 100.860562 89.134114) (xy 100.862626 89.13326)
-				(xy 101.001844 89.040238) (xy 101.120238 88.921844) (xy 101.21326 88.782626) (xy 101.214114 88.780561)
+				(xy 101.001844 89.040238) (xy 101.120238 88.921844) (xy 101.21326 88.782626) (xy 101.214114 88.780562)
 				(xy 101.879914 89.446361) (xy 101.879915 89.44636) (xy 101.930679 89.382706) (xy 101.930686 89.382695)
 				(xy 102.063703 89.152303) (xy 102.160895 88.904662) (xy 102.160901 88.904643) (xy 102.220096 88.645292)
 				(xy 102.220096 88.64529) (xy 102.239977 88.380004) (xy 102.239977 88.379995) (xy 103.760023 88.379995)
@@ -27412,7 +27178,7 @@
 				(xy 105.673017 90.155) (xy 105.673023 90.154999) (xy 105.936084 90.115347) (xy 105.93609 90.115346)
 				(xy 106.190299 90.036933) (xy 106.429992 89.921503) (xy 106.607158 89.800711) (xy 105.940562 89.134114)
 				(xy 105.942626 89.13326) (xy 106.081844 89.040238) (xy 106.200238 88.921844) (xy 106.29326 88.782626)
-				(xy 106.294114 88.780561) (xy 106.959914 89.446361) (xy 106.959915 89.44636) (xy 107.010679 89.382706)
+				(xy 106.294114 88.780562) (xy 106.959914 89.446361) (xy 106.959915 89.44636) (xy 107.010679 89.382706)
 				(xy 107.010686 89.382695) (xy 107.143703 89.152303) (xy 107.240895 88.904662) (xy 107.240901 88.904643)
 				(xy 107.300096 88.645292) (xy 107.300096 88.64529) (xy 107.319977 88.380004) (xy 107.319977 88.379995)
 				(xy 107.300096 88.114709) (xy 107.300096 88.114707) (xy 107.240901 87.855356) (xy 107.240895 87.855337)
@@ -27561,98 +27327,84 @@
 				(xy 62.579452 85.168334) (xy 62.550951 85.212681) (xy 62.457288 85.306343) (xy 62.457287 85.306344)
 				(xy 62.422223 85.363192) (xy 62.370275 85.409916) (xy 62.301312 85.421137) (xy 62.299622 85.420914)
 				(xy 62.172518 85.403256) (xy 62.172514 85.403256) (xy 61.849881 85.404787) (xy 52.174589 85.450729)
-				(xy 52.107457 85.431363) (xy 52.061451 85.378776) (xy 52.05 85.32673) (xy 52.05 82.999994) (xy 55.494357 82.999994)
-				(xy 55.494357 83.000005) (xy 55.51489 83.247812) (xy 55.514892 83.247824) (xy 55.575936 83.488881)
-				(xy 55.675826 83.716606) (xy 55.811833 83.924782) (xy 55.811836 83.924785) (xy 55.980256 84.107738)
-				(xy 56.176491 84.260474) (xy 56.176493 84.260475) (xy 56.388114 84.374999) (xy 56.39519 84.378828)
-				(xy 56.630386 84.459571) (xy 56.875665 84.5005) (xy 57.124335 84.5005) (xy 57.369614 84.459571)
-				(xy 57.60481 84.378828) (xy 57.823509 84.260474) (xy 58.019744 84.107738) (xy 58.188164 83.924785)
-				(xy 58.324173 83.716607) (xy 58.424063 83.488881) (xy 58.485108 83.247821) (xy 58.489694 83.192482)
-				(xy 58.505643 83.000005) (xy 58.505643 82.999994) (xy 58.485109 82.752187) (xy 58.485107 82.752175)
-				(xy 58.424063 82.511118) (xy 58.324173 82.283393) (xy 58.188166 82.075217) (xy 58.166557 82.051744)
-				(xy 58.019744 81.892262) (xy 57.823509 81.739526) (xy 57.823507 81.739525) (xy 57.823506 81.739524)
-				(xy 57.604811 81.621172) (xy 57.604802 81.621169) (xy 57.369616 81.540429) (xy 57.124335 81.4995)
-				(xy 56.875665 81.4995) (xy 56.630383 81.540429) (xy 56.395197 81.621169) (xy 56.395188 81.621172)
-				(xy 56.176493 81.739524) (xy 55.980257 81.892261) (xy 55.811833 82.075217) (xy 55.675826 82.283393)
-				(xy 55.575936 82.511118) (xy 55.514892 82.752175) (xy 55.51489 82.752187) (xy 55.494357 82.999994)
-				(xy 52.05 82.999994) (xy 52.05 77.539995) (xy 52.679521 77.539995) (xy 52.679521 77.540004) (xy 52.699405 77.805357)
-				(xy 52.699405 77.805359) (xy 52.699407 77.805367) (xy 52.758623 78.064805) (xy 52.855844 78.312521)
-				(xy 52.988899 78.54298) (xy 53.059645 78.631692) (xy 53.15482 78.751037) (xy 53.221075 78.812512)
-				(xy 53.34989 78.932035) (xy 53.569761 79.08194) (xy 53.809514 79.197399) (xy 53.809515 79.197399)
-				(xy 53.809518 79.197401) (xy 54.063806 79.275839) (xy 54.063807 79.275839) (xy 54.06381 79.27584)
-				(xy 54.326937 79.315499) (xy 54.326942 79.315499) (xy 54.326945 79.3155) (xy 54.326946 79.3155)
-				(xy 54.593054 79.3155) (xy 54.593055 79.3155) (xy 54.593062 79.315499) (xy 54.856189 79.27584) (xy 54.85619 79.275839)
-				(xy 54.856194 79.275839) (xy 55.110482 79.197401) (xy 55.35024 79.08194) (xy 55.57011 78.932035)
-				(xy 55.765183 78.751033) (xy 55.931101 78.54298) (xy 56.064156 78.312521) (xy 56.161377 78.064805)
-				(xy 56.220593 77.805367) (xy 56.220594 77.805357) (xy 56.240479 77.540004) (xy 56.240479 77.539995)
-				(xy 57.759521 77.539995) (xy 57.759521 77.540004) (xy 57.779405 77.805357) (xy 57.779405 77.805359)
-				(xy 57.779407 77.805367) (xy 57.838623 78.064805) (xy 57.935844 78.312521) (xy 58.068899 78.54298)
-				(xy 58.139645 78.631692) (xy 58.23482 78.751037) (xy 58.301075 78.812512) (xy 58.42989 78.932035)
-				(xy 58.649761 79.08194) (xy 58.889514 79.197399) (xy 58.889515 79.197399) (xy 58.889518 79.197401)
-				(xy 59.143806 79.275839) (xy 59.143807 79.275839) (xy 59.14381 79.27584) (xy 59.406937 79.315499)
-				(xy 59.406942 79.315499) (xy 59.406945 79.3155) (xy 59.406946 79.3155) (xy 59.673054 79.3155) (xy 59.673055 79.3155)
-				(xy 59.673062 79.315499) (xy 59.936189 79.27584) (xy 59.93619 79.275839) (xy 59.936194 79.275839)
-				(xy 60.190482 79.197401) (xy 60.43024 79.08194) (xy 60.65011 78.932035) (xy 60.845183 78.751033)
-				(xy 61.011101 78.54298) (xy 61.144156 78.312521) (xy 61.241377 78.064805) (xy 61.300593 77.805367)
-				(xy 61.300594 77.805357) (xy 61.317858 77.574983) (xy 73.0995 77.574983) (xy 73.0995 79.675001)
-				(xy 73.099501 79.675018) (xy 73.11 79.777796) (xy 73.110001 79.777799) (xy 73.136962 79.85916) (xy 73.165186 79.944334)
-				(xy 73.257288 80.093656) (xy 73.381344 80.217712) (xy 73.530666 80.309814) (xy 73.697203 80.364999)
-				(xy 73.799991 80.3755) (xy 75.200008 80.375499) (xy 75.302797 80.364999) (xy 75.469334 80.309814)
-				(xy 75.618656 80.217712) (xy 75.742712 80.093656) (xy 75.834814 79.944334) (xy 75.889999 79.777797)
-				(xy 75.9005 79.675009) (xy 75.900499 77.574992) (xy 75.889999 77.472203) (xy 75.834814 77.305666)
-				(xy 75.742712 77.156344) (xy 75.618656 77.032288) (xy 75.469334 76.940186) (xy 75.302797 76.885001)
-				(xy 75.302795 76.885) (xy 75.20001 76.8745) (xy 73.799998 76.8745) (xy 73.799981 76.874501) (xy 73.697203 76.885)
-				(xy 73.6972 76.885001) (xy 73.530668 76.940185) (xy 73.530663 76.940187) (xy 73.381342 77.032289)
-				(xy 73.257289 77.156342) (xy 73.165187 77.305663) (xy 73.165185 77.305668) (xy 73.156718 77.331221)
-				(xy 73.110001 77.472203) (xy 73.110001 77.472204) (xy 73.11 77.472204) (xy 73.0995 77.574983) (xy 61.317858 77.574983)
-				(xy 61.320479 77.540004) (xy 61.320479 77.539995) (xy 61.300594 77.274642) (xy 61.300594 77.27464)
-				(xy 61.300593 77.274636) (xy 61.300593 77.274633) (xy 61.241377 77.015195) (xy 61.144156 76.767479)
-				(xy 61.011101 76.53702) (xy 60.845183 76.328967) (xy 60.845182 76.328966) (xy 60.845179 76.328962)
-				(xy 60.65011 76.147965) (xy 60.565277 76.090127) (xy 60.43024 75.99806) (xy 60.430236 75.998058)
-				(xy 60.430233 75.998056) (xy 60.430232 75.998055) (xy 60.190484 75.8826) (xy 60.190486 75.8826)
-				(xy 59.936195 75.804161) (xy 59.936189 75.804159) (xy 59.673062 75.7645) (xy 59.673055 75.7645)
-				(xy 59.406945 75.7645) (xy 59.406937 75.7645) (xy 59.14381 75.804159) (xy 59.143804 75.804161) (xy 58.889514 75.8826)
-				(xy 58.649769 75.998055) (xy 58.64976 75.99806) (xy 58.429892 76.147963) (xy 58.23482 76.328962)
-				(xy 58.068899 76.53702) (xy 57.935844 76.767478) (xy 57.838625 77.015189) (xy 57.83862 77.015206)
-				(xy 57.779405 77.27464) (xy 57.779405 77.274642) (xy 57.759521 77.539995) (xy 56.240479 77.539995)
-				(xy 56.220594 77.274642) (xy 56.220594 77.27464) (xy 56.220593 77.274636) (xy 56.220593 77.274633)
-				(xy 56.161377 77.015195) (xy 56.064156 76.767479) (xy 55.931101 76.53702) (xy 55.765183 76.328967)
-				(xy 55.765182 76.328966) (xy 55.765179 76.328962) (xy 55.57011 76.147965) (xy 55.485277 76.090127)
-				(xy 55.35024 75.99806) (xy 55.350236 75.998058) (xy 55.350233 75.998056) (xy 55.350232 75.998055)
-				(xy 55.110484 75.8826) (xy 55.110486 75.8826) (xy 54.856195 75.804161) (xy 54.856189 75.804159)
-				(xy 54.593062 75.7645) (xy 54.593055 75.7645) (xy 54.326945 75.7645) (xy 54.326937 75.7645) (xy 54.06381 75.804159)
-				(xy 54.063804 75.804161) (xy 53.809514 75.8826) (xy 53.569769 75.998055) (xy 53.56976 75.99806)
-				(xy 53.349892 76.147963) (xy 53.15482 76.328962) (xy 52.988899 76.53702) (xy 52.855844 76.767478)
-				(xy 52.758625 77.015189) (xy 52.75862 77.015206) (xy 52.699405 77.27464) (xy 52.699405 77.274642)
-				(xy 52.679521 77.539995) (xy 52.05 77.539995) (xy 52.05 75.173844) (xy 67.215 75.173844) (xy 67.221401 75.233372)
-				(xy 67.221403 75.233379) (xy 67.271645 75.368086) (xy 67.271649 75.368093) (xy 67.357809 75.483187)
-				(xy 67.357812 75.48319) (xy 67.472906 75.56935) (xy 67.472913 75.569354) (xy 67.60762 75.619596)
-				(xy 67.607627 75.619598) (xy 67.667155 75.625999) (xy 67.667172 75.626) (xy 68.64 75.626) (xy 69.14 75.626)
-				(xy 70.112828 75.626) (xy 70.112844 75.625999) (xy 70.172372 75.619598) (xy 70.172379 75.619596)
-				(xy 70.307086 75.569354) (xy 70.307093 75.56935) (xy 70.422187 75.48319) (xy 70.42219 75.483187)
-				(xy 70.50835 75.368093) (xy 70.508354 75.368086) (xy 70.558596 75.233379) (xy 70.558598 75.233372)
-				(xy 70.564999 75.173844) (xy 70.565 75.173827) (xy 70.565 72.826) (xy 69.14 72.826) (xy 69.14 75.626)
-				(xy 68.64 75.626) (xy 68.64 72.826) (xy 67.215 72.826) (xy 67.215 75.173844) (xy 52.05 75.173844)
-				(xy 52.05 72.459995) (xy 52.679521 72.459995) (xy 52.679521 72.460004) (xy 52.699405 72.725357)
-				(xy 52.699405 72.725359) (xy 52.729041 72.855203) (xy 52.758623 72.984805) (xy 52.855844 73.232521)
-				(xy 52.988899 73.46298) (xy 53.072104 73.567315) (xy 53.15482 73.671037) (xy 53.213517 73.725499)
-				(xy 53.34989 73.852035) (xy 53.569761 74.00194) (xy 53.809514 74.117399) (xy 53.809515 74.117399)
-				(xy 53.809518 74.117401) (xy 54.063806 74.195839) (xy 54.063807 74.195839) (xy 54.06381 74.19584)
-				(xy 54.326937 74.235499) (xy 54.326942 74.235499) (xy 54.326945 74.2355) (xy 54.326946 74.2355)
-				(xy 54.593054 74.2355) (xy 54.593055 74.2355) (xy 54.593062 74.235499) (xy 54.856189 74.19584) (xy 54.85619 74.195839)
-				(xy 54.856194 74.195839) (xy 55.110482 74.117401) (xy 55.35024 74.00194) (xy 55.57011 73.852035)
-				(xy 55.765183 73.671033) (xy 55.931101 73.46298) (xy 56.064156 73.232521) (xy 56.161377 72.984805)
-				(xy 56.220593 72.725367) (xy 56.240479 72.46) (xy 56.240479 72.459995) (xy 57.759521 72.459995)
-				(xy 57.759521 72.460004) (xy 57.779405 72.725357) (xy 57.779405 72.725359) (xy 57.809041 72.855203)
-				(xy 57.838623 72.984805) (xy 57.935844 73.232521) (xy 58.068899 73.46298) (xy 58.152104 73.567315)
-				(xy 58.23482 73.671037) (xy 58.293517 73.725499) (xy 58.42989 73.852035) (xy 58.649761 74.00194)
-				(xy 58.889514 74.117399) (xy 58.889515 74.117399) (xy 58.889518 74.117401) (xy 59.143806 74.195839)
-				(xy 59.143807 74.195839) (xy 59.14381 74.19584) (xy 59.406937 74.235499) (xy 59.406942 74.235499)
-				(xy 59.406945 74.2355) (xy 59.406946 74.2355) (xy 59.673054 74.2355) (xy 59.673055 74.2355) (xy 59.673062 74.235499)
-				(xy 59.936189 74.19584) (xy 59.93619 74.195839) (xy 59.936194 74.195839) (xy 60.190482 74.117401)
-				(xy 60.43024 74.00194) (xy 60.65011 73.852035) (xy 60.845183 73.671033) (xy 61.011101 73.46298)
-				(xy 61.144156 73.232521) (xy 61.241377 72.984805) (xy 61.300593 72.725367) (xy 61.320479 72.46)
-				(xy 61.310437 72.326) (xy 61.300594 72.194642) (xy 61.300594 72.19464) (xy 61.300593 72.194636)
+				(xy 52.107457 85.431363) (xy 52.061451 85.378776) (xy 52.05 85.32673) (xy 52.05 77.539995) (xy 52.679521 77.539995)
+				(xy 52.679521 77.540004) (xy 52.699405 77.805357) (xy 52.699405 77.805359) (xy 52.699407 77.805367)
+				(xy 52.758623 78.064805) (xy 52.855844 78.312521) (xy 52.988899 78.54298) (xy 53.059645 78.631692)
+				(xy 53.15482 78.751037) (xy 53.221075 78.812512) (xy 53.34989 78.932035) (xy 53.569761 79.08194)
+				(xy 53.809514 79.197399) (xy 53.809515 79.197399) (xy 53.809518 79.197401) (xy 54.063806 79.275839)
+				(xy 54.063807 79.275839) (xy 54.06381 79.27584) (xy 54.326937 79.315499) (xy 54.326942 79.315499)
+				(xy 54.326945 79.3155) (xy 54.326946 79.3155) (xy 54.593054 79.3155) (xy 54.593055 79.3155) (xy 54.593062 79.315499)
+				(xy 54.856189 79.27584) (xy 54.85619 79.275839) (xy 54.856194 79.275839) (xy 55.110482 79.197401)
+				(xy 55.35024 79.08194) (xy 55.57011 78.932035) (xy 55.765183 78.751033) (xy 55.931101 78.54298)
+				(xy 56.064156 78.312521) (xy 56.161377 78.064805) (xy 56.220593 77.805367) (xy 56.220594 77.805357)
+				(xy 56.240479 77.540004) (xy 56.240479 77.539995) (xy 57.759521 77.539995) (xy 57.759521 77.540004)
+				(xy 57.779405 77.805357) (xy 57.779405 77.805359) (xy 57.779407 77.805367) (xy 57.838623 78.064805)
+				(xy 57.935844 78.312521) (xy 58.068899 78.54298) (xy 58.139645 78.631692) (xy 58.23482 78.751037)
+				(xy 58.301075 78.812512) (xy 58.42989 78.932035) (xy 58.649761 79.08194) (xy 58.889514 79.197399)
+				(xy 58.889515 79.197399) (xy 58.889518 79.197401) (xy 59.143806 79.275839) (xy 59.143807 79.275839)
+				(xy 59.14381 79.27584) (xy 59.406937 79.315499) (xy 59.406942 79.315499) (xy 59.406945 79.3155)
+				(xy 59.406946 79.3155) (xy 59.673054 79.3155) (xy 59.673055 79.3155) (xy 59.673062 79.315499) (xy 59.936189 79.27584)
+				(xy 59.93619 79.275839) (xy 59.936194 79.275839) (xy 60.190482 79.197401) (xy 60.43024 79.08194)
+				(xy 60.65011 78.932035) (xy 60.845183 78.751033) (xy 61.011101 78.54298) (xy 61.144156 78.312521)
+				(xy 61.241377 78.064805) (xy 61.300593 77.805367) (xy 61.300594 77.805357) (xy 61.317858 77.574983)
+				(xy 73.0995 77.574983) (xy 73.0995 79.675001) (xy 73.099501 79.675018) (xy 73.11 79.777796) (xy 73.110001 79.777799)
+				(xy 73.136962 79.85916) (xy 73.165186 79.944334) (xy 73.257288 80.093656) (xy 73.381344 80.217712)
+				(xy 73.530666 80.309814) (xy 73.697203 80.364999) (xy 73.799991 80.3755) (xy 75.200008 80.375499)
+				(xy 75.302797 80.364999) (xy 75.469334 80.309814) (xy 75.618656 80.217712) (xy 75.742712 80.093656)
+				(xy 75.834814 79.944334) (xy 75.889999 79.777797) (xy 75.9005 79.675009) (xy 75.900499 77.574992)
+				(xy 75.889999 77.472203) (xy 75.834814 77.305666) (xy 75.742712 77.156344) (xy 75.618656 77.032288)
+				(xy 75.469334 76.940186) (xy 75.302797 76.885001) (xy 75.302795 76.885) (xy 75.20001 76.8745) (xy 73.799998 76.8745)
+				(xy 73.799981 76.874501) (xy 73.697203 76.885) (xy 73.6972 76.885001) (xy 73.530668 76.940185) (xy 73.530663 76.940187)
+				(xy 73.381342 77.032289) (xy 73.257289 77.156342) (xy 73.165187 77.305663) (xy 73.165185 77.305668)
+				(xy 73.156718 77.331221) (xy 73.110001 77.472203) (xy 73.110001 77.472204) (xy 73.11 77.472204)
+				(xy 73.0995 77.574983) (xy 61.317858 77.574983) (xy 61.320479 77.540004) (xy 61.320479 77.539995)
+				(xy 61.300594 77.274642) (xy 61.300594 77.27464) (xy 61.300593 77.274636) (xy 61.300593 77.274633)
+				(xy 61.241377 77.015195) (xy 61.144156 76.767479) (xy 61.011101 76.53702) (xy 60.845183 76.328967)
+				(xy 60.845182 76.328966) (xy 60.845179 76.328962) (xy 60.65011 76.147965) (xy 60.565277 76.090127)
+				(xy 60.43024 75.99806) (xy 60.430236 75.998058) (xy 60.430233 75.998056) (xy 60.430232 75.998055)
+				(xy 60.190484 75.8826) (xy 60.190486 75.8826) (xy 59.936195 75.804161) (xy 59.936189 75.804159)
+				(xy 59.673062 75.7645) (xy 59.673055 75.7645) (xy 59.406945 75.7645) (xy 59.406937 75.7645) (xy 59.14381 75.804159)
+				(xy 59.143804 75.804161) (xy 58.889514 75.8826) (xy 58.649769 75.998055) (xy 58.64976 75.99806)
+				(xy 58.429892 76.147963) (xy 58.23482 76.328962) (xy 58.068899 76.53702) (xy 57.935844 76.767478)
+				(xy 57.838625 77.015189) (xy 57.83862 77.015206) (xy 57.779405 77.27464) (xy 57.779405 77.274642)
+				(xy 57.759521 77.539995) (xy 56.240479 77.539995) (xy 56.220594 77.274642) (xy 56.220594 77.27464)
+				(xy 56.220593 77.274636) (xy 56.220593 77.274633) (xy 56.161377 77.015195) (xy 56.064156 76.767479)
+				(xy 55.931101 76.53702) (xy 55.765183 76.328967) (xy 55.765182 76.328966) (xy 55.765179 76.328962)
+				(xy 55.57011 76.147965) (xy 55.485277 76.090127) (xy 55.35024 75.99806) (xy 55.350236 75.998058)
+				(xy 55.350233 75.998056) (xy 55.350232 75.998055) (xy 55.110484 75.8826) (xy 55.110486 75.8826)
+				(xy 54.856195 75.804161) (xy 54.856189 75.804159) (xy 54.593062 75.7645) (xy 54.593055 75.7645)
+				(xy 54.326945 75.7645) (xy 54.326937 75.7645) (xy 54.06381 75.804159) (xy 54.063804 75.804161) (xy 53.809514 75.8826)
+				(xy 53.569769 75.998055) (xy 53.56976 75.99806) (xy 53.349892 76.147963) (xy 53.15482 76.328962)
+				(xy 52.988899 76.53702) (xy 52.855844 76.767478) (xy 52.758625 77.015189) (xy 52.75862 77.015206)
+				(xy 52.699405 77.27464) (xy 52.699405 77.274642) (xy 52.679521 77.539995) (xy 52.05 77.539995) (xy 52.05 75.173844)
+				(xy 67.215 75.173844) (xy 67.221401 75.233372) (xy 67.221403 75.233379) (xy 67.271645 75.368086)
+				(xy 67.271649 75.368093) (xy 67.357809 75.483187) (xy 67.357812 75.48319) (xy 67.472906 75.56935)
+				(xy 67.472913 75.569354) (xy 67.60762 75.619596) (xy 67.607627 75.619598) (xy 67.667155 75.625999)
+				(xy 67.667172 75.626) (xy 68.64 75.626) (xy 69.14 75.626) (xy 70.112828 75.626) (xy 70.112844 75.625999)
+				(xy 70.172372 75.619598) (xy 70.172379 75.619596) (xy 70.307086 75.569354) (xy 70.307093 75.56935)
+				(xy 70.422187 75.48319) (xy 70.42219 75.483187) (xy 70.50835 75.368093) (xy 70.508354 75.368086)
+				(xy 70.558596 75.233379) (xy 70.558598 75.233372) (xy 70.564999 75.173844) (xy 70.565 75.173827)
+				(xy 70.565 72.826) (xy 69.14 72.826) (xy 69.14 75.626) (xy 68.64 75.626) (xy 68.64 72.826) (xy 67.215 72.826)
+				(xy 67.215 75.173844) (xy 52.05 75.173844) (xy 52.05 72.459995) (xy 52.679521 72.459995) (xy 52.679521 72.460004)
+				(xy 52.699405 72.725357) (xy 52.699405 72.725359) (xy 52.729041 72.855203) (xy 52.758623 72.984805)
+				(xy 52.855844 73.232521) (xy 52.988899 73.46298) (xy 53.072104 73.567315) (xy 53.15482 73.671037)
+				(xy 53.213517 73.725499) (xy 53.34989 73.852035) (xy 53.569761 74.00194) (xy 53.809514 74.117399)
+				(xy 53.809515 74.117399) (xy 53.809518 74.117401) (xy 54.063806 74.195839) (xy 54.063807 74.195839)
+				(xy 54.06381 74.19584) (xy 54.326937 74.235499) (xy 54.326942 74.235499) (xy 54.326945 74.2355)
+				(xy 54.326946 74.2355) (xy 54.593054 74.2355) (xy 54.593055 74.2355) (xy 54.593062 74.235499) (xy 54.856189 74.19584)
+				(xy 54.85619 74.195839) (xy 54.856194 74.195839) (xy 55.110482 74.117401) (xy 55.35024 74.00194)
+				(xy 55.57011 73.852035) (xy 55.765183 73.671033) (xy 55.931101 73.46298) (xy 56.064156 73.232521)
+				(xy 56.161377 72.984805) (xy 56.220593 72.725367) (xy 56.240479 72.46) (xy 56.240479 72.459995)
+				(xy 57.759521 72.459995) (xy 57.759521 72.460004) (xy 57.779405 72.725357) (xy 57.779405 72.725359)
+				(xy 57.809041 72.855203) (xy 57.838623 72.984805) (xy 57.935844 73.232521) (xy 58.068899 73.46298)
+				(xy 58.152104 73.567315) (xy 58.23482 73.671037) (xy 58.293517 73.725499) (xy 58.42989 73.852035)
+				(xy 58.649761 74.00194) (xy 58.889514 74.117399) (xy 58.889515 74.117399) (xy 58.889518 74.117401)
+				(xy 59.143806 74.195839) (xy 59.143807 74.195839) (xy 59.14381 74.19584) (xy 59.406937 74.235499)
+				(xy 59.406942 74.235499) (xy 59.406945 74.2355) (xy 59.406946 74.2355) (xy 59.673054 74.2355) (xy 59.673055 74.2355)
+				(xy 59.673062 74.235499) (xy 59.936189 74.19584) (xy 59.93619 74.195839) (xy 59.936194 74.195839)
+				(xy 60.190482 74.117401) (xy 60.43024 74.00194) (xy 60.65011 73.852035) (xy 60.845183 73.671033)
+				(xy 61.011101 73.46298) (xy 61.144156 73.232521) (xy 61.241377 72.984805) (xy 61.300593 72.725367)
+				(xy 61.320479 72.46) (xy 61.310437 72.326) (xy 61.300594 72.194642) (xy 61.300594 72.19464) (xy 61.300593 72.194636)
 				(xy 61.300593 72.194633) (xy 61.241377 71.935195) (xy 61.144156 71.687479) (xy 61.011101 71.45702)
 				(xy 60.845183 71.248967) (xy 60.845182 71.248966) (xy 60.845179 71.248962) (xy 60.65011 71.067965)
 				(xy 60.578784 71.019336) (xy 60.43024 70.91806) (xy 60.430236 70.918058) (xy 60.430233 70.918056)
@@ -27859,7 +27611,7 @@
 				(xy 54.063915 63.275347) (xy 54.326976 63.314999) (xy 54.326983 63.315) (xy 54.593017 63.315) (xy 54.593023 63.314999)
 				(xy 54.856084 63.275347) (xy 54.85609 63.275346) (xy 55.110299 63.196933) (xy 55.349992 63.081503)
 				(xy 55.527158 62.960711) (xy 54.860562 62.294114) (xy 54.862626 62.29326) (xy 55.001844 62.200238)
-				(xy 55.120238 62.081844) (xy 55.21326 61.942626) (xy 55.214114 61.940561) (xy 55.879914 62.606361)
+				(xy 55.120238 62.081844) (xy 55.21326 61.942626) (xy 55.214114 61.940562) (xy 55.879914 62.606361)
 				(xy 55.879915 62.60636) (xy 55.930679 62.542706) (xy 55.930686 62.542695) (xy 56.063703 62.312303)
 				(xy 56.160895 62.064662) (xy 56.160901 62.064643) (xy 56.220096 61.805292) (xy 56.220096 61.80529)
 				(xy 56.239977 61.540004) (xy 56.239977 61.539995) (xy 57.760023 61.539995) (xy 57.760023 61.540004)
@@ -27904,7 +27656,7 @@
 				(xy 54.326983 58.235) (xy 54.593017 58.235) (xy 54.593023 58.234999) (xy 54.856084 58.195347) (xy 54.85609 58.195346)
 				(xy 55.110299 58.116933) (xy 55.349992 58.001503) (xy 55.527158 57.880711) (xy 54.860562 57.214114)
 				(xy 54.862626 57.21326) (xy 55.001844 57.120238) (xy 55.120238 57.001844) (xy 55.21326 56.862626)
-				(xy 55.214114 56.860561) (xy 55.879914 57.526361) (xy 55.879915 57.52636) (xy 55.930679 57.462706)
+				(xy 55.214114 56.860562) (xy 55.879914 57.526361) (xy 55.879915 57.52636) (xy 55.930679 57.462706)
 				(xy 55.930686 57.462695) (xy 56.063703 57.232303) (xy 56.160895 56.984662) (xy 56.160901 56.984643)
 				(xy 56.220096 56.725292) (xy 56.220096 56.72529) (xy 56.239977 56.460004) (xy 56.239977 56.459995)
 				(xy 57.760023 56.459995) (xy 57.760023 56.460004) (xy 57.779903 56.72529) (xy 57.779903 56.725292)
@@ -28302,7 +28054,7 @@
 				(xy 54.063915 95.275347) (xy 54.326976 95.314999) (xy 54.326983 95.315) (xy 54.593017 95.315) (xy 54.593023 95.314999)
 				(xy 54.856084 95.275347) (xy 54.85609 95.275346) (xy 55.110299 95.196933) (xy 55.349992 95.081503)
 				(xy 55.527158 94.960711) (xy 54.860562 94.294114) (xy 54.862626 94.29326) (xy 55.001844 94.200238)
-				(xy 55.120238 94.081844) (xy 55.21326 93.942626) (xy 55.214114 93.940561) (xy 55.879914 94.606361)
+				(xy 55.120238 94.081844) (xy 55.21326 93.942626) (xy 55.214114 93.940562) (xy 55.879914 94.606361)
 				(xy 55.879915 94.60636) (xy 55.930679 94.542706) (xy 55.930686 94.542695) (xy 56.063703 94.312303)
 				(xy 56.160895 94.064662) (xy 56.160901 94.064643) (xy 56.220096 93.805292) (xy 56.220096 93.80529)
 				(xy 56.239977 93.540004) (xy 56.239977 93.539995) (xy 57.760023 93.539995) (xy 57.760023 93.540004)
@@ -28347,7 +28099,7 @@
 				(xy 54.326983 90.235) (xy 54.593017 90.235) (xy 54.593023 90.234999) (xy 54.856084 90.195347) (xy 54.85609 90.195346)
 				(xy 55.110299 90.116933) (xy 55.349992 90.001503) (xy 55.527158 89.880711) (xy 54.860562 89.214114)
 				(xy 54.862626 89.21326) (xy 55.001844 89.120238) (xy 55.120238 89.001844) (xy 55.21326 88.862626)
-				(xy 55.214114 88.860561) (xy 55.879914 89.526361) (xy 55.879915 89.52636) (xy 55.930679 89.462706)
+				(xy 55.214114 88.860562) (xy 55.879914 89.526361) (xy 55.879915 89.52636) (xy 55.930679 89.462706)
 				(xy 55.930686 89.462695) (xy 56.063703 89.232303) (xy 56.160895 88.984662) (xy 56.160901 88.984643)
 				(xy 56.220096 88.725292) (xy 56.220096 88.72529) (xy 56.239977 88.460004) (xy 56.239977 88.459995)
 				(xy 57.760023 88.459995) (xy 57.760023 88.460004) (xy 57.779903 88.72529) (xy 57.779903 88.725292)
@@ -28434,7 +28186,7 @@
 				(xy 105.143915 63.275347) (xy 105.406976 63.314999) (xy 105.406983 63.315) (xy 105.673017 63.315)
 				(xy 105.673023 63.314999) (xy 105.936084 63.275347) (xy 105.93609 63.275346) (xy 106.190299 63.196933)
 				(xy 106.429992 63.081503) (xy 106.607158 62.960711) (xy 105.940562 62.294114) (xy 105.942626 62.29326)
-				(xy 106.081844 62.200238) (xy 106.200238 62.081844) (xy 106.29326 61.942626) (xy 106.294114 61.940561)
+				(xy 106.081844 62.200238) (xy 106.200238 62.081844) (xy 106.29326 61.942626) (xy 106.294114 61.940562)
 				(xy 106.959914 62.606361) (xy 106.959915 62.60636) (xy 107.010679 62.542706) (xy 107.010686 62.542695)
 				(xy 107.143703 62.312303) (xy 107.240895 62.064662) (xy 107.240901 62.064643) (xy 107.300096 61.805292)
 				(xy 107.300096 61.80529) (xy 107.319977 61.540004) (xy 107.319977 61.539995) (xy 107.300096 61.274709)
@@ -28480,7 +28232,7 @@
 				(xy 105.406976 58.234999) (xy 105.406983 58.235) (xy 105.673017 58.235) (xy 105.673023 58.234999)
 				(xy 105.936084 58.195347) (xy 105.93609 58.195346) (xy 106.190299 58.116933) (xy 106.429992 58.001503)
 				(xy 106.607158 57.880711) (xy 105.940562 57.214114) (xy 105.942626 57.21326) (xy 106.081844 57.120238)
-				(xy 106.200238 57.001844) (xy 106.29326 56.862626) (xy 106.294114 56.860561) (xy 106.959914 57.526361)
+				(xy 106.200238 57.001844) (xy 106.29326 56.862626) (xy 106.294114 56.860562) (xy 106.959914 57.526361)
 				(xy 106.959915 57.52636) (xy 107.010679 57.462706) (xy 107.010686 57.462695) (xy 107.143703 57.232303)
 				(xy 107.240895 56.984662) (xy 107.240901 56.984643) (xy 107.300096 56.725292) (xy 107.300096 56.72529)
 				(xy 107.319977 56.460004) (xy 107.319977 56.459995) (xy 107.300096 56.194709) (xy 107.300096 56.194707)
@@ -28660,7 +28412,7 @@
 				(xy 105.406983 111.315) (xy 105.673017 111.315) (xy 105.673023 111.314999) (xy 105.936084 111.275347)
 				(xy 105.93609 111.275346) (xy 106.190299 111.196933) (xy 106.429992 111.081503) (xy 106.607158 110.960711)
 				(xy 105.940562 110.294114) (xy 105.942626 110.29326) (xy 106.081844 110.200238) (xy 106.200238 110.081844)
-				(xy 106.29326 109.942626) (xy 106.294114 109.940561) (xy 106.959914 110.606361) (xy 106.959915 110.60636)
+				(xy 106.29326 109.942626) (xy 106.294114 109.940562) (xy 106.959914 110.606361) (xy 106.959915 110.60636)
 				(xy 107.010679 110.542706) (xy 107.010686 110.542695) (xy 107.143703 110.312303) (xy 107.240895 110.064662)
 				(xy 107.240901 110.064643) (xy 107.300096 109.805292) (xy 107.300096 109.80529) (xy 107.319977 109.540004)
 				(xy 107.319977 109.539995) (xy 107.300096 109.274709) (xy 107.300096 109.274707) (xy 107.240901 109.015356)
@@ -28703,7 +28455,7 @@
 				(xy 100.326976 106.234999) (xy 100.326983 106.235) (xy 100.593017 106.235) (xy 100.593023 106.234999)
 				(xy 100.856084 106.195347) (xy 100.85609 106.195346) (xy 101.110299 106.116933) (xy 101.349992 106.001503)
 				(xy 101.527158 105.880711) (xy 100.860562 105.214114) (xy 100.862626 105.21326) (xy 101.001844 105.120238)
-				(xy 101.120238 105.001844) (xy 101.21326 104.862626) (xy 101.214114 104.860561) (xy 101.879914 105.526361)
+				(xy 101.120238 105.001844) (xy 101.21326 104.862626) (xy 101.214114 104.860562) (xy 101.879914 105.526361)
 				(xy 101.879915 105.52636) (xy 101.930679 105.462706) (xy 101.930686 105.462695) (xy 102.063703 105.232303)
 				(xy 102.160895 104.984662) (xy 102.160901 104.984643) (xy 102.220096 104.725292) (xy 102.220096 104.72529)
 				(xy 102.239977 104.460004) (xy 102.239977 104.459995) (xy 103.760023 104.459995) (xy 103.760023 104.460004)
@@ -28715,7 +28467,7 @@
 				(xy 105.143915 106.195347) (xy 105.406976 106.234999) (xy 105.406983 106.235) (xy 105.673017 106.235)
 				(xy 105.673023 106.234999) (xy 105.936084 106.195347) (xy 105.93609 106.195346) (xy 106.190299 106.116933)
 				(xy 106.429992 106.001503) (xy 106.607158 105.880711) (xy 105.940562 105.214114) (xy 105.942626 105.21326)
-				(xy 106.081844 105.120238) (xy 106.200238 105.001844) (xy 106.29326 104.862626) (xy 106.294114 104.860561)
+				(xy 106.081844 105.120238) (xy 106.200238 105.001844) (xy 106.29326 104.862626) (xy 106.294114 104.860562)
 				(xy 106.959914 105.526361) (xy 106.959915 105.52636) (xy 107.010679 105.462706) (xy 107.010686 105.462695)
 				(xy 107.143703 105.232303) (xy 107.240895 104.984662) (xy 107.240901 104.984643) (xy 107.300096 104.725292)
 				(xy 107.300096 104.72529) (xy 107.319977 104.460004) (xy 107.319977 104.459995) (xy 107.300096 104.194709)
@@ -28920,26 +28672,7 @@
 				(xy 54.063804 86.724161) (xy 53.809514 86.8026) (xy 53.569769 86.918055) (xy 53.56976 86.91806)
 				(xy 53.349892 87.067963) (xy 53.15482 87.248962) (xy 53.052697 87.37702) (xy 52.988899 87.45702)
 				(xy 52.902033 87.607478) (xy 52.878926 87.6475) (xy 52.828359 87.695715) (xy 52.771539 87.7095)
-				(xy 52.124 87.7095) (xy 52.056961 87.689815) (xy 52.011206 87.637011) (xy 52 87.5855) (xy 52 82.999994)
-				(xy 55.494859 82.999994) (xy 55.494859 83.000005) (xy 55.515385 83.247729) (xy 55.515387 83.247738)
-				(xy 55.576412 83.488717) (xy 55.676266 83.716364) (xy 55.776564 83.869882) (xy 56.517037 83.129409)
-				(xy 56.534075 83.192993) (xy 56.599901 83.307007) (xy 56.692993 83.400099) (xy 56.807007 83.465925)
-				(xy 56.87059 83.482962) (xy 56.129942 84.223609) (xy 56.176768 84.260055) (xy 56.17677 84.260056)
-				(xy 56.395385 84.378364) (xy 56.395396 84.378369) (xy 56.630506 84.459083) (xy 56.875707 84.5) (xy 57.124293 84.5)
-				(xy 57.369493 84.459083) (xy 57.604603 84.378369) (xy 57.604614 84.378364) (xy 57.823228 84.260057)
-				(xy 57.823231 84.260055) (xy 57.870056 84.223609) (xy 57.129409 83.482962) (xy 57.192993 83.465925)
-				(xy 57.307007 83.400099) (xy 57.400099 83.307007) (xy 57.465925 83.192993) (xy 57.482962 83.12941)
-				(xy 58.223434 83.869882) (xy 58.323731 83.716369) (xy 58.423587 83.488717) (xy 58.484612 83.247738)
-				(xy 58.484614 83.247729) (xy 58.505141 83.000005) (xy 58.505141 82.999994) (xy 58.484614 82.75227)
-				(xy 58.484612 82.752261) (xy 58.423587 82.511282) (xy 58.323731 82.28363) (xy 58.223434 82.130116)
-				(xy 57.482962 82.870589) (xy 57.465925 82.807007) (xy 57.400099 82.692993) (xy 57.307007 82.599901)
-				(xy 57.192993 82.534075) (xy 57.12941 82.517037) (xy 57.870057 81.77639) (xy 57.870056 81.776389)
-				(xy 57.823229 81.739943) (xy 57.604614 81.621635) (xy 57.604603 81.62163) (xy 57.369493 81.540916)
-				(xy 57.124293 81.5) (xy 56.875707 81.5) (xy 56.630506 81.540916) (xy 56.395396 81.62163) (xy 56.39539 81.621632)
-				(xy 56.176761 81.739949) (xy 56.129942 81.776388) (xy 56.129942 81.77639) (xy 56.87059 82.517037)
-				(xy 56.807007 82.534075) (xy 56.692993 82.599901) (xy 56.599901 82.692993) (xy 56.534075 82.807007)
-				(xy 56.517037 82.870589) (xy 55.776564 82.130116) (xy 55.676267 82.283632) (xy 55.576412 82.511282)
-				(xy 55.515387 82.752261) (xy 55.515385 82.75227) (xy 55.494859 82.999994) (xy 52 82.999994) (xy 52 77.539995)
+				(xy 52.124 87.7095) (xy 52.056961 87.689815) (xy 52.011206 87.637011) (xy 52 87.5855) (xy 52 77.539995)
 				(xy 52.680023 77.539995) (xy 52.680023 77.540004) (xy 52.699903 77.80529) (xy 52.699903 77.805292)
 				(xy 52.759098 78.064643) (xy 52.759104 78.064662) (xy 52.856296 78.312303) (xy 52.989316 78.5427)
 				(xy 53.040083 78.606361) (xy 53.040084 78.606361) (xy 53.705884 77.94056) (xy 53.70674 77.942626)
@@ -29243,10 +28976,6 @@
 		(members "78208175-266f-44eb-965e-2da97e951079" "de35b88d-1597-4faf-a6f7-24c218b455a5")
 	)
 	(group ""
-		(uuid "52454116-c4ad-454b-ba89-c2ef00e5ac77")
-		(members "6ae54506-bb35-4ba4-b486-925216a2c8bd" "ba231d6d-bbb9-4205-81be-723b33545a12")
-	)
-	(group ""
 		(uuid "9e1c9600-edf1-4973-8c47-6f16c1b6e1e2")
 		(members "4707a787-1afe-4cde-adf5-6783b864b5bf" "79fbf325-3564-4ea6-86b9-d300d0507c62")
 	)
@@ -29257,5 +28986,9 @@
 	(group ""
 		(uuid "f07689a9-cc59-4de2-922a-4f7abe987787")
 		(members "11713848-13b3-4dcb-a29c-86b5e3a2da0e" "32cb272b-b4be-46eb-9bf8-5dbacbad61c9")
+	)
+	(group ""
+		(uuid "52454116-c4ad-454b-ba89-c2ef00e5ac77")
+		(members "ba231d6d-bbb9-4205-81be-723b33545a12")
 	)
 )

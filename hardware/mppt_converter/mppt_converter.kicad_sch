@@ -6,9 +6,10 @@
 	(paper "USLetter")
 	(title_block
 		(title "Mighty MPPT Power Converter Breakout")
-		(date "2024-08-25")
+		(date "2024-08-27")
 		(rev "v0.1.0rc")
-		(comment 1 "Matthew Yu & Jacob Pustilnik")
+		(comment 1 "Matthew Yu")
+		(comment 2 "Jacob Pustilnik")
 	)
 	(lib_symbols
 		(symbol "021306_3MXP_1"
