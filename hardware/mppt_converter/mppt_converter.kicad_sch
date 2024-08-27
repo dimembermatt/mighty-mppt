@@ -6252,7 +6252,7 @@
 		(uuid "0c15b758-6a4f-4751-ae50-23676222463a")
 	)
 	(label "DISABLE"
-		(at 59.69 156.21 0)
+		(at 60.96 156.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
