@@ -1,0 +1,15 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "3e147022-36b0-4205-971b-21203571df5c")
+	(paper "USLetter")
+	(title_block
+		(title "Mighty MPPT")
+		(date "2024-08-28")
+		(rev "v0.1.0rc")
+		(comment 1 "Matthew Yu")
+		(comment 2 "Jacob Pustilnik")
+	)
+	(lib_symbols)
+)

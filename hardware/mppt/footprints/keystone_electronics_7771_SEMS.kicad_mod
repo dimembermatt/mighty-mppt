@@ -1,0 +1,232 @@
+(footprint "keystone_electronics_7771_SEMS"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.01 -6.815 0)
+		(layer "F.SilkS")
+		(uuid "e2331362-c3b1-42fa-a1ad-d84016250ebb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "KEYSTONE_7771-SEMS"
+		(at 7.245 6.815 0)
+		(layer "F.Fab")
+		(uuid "5c79f2b3-2313-4d7b-987e-26454641bc44")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6eda91cd-a7a9-4c1b-94f5-f64bb71e0439")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d44249a-1dcb-4ac6-89a0-81748c4d0e7c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3a94dbc-0760-4027-b05f-73dffdfa4f31")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.935 -1.76)
+		(end -3.935 1.76)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9dbffb47-0086-4afa-bbd0-0d0f9d3851d4")
+	)
+	(fp_line
+		(start -0.755 -3.935)
+		(end 0.755 -3.935)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "79450188-dc65-452a-9d91-18f90e530f5f")
+	)
+	(fp_line
+		(start -0.755 3.935)
+		(end 0.755 3.935)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a20d8a71-8c28-436f-acfa-3f917633ab3b")
+	)
+	(fp_line
+		(start 3.935 -1.76)
+		(end 3.935 1.76)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "679ef803-5eea-43d9-be78-455f3d122d71")
+	)
+	(fp_line
+		(start -4.185 -5.18)
+		(end -4.185 5.18)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0c3032ca-6c64-435c-b4cd-0802452fbec2")
+	)
+	(fp_line
+		(start -4.185 5.18)
+		(end 4.185 5.18)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ca9809c4-0eba-4388-89ae-9a6e821177fe")
+	)
+	(fp_line
+		(start 4.185 -5.18)
+		(end -4.185 -5.18)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ed595854-2850-497f-a1c8-1d604412403e")
+	)
+	(fp_line
+		(start 4.185 5.18)
+		(end 4.185 -5.18)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "126d6d91-7c95-45a0-98b0-294088709ef7")
+	)
+	(fp_line
+		(start -3.935 -3.935)
+		(end -3.935 3.935)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aab4e07b-25b1-473e-9d44-ebd48252e426")
+	)
+	(fp_line
+		(start -3.935 3.935)
+		(end 3.935 3.935)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c536aed3-8224-42bc-b212-6dab579ffbcf")
+	)
+	(fp_line
+		(start 3.935 -3.935)
+		(end -3.935 -3.935)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dbdf754f-3981-4ef6-bb0a-6dbbb9f4624e")
+	)
+	(fp_line
+		(start 3.935 3.935)
+		(end 3.935 -3.935)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fcc28609-eca0-4575-aafa-c8cc700caad9")
+	)
+	(pad "1_1" thru_hole circle
+		(at -2.5 3.505)
+		(size 2.85 2.85)
+		(drill 1.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "a735234c-513d-4185-ae2e-59f178bc7222")
+	)
+	(pad "1_2" thru_hole circle
+		(at 2.5 3.505)
+		(size 2.85 2.85)
+		(drill 1.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "66953e18-a01b-4741-99c6-a2f06a819ef2")
+	)
+	(pad "1_3" thru_hole circle
+		(at 2.5 -3.505)
+		(size 2.85 2.85)
+		(drill 1.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "9fa0ba45-9250-40d7-a7ed-e95df0b47235")
+	)
+	(pad "1_4" thru_hole circle
+		(at -2.5 -3.505)
+		(size 2.85 2.85)
+		(drill 1.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "c07801c5-c0e0-4a5a-a763-d6f6a9f1958d")
+	)
+	(model "${KIPRJMOD}/models/keystone_electronics_7771_SEMS.step"
+		(offset
+			(xyz -0.5 -1 1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)
