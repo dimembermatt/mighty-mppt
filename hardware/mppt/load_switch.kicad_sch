@@ -249,7 +249,7 @@
 				)
 			)
 		)
-		(symbol "Device:D_Small"
+		(symbol "Device:D_Schottky_Small"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
@@ -265,8 +265,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "D_Small"
-				(at -3.81 -2.032 0)
+			(property "Value" "D_Schottky_Small"
+				(at -7.112 -2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -292,7 +292,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Diode, small symbol"
+			(property "Description" "Schottky diode, small symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -301,25 +301,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
+			(property "ki_keywords" "diode Schottky"
 				(at 0 0 0)
 				(effects
 					(font
@@ -337,19 +319,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "D_Small_0_1"
-				(polyline
-					(pts
-						(xy -0.762 -1.016) (xy -0.762 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "D_Schottky_Small_0_1"
 				(polyline
 					(pts
 						(xy -0.762 0) (xy 0.762 0)
@@ -374,8 +344,20 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy -1.27 0.762) (xy -1.27 1.016) (xy -0.762 1.016) (xy -0.762 -1.016) (xy -0.254 -1.016) (xy -0.254 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "D_Small_1_1"
+			(symbol "D_Schottky_Small_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 1.778)
@@ -2232,7 +2214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 193.04 149.86 0)
 			(effects
 				(font
@@ -2340,7 +2322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 193.04 146.05 0)
 			(effects
 				(font
@@ -2535,7 +2517,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" ""
 			(at 162.56 92.71 0)
 			(effects
 				(font
@@ -2680,7 +2662,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" ""
 			(at 115.57 110.49 0)
 			(effects
 				(font
@@ -3107,7 +3089,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Small")
+		(lib_id "Device:D_Schottky_Small")
 		(at 175.26 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3142,7 +3124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/115/DIOD_S_A0002960396_1-2542090.pdf"
+		(property "Datasheet" "~"
 			(at 175.26 90.17 90)
 			(effects
 				(font
@@ -3151,7 +3133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" "Schottky diode, small symbol"
 			(at 175.26 90.17 0)
 			(effects
 				(font
@@ -3205,7 +3187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "Low forward voltage drop."
 			(at 175.26 90.17 90)
 			(effects
 				(font
@@ -3278,7 +3260,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" ""
 			(at 175.26 95.25 0)
 			(effects
 				(font
@@ -4473,7 +4455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 193.04 142.24 0)
 			(effects
 				(font

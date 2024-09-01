@@ -2181,7 +2181,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 			(at 217.17 146.05 0)
 			(effects
 				(font
@@ -2190,7 +2190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 217.17 146.05 0)
 			(effects
 				(font
@@ -2424,7 +2424,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" ""
 			(at 88.9 110.49 0)
 			(effects
 				(font
@@ -2614,7 +2614,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" ""
 			(at 116.84 83.82 0)
 			(effects
 				(font
@@ -2716,7 +2716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 147.32 114.3 0)
 			(effects
 				(font
@@ -2725,7 +2725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
+		(property "Datasheet" ""
 			(at 147.32 114.3 0)
 			(effects
 				(font
@@ -2743,7 +2743,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Keystone Electronics"
+		(property "Manufacturer" ""
 			(at 142.24 114.3 0)
 			(effects
 				(font
@@ -2752,7 +2752,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "5000"
+		(property "P/N" ""
 			(at 142.24 114.3 0)
 			(effects
 				(font
@@ -3104,7 +3104,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" ""
 			(at 111.76 83.82 0)
 			(effects
 				(font
@@ -3293,7 +3293,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" ""
 			(at 88.9 91.44 0)
 			(effects
 				(font
@@ -3395,7 +3395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 147.32 109.22 0)
 			(effects
 				(font
@@ -3404,7 +3404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
+		(property "Datasheet" ""
 			(at 147.32 109.22 0)
 			(effects
 				(font
@@ -3422,7 +3422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Keystone Electronics"
+		(property "Manufacturer" ""
 			(at 142.24 109.22 0)
 			(effects
 				(font
@@ -3431,7 +3431,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "5000"
+		(property "P/N" ""
 			(at 142.24 109.22 0)
 			(effects
 				(font
@@ -3681,7 +3681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 147.32 116.84 0)
 			(effects
 				(font
@@ -3690,7 +3690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
+		(property "Datasheet" ""
 			(at 147.32 116.84 0)
 			(effects
 				(font
@@ -3708,7 +3708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Keystone Electronics"
+		(property "Manufacturer" ""
 			(at 142.24 116.84 0)
 			(effects
 				(font
@@ -3717,7 +3717,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "5000"
+		(property "P/N" ""
 			(at 142.24 116.84 0)
 			(effects
 				(font
@@ -4051,7 +4051,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 147.32 106.68 0)
 			(effects
 				(font
@@ -4060,7 +4060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
+		(property "Datasheet" ""
 			(at 147.32 106.68 0)
 			(effects
 				(font
@@ -4078,7 +4078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Keystone Electronics"
+		(property "Manufacturer" ""
 			(at 142.24 106.68 0)
 			(effects
 				(font
@@ -4087,7 +4087,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "5000"
+		(property "P/N" ""
 			(at 142.24 106.68 0)
 			(effects
 				(font
@@ -4159,7 +4159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 121.92 127 0)
 			(effects
 				(font
@@ -4168,7 +4168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
+		(property "Datasheet" ""
 			(at 121.92 127 0)
 			(effects
 				(font
@@ -4186,7 +4186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Keystone Electronics"
+		(property "Manufacturer" ""
 			(at 127 127 0)
 			(effects
 				(font
@@ -4195,7 +4195,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "5000"
+		(property "P/N" ""
 			(at 127 127 0)
 			(effects
 				(font
@@ -4267,7 +4267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 147.32 111.76 0)
 			(effects
 				(font
@@ -4276,7 +4276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
+		(property "Datasheet" ""
 			(at 147.32 111.76 0)
 			(effects
 				(font
@@ -4294,7 +4294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Keystone Electronics"
+		(property "Manufacturer" ""
 			(at 142.24 111.76 0)
 			(effects
 				(font
@@ -4303,7 +4303,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "5000"
+		(property "P/N" ""
 			(at 142.24 111.76 0)
 			(effects
 				(font
@@ -4446,7 +4446,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f094cce8-b8fe-450b-aebb-9971394cb1ee")
-		(property "Reference" "NT1301"
+		(property "Reference" "NT801"
 			(at 104.14 121.92 0)
 			(effects
 				(font
@@ -4462,7 +4462,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
 			(at 104.14 127 0)
 			(effects
 				(font
@@ -4471,7 +4471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 104.14 127 0)
 			(effects
 				(font
@@ -4554,7 +4554,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 			(at 195.58 153.67 0)
 			(effects
 				(font
@@ -4563,7 +4563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 195.58 153.67 0)
 			(effects
 				(font

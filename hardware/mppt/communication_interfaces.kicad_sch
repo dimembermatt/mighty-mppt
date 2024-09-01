@@ -2811,6 +2811,260 @@
 				)
 			)
 		)
+		(symbol "caltest_ct3151:CT3151"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -2.54 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "CT3151"
+				(at -2.794 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "footprints:caltest_ct3151"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4846/DS_1768_Catalog.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CONN BANANA JACK SOLDER"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Caltest"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "P/N" "  CT3151"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part #" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Cost" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Notes" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CT3151_0_0"
+				(rectangle
+					(start -2.54 -2.54)
+					(end 2.54 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "generic_symbol:Generic_Symbol"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "G"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Generic_Symbol_1_1"
+				(circle
+					(center 0 -3.81)
+					(radius 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers hide)
@@ -4840,7 +5094,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "139a5e06-efa6-42b8-ab52-dc18931b83eb")
-		(property "Reference" "#PWR01410"
+		(property "Reference" "#PWR01413"
 			(at 100.33 63.5 0)
 			(effects
 				(font
@@ -4909,7 +5163,93 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/b2b2fe98-99d1-47fb-8d94-779d82bb2329"
-					(reference "#PWR01410")
+					(reference "#PWR01413")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 33.02 190.5 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "168d89c0-51c1-4b63-8c60-5da14db8ffac")
+		(property "Reference" "#PWR01403"
+			(at 39.37 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 36.83 190.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 33.02 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 33.02 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 33.02 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2c9fce8-4a38-48e2-a0d6-a064db5a9ccf")
+		)
+		(instances
+			(project "mppt"
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/b2b2fe98-99d1-47fb-8d94-779d82bb2329"
+					(reference "#PWR01403")
 					(unit 1)
 				)
 			)
@@ -5002,6 +5342,105 @@
 		)
 	)
 	(symbol
+		(lib_id "generic_symbol:Generic_Symbol")
+		(at 74.93 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "1ea4fd15-7803-44a0-be66-f09721ae734d")
+		(property "Reference" "G1401"
+			(at 78.74 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Molex Connector"
+			(at 78.74 45.0851 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "43645-0400"
+			(at 74.93 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 74.93 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 74.93 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 74.93 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "mppt"
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/b2b2fe98-99d1-47fb-8d94-779d82bb2329"
+					(reference "G1401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 120.65 62.23 0)
 		(unit 1)
@@ -5074,6 +5513,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Vishay / Dale"
+			(at 120.65 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cd769ce5-e83b-40c1-9dea-44b6074c9253")
 		)
@@ -5100,7 +5548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "202cc7e0-6efd-4600-adbf-20e7765b5a3b")
-		(property "Reference" "#PWR01406"
+		(property "Reference" "#PWR01409"
 			(at 57.15 53.34 0)
 			(effects
 				(font
@@ -5168,7 +5616,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/b2b2fe98-99d1-47fb-8d94-779d82bb2329"
-					(reference "#PWR01406")
+					(reference "#PWR01409")
 					(unit 1)
 				)
 			)
@@ -5185,7 +5633,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22a9716e-b399-4ac2-bc9e-bd437bb0e24a")
-		(property "Reference" "J1403"
+		(property "Reference" "J1406"
 			(at 88.9 54.61 0)
 			(effects
 				(font
@@ -5201,7 +5649,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 88.9 68.58 0)
 			(effects
 				(font
@@ -5273,7 +5721,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/b2b2fe98-99d1-47fb-8d94-779d82bb2329"
-					(reference "J1403")
+					(reference "J1406")
 					(unit 1)
 				)
 			)
@@ -5446,7 +5894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Vishay / Dale"
 			(at 207.01 82.55 0)
 			(effects
 				(font
@@ -5498,6 +5946,153 @@
 		)
 	)
 	(symbol
+		(lib_id "caltest_ct3151:CT3151")
+		(at 25.4 177.8 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "282681f9-3353-42bf-a86c-06a9b938214f")
+		(property "Reference" "J1402"
+			(at 25.4 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CT3151"
+			(at 25.4 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:caltest_ct3151"
+			(at 25.4 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4846/DS_1768_Catalog.pdf"
+			(at 25.4 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN BANANA JACK SOLDER"
+			(at 25.4 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 25.4 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Caltest"
+			(at 25.4 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "  CT3151-2"
+			(at 25.4 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 25.4 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 25.4 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 25.4 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 25.4 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 25.4 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "55c22c7b-f264-49e9-8b55-d5ccb7b3789a")
+		)
+		(pin "1"
+			(uuid "0c0fb658-00e4-4337-bbc2-d8761db171d1")
+		)
+		(pin "2"
+			(uuid "1bf0e00f-ce95-4221-9208-732197b7a525")
+		)
+		(pin "4"
+			(uuid "d0946011-367a-4c7e-b2d3-46af22bdf9b0")
+		)
+		(instances
+			(project "mppt"
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/b2b2fe98-99d1-47fb-8d94-779d82bb2329"
+					(reference "J1402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 34.29 46.99 0)
 		(unit 1)
@@ -5507,7 +6102,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f27eda2-80d5-4da0-999d-b9d84f8d1752")
-		(property "Reference" "#PWR01402"
+		(property "Reference" "#PWR01405"
 			(at 34.29 53.34 0)
 			(effects
 				(font
@@ -5575,7 +6170,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/b2b2fe98-99d1-47fb-8d94-779d82bb2329"
-					(reference "#PWR01402")
+					(reference "#PWR01405")
 					(unit 1)
 				)
 			)
@@ -5592,7 +6187,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33a6761e-8f75-43e6-b62a-d0d13d20e6aa")
-		(property "Reference" "#PWR01408"
+		(property "Reference" "#PWR01411"
 			(at 57.15 80.01 0)
 			(effects
 				(font
@@ -5660,7 +6255,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/b2b2fe98-99d1-47fb-8d94-779d82bb2329"
-					(reference "#PWR01408")
+					(reference "#PWR01411")
 					(unit 1)
 				)
 			)
@@ -5676,7 +6271,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36f94b9b-0d26-45ad-a884-96acac96a653")
-		(property "Reference" "#PWR01412"
+		(property "Reference" "#PWR01415"
 			(at 120.65 62.23 0)
 			(effects
 				(font
@@ -5744,7 +6339,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/b2b2fe98-99d1-47fb-8d94-779d82bb2329"
-					(reference "#PWR01412")
+					(reference "#PWR01415")
 					(unit 1)
 				)
 			)
@@ -5760,7 +6355,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44274505-aeaf-4954-bc6a-39f5618f40b5")
-		(property "Reference" "#PWR01413"
+		(property "Reference" "#PWR01416"
 			(at 120.65 82.55 0)
 			(effects
 				(font
@@ -5828,7 +6423,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/b2b2fe98-99d1-47fb-8d94-779d82bb2329"
-					(reference "#PWR01413")
+					(reference "#PWR01416")
 					(unit 1)
 				)
 			)
@@ -5930,7 +6525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fa2ea3b-8429-4c26-bf93-ae5edde8fc0f")
-		(property "Reference" "#PWR01409"
+		(property "Reference" "#PWR01412"
 			(at 90.17 60.96 0)
 			(effects
 				(font
@@ -5999,7 +6594,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/b2b2fe98-99d1-47fb-8d94-779d82bb2329"
-					(reference "#PWR01409")
+					(reference "#PWR01412")
 					(unit 1)
 				)
 			)
@@ -6552,7 +7147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6854dfe5-61aa-4dc0-ab8a-17ae4bee819b")
-		(property "Reference" "#PWR01418"
+		(property "Reference" "#PWR01421"
 			(at 180.34 143.51 0)
 			(effects
 				(font
@@ -6620,7 +7215,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/b2b2fe98-99d1-47fb-8d94-779d82bb2329"
-					(reference "#PWR01418")
+					(reference "#PWR01421")
 					(unit 1)
 				)
 			)
@@ -6636,7 +7231,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68a8a27e-27c4-4860-9c05-e36c955ce7c2")
-		(property "Reference" "#PWR01415"
+		(property "Reference" "#PWR01418"
 			(at 149.86 81.28 0)
 			(effects
 				(font
@@ -6705,7 +7300,240 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/b2b2fe98-99d1-47fb-8d94-779d82bb2329"
-					(reference "#PWR01415")
+					(reference "#PWR01418")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "caltest_ct3151:CT3151")
+		(at 25.4 165.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b3f23e2-f9c8-4040-92ca-e5f29ab7417d")
+		(property "Reference" "J1401"
+			(at 25.4 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CT3151"
+			(at 25.4 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:caltest_ct3151"
+			(at 25.4 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4846/DS_1768_Catalog.pdf"
+			(at 25.4 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN BANANA JACK SOLDER"
+			(at 25.4 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 25.4 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Caltest"
+			(at 25.4 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "  CT3151-2"
+			(at 25.4 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 25.4 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 25.4 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 25.4 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 25.4 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 25.4 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "34a69f7b-2351-46e6-a606-2f18e55aea94")
+		)
+		(pin "1"
+			(uuid "301ff685-3137-417a-9e5f-87879f152bc6")
+		)
+		(pin "2"
+			(uuid "d870bd63-e6fd-4d91-916a-27e63676138b")
+		)
+		(pin "4"
+			(uuid "2d653ddc-33a5-4164-bad5-867296618840")
+		)
+		(instances
+			(project "mppt"
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/b2b2fe98-99d1-47fb-8d94-779d82bb2329"
+					(reference "J1401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 33.02 177.8 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72108810-650b-499f-836d-710ed202d41c")
+		(property "Reference" "#PWR01402"
+			(at 29.21 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 36.83 177.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 33.02 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 33.02 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 33.02 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03b1b141-5324-46a7-91cd-76a20e656a39")
+		)
+		(instances
+			(project "mppt"
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/b2b2fe98-99d1-47fb-8d94-779d82bb2329"
+					(reference "#PWR01402")
 					(unit 1)
 				)
 			)
@@ -6776,6 +7604,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 106.68 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay / Dale"
 			(at 106.68 62.23 0)
 			(effects
 				(font
@@ -7067,7 +7904,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8562803f-9493-4b5c-b73c-da86bc07d265")
-		(property "Reference" "J1404"
+		(property "Reference" "J1407"
 			(at 163.83 68.5799 0)
 			(effects
 				(font
@@ -7085,7 +7922,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical"
 			(at 161.29 68.58 0)
 			(effects
 				(font
@@ -7163,7 +8000,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/b2b2fe98-99d1-47fb-8d94-779d82bb2329"
-					(reference "J1404")
+					(reference "J1407")
 					(unit 1)
 				)
 			)
@@ -7240,6 +8077,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Vishay / Dale"
+			(at 67.31 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4e533aa7-3b60-4669-92ec-12c516eec5e2")
 		)
@@ -7265,7 +8111,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "887955d0-cd07-4ff1-968f-aaf3770dc435")
-		(property "Reference" "#PWR01419"
+		(property "Reference" "#PWR01422"
 			(at 193.04 143.51 0)
 			(effects
 				(font
@@ -7333,7 +8179,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/b2b2fe98-99d1-47fb-8d94-779d82bb2329"
-					(reference "#PWR01419")
+					(reference "#PWR01422")
 					(unit 1)
 				)
 			)
@@ -7591,7 +8437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Vishay / Dale"
 			(at 217.17 82.55 0)
 			(effects
 				(font
@@ -7715,6 +8561,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Vishay / Dale"
+			(at 120.65 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f1fb6743-5c74-4bb3-bbc8-368b6e5ab77c")
 		)
@@ -7826,7 +8681,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99b1ac3c-88b2-4117-ab4b-fc7f542a43c0")
-		(property "Reference" "#PWR01403"
+		(property "Reference" "#PWR01406"
 			(at 34.29 69.85 0)
 			(effects
 				(font
@@ -7894,7 +8749,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/b2b2fe98-99d1-47fb-8d94-779d82bb2329"
-					(reference "#PWR01403")
+					(reference "#PWR01406")
 					(unit 1)
 				)
 			)
@@ -7909,7 +8764,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9bed33bb-ff26-48c9-980e-864d1550b540")
-		(property "Reference" "J1402"
+		(property "Reference" "J1405"
 			(at 74.93 78.74 0)
 			(effects
 				(font
@@ -7925,7 +8780,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 74.93 85.09 0)
 			(effects
 				(font
@@ -7979,7 +8834,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/b2b2fe98-99d1-47fb-8d94-779d82bb2329"
-					(reference "J1402")
+					(reference "J1405")
 					(unit 1)
 				)
 			)
@@ -8264,154 +9119,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_Protection:USBLC6-2SC6")
-		(at 226.06 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b5aebea8-d8a2-4ab2-a52c-a6f04b598924")
-		(property "Reference" "U1402"
-			(at 227.7111 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TVS"
-			(at 227.7111 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 227.33 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 227.33 76.835 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
-			(at 226.06 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost" ""
-			(at 226.06 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" ""
-			(at 226.06 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 226.06 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 226.06 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" ""
-			(at 226.06 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 226.06 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 226.06 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "2b65b440-2296-4f85-88b0-b1763f26704d")
-		)
-		(pin "6"
-			(uuid "bb04e7e5-666a-40e5-8e4d-86cb0943b61f")
-		)
-		(pin "2"
-			(uuid "5d4b714d-c00b-4d65-8e83-2257fc8ce951")
-		)
-		(pin "3"
-			(uuid "0835c3fd-56c7-40a0-be1d-e576a8782691")
-		)
-		(pin "4"
-			(uuid "b38a9b49-05dd-4916-92d3-20661acec819")
-		)
-		(pin "1"
-			(uuid "8d9df934-063e-4b77-9260-1f2aa6d7cfd6")
-		)
-		(instances
-			(project "mppt"
-				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/b2b2fe98-99d1-47fb-8d94-779d82bb2329"
-					(reference "U1402")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 34.29 41.91 0)
 		(unit 1)
@@ -8421,7 +9128,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5e891c4-4e5c-4fbe-b75d-57831ed404e8")
-		(property "Reference" "#PWR01401"
+		(property "Reference" "#PWR01404"
 			(at 34.29 45.72 0)
 			(effects
 				(font
@@ -8489,7 +9196,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/b2b2fe98-99d1-47fb-8d94-779d82bb2329"
-					(reference "#PWR01401")
+					(reference "#PWR01404")
 					(unit 1)
 				)
 			)
@@ -8592,7 +9299,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6ced406-4c1e-44d8-afd1-351f4626cb82")
-		(property "Reference" "#PWR01407"
+		(property "Reference" "#PWR01410"
 			(at 57.15 69.85 0)
 			(effects
 				(font
@@ -8660,7 +9367,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/b2b2fe98-99d1-47fb-8d94-779d82bb2329"
-					(reference "#PWR01407")
+					(reference "#PWR01410")
 					(unit 1)
 				)
 			)
@@ -8676,7 +9383,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c54aec4e-ed31-4cdd-a88e-9a2ba0fa952e")
-		(property "Reference" "#PWR01417"
+		(property "Reference" "#PWR01420"
 			(at 180.34 97.79 0)
 			(effects
 				(font
@@ -8744,7 +9451,146 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/b2b2fe98-99d1-47fb-8d94-779d82bb2329"
-					(reference "#PWR01417")
+					(reference "#PWR01420")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Protection:USBLC6-2SC6")
+		(at 226.06 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5a5e457-20ea-4926-a7d2-7adfe1919371")
+		(property "Reference" "U1402"
+			(at 227.7111 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "USBLC6-2SC6"
+			(at 227.7111 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 227.33 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+			(at 227.33 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(at 226.06 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 226.06 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 226.06 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" " USBLC6-2SC6 "
+			(at 226.06 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS Part #" ""
+			(at 226.06 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 226.06 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 226.06 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c3c67c1b-effd-4f6b-8eae-6b6c064b07be")
+		)
+		(pin "5"
+			(uuid "84517881-8249-4d2f-83ce-6deaf13064c4")
+		)
+		(pin "6"
+			(uuid "997c0730-6e89-4c18-a926-2826c2202381")
+		)
+		(pin "1"
+			(uuid "a1928f9b-565f-4c01-8d05-111d45d0460e")
+		)
+		(pin "4"
+			(uuid "9241d142-69a0-439a-965d-ff27e72044f7")
+		)
+		(pin "2"
+			(uuid "3623822e-ce26-4489-88e2-d4996a0dfc05")
+		)
+		(instances
+			(project ""
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/b2b2fe98-99d1-47fb-8d94-779d82bb2329"
+					(reference "U1402")
 					(unit 1)
 				)
 			)
@@ -8874,6 +9720,92 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5VL")
+		(at 33.02 165.1 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cca8b001-f6d2-4fea-acbb-78a3573d9174")
+		(property "Reference" "#PWR01401"
+			(at 29.21 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VL"
+			(at 36.83 165.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VL\""
+			(at 33.02 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 33.02 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 33.02 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7635b28b-326e-4c88-8b1f-189d4be9a951")
+		)
+		(instances
+			(project "mppt"
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/b2b2fe98-99d1-47fb-8d94-779d82bb2329"
+					(reference "#PWR01401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint_Small")
 		(at 250.19 134.62 0)
 		(unit 1)
@@ -8969,7 +9901,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbcd4a55-90f4-4def-9c67-e4755f22cd9a")
-		(property "Reference" "#PWR01414"
+		(property "Reference" "#PWR01417"
 			(at 160.02 78.74 0)
 			(effects
 				(font
@@ -9038,7 +9970,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/b2b2fe98-99d1-47fb-8d94-779d82bb2329"
-					(reference "#PWR01414")
+					(reference "#PWR01417")
 					(unit 1)
 				)
 			)
@@ -9140,7 +10072,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5c933cd-6218-40e5-9db0-326ef1ba665a")
-		(property "Reference" "J1401"
+		(property "Reference" "J1404"
 			(at 74.93 59.69 0)
 			(effects
 				(font
@@ -9156,7 +10088,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0315_1x04_P3.00mm_Vertical"
 			(at 74.93 68.58 0)
 			(effects
 				(font
@@ -9165,7 +10097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/436500315?display=pdf"
 			(at 74.93 68.58 0)
 			(effects
 				(font
@@ -9183,7 +10115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "Distributor" ""
 			(at 74.93 68.58 0)
 			(effects
 				(font
@@ -9192,7 +10124,43 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "Manufacturer" "Molex"
+			(at 74.93 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" " 43650-0315 "
+			(at 74.93 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 74.93 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 74.93 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 74.93 68.58 0)
 			(effects
 				(font
@@ -9216,7 +10184,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/b2b2fe98-99d1-47fb-8d94-779d82bb2329"
-					(reference "J1401")
+					(reference "J1404")
 					(unit 1)
 				)
 			)
@@ -9232,7 +10200,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9ef9058-1c79-4a19-a0bb-4aca8e7ba01d")
-		(property "Reference" "#PWR01404"
+		(property "Reference" "#PWR01407"
 			(at 34.29 80.01 0)
 			(effects
 				(font
@@ -9300,7 +10268,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/b2b2fe98-99d1-47fb-8d94-779d82bb2329"
-					(reference "#PWR01404")
+					(reference "#PWR01407")
 					(unit 1)
 				)
 			)
@@ -9316,7 +10284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efd35d4e-48dd-4806-bdaf-8af3c9c8dbec")
-		(property "Reference" "#PWR01411"
+		(property "Reference" "#PWR01414"
 			(at 100.33 78.74 0)
 			(effects
 				(font
@@ -9385,7 +10353,154 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/b2b2fe98-99d1-47fb-8d94-779d82bb2329"
-					(reference "#PWR01411")
+					(reference "#PWR01414")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "caltest_ct3151:CT3151")
+		(at 25.4 190.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f63da116-12ce-418a-85df-d1d88119a474")
+		(property "Reference" "J1403"
+			(at 25.4 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CT3151"
+			(at 25.4 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:caltest_ct3151"
+			(at 25.4 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4846/DS_1768_Catalog.pdf"
+			(at 25.4 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN BANANA JACK SOLDER"
+			(at 25.4 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 25.4 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Caltest"
+			(at 25.4 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "  CT3151-0"
+			(at 25.4 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 25.4 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 25.4 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 25.4 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 25.4 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 25.4 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "32bf549a-565c-4bc2-9fd2-e6af0aa99017")
+		)
+		(pin "1"
+			(uuid "5066aaa7-c814-45f3-ae85-90448c4fe6e1")
+		)
+		(pin "2"
+			(uuid "afbd2c40-7bd5-44fc-baeb-e35c7a7f120e")
+		)
+		(pin "4"
+			(uuid "d9e43e11-b2ce-4655-91d7-5f95664a3554")
+		)
+		(instances
+			(project "mppt"
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/b2b2fe98-99d1-47fb-8d94-779d82bb2329"
+					(reference "J1403")
 					(unit 1)
 				)
 			)
@@ -9402,7 +10517,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f76a7f8c-f0a2-4d79-aa0d-f664160e702c")
-		(property "Reference" "#PWR01405"
+		(property "Reference" "#PWR01408"
 			(at 57.15 45.72 0)
 			(effects
 				(font
@@ -9470,7 +10585,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/b2b2fe98-99d1-47fb-8d94-779d82bb2329"
-					(reference "#PWR01405")
+					(reference "#PWR01408")
 					(unit 1)
 				)
 			)
@@ -9486,7 +10601,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f93f04a2-3321-4acf-8341-3f301354d07e")
-		(property "Reference" "#PWR01416"
+		(property "Reference" "#PWR01419"
 			(at 167.64 157.48 0)
 			(effects
 				(font
@@ -9554,7 +10669,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/b2b2fe98-99d1-47fb-8d94-779d82bb2329"
-					(reference "#PWR01416")
+					(reference "#PWR01419")
 					(unit 1)
 				)
 			)
@@ -9655,7 +10770,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc7dca81-538a-4170-bc51-74ef0ebb9860")
-		(property "Reference" "J1405"
+		(property "Reference" "J1408"
 			(at 183.896 46.736 0)
 			(effects
 				(font
@@ -9673,7 +10788,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 191.77 68.58 0)
 			(effects
 				(font
@@ -9682,7 +10797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+		(property "Datasheet" "https://gct.co/files/drawings/usb4105.pdf"
 			(at 191.77 68.58 0)
 			(effects
 				(font
@@ -9700,15 +10815,6 @@
 				(hide yes)
 			)
 		)
-		(property "Cost" ""
-			(at 187.96 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Distributor" ""
 			(at 187.96 68.58 0)
 			(effects
@@ -9718,7 +10824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "GCT"
 			(at 187.96 68.58 0)
 			(effects
 				(font
@@ -9727,7 +10833,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "USB4105-GF-A"
 			(at 187.96 68.58 0)
 			(effects
 				(font
@@ -9736,7 +10842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "LCSC Part #" ""
 			(at 187.96 68.58 0)
 			(effects
 				(font
@@ -9745,7 +10851,16 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "Cost" ""
+			(at 187.96 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 187.96 68.58 0)
 			(effects
 				(font
@@ -9808,7 +10923,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/b2b2fe98-99d1-47fb-8d94-779d82bb2329"
-					(reference "J1405")
+					(reference "J1408")
 					(unit 1)
 				)
 			)
