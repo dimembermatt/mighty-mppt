@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "Mighty MPPT")
-		(date "2024-08-28")
+		(date "2024-08-31")
 		(rev "v0.1.0rc")
 		(comment 1 "Matthew Yu")
 		(comment 2 "Jacob Pustilnik")
@@ -434,6 +434,127 @@
 					(at 2.54 0 180)
 					(length 1.778)
 					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:NetTie_2"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "NT"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NetTie_2"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Net tie, 2 pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "net tie short"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Net*Tie*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NetTie_2_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NetTie_2_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -977,6 +1098,102 @@
 				)
 			)
 		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 139.7 107.95)
@@ -1100,7 +1317,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 107.95) (xy 139.7 111.76)
+			(xy 139.7 107.95) (xy 139.7 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1140,6 +1357,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 123.19) (xy 114.3 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd14e5ce-7622-456d-be19-91b29c9b2c20")
+	)
+	(wire
+		(pts
 			(xy 101.6 101.6) (xy 107.95 101.6)
 		)
 		(stroke
@@ -1160,6 +1387,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 123.19) (xy 139.7 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbfeaf07-7340-42ab-9680-c2ed201c3b61")
+	)
+	(wire
+		(pts
 			(xy 139.7 83.82) (xy 139.7 85.09)
 		)
 		(stroke
@@ -1170,7 +1407,7 @@
 	)
 	(text_box "Sized to minimize turn off time (3.4.1 of SLUA618A)."
 		(exclude_from_sim no)
-		(at 113.03 114.3 0)
+		(at 88.9 124.46 0)
 		(size 7.62 8.89)
 		(stroke
 			(width 0)
@@ -1189,7 +1426,7 @@
 	)
 	(hierarchical_label "V-"
 		(shape input)
-		(at 139.7 111.76 270)
+		(at 139.7 123.19 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1222,6 +1459,96 @@
 			(justify right)
 		)
 		(uuid "d664ee4f-92f5-4356-9d25-ab5e6309e1b8")
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 116.84 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "074523f7-8345-4164-8be9-72806febb593")
+		(property "Reference" "NT601"
+			(at 116.84 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 116.84 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 116.84 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 116.84 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 116.84 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e21689f-8170-488e-8da8-0ef8a7e983a8")
+		)
+		(pin "2"
+			(uuid "2c15aebf-7de7-4304-a4d7-4e5be90f44a8")
+		)
+		(instances
+			(project "mppt"
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/3cc71787-1ecf-4ebc-9258-dc128425d892"
+					(reference "NT601")
+					(unit 1)
+				)
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/a7b76023-5527-427b-b6b3-61ece243dcb4"
+					(reference "NT701")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
@@ -1297,13 +1624,35 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 127 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 127 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "8f08ca6b-0dcc-42de-bbfe-10add6077c22")
+			(uuid "efa5de8d-867e-4efb-ad5f-7b230239fdbc")
 		)
 		(instances
 			(project "mppt"
-				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/a7b76023-5527-427b-b6b3-61ece243dcb4"
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/3cc71787-1ecf-4ebc-9258-dc128425d892"
 					(reference "TP601")
+					(unit 1)
+				)
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/a7b76023-5527-427b-b6b3-61ece243dcb4"
+					(reference "TP701")
 					(unit 1)
 				)
 			)
@@ -1383,13 +1732,35 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 139.7 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 139.7 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "bc854379-840e-4aaa-9e65-549f97a6830b")
+			(uuid "0ddac331-b0f4-4c14-8b38-441065f99653")
 		)
 		(instances
 			(project "mppt"
-				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/a7b76023-5527-427b-b6b3-61ece243dcb4"
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/3cc71787-1ecf-4ebc-9258-dc128425d892"
 					(reference "TP604")
+					(unit 1)
+				)
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/a7b76023-5527-427b-b6b3-61ece243dcb4"
+					(reference "TP704")
 					(unit 1)
 				)
 			)
@@ -1502,16 +1873,126 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 121.92 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 121.92 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
-			(uuid "7d5064a2-93a1-4318-84a0-259ced901939")
+			(uuid "1bd7877e-e52f-41f6-9aa2-00e86f11f00b")
 		)
 		(pin "1"
-			(uuid "f486789b-eb1c-4a61-a7e9-cb1185aff96c")
+			(uuid "6e0cf2ad-da59-4b04-b1cd-a0efbf84f70b")
 		)
 		(instances
 			(project "mppt"
-				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/a7b76023-5527-427b-b6b3-61ece243dcb4"
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/3cc71787-1ecf-4ebc-9258-dc128425d892"
 					(reference "D601")
+					(unit 1)
+				)
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/a7b76023-5527-427b-b6b3-61ece243dcb4"
+					(reference "D701")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 107.95 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a12645d-db6d-437d-b8ef-fd3f38d044f5")
+		(property "Reference" "#PWR0601"
+			(at 107.95 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 107.95 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 107.95 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 107.95 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "501a73c9-5b33-4f23-95cb-ac5d4ce20651")
+		)
+		(instances
+			(project ""
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/3cc71787-1ecf-4ebc-9258-dc128425d892"
+					(reference "#PWR0601")
+					(unit 1)
+				)
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/a7b76023-5527-427b-b6b3-61ece243dcb4"
+					(reference "#PWR0701")
 					(unit 1)
 				)
 			)
@@ -1626,16 +2107,38 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 139.7 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 139.7 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
-			(uuid "9cfa4ad5-29e4-4a47-98a5-148b3edc56cf")
+			(uuid "016be9ad-53de-41bb-96b0-f332eaea16b3")
 		)
 		(pin "1"
-			(uuid "d173d50e-7940-487e-bb88-918b6ea25c7a")
+			(uuid "2eda6c20-577c-4973-86ac-03fc40fc5460")
 		)
 		(instances
 			(project "mppt"
-				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/a7b76023-5527-427b-b6b3-61ece243dcb4"
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/3cc71787-1ecf-4ebc-9258-dc128425d892"
 					(reference "D602")
+					(unit 1)
+				)
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/a7b76023-5527-427b-b6b3-61ece243dcb4"
+					(reference "D702")
 					(unit 1)
 				)
 			)
@@ -1715,13 +2218,35 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 139.7 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 139.7 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "40956985-3a49-4c1f-9d53-06c4375374c7")
+			(uuid "6b784052-afd6-466c-b399-81321a938b0c")
 		)
 		(instances
 			(project "mppt"
-				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/a7b76023-5527-427b-b6b3-61ece243dcb4"
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/3cc71787-1ecf-4ebc-9258-dc128425d892"
 					(reference "TP602")
+					(unit 1)
+				)
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/a7b76023-5527-427b-b6b3-61ece243dcb4"
+					(reference "TP702")
 					(unit 1)
 				)
 			)
@@ -1801,13 +2326,35 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 139.7 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 139.7 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "7f490e18-d88b-4e12-895a-44ebe7507d35")
+			(uuid "b8d54671-8bdf-4765-b5b0-879bda26e357")
 		)
 		(instances
 			(project "mppt"
-				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/a7b76023-5527-427b-b6b3-61ece243dcb4"
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/3cc71787-1ecf-4ebc-9258-dc128425d892"
 					(reference "TP603")
+					(unit 1)
+				)
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/a7b76023-5527-427b-b6b3-61ece243dcb4"
+					(reference "TP703")
 					(unit 1)
 				)
 			)
@@ -1922,19 +2469,41 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 137.16 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 137.16 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
-			(uuid "7a1ca90b-ed56-440c-910e-4bf909d1085e")
+			(uuid "90688fcc-ed0a-4553-ad0b-c33304998e99")
 		)
 		(pin "1"
-			(uuid "680ae796-4c63-4b4a-be25-eccde0fdd341")
+			(uuid "68a4c188-b8d4-40da-903d-5ae55f2ab2bf")
 		)
 		(pin "2"
-			(uuid "04aafcbc-7ac6-481c-bdeb-50a2795962d7")
+			(uuid "42c556fa-8432-42aa-a41b-ddc9638e279a")
 		)
 		(instances
 			(project "mppt"
-				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/a7b76023-5527-427b-b6b3-61ece243dcb4"
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/3cc71787-1ecf-4ebc-9258-dc128425d892"
 					(reference "Q601")
+					(unit 1)
+				)
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/a7b76023-5527-427b-b6b3-61ece243dcb4"
+					(reference "Q701")
 					(unit 1)
 				)
 			)
@@ -2038,16 +2607,38 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 111.76 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 111.76 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "86594648-3327-4d4f-b8e1-feed5df2d22c")
+			(uuid "f4af03df-8283-4815-949d-e56e48e64fa7")
 		)
 		(pin "2"
-			(uuid "ba9a3cd6-1860-469d-9ebb-4771d508bc27")
+			(uuid "7a0eb612-4ce1-4fc7-adff-c62fee9ccd61")
 		)
 		(instances
 			(project "mppt"
-				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/a7b76023-5527-427b-b6b3-61ece243dcb4"
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/3cc71787-1ecf-4ebc-9258-dc128425d892"
 					(reference "R601")
+					(unit 1)
+				)
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/a7b76023-5527-427b-b6b3-61ece243dcb4"
+					(reference "R701")
 					(unit 1)
 				)
 			)
@@ -2135,16 +2726,38 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 139.7 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 139.7 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
-			(uuid "773bb863-06ea-49bd-ad6e-1864c01ce41c")
+			(uuid "e5362236-bfad-4d7c-9fe1-207ec4a49e2d")
 		)
 		(pin "1"
-			(uuid "6222edc8-7142-417d-a616-3585a71372ac")
+			(uuid "7f6ebcc5-5269-4e5c-b093-09c4e34dd6f8")
 		)
 		(instances
 			(project "mppt"
-				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/a7b76023-5527-427b-b6b3-61ece243dcb4"
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/3cc71787-1ecf-4ebc-9258-dc128425d892"
 					(reference "R603")
+					(unit 1)
+				)
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/a7b76023-5527-427b-b6b3-61ece243dcb4"
+					(reference "R703")
 					(unit 1)
 				)
 			)
@@ -2248,16 +2861,38 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 116.84 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 116.84 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "f8d4c7b8-f7eb-497f-9ba6-55a4a2bcbfe6")
+			(uuid "fa633624-cbe9-4ce0-87be-5f3de92af648")
 		)
 		(pin "2"
-			(uuid "e95da458-3667-4f75-8557-a8e6fe92feaf")
+			(uuid "5c371a4a-4329-46a7-bcff-8a28d8234cb7")
 		)
 		(instances
 			(project "mppt"
-				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/a7b76023-5527-427b-b6b3-61ece243dcb4"
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/3cc71787-1ecf-4ebc-9258-dc128425d892"
 					(reference "R602")
+					(unit 1)
+				)
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/a7b76023-5527-427b-b6b3-61ece243dcb4"
+					(reference "R702")
 					(unit 1)
 				)
 			)

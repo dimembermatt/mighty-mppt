@@ -1,0 +1,32 @@
+# Design Decisions
+
+## Component Selection
+
+- Components shall be selected by the following criteria:
+  - Passives (Resistors, Inductors, Capacitors, Diodes, etc) shall be ...
+  - Second supplier*
+  - Preferred supplier for BOM consolidation
+  - Automotive rated where possible
+  - Overrated for application
+  - Merged into the minimal number of values needed
+
+### Preferred Suppliers
+
+- GaN Fets
+  - EPC
+- Capacitors
+  - Samsung Electro-Mechanics
+  - TDK
+- Resistors
+  - Vishay / Dale
+- Inductors
+  - TDK
+
+### Secondary Suppliers
+
+### Preferred Distributors
+
+- Mouser
+- Digikey
+- Texas Instruments
+- LCSC

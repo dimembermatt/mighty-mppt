@@ -301,7 +301,7 @@
       "exclude_dnp": false,
       "fields_ordered": [
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Reference",
           "name": "Reference",
           "show": true
@@ -332,12 +332,6 @@
         },
         {
           "group_by": false,
-          "label": "DNP",
-          "name": "${DNP}",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
@@ -364,13 +358,13 @@
           "group_by": false,
           "label": "LCSC Part #",
           "name": "LCSC Part #",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Cost",
           "name": "Cost",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -382,6 +376,18 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
           "show": false
         }
       ],
@@ -436,7 +442,7 @@
       "Root"
     ],
     [
-      "51e021f2-5106-4400-8a25-46bcecb5b8f7",
+      "8ce993ae-f0f1-4a14-930f-3c43b145bcc7",
       "controller"
     ],
     [
@@ -452,6 +458,10 @@
       "DCDC"
     ],
     [
+      "3cc71787-1ecf-4ebc-9258-dc128425d892",
+      "Active Load Sink"
+    ],
+    [
       "a7b76023-5527-427b-b6b3-61ece243dcb4",
       "Active Load Source"
     ],
@@ -464,12 +474,28 @@
       "Protection Logic"
     ],
     [
+      "6fd27594-6b47-4401-bb7d-37a86a40ba18",
+      "Gate Driver"
+    ],
+    [
       "4ded7f21-c954-474a-8fd2-fbcb33684719",
       "Load Switch Source"
     ],
     [
-      "6fd27594-6b47-4401-bb7d-37a86a40ba18",
-      "Gate Driver"
+      "8b5de3fc-30f5-4fad-822c-e963a3c1cfb6",
+      "Load Switch Sink"
+    ],
+    [
+      "ef801f28-5df3-4a7f-a59d-9cf49d40d7d5",
+      "Power Monitor Sink"
+    ],
+    [
+      "b2b2fe98-99d1-47fb-8d94-779d82bb2329",
+      "communication_interfaces"
+    ],
+    [
+      "3fa627ed-7954-4ea1-a3eb-24639dbb3a70",
+      "power regulation"
     ]
   ],
   "text_variables": {}

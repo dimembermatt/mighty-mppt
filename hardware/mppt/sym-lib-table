@@ -17,4 +17,5 @@
   (lib (name "ti_SN74LVC08A_PWR")(type "KiCad")(uri "${KIPRJMOD}/symbols/ti_SN74LVC08A_PWR.kicad_sym")(options "")(descr ""))
   (lib (name "ti_TPS2121")(type "KiCad")(uri "${KIPRJMOD}/symbols/ti_TPS2121.kicad_sym")(options "")(descr ""))
   (lib (name "ti_TPS3050")(type "KiCad")(uri "${KIPRJMOD}/symbols/ti_TPS3050.kicad_sym")(options "")(descr ""))
+  (lib (name "generic_symbol")(type "KiCad")(uri "${KIPRJMOD}/symbols/generic_symbol.kicad_sym")(options "")(descr ""))
 )

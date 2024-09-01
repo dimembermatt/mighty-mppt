@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "Mighty MPPT")
-		(date "2024-08-28")
+		(date "2024-08-31")
 		(rev "v0.1.0rc")
 		(comment 1 "Matthew Yu")
 		(comment 2 "Jacob Pustilnik")
@@ -2260,16 +2260,6 @@
 		)
 		(uuid "f890ac40-7309-495a-a6b4-95601fab802a")
 	)
-	(wire
-		(pts
-			(xy 180.34 66.04) (xy 180.34 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff9e9cb9-f674-4a04-9b78-2794940bcaa6")
-	)
 	(text_box "DISABLE used for logic testing.\nTie to GND for final design."
 		(exclude_from_sim no)
 		(at 115.57 86.36 0)
@@ -2395,17 +2385,6 @@
 		)
 		(uuid "498a9e86-6436-42be-9728-323fd43f69ff")
 	)
-	(label "MON_ALERT"
-		(at 154.94 57.15 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "68258b60-be4b-48ef-92a4-f1215017bfa5")
-	)
 	(label "AL_SRC_EN_OR"
 		(at 135.89 107.95 180)
 		(fields_autoplaced yes)
@@ -2472,17 +2451,6 @@
 		)
 		(uuid "84d0c876-9299-49f3-aefd-c6e1dda3f11c")
 	)
-	(label "MON_ALERT"
-		(at 114.3 62.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8e96315d-05aa-4ea4-bfc4-2719895dc633")
-	)
 	(label "LS_SNK_EN_AND"
 		(at 135.89 102.87 180)
 		(fields_autoplaced yes)
@@ -2504,17 +2472,6 @@
 			(justify left bottom)
 		)
 		(uuid "c1ce88a6-e312-4afb-bd5a-059a905a1b3a")
-	)
-	(label "MON_ALERT"
-		(at 180.34 66.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "eb31103d-4991-46f7-a34b-da7c4e6e5b64")
 	)
 	(label "LS_SNK_EN_AND"
 		(at 53.34 107.95 180)
@@ -2539,6 +2496,18 @@
 		)
 		(uuid "064507d6-764d-44c4-92eb-71c03a1fccad")
 	)
+	(hierarchical_label "MON_ALERT"
+		(shape output)
+		(at 114.3 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0aa98d79-916e-4a5c-b51e-f2f692668fd9")
+	)
 	(hierarchical_label "CONV_PWM"
 		(shape input)
 		(at 163.83 99.06 0)
@@ -2562,6 +2531,18 @@
 			(justify left)
 		)
 		(uuid "36356009-7234-432e-872d-39babb9fcb32")
+	)
+	(hierarchical_label "MON_ALERT"
+		(shape output)
+		(at 180.34 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3cff3ca0-2c99-42f1-a185-bbf9ed335362")
 	)
 	(hierarchical_label "AL_SRC_EN_BUF"
 		(shape output)
@@ -2622,6 +2603,18 @@
 			(justify right)
 		)
 		(uuid "82827330-08e7-4d18-96f9-8f9524ef914c")
+	)
+	(hierarchical_label "MON_ALERT"
+		(shape output)
+		(at 154.94 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "88609d52-8d54-437f-9b49-7639b25edde4")
 	)
 	(hierarchical_label "CONV_PWM_BUF"
 		(shape output)
@@ -2838,7 +2831,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "003aee7f-8a71-49ca-8114-7bc7c05d9ad9")
-		(property "Reference" "C801"
+		(property "Reference" "C901"
 			(at 97.79 95.2562 0)
 			(effects
 				(font
@@ -2856,7 +2849,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" ""
 			(at 95.25 96.52 0)
 			(effects
 				(font
@@ -2883,7 +2876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Microelectronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 95.25 96.52 0)
 			(effects
 				(font
@@ -2892,7 +2885,25 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "3.3V"
+		(property "Notes" "3.3V Rating"
+			(at 95.25 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 95.25 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 95.25 96.52 0)
 			(effects
 				(font
@@ -2910,7 +2921,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/d353cb50-761f-4eb2-8b49-f8226a5d483c"
-					(reference "C801")
+					(reference "C901")
 					(unit 1)
 				)
 			)
@@ -2925,7 +2936,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "054e1d83-f56b-4fbe-803b-2eb7cb9ff581")
-		(property "Reference" "#PWR0818"
+		(property "Reference" "#PWR0918"
 			(at 196.85 68.58 0)
 			(effects
 				(font
@@ -2969,13 +2980,31 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 196.85 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 196.85 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7a981be1-c2e9-4464-8a99-4a7c04951a45")
 		)
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/d353cb50-761f-4eb2-8b49-f8226a5d483c"
-					(reference "#PWR0818")
+					(reference "#PWR0918")
 					(unit 1)
 				)
 			)
@@ -2992,7 +3021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f7ff73b-7dd2-4612-b1f3-cac65594ec47")
-		(property "Reference" "#PWR0816"
+		(property "Reference" "#PWR0916"
 			(at 180.34 60.96 0)
 			(effects
 				(font
@@ -3036,13 +3065,31 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 180.34 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 180.34 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "88f0b331-be6b-424b-b41e-eeda83075caa")
 		)
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/d353cb50-761f-4eb2-8b49-f8226a5d483c"
-					(reference "#PWR0816")
+					(reference "#PWR0916")
 					(unit 1)
 				)
 			)
@@ -3059,7 +3106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fa7fa5e-534b-4ecd-a285-f2321222b728")
-		(property "Reference" "#PWR0817"
+		(property "Reference" "#PWR0917"
 			(at 196.85 60.96 0)
 			(effects
 				(font
@@ -3103,13 +3150,31 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 196.85 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 196.85 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "168bba67-5696-4325-b553-ddadc460297e")
 		)
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/d353cb50-761f-4eb2-8b49-f8226a5d483c"
-					(reference "#PWR0817")
+					(reference "#PWR0917")
 					(unit 1)
 				)
 			)
@@ -3125,7 +3190,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2404bdce-c902-48dd-abf1-55906a8c93a4")
-		(property "Reference" "TP802"
+		(property "Reference" "TP902"
 			(at 204.47 104.1399 0)
 			(effects
 				(font
@@ -3144,7 +3209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+		(property "Footprint" ""
 			(at 208.28 105.41 0)
 			(effects
 				(font
@@ -3153,7 +3218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
+		(property "Datasheet" ""
 			(at 208.28 105.41 0)
 			(effects
 				(font
@@ -3171,7 +3236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Keystone Electronics"
+		(property "Manufacturer" ""
 			(at 203.2 105.41 0)
 			(effects
 				(font
@@ -3180,7 +3245,25 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "5000"
+		(property "P/N" ""
+			(at 203.2 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 203.2 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 203.2 105.41 0)
 			(effects
 				(font
@@ -3195,7 +3278,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/d353cb50-761f-4eb2-8b49-f8226a5d483c"
-					(reference "TP802")
+					(reference "TP902")
 					(unit 1)
 				)
 			)
@@ -3211,7 +3294,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "280df952-8350-465e-8571-01222536f986")
-		(property "Reference" "TP805"
+		(property "Reference" "TP905"
 			(at 222.25 99.0599 0)
 			(effects
 				(font
@@ -3230,7 +3313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+		(property "Footprint" ""
 			(at 226.06 100.33 0)
 			(effects
 				(font
@@ -3239,7 +3322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
+		(property "Datasheet" ""
 			(at 226.06 100.33 0)
 			(effects
 				(font
@@ -3257,7 +3340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Keystone Electronics"
+		(property "Manufacturer" ""
 			(at 220.98 100.33 0)
 			(effects
 				(font
@@ -3266,7 +3349,25 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "5000"
+		(property "P/N" ""
+			(at 220.98 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 220.98 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 220.98 100.33 0)
 			(effects
 				(font
@@ -3281,7 +3382,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/d353cb50-761f-4eb2-8b49-f8226a5d483c"
-					(reference "TP805")
+					(reference "TP905")
 					(unit 1)
 				)
 			)
@@ -3298,7 +3399,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "281da9d3-4db0-4cc1-a3c1-6e6f472e45dd")
-		(property "Reference" "#PWR0819"
+		(property "Reference" "#PWR0919"
 			(at 203.2 86.36 0)
 			(effects
 				(font
@@ -3342,13 +3443,31 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 203.2 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 203.2 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4cdc100e-eb0e-4f6b-b8e7-8913f6c5fbed")
 		)
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/d353cb50-761f-4eb2-8b49-f8226a5d483c"
-					(reference "#PWR0819")
+					(reference "#PWR0919")
 					(unit 1)
 				)
 			)
@@ -3364,7 +3483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b48a7fc-fb8d-402b-9215-e6ef63ff60dd")
-		(property "Reference" "TP806"
+		(property "Reference" "TP906"
 			(at 231.14 96.5199 0)
 			(effects
 				(font
@@ -3383,7 +3502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+		(property "Footprint" ""
 			(at 234.95 97.79 0)
 			(effects
 				(font
@@ -3392,7 +3511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
+		(property "Datasheet" ""
 			(at 234.95 97.79 0)
 			(effects
 				(font
@@ -3410,7 +3529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Keystone Electronics"
+		(property "Manufacturer" ""
 			(at 229.87 97.79 0)
 			(effects
 				(font
@@ -3419,7 +3538,25 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "5000"
+		(property "P/N" ""
+			(at 229.87 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 229.87 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 229.87 97.79 0)
 			(effects
 				(font
@@ -3434,7 +3571,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/d353cb50-761f-4eb2-8b49-f8226a5d483c"
-					(reference "TP806")
+					(reference "TP906")
 					(unit 1)
 				)
 			)
@@ -3451,7 +3588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45332496-0626-4871-a47f-29466fc6c902")
-		(property "Reference" "#PWR0806"
+		(property "Reference" "#PWR0906"
 			(at 95.25 97.79 0)
 			(effects
 				(font
@@ -3495,13 +3632,31 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 95.25 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 95.25 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "677c8827-4140-4343-bc91-092e0feb4caf")
 		)
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/d353cb50-761f-4eb2-8b49-f8226a5d483c"
-					(reference "#PWR0806")
+					(reference "#PWR0906")
 					(unit 1)
 				)
 			)
@@ -3518,7 +3673,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4543ff6a-0dd4-449d-9564-7ac1f4f6da74")
-		(property "Reference" "#PWR0814"
+		(property "Reference" "#PWR0914"
 			(at 177.8 86.36 0)
 			(effects
 				(font
@@ -3562,13 +3717,31 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 177.8 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 177.8 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "04673b00-320b-4f51-bc92-5c9527592cbf")
 		)
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/d353cb50-761f-4eb2-8b49-f8226a5d483c"
-					(reference "#PWR0814")
+					(reference "#PWR0914")
 					(unit 1)
 				)
 			)
@@ -3584,7 +3757,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e1c29d1-1838-4712-8b08-3851cbfc7ccf")
-		(property "Reference" "IC802"
+		(property "Reference" "IC902"
 			(at 101.6 49.53 0)
 			(effects
 				(font
@@ -3629,7 +3802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "Texas Instruments"
+		(property "Distributor" ""
 			(at 88.9 57.15 0)
 			(effects
 				(font
@@ -3683,6 +3856,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 88.9 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 88.9 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "35a51621-9e98-4c0c-b277-669d68288543")
 		)
@@ -3701,7 +3892,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/d353cb50-761f-4eb2-8b49-f8226a5d483c"
-					(reference "IC802")
+					(reference "IC902")
 					(unit 1)
 				)
 			)
@@ -3716,7 +3907,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5efc47f5-7ab9-496b-a6d7-a798de33bb27")
-		(property "Reference" "R807"
+		(property "Reference" "R907"
 			(at 232.41 109.2199 0)
 			(effects
 				(font
@@ -3734,7 +3925,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" ""
 			(at 229.87 110.49 0)
 			(effects
 				(font
@@ -3770,6 +3961,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 229.87 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 229.87 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "11495a22-3bbe-4a46-b389-3d93ca519c7d")
 		)
@@ -3779,7 +3988,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/d353cb50-761f-4eb2-8b49-f8226a5d483c"
-					(reference "R807")
+					(reference "R907")
 					(unit 1)
 				)
 			)
@@ -3794,7 +4003,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63898fa2-b013-47ac-98ba-cd540f60d29f")
-		(property "Reference" "TP801"
+		(property "Reference" "TP901"
 			(at 204.47 91.4399 0)
 			(effects
 				(font
@@ -3813,7 +4022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+		(property "Footprint" ""
 			(at 208.28 92.71 0)
 			(effects
 				(font
@@ -3822,7 +4031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
+		(property "Datasheet" ""
 			(at 208.28 92.71 0)
 			(effects
 				(font
@@ -3840,7 +4049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Keystone Electronics"
+		(property "Manufacturer" ""
 			(at 203.2 92.71 0)
 			(effects
 				(font
@@ -3849,7 +4058,25 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "5000"
+		(property "P/N" ""
+			(at 203.2 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 203.2 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 203.2 92.71 0)
 			(effects
 				(font
@@ -3864,7 +4091,7 @@
 		(instances
 			(project ""
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/d353cb50-761f-4eb2-8b49-f8226a5d483c"
-					(reference "TP801")
+					(reference "TP901")
 					(unit 1)
 				)
 			)
@@ -3879,7 +4106,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "670d70cb-7571-433e-b9c9-34777344f37a")
-		(property "Reference" "R804"
+		(property "Reference" "R904"
 			(at 214.63 86.3599 0)
 			(effects
 				(font
@@ -3897,7 +4124,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" ""
 			(at 212.09 87.63 0)
 			(effects
 				(font
@@ -3933,6 +4160,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 212.09 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 212.09 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0ce2e419-3255-49f7-b781-7d9500686751")
 		)
@@ -3942,7 +4187,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/d353cb50-761f-4eb2-8b49-f8226a5d483c"
-					(reference "R804")
+					(reference "R904")
 					(unit 1)
 				)
 			)
@@ -3957,7 +4202,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6a4114d5-148e-4a2d-abe2-181cd2dd5eeb")
-		(property "Reference" "#PWR0801"
+		(property "Reference" "#PWR0901"
 			(at 53.34 115.57 0)
 			(effects
 				(font
@@ -4001,13 +4246,31 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 53.34 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 53.34 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "df5c0ea8-0d85-4296-99c6-ca7812a3c784")
 		)
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/d353cb50-761f-4eb2-8b49-f8226a5d483c"
-					(reference "#PWR0801")
+					(reference "#PWR0901")
 					(unit 1)
 				)
 			)
@@ -4022,7 +4285,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70055082-52b7-47f8-8051-02e232e73b64")
-		(property "Reference" "R803"
+		(property "Reference" "R903"
 			(at 205.74 109.2199 0)
 			(effects
 				(font
@@ -4040,7 +4303,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" ""
 			(at 203.2 110.49 0)
 			(effects
 				(font
@@ -4076,6 +4339,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 203.2 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 203.2 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b355d304-26ac-4e42-b67e-8fd0369ccdaf")
 		)
@@ -4085,7 +4366,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/d353cb50-761f-4eb2-8b49-f8226a5d483c"
-					(reference "R803")
+					(reference "R903")
 					(unit 1)
 				)
 			)
@@ -4100,7 +4381,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70f19f18-f29f-482d-a812-333a0063f201")
-		(property "Reference" "#PWR0812"
+		(property "Reference" "#PWR0912"
 			(at 154.94 71.12 0)
 			(effects
 				(font
@@ -4144,13 +4425,31 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 154.94 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 154.94 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3333342e-90f0-4480-aa2d-9ecfc171b398")
 		)
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/d353cb50-761f-4eb2-8b49-f8226a5d483c"
-					(reference "#PWR0812")
+					(reference "#PWR0912")
 					(unit 1)
 				)
 			)
@@ -4167,7 +4466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "778bbb18-2989-4f0f-8908-c021bc646be7")
-		(property "Reference" "#PWR0813"
+		(property "Reference" "#PWR0913"
 			(at 163.83 97.79 0)
 			(effects
 				(font
@@ -4211,13 +4510,31 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 163.83 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 163.83 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dedf601f-aead-4328-8b71-581b18b7f217")
 		)
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/d353cb50-761f-4eb2-8b49-f8226a5d483c"
-					(reference "#PWR0813")
+					(reference "#PWR0913")
 					(unit 1)
 				)
 			)
@@ -4233,7 +4550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8805b5eb-91c6-4d2b-ad79-670a0ce3436a")
-		(property "Reference" "IC801"
+		(property "Reference" "IC901"
 			(at 66.04 86.36 0)
 			(effects
 				(font
@@ -4278,7 +4595,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "Texas Instruments"
+		(property "Distributor" ""
 			(at 53.34 93.98 0)
 			(effects
 				(font
@@ -4332,6 +4649,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 53.34 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 53.34 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "95cb171e-03a6-4081-a23e-107db1a3f1aa")
 		)
@@ -4377,7 +4712,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/d353cb50-761f-4eb2-8b49-f8226a5d483c"
-					(reference "IC801")
+					(reference "IC901")
 					(unit 1)
 				)
 			)
@@ -4392,7 +4727,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8b50e20a-9de6-4091-9104-004961e14a7a")
-		(property "Reference" "#PWR0807"
+		(property "Reference" "#PWR0907"
 			(at 95.25 105.41 0)
 			(effects
 				(font
@@ -4436,13 +4771,31 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 95.25 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 95.25 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3e6ba168-3c94-408a-b8ff-8e9ef9174ae0")
 		)
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/d353cb50-761f-4eb2-8b49-f8226a5d483c"
-					(reference "#PWR0807")
+					(reference "#PWR0907")
 					(unit 1)
 				)
 			)
@@ -4457,7 +4810,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8b5d6960-dfba-4a67-9476-60f022b9b7d9")
-		(property "Reference" "#PWR0811"
+		(property "Reference" "#PWR0911"
 			(at 135.89 118.11 0)
 			(effects
 				(font
@@ -4501,13 +4854,31 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 135.89 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 135.89 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "762349a3-754d-41c1-b598-2c0073a2e979")
 		)
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/d353cb50-761f-4eb2-8b49-f8226a5d483c"
-					(reference "#PWR0811")
+					(reference "#PWR0911")
 					(unit 1)
 				)
 			)
@@ -4524,7 +4895,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c6e615c-b415-438b-9fc8-19c37f7bf3d2")
-		(property "Reference" "#PWR0803"
+		(property "Reference" "#PWR0903"
 			(at 78.74 97.79 0)
 			(effects
 				(font
@@ -4568,13 +4939,31 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 78.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 78.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "efd2550c-94c7-4f89-b20c-1de443869e79")
 		)
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/d353cb50-761f-4eb2-8b49-f8226a5d483c"
-					(reference "#PWR0803")
+					(reference "#PWR0903")
 					(unit 1)
 				)
 			)
@@ -4589,7 +4978,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "97759dea-12d9-424d-a300-898387b520c5")
-		(property "Reference" "#PWR0820"
+		(property "Reference" "#PWR0920"
 			(at 203.2 121.92 0)
 			(effects
 				(font
@@ -4633,13 +5022,31 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 203.2 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 203.2 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "33ec16a1-3446-4eb5-be5b-c2a6607e3229")
 		)
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/d353cb50-761f-4eb2-8b49-f8226a5d483c"
-					(reference "#PWR0820")
+					(reference "#PWR0920")
 					(unit 1)
 				)
 			)
@@ -4654,7 +5061,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9af3b406-a822-4f92-8b03-26769480931a")
-		(property "Reference" "#PWR0805"
+		(property "Reference" "#PWR0905"
 			(at 88.9 72.39 0)
 			(effects
 				(font
@@ -4698,13 +5105,31 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 88.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 88.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bcf9f7a5-b7a0-4741-bf01-e91aa7dadf97")
 		)
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/d353cb50-761f-4eb2-8b49-f8226a5d483c"
-					(reference "#PWR0805")
+					(reference "#PWR0905")
 					(unit 1)
 				)
 			)
@@ -4720,7 +5145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a51d67ac-959d-4a7b-a238-e2f378d1172f")
-		(property "Reference" "TP804"
+		(property "Reference" "TP904"
 			(at 213.36 101.5999 0)
 			(effects
 				(font
@@ -4739,7 +5164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+		(property "Footprint" ""
 			(at 217.17 102.87 0)
 			(effects
 				(font
@@ -4748,7 +5173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
+		(property "Datasheet" ""
 			(at 217.17 102.87 0)
 			(effects
 				(font
@@ -4766,7 +5191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Keystone Electronics"
+		(property "Manufacturer" ""
 			(at 212.09 102.87 0)
 			(effects
 				(font
@@ -4775,7 +5200,25 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "5000"
+		(property "P/N" ""
+			(at 212.09 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 212.09 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 212.09 102.87 0)
 			(effects
 				(font
@@ -4790,7 +5233,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/d353cb50-761f-4eb2-8b49-f8226a5d483c"
-					(reference "TP804")
+					(reference "TP904")
 					(unit 1)
 				)
 			)
@@ -4807,7 +5250,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a82a0cc3-8dc0-440a-8b79-6fb0a869ff2d")
-		(property "Reference" "C802"
+		(property "Reference" "C902"
 			(at 132.08 58.4262 0)
 			(effects
 				(font
@@ -4825,7 +5268,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" ""
 			(at 129.54 59.69 0)
 			(effects
 				(font
@@ -4852,7 +5295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Microelectronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 129.54 59.69 0)
 			(effects
 				(font
@@ -4861,7 +5304,25 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "3.3V"
+		(property "Notes" "3.3V Rating"
+			(at 129.54 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 129.54 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 129.54 59.69 0)
 			(effects
 				(font
@@ -4879,7 +5340,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/d353cb50-761f-4eb2-8b49-f8226a5d483c"
-					(reference "C802")
+					(reference "C902")
 					(unit 1)
 				)
 			)
@@ -4895,7 +5356,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a93105d6-f60a-432e-9f4e-79a7d1dc7746")
-		(property "Reference" "TP803"
+		(property "Reference" "TP903"
 			(at 213.36 93.9799 0)
 			(effects
 				(font
@@ -4914,7 +5375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+		(property "Footprint" ""
 			(at 217.17 95.25 0)
 			(effects
 				(font
@@ -4923,7 +5384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
+		(property "Datasheet" ""
 			(at 217.17 95.25 0)
 			(effects
 				(font
@@ -4941,7 +5402,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Keystone Electronics"
+		(property "Manufacturer" ""
 			(at 212.09 95.25 0)
 			(effects
 				(font
@@ -4950,7 +5411,25 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "5000"
+		(property "P/N" ""
+			(at 212.09 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 212.09 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 212.09 95.25 0)
 			(effects
 				(font
@@ -4965,7 +5444,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/d353cb50-761f-4eb2-8b49-f8226a5d483c"
-					(reference "TP803")
+					(reference "TP903")
 					(unit 1)
 				)
 			)
@@ -4982,7 +5461,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b432b979-3eaf-4d7b-8f41-2dea68860efb")
-		(property "Reference" "#PWR0809"
+		(property "Reference" "#PWR0909"
 			(at 129.54 60.96 0)
 			(effects
 				(font
@@ -5026,13 +5505,31 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 129.54 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 129.54 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b9aaed0c-d1a9-4ed0-bcb6-617f1ca027b4")
 		)
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/d353cb50-761f-4eb2-8b49-f8226a5d483c"
-					(reference "#PWR0809")
+					(reference "#PWR0909")
 					(unit 1)
 				)
 			)
@@ -5047,7 +5544,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b465db12-79ad-401c-a1be-6a19b28c0992")
-		(property "Reference" "R805"
+		(property "Reference" "R905"
 			(at 214.63 109.2199 0)
 			(effects
 				(font
@@ -5065,7 +5562,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" ""
 			(at 212.09 110.49 0)
 			(effects
 				(font
@@ -5093,6 +5590,24 @@
 			)
 		)
 		(property "Manufacturer" "Vishay / Dale"
+			(at 212.09 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 212.09 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 212.09 110.49 0)
 			(effects
 				(font
@@ -5110,7 +5625,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/d353cb50-761f-4eb2-8b49-f8226a5d483c"
-					(reference "R805")
+					(reference "R905")
 					(unit 1)
 				)
 			)
@@ -5125,7 +5640,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ba6087c1-c2a8-4fbb-9206-3ae209967c83")
-		(property "Reference" "R802"
+		(property "Reference" "R902"
 			(at 205.74 86.3599 0)
 			(effects
 				(font
@@ -5143,7 +5658,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" ""
 			(at 203.2 87.63 0)
 			(effects
 				(font
@@ -5179,6 +5694,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 203.2 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 203.2 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cc4b9c02-ae5b-4125-be8c-ab228f557860")
 		)
@@ -5188,7 +5721,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/d353cb50-761f-4eb2-8b49-f8226a5d483c"
-					(reference "R802")
+					(reference "R902")
 					(unit 1)
 				)
 			)
@@ -5203,7 +5736,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bba77fb1-6bee-4d1e-abf2-179e53d3c5c9")
-		(property "Reference" "#PWR0815"
+		(property "Reference" "#PWR0915"
 			(at 177.8 93.98 0)
 			(effects
 				(font
@@ -5247,13 +5780,31 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 177.8 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 177.8 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5287dd34-78be-41ba-a44b-5767094bc087")
 		)
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/d353cb50-761f-4eb2-8b49-f8226a5d483c"
-					(reference "#PWR0815")
+					(reference "#PWR0915")
 					(unit 1)
 				)
 			)
@@ -5268,7 +5819,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c514c490-2253-4b89-9435-02ce2f1bcc28")
-		(property "Reference" "#PWR0804"
+		(property "Reference" "#PWR0904"
 			(at 85.09 96.52 0)
 			(effects
 				(font
@@ -5312,13 +5863,31 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 78.74 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 78.74 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f6b61689-dd6f-457d-a1ff-8d131317f344")
 		)
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/d353cb50-761f-4eb2-8b49-f8226a5d483c"
-					(reference "#PWR0804")
+					(reference "#PWR0904")
 					(unit 1)
 				)
 			)
@@ -5335,7 +5904,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7d3f0ad-bb2a-47c5-a9dc-babd77c44f99")
-		(property "Reference" "#PWR0802"
+		(property "Reference" "#PWR0902"
 			(at 54.61 58.42 0)
 			(effects
 				(font
@@ -5379,13 +5948,31 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 54.61 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 54.61 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5f765b66-4bf6-4f91-be8f-8812ae7c747e")
 		)
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/d353cb50-761f-4eb2-8b49-f8226a5d483c"
-					(reference "#PWR0802")
+					(reference "#PWR0902")
 					(unit 1)
 				)
 			)
@@ -5402,7 +5989,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbed5998-3bd9-4ee5-ade7-29fb3725fae5")
-		(property "Reference" "C803"
+		(property "Reference" "C903"
 			(at 180.34 83.8262 0)
 			(effects
 				(font
@@ -5420,7 +6007,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" ""
 			(at 177.8 85.09 0)
 			(effects
 				(font
@@ -5447,7 +6034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Microelectronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 177.8 85.09 0)
 			(effects
 				(font
@@ -5456,7 +6043,25 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "3.3V"
+		(property "Notes" "3.3V Rating"
+			(at 177.8 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 177.8 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 177.8 85.09 0)
 			(effects
 				(font
@@ -5474,7 +6079,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/d353cb50-761f-4eb2-8b49-f8226a5d483c"
-					(reference "C803")
+					(reference "C903")
 					(unit 1)
 				)
 			)
@@ -5491,7 +6096,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cca13d8e-8740-4976-9f00-e2e18318ca4b")
-		(property "Reference" "C804"
+		(property "Reference" "C904"
 			(at 199.39 58.4262 0)
 			(effects
 				(font
@@ -5509,7 +6114,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" ""
 			(at 196.85 59.69 0)
 			(effects
 				(font
@@ -5536,7 +6141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Microelectronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 196.85 59.69 0)
 			(effects
 				(font
@@ -5545,7 +6150,25 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "3.3V"
+		(property "Notes" "3.3V Rating"
+			(at 196.85 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 196.85 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 196.85 59.69 0)
 			(effects
 				(font
@@ -5563,7 +6186,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/d353cb50-761f-4eb2-8b49-f8226a5d483c"
-					(reference "C804")
+					(reference "C904")
 					(unit 1)
 				)
 			)
@@ -5578,7 +6201,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d0bc8db9-0aec-4d2b-84ec-2dd47490597b")
-		(property "Reference" "R806"
+		(property "Reference" "R906"
 			(at 223.52 109.2199 0)
 			(effects
 				(font
@@ -5596,7 +6219,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" ""
 			(at 220.98 110.49 0)
 			(effects
 				(font
@@ -5624,6 +6247,24 @@
 			)
 		)
 		(property "Manufacturer" "Vishay / Dale"
+			(at 220.98 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 220.98 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 220.98 110.49 0)
 			(effects
 				(font
@@ -5641,7 +6282,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/d353cb50-761f-4eb2-8b49-f8226a5d483c"
-					(reference "R806")
+					(reference "R906")
 					(unit 1)
 				)
 			)
@@ -5657,7 +6298,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d61bfb48-3ec1-4163-9780-f0d2f4593e8d")
-		(property "Reference" "R801"
+		(property "Reference" "R901"
 			(at 57.15 55.8799 0)
 			(effects
 				(font
@@ -5675,7 +6316,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" ""
 			(at 54.61 57.15 0)
 			(effects
 				(font
@@ -5711,6 +6352,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 54.61 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 54.61 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c08ffbe3-b9e4-4a65-b878-9e4494fb9fa8")
 		)
@@ -5720,7 +6379,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/d353cb50-761f-4eb2-8b49-f8226a5d483c"
-					(reference "R801")
+					(reference "R901")
 					(unit 1)
 				)
 			)
@@ -5736,7 +6395,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddf2a20b-b1a8-4577-87bc-052f21e03c5e")
-		(property "Reference" "IC804"
+		(property "Reference" "IC904"
 			(at 167.64 49.53 0)
 			(effects
 				(font
@@ -5781,7 +6440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "Texas Instruments"
+		(property "Distributor" ""
 			(at 154.94 57.15 0)
 			(effects
 				(font
@@ -5835,6 +6494,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 154.94 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 154.94 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "f67b3f5a-5357-4670-a5ef-ee0242cf05f6")
 		)
@@ -5862,7 +6539,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/d353cb50-761f-4eb2-8b49-f8226a5d483c"
-					(reference "IC804")
+					(reference "IC904")
 					(unit 1)
 				)
 			)
@@ -5878,7 +6555,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7ab781c-ee0c-48ec-adcf-3a33dd5eb25a")
-		(property "Reference" "IC803"
+		(property "Reference" "IC903"
 			(at 149.86 86.36 0)
 			(effects
 				(font
@@ -5923,7 +6600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "Texas Instruments"
+		(property "Distributor" ""
 			(at 135.89 93.98 0)
 			(effects
 				(font
@@ -5969,6 +6646,24 @@
 			)
 		)
 		(property "Notes" ""
+			(at 135.89 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 135.89 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 135.89 93.98 0)
 			(effects
 				(font
@@ -6028,7 +6723,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/d353cb50-761f-4eb2-8b49-f8226a5d483c"
-					(reference "IC803")
+					(reference "IC903")
 					(unit 1)
 				)
 			)
@@ -6045,7 +6740,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0ce9f77-d9db-4dba-b29f-17a3794fb35b")
-		(property "Reference" "#PWR0808"
+		(property "Reference" "#PWR0908"
 			(at 114.3 60.96 0)
 			(effects
 				(font
@@ -6089,13 +6784,31 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 114.3 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 114.3 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "268b2585-bb1e-4d85-83f4-dfb712a97cad")
 		)
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/d353cb50-761f-4eb2-8b49-f8226a5d483c"
-					(reference "#PWR0808")
+					(reference "#PWR0908")
 					(unit 1)
 				)
 			)
@@ -6110,7 +6823,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f1b05863-c4e2-45fc-a9fc-e61a7160e69d")
-		(property "Reference" "#PWR0810"
+		(property "Reference" "#PWR0910"
 			(at 129.54 68.58 0)
 			(effects
 				(font
@@ -6154,13 +6867,31 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 129.54 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 129.54 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5d64a56d-e9a9-45d2-b0f1-015b53fc8596")
 		)
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/d353cb50-761f-4eb2-8b49-f8226a5d483c"
-					(reference "#PWR0810")
+					(reference "#PWR0910")
 					(unit 1)
 				)
 			)

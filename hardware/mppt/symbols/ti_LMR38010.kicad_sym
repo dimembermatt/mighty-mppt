@@ -228,7 +228,7 @@
 				)
 			)
 			(pin passive line
-				(at 35.56 0 180)
+				(at 35.56 -2.54 180)
 				(length 5.08)
 				(name "BOOT"
 					(effects
@@ -246,7 +246,7 @@
 				)
 			)
 			(pin passive line
-				(at 35.56 -2.54 180)
+				(at 35.56 0 180)
 				(length 5.08)
 				(name "SW"
 					(effects
