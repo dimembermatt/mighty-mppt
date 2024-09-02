@@ -12,6 +12,108 @@
 		(comment 2 "Jacob Pustilnik")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:TestPoint_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -3089,42 +3191,27 @@
 				)
 			)
 		)
-		(symbol "caltest_ct3151:CT3151"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "generic_symbol:Generic_Symbol"
 			(exclude_from_sim no)
 			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -2.54 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "CT3151"
-				(at -2.794 3.048 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "footprints:caltest_ct3151"
+			(on_board no)
+			(property "Reference" "G"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4846/DS_1768_Catalog.pdf"
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -3133,7 +3220,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "CONN BANANA JACK SOLDER"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -3142,7 +3229,7 @@
 					(hide yes)
 				)
 			)
-			(property "Distributor" ""
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -3151,133 +3238,16 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Caltest"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "P/N" "  CT3151"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part #" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Cost" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Notes" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CT3151_0_0"
-				(rectangle
-					(start -2.54 -2.54)
-					(end 2.54 2.54)
+			(symbol "Generic_Symbol_1_1"
+				(circle
+					(center 0 -3.81)
+					(radius 2.54)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type background)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
 					)
 				)
 			)
@@ -12469,43 +12439,35 @@
 		(uuid "f428f973-71e2-4797-a45f-13ae2cde0367")
 	)
 	(symbol
-		(lib_id "caltest_ct3151:CT3151")
-		(at 25.4 177.8 180)
+		(lib_id "generic_symbol:Generic_Symbol")
+		(at 52.07 43.18 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "04d90474-f0a9-4d78-abb6-452c66bebd05")
-		(property "Reference" "J201"
-			(at 25.4 170.18 0)
+		(uuid "0e7388f2-506a-4dd5-ad47-e8024ccb75ca")
+		(property "Reference" "G201"
+			(at 48.26 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "CT3151"
-			(at 25.4 172.72 0)
+		(property "Value" "Jumper"
+			(at 48.26 47.6251 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:caltest_ct3151"
-			(at 25.4 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4846/DS_1768_Catalog.pdf"
-			(at 25.4 177.8 0)
+		(property "Footprint" ""
+			(at 52.07 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12513,8 +12475,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CONN BANANA JACK SOLDER"
-			(at 25.4 177.8 0)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/436450400?display=pdf"
+			(at 52.07 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12522,8 +12484,8 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" ""
-			(at 25.4 177.8 0)
+		(property "Description" ""
+			(at 52.07 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12531,8 +12493,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Caltest"
-			(at 25.4 177.8 0)
+		(property "P/N" " PRT-09044 "
+			(at 52.07 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12540,76 +12502,19 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "  CT3151-2"
-			(at 25.4 177.8 0)
+		(property "Manufacturer" "Sparkfun"
+			(at 52.07 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "LCSC Part #" ""
-			(at 25.4 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost" ""
-			(at 25.4 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 25.4 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 25.4 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 25.4 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "120637bc-36b9-4108-97ed-65eeb8319017")
-		)
-		(pin "1"
-			(uuid "a6de2808-d3c0-42eb-a127-490c2f9e727c")
-		)
-		(pin "2"
-			(uuid "2126c79f-bb63-4eab-9a36-898104ba3bcb")
-		)
-		(pin "4"
-			(uuid "cfec41c9-33e9-4972-a8ef-875e4056e383")
 		)
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/8ce993ae-f0f1-4a14-930f-3c43b145bcc7"
-					(reference "J201")
+					(reference "G201")
 					(unit 1)
 				)
 			)
@@ -12820,7 +12725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/216/APT2012SURCK-41297.pdf"
 			(at 73.66 144.78 90)
 			(effects
 				(font
@@ -12838,7 +12743,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "Manufacturer" "Kingbright"
 			(at 73.66 144.78 0)
 			(effects
 				(font
@@ -12847,7 +12752,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "P/N" "APT2012SURCK "
 			(at 73.66 144.78 0)
 			(effects
 				(font
@@ -12965,7 +12870,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1588c0af-a793-41f3-86cf-f44915d0d9c5")
-		(property "Reference" "TP202"
+		(property "Reference" "TP204"
 			(at 39.37 139.6999 0)
 			(effects
 				(font
@@ -13011,31 +12916,13 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 38.1 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 38.1 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "2687521c-152b-417d-af49-e9f7af5808fb")
 		)
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/8ce993ae-f0f1-4a14-930f-3c43b145bcc7"
-					(reference "TP202")
+					(reference "TP204")
 					(unit 1)
 				)
 			)
@@ -13069,7 +12956,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 62.23 139.7 0)
 			(effects
 				(font
@@ -13078,7 +12965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 62.23 139.7 0)
 			(effects
 				(font
@@ -13096,25 +12983,16 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 62.23 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 62.23 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Vishay / Dale"
+			(at 62.23 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW06033K30FKEA "
 			(at 62.23 139.7 0)
 			(effects
 				(font
@@ -13166,7 +13044,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 40.64 116.84 0)
 			(effects
 				(font
@@ -13175,7 +13053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA2B2C0G1H150J050BA"
 			(at 40.64 116.84 0)
 			(effects
 				(font
@@ -13220,7 +13098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "TDK"
 			(at 40.64 116.84 0)
 			(effects
 				(font
@@ -13229,7 +13107,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "CGA2B2C0G1H150J050BA"
 			(at 40.64 116.84 0)
 			(effects
 				(font
@@ -13239,24 +13117,6 @@
 			)
 		)
 		(property "Notes" "3.3V Rating"
-			(at 40.64 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 40.64 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
 			(at 40.64 116.84 0)
 			(effects
 				(font
@@ -13387,24 +13247,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 52.07 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 52.07 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "0910c8ef-d458-4243-966f-0e006aaa6619")
 		)
@@ -13453,7 +13295,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 64.77 54.61 0)
 			(effects
 				(font
@@ -13462,7 +13304,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 64.77 54.61 0)
 			(effects
 				(font
@@ -13516,25 +13358,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
-			(at 64.77 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 64.77 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "P/N" "CRCW060310K0FKEA "
 			(at 64.77 54.61 0)
 			(effects
 				(font
@@ -13568,7 +13392,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1faa91c9-62a0-4a7a-a2a9-c89fbc8c0231")
-		(property "Reference" "TP203"
+		(property "Reference" "TP205"
 			(at 39.37 142.2399 0)
 			(effects
 				(font
@@ -13614,8 +13438,74 @@
 				(hide yes)
 			)
 		)
+		(pin "1"
+			(uuid "f1c7dee6-9f45-4cd9-849e-f8699338deaa")
+		)
+		(instances
+			(project "mppt"
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/8ce993ae-f0f1-4a14-930f-3c43b145bcc7"
+					(reference "TP205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 25.4 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2cc58706-a339-4425-95b3-26efd496f005")
+		(property "Reference" "#PWR0201"
+			(at 25.4 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 25.4 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 25.4 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Sim.Device" ""
-			(at 38.1 142.24 0)
+			(at 25.4 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13624,7 +13514,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 38.1 142.24 0)
+			(at 25.4 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13633,12 +13523,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f1c7dee6-9f45-4cd9-849e-f8699338deaa")
+			(uuid "2ed4af2f-7724-41c5-865d-327a73efc31c")
 		)
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/8ce993ae-f0f1-4a14-930f-3c43b145bcc7"
-					(reference "TP203")
+					(reference "#PWR0201")
 					(unit 1)
 				)
 			)
@@ -13672,7 +13562,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 91.44 27.94 0)
 			(effects
 				(font
@@ -13681,7 +13571,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA2B3X7R1H104K050BB"
 			(at 91.44 27.94 0)
 			(effects
 				(font
@@ -13726,7 +13616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "TDK"
 			(at 91.44 27.94 0)
 			(effects
 				(font
@@ -13735,25 +13625,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
-			(at 91.44 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 91.44 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "P/N" "CGA2B3X7R1H104K050BB"
 			(at 91.44 27.94 0)
 			(effects
 				(font
@@ -13907,7 +13779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/216/APT2012SURCK-41297.pdf"
 			(at 50.8 144.78 90)
 			(effects
 				(font
@@ -13925,7 +13797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "Manufacturer" "Kingbright"
 			(at 50.8 144.78 0)
 			(effects
 				(font
@@ -13934,7 +13806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "P/N" "APT2012SURCK "
 			(at 50.8 144.78 0)
 			(effects
 				(font
@@ -13953,92 +13825,6 @@
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/8ce993ae-f0f1-4a14-930f-3c43b145bcc7"
 					(reference "D201")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 33.02 190.5 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "31c2e2b6-f1da-443d-9c63-860cb35e52ea")
-		(property "Reference" "#PWR0202"
-			(at 39.37 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 36.83 190.4999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 33.02 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 33.02 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9fd6d398-e9cb-4b4f-b71f-565123750efc")
-		)
-		(instances
-			(project "mppt"
-				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/8ce993ae-f0f1-4a14-930f-3c43b145bcc7"
-					(reference "#PWR0202")
 					(unit 1)
 				)
 			)
@@ -14072,7 +13858,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 46.99 59.69 0)
 			(effects
 				(font
@@ -14081,7 +13867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA2B3X7R1H104K050BB"
 			(at 46.99 59.69 0)
 			(effects
 				(font
@@ -14126,7 +13912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "TDK"
 			(at 46.99 59.69 0)
 			(effects
 				(font
@@ -14135,25 +13921,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
-			(at 46.99 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 46.99 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "P/N" "CGA2B3X7R1H104K050BB"
 			(at 46.99 59.69 0)
 			(effects
 				(font
@@ -14214,7 +13982,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 40.64 91.44 0)
 			(effects
 				(font
@@ -14223,7 +13991,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA2B2C0G1H100D050BA"
 			(at 40.64 91.44 0)
 			(effects
 				(font
@@ -14268,7 +14036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "TDK"
 			(at 40.64 91.44 0)
 			(effects
 				(font
@@ -14277,7 +14045,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "CGA2B2C0G1H100D050BA "
 			(at 40.64 91.44 0)
 			(effects
 				(font
@@ -14287,24 +14055,6 @@
 			)
 		)
 		(property "Notes" "3.3V Rating"
-			(at 40.64 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 40.64 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
 			(at 40.64 91.44 0)
 			(effects
 				(font
@@ -14422,7 +14172,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50556968-3e20-4c5c-bee4-74859c3b0ec3")
-		(property "Reference" "TP207"
+		(property "Reference" "TP209"
 			(at 39.37 152.3999 0)
 			(effects
 				(font
@@ -14468,8 +14218,48 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 38.1 152.4 0)
+		(pin "1"
+			(uuid "6ad96ff1-3d78-4377-87db-ff63365fc19f")
+		)
+		(instances
+			(project "mppt"
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/8ce993ae-f0f1-4a14-930f-3c43b145bcc7"
+					(reference "TP209")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 25.4 176.53 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "539813e6-26a6-4f93-83ac-8507383e9c31")
+		(property "Reference" "TP201"
+			(at 27.94 178.5619 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 27.94 181.1019 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 20.32 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14477,8 +14267,35 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
-			(at 38.1 152.4 0)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
+			(at 20.32 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 25.4 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Keystone Electronics"
+			(at 25.4 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "5000"
+			(at 25.4 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14487,12 +14304,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "6ad96ff1-3d78-4377-87db-ff63365fc19f")
+			(uuid "86b8eebb-7e51-478b-994e-e4223e844866")
 		)
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/8ce993ae-f0f1-4a14-930f-3c43b145bcc7"
-					(reference "TP207")
+					(reference "TP201")
 					(unit 1)
 				)
 			)
@@ -14526,7 +14343,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 121.92 27.94 0)
 			(effects
 				(font
@@ -14535,7 +14352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA2B3X7R1H104K050BB"
 			(at 121.92 27.94 0)
 			(effects
 				(font
@@ -14580,7 +14397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "TDK"
 			(at 121.92 27.94 0)
 			(effects
 				(font
@@ -14589,25 +14406,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
-			(at 121.92 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 121.92 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "P/N" "CGA2B3X7R1H104K050BB"
 			(at 121.92 27.94 0)
 			(effects
 				(font
@@ -14752,7 +14551,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 63.5 81.28 0)
 			(effects
 				(font
@@ -14761,7 +14560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 63.5 81.28 0)
 			(effects
 				(font
@@ -14815,25 +14614,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
-			(at 63.5 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 63.5 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "P/N" "CRCW12100000Z0EA "
 			(at 63.5 81.28 0)
 			(effects
 				(font
@@ -14885,7 +14666,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 60.96 27.94 0)
 			(effects
 				(font
@@ -14894,7 +14675,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA2B3X7R1H104K050BB"
 			(at 60.96 27.94 0)
 			(effects
 				(font
@@ -14939,7 +14720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "TDK"
 			(at 60.96 27.94 0)
 			(effects
 				(font
@@ -14948,25 +14729,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
-			(at 60.96 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 60.96 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "P/N" "CGA2B3X7R1H104K050BB"
 			(at 60.96 27.94 0)
 			(effects
 				(font
@@ -15027,7 +14790,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 63.5 91.44 0)
 			(effects
 				(font
@@ -15036,7 +14799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA2B2C0G1H100D050BA"
 			(at 63.5 91.44 0)
 			(effects
 				(font
@@ -15081,7 +14844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "TDK"
 			(at 63.5 91.44 0)
 			(effects
 				(font
@@ -15090,7 +14853,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "CGA2B2C0G1H100D050BA "
 			(at 63.5 91.44 0)
 			(effects
 				(font
@@ -15100,24 +14863,6 @@
 			)
 		)
 		(property "Notes" "3.3V Rating"
-			(at 63.5 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 63.5 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
 			(at 63.5 91.44 0)
 			(effects
 				(font
@@ -15178,7 +14923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/216/APT2012SURCK-41297.pdf"
 			(at 62.23 144.78 90)
 			(effects
 				(font
@@ -15196,7 +14941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "Manufacturer" "Kingbright"
 			(at 62.23 144.78 0)
 			(effects
 				(font
@@ -15205,7 +14950,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "P/N" "APT2012SURCK "
 			(at 62.23 144.78 0)
 			(effects
 				(font
@@ -15265,7 +15010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/670/ts02-2586188.pdf"
 			(at 36.83 59.69 0)
 			(effects
 				(font
@@ -15310,7 +15055,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "CUI Devices"
 			(at 36.83 59.69 0)
 			(effects
 				(font
@@ -15319,25 +15064,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
-			(at 36.83 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 36.83 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "P/N" " TS02-66-150-BK-260-LCR-D "
 			(at 36.83 59.69 0)
 			(effects
 				(font
@@ -15473,7 +15200,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 63.5 116.84 0)
 			(effects
 				(font
@@ -15482,7 +15209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA2B2C0G1H150J050BA"
 			(at 63.5 116.84 0)
 			(effects
 				(font
@@ -15527,7 +15254,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "TDK"
 			(at 63.5 116.84 0)
 			(effects
 				(font
@@ -15536,7 +15263,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "CGA2B2C0G1H150J050BA"
 			(at 63.5 116.84 0)
 			(effects
 				(font
@@ -15546,24 +15273,6 @@
 			)
 		)
 		(property "Notes" "3.3V Rating"
-			(at 63.5 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 63.5 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
 			(at 63.5 116.84 0)
 			(effects
 				(font
@@ -15615,7 +15324,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 73.66 139.7 0)
 			(effects
 				(font
@@ -15624,7 +15333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 73.66 139.7 0)
 			(effects
 				(font
@@ -15642,25 +15351,16 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 73.66 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 73.66 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Vishay / Dale"
+			(at 73.66 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW06033K30FKEA "
 			(at 73.66 139.7 0)
 			(effects
 				(font
@@ -15769,153 +15469,6 @@
 		)
 	)
 	(symbol
-		(lib_id "caltest_ct3151:CT3151")
-		(at 25.4 190.5 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "86a994c4-51e2-4121-88a3-9918c70a9d49")
-		(property "Reference" "J202"
-			(at 25.4 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CT3151"
-			(at 25.4 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:caltest_ct3151"
-			(at 25.4 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4846/DS_1768_Catalog.pdf"
-			(at 25.4 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CONN BANANA JACK SOLDER"
-			(at 25.4 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" ""
-			(at 25.4 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Caltest"
-			(at 25.4 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "  CT3151-0"
-			(at 25.4 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 25.4 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost" ""
-			(at 25.4 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 25.4 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 25.4 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 25.4 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "b0de1d18-49ca-4f77-a669-020ae006d74c")
-		)
-		(pin "1"
-			(uuid "ba0ab3a7-db18-43f6-acda-a61fe6d2a605")
-		)
-		(pin "2"
-			(uuid "4051bbaf-4c55-480f-8586-6fefd7e27174")
-		)
-		(pin "4"
-			(uuid "01ea0bc6-18d6-49ad-ab04-df6cd9407f90")
-		)
-		(instances
-			(project "mppt"
-				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/8ce993ae-f0f1-4a14-930f-3c43b145bcc7"
-					(reference "J202")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 132.08 25.4 0)
 		(unit 1)
@@ -15995,6 +15548,90 @@
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/8ce993ae-f0f1-4a14-930f-3c43b145bcc7"
 					(reference "#FLG0201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 25.4 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88e28515-4e11-46b7-b4aa-22f030958830")
+		(property "Reference" "#PWR0202"
+			(at 25.4 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 25.4 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 25.4 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 25.4 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 25.4 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87e041b4-5fec-4d00-88d8-04b99c385fd1")
+		)
+		(instances
+			(project "mppt"
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/8ce993ae-f0f1-4a14-930f-3c43b145bcc7"
+					(reference "#PWR0202")
 					(unit 1)
 				)
 			)
@@ -16112,7 +15749,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 81.28 27.94 0)
 			(effects
 				(font
@@ -16121,7 +15758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA2B3X7R1H104K050BB"
 			(at 81.28 27.94 0)
 			(effects
 				(font
@@ -16166,7 +15803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "TDK"
 			(at 81.28 27.94 0)
 			(effects
 				(font
@@ -16175,25 +15812,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
-			(at 81.28 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 81.28 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "P/N" "CGA2B3X7R1H104K050BB"
 			(at 81.28 27.94 0)
 			(effects
 				(font
@@ -16252,7 +15871,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 113.03 27.178 90)
 			(effects
 				(font
@@ -16261,7 +15880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/emc/emc/beads/catalog/beads_automotive_signal_mmz1608_en.pdf?ref_disty=mouser"
 			(at 113.03 25.4 0)
 			(effects
 				(font
@@ -16297,7 +15916,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TDK"
 			(at 113.03 25.4 0)
 			(effects
 				(font
@@ -16306,25 +15925,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
-			(at 113.03 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 113.03 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "P/N" " MMZ1608R300ATD25 "
 			(at 113.03 25.4 0)
 			(effects
 				(font
@@ -16529,24 +16130,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 52.07 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 52.07 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "3"
 			(uuid "ddac9711-94ff-4c39-83fb-344d8979a19b")
 		)
@@ -16569,6 +16152,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 25.4 191.77 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "922c68b8-4ede-4b1b-bb6c-6697b094229d")
+		(property "Reference" "TP202"
+			(at 27.94 189.7381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 27.94 187.1981 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 20.32 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
+			(at 20.32 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 25.4 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Keystone Electronics"
+			(at 25.4 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "5000"
+			(at 25.4 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7991a030-d91d-4677-a98b-1cc810f65235")
+		)
+		(instances
+			(project "mppt"
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/8ce993ae-f0f1-4a14-930f-3c43b145bcc7"
+					(reference "TP202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint_Small")
 		(at 38.1 149.86 0)
 		(unit 1)
@@ -16578,7 +16246,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94c838ff-e099-433e-91c1-b0476665e509")
-		(property "Reference" "TP206"
+		(property "Reference" "TP208"
 			(at 39.37 149.8599 0)
 			(effects
 				(font
@@ -16624,31 +16292,13 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 38.1 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 38.1 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "bbeafdf4-e3e5-4340-988f-0a0d57da876e")
 		)
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/8ce993ae-f0f1-4a14-930f-3c43b145bcc7"
-					(reference "TP206")
+					(reference "TP208")
 					(unit 1)
 				)
 			)
@@ -16664,7 +16314,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96137007-c5c5-4920-8cde-3252ecf00534")
-		(property "Reference" "TP208"
+		(property "Reference" "TP210"
 			(at 39.37 154.9399 0)
 			(effects
 				(font
@@ -16710,31 +16360,13 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 38.1 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 38.1 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "848bdeb3-f0b6-444a-9f8f-8e4d28373104")
 		)
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/8ce993ae-f0f1-4a14-930f-3c43b145bcc7"
-					(reference "TP208")
+					(reference "TP210")
 					(unit 1)
 				)
 			)
@@ -16768,7 +16400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 50.8 139.7 0)
 			(effects
 				(font
@@ -16777,7 +16409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 50.8 139.7 0)
 			(effects
 				(font
@@ -16795,25 +16427,16 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 50.8 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 50.8 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Vishay / Dale"
+			(at 50.8 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW06033K30FKEA "
 			(at 50.8 139.7 0)
 			(effects
 				(font
@@ -16847,7 +16470,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ea238ee-faf2-4125-b1e4-5ef09629f21a")
-		(property "Reference" "TP201"
+		(property "Reference" "TP203"
 			(at 39.37 137.1599 0)
 			(effects
 				(font
@@ -16893,31 +16516,13 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 38.1 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 38.1 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "0da14a4d-125b-4ca0-80a4-1f73cdd02a30")
 		)
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/8ce993ae-f0f1-4a14-930f-3c43b145bcc7"
-					(reference "TP201")
+					(reference "TP203")
 					(unit 1)
 				)
 			)
@@ -16951,7 +16556,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 49.53 27.94 0)
 			(effects
 				(font
@@ -16960,7 +16565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA5L1X7R1E106K160AC"
 			(at 49.53 27.94 0)
 			(effects
 				(font
@@ -16996,7 +16601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "TDK"
 			(at 49.53 27.94 0)
 			(effects
 				(font
@@ -17005,7 +16610,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "CGA5L1X7R1E106K160AC "
 			(at 49.53 27.94 0)
 			(effects
 				(font
@@ -17015,24 +16620,6 @@
 			)
 		)
 		(property "Notes" "3.3V Rating"
-			(at 49.53 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 49.53 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
 			(at 49.53 27.94 0)
 			(effects
 				(font
@@ -17252,7 +16839,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 71.12 27.94 0)
 			(effects
 				(font
@@ -17261,7 +16848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA2B3X7R1H104K050BB"
 			(at 71.12 27.94 0)
 			(effects
 				(font
@@ -17306,7 +16893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "TDK"
 			(at 71.12 27.94 0)
 			(effects
 				(font
@@ -17315,25 +16902,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
-			(at 71.12 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 71.12 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "P/N" "CGA2B3X7R1H104K050BB"
 			(at 71.12 27.94 0)
 			(effects
 				(font
@@ -17404,7 +16973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 58.42 54.61 0)
 			(effects
 				(font
@@ -17414,24 +16983,6 @@
 			)
 		)
 		(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
-			(at 58.42 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 58.42 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
 			(at 58.42 54.61 0)
 			(effects
 				(font
@@ -17537,92 +17088,6 @@
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/8ce993ae-f0f1-4a14-930f-3c43b145bcc7"
 					(reference "#PWR0214")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 33.02 177.8 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d1e5ebfb-c6a6-499d-98c4-24d17a426307")
-		(property "Reference" "#PWR0201"
-			(at 29.21 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 36.83 177.7999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 33.02 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 33.02 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 33.02 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6789225b-39ac-4e3d-8e23-0774b1cba1bc")
-		)
-		(instances
-			(project "mppt"
-				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/8ce993ae-f0f1-4a14-930f-3c43b145bcc7"
-					(reference "#PWR0201")
 					(unit 1)
 				)
 			)
@@ -17825,7 +17290,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 101.6 27.94 0)
 			(effects
 				(font
@@ -17834,7 +17299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA2B3X7R1H104K050BB"
 			(at 101.6 27.94 0)
 			(effects
 				(font
@@ -17879,7 +17344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "TDK"
 			(at 101.6 27.94 0)
 			(effects
 				(font
@@ -17888,25 +17353,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
-			(at 101.6 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 101.6 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "P/N" "CGA2B3X7R1H104K050BB"
 			(at 101.6 27.94 0)
 			(effects
 				(font
@@ -17967,7 +17414,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 132.08 27.94 0)
 			(effects
 				(font
@@ -17976,7 +17423,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA3E1X7R1V105K080AC"
 			(at 132.08 27.94 0)
 			(effects
 				(font
@@ -18021,7 +17468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "TDK"
 			(at 132.08 27.94 0)
 			(effects
 				(font
@@ -18030,7 +17477,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "CGA3E1X7R1V105K080AC"
 			(at 132.08 27.94 0)
 			(effects
 				(font
@@ -18040,24 +17487,6 @@
 			)
 		)
 		(property "Notes" "3.3V Rating"
-			(at 132.08 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 132.08 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
 			(at 132.08 27.94 0)
 			(effects
 				(font
@@ -18174,24 +17603,6 @@
 			)
 		)
 		(property "P/N" "STM32F446RET6TR "
-			(at 105.41 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 105.41 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
 			(at 105.41 90.17 0)
 			(effects
 				(font
@@ -18429,7 +17840,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 86.36 118.11 0)
 			(effects
 				(font
@@ -18438,7 +17849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA4J1X7R1E475K125AC"
 			(at 86.36 118.11 0)
 			(effects
 				(font
@@ -18465,7 +17876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "TDK"
 			(at 86.36 118.11 0)
 			(effects
 				(font
@@ -18474,7 +17885,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" "CGA4J1X7R1E475K125AC "
 			(at 86.36 118.11 0)
 			(effects
 				(font
@@ -18510,24 +17921,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 86.36 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 86.36 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "17c02f3d-a427-480b-b434-a4ab105d7099")
 		)
@@ -18553,7 +17946,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb4d147e-0726-4b1c-b959-64d8f28479ce")
-		(property "Reference" "TP204"
+		(property "Reference" "TP206"
 			(at 39.37 144.7799 0)
 			(effects
 				(font
@@ -18599,31 +17992,13 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 38.1 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 38.1 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "a72c6f6c-657d-407d-a845-7c5aa4c21c8e")
 		)
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/8ce993ae-f0f1-4a14-930f-3c43b145bcc7"
-					(reference "TP204")
+					(reference "TP206")
 					(unit 1)
 				)
 			)
@@ -18639,7 +18014,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe06b6d7-1f66-478f-8d5d-2a6faea473f6")
-		(property "Reference" "TP205"
+		(property "Reference" "TP207"
 			(at 39.37 147.3199 0)
 			(effects
 				(font
@@ -18685,31 +18060,13 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 38.1 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 38.1 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "7a991fff-7ebb-4e6d-9fdd-6dcf41dfa0f7")
 		)
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/8ce993ae-f0f1-4a14-930f-3c43b145bcc7"
-					(reference "TP205")
+					(reference "TP207")
 					(unit 1)
 				)
 			)

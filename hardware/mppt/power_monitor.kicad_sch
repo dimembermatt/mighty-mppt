@@ -1695,7 +1695,7 @@
 		)
 		(uuid "eaf042b4-01ad-4224-8c30-f51eef8badab")
 	)
-	(text_box "0-150V\n159.375V max rating"
+	(text_box "0-150V\n158.61V max rating"
 		(exclude_from_sim no)
 		(at 73.66 97.79 0)
 		(size 12.7 7.62)
@@ -1984,7 +1984,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 114.3 87.63 0)
 			(effects
 				(font
@@ -1993,7 +1993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA2B3X7R1H104K050BB"
 			(at 114.3 87.63 0)
 			(effects
 				(font
@@ -2011,7 +2011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "TDK"
 			(at 114.3 87.63 0)
 			(effects
 				(font
@@ -2029,16 +2029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 114.3 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "P/N" "CGA2B3X7R1H104K050BB"
 			(at 114.3 87.63 0)
 			(effects
 				(font
@@ -2208,24 +2199,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 217.17 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 217.17 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "7a1d6eb5-02c8-488f-b3dc-e8483172e6d7")
 		)
@@ -2353,24 +2326,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 114.3 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 114.3 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "c34c2df2-34c1-4b08-92e4-7798c813aa9f")
 		)
@@ -2424,7 +2379,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 88.9 110.49 0)
 			(effects
 				(font
@@ -2433,7 +2388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 88.9 110.49 0)
 			(effects
 				(font
@@ -2460,16 +2415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 88.9 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "P/N" "CRCW0603100KFKEA "
 			(at 88.9 110.49 0)
 			(effects
 				(font
@@ -2614,7 +2560,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 116.84 83.82 0)
 			(effects
 				(font
@@ -2623,7 +2569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 116.84 83.82 0)
 			(effects
 				(font
@@ -2650,16 +2596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 116.84 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "P/N" "CRCW060315R0FKEA "
 			(at 116.84 83.82 0)
 			(effects
 				(font
@@ -2753,24 +2690,6 @@
 			)
 		)
 		(property "P/N" ""
-			(at 142.24 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 142.24 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
 			(at 142.24 114.3 0)
 			(effects
 				(font
@@ -2906,24 +2825,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 142.24 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 142.24 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "10"
 			(uuid "141e5b3c-2cab-4aef-9e8c-68f20b3892d1")
 		)
@@ -2994,7 +2895,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 168.91 106.68 0)
 			(effects
 				(font
@@ -3003,7 +2904,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA2B3X7R1H104K050BB"
 			(at 168.91 106.68 0)
 			(effects
 				(font
@@ -3021,7 +2922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "TDK"
 			(at 168.91 106.68 0)
 			(effects
 				(font
@@ -3039,16 +2940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 168.91 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "P/N" "CGA2B3X7R1H104K050BB"
 			(at 168.91 106.68 0)
 			(effects
 				(font
@@ -3104,7 +2996,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 111.76 83.82 0)
 			(effects
 				(font
@@ -3113,7 +3005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 111.76 83.82 0)
 			(effects
 				(font
@@ -3140,16 +3032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 111.76 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "P/N" "CRCW060315R0FKEA "
 			(at 111.76 83.82 0)
 			(effects
 				(font
@@ -3284,7 +3167,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "87.5k"
+		(property "Value" "86.6k"
 			(at 91.44 92.7099 0)
 			(effects
 				(font
@@ -3293,7 +3176,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 88.9 91.44 0)
 			(effects
 				(font
@@ -3302,7 +3185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 88.9 91.44 0)
 			(effects
 				(font
@@ -3329,16 +3212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 88.9 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "P/N" "CRCW060386K6FKEA "
 			(at 88.9 91.44 0)
 			(effects
 				(font
@@ -3440,24 +3314,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 142.24 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 142.24 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "3625e3d3-b371-4b5a-a7ac-dfcb2d344708")
 		)
@@ -3522,24 +3378,6 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 180.34 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 180.34 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
 			(at 180.34 151.13 0)
 			(effects
 				(font
@@ -3718,24 +3556,6 @@
 			)
 		)
 		(property "P/N" ""
-			(at 142.24 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 142.24 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
 			(at 142.24 116.84 0)
 			(effects
 				(font
@@ -4096,24 +3916,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 142.24 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 142.24 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "19639449-c377-42ff-a43a-ad98a7ad3091")
 		)
@@ -4196,24 +3998,6 @@
 			)
 		)
 		(property "P/N" ""
-			(at 127 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 127 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
 			(at 127 127 0)
 			(effects
 				(font
@@ -4312,24 +4096,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 142.24 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 142.24 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "b38bc8fc-1416-49b2-8446-c909186cecd6")
 		)
@@ -4402,24 +4168,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 180.34 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 180.34 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "05da528a-423a-4290-9f83-20a8e33a74da")
 		)
@@ -4462,7 +4210,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
 			(at 104.14 127 0)
 			(effects
 				(font
@@ -4481,24 +4229,6 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
-			(at 104.14 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 104.14 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
 			(at 104.14 127 0)
 			(effects
 				(font
@@ -4573,24 +4303,6 @@
 			)
 		)
 		(property "Description" "2-polar test point"
-			(at 195.58 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 195.58 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
 			(at 195.58 153.67 0)
 			(effects
 				(font

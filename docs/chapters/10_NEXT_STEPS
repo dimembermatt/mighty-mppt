@@ -1,0 +1,33 @@
+# Next Steps
+
+With the conclusion of this design validation and study, the next proposed design iteration has two major changes:
+
+- Fully isolating the power path, and
+- Changing the DC-DC converter topology to a 150V/10A 4-switch buck-boost converter.
+
+## Power Path Isolation
+
+Currently, the design fails to isolate the power path from the system ground at three major points:
+
+  1. The wide input buck subcircuit used for self-powering the device,
+  2. The power monitor subcircuits, and
+  3. The active loads.
+
+### Self Power 12V Input Subcircuit
+
+- https://www.ti.com/lit/an/snva790a/snva790a.pdf
+- https://www.ti.com/lit/ds/symlink/lm5169.pdf
+- https://www.ti.com/power-management/acdc-dcdc-converters/products.html#-2=contains%3Bfly-buck&
+
+### Power Monitoring Subcircuit
+
+- ACS71020
+- https://www.allegromicro.com/en/products/sense/current-sensor-ics/zero-to-fifty-amp-integrated-conductor-sensor-ics/acs71020#ProductDetail
+
+### Active Load Subcircuit
+
+- https://www.ti.com/product/ISO6720
+
+## Buck-Boost Converter
+
+- 150V 10A -> 1.5kW

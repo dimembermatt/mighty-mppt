@@ -1468,7 +1468,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
 			(at 116.84 123.19 0)
 			(effects
 				(font
@@ -1487,24 +1487,6 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
-			(at 116.84 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 116.84 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
 			(at 116.84 123.19 0)
 			(effects
 				(font
@@ -1606,24 +1588,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 127 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 127 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "efa5de8d-867e-4efb-ad5f-7b230239fdbc")
 		)
@@ -1714,24 +1678,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 139.7 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 139.7 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "0ddac331-b0f4-4c14-8b38-441065f99653")
 		)
@@ -1766,7 +1712,7 @@
 				)
 			)
 		)
-		(property "Value" "0.35"
+		(property "Value" "Schottky"
 			(at 121.666 109.22 0)
 			(effects
 				(font
@@ -1783,7 +1729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/115/DIOD_S_A0002960396_1-2542090.pdf"
 			(at 121.92 111.76 90)
 			(effects
 				(font
@@ -1848,24 +1794,6 @@
 		)
 		(property "Notes" ""
 			(at 121.92 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 121.92 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 121.92 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2017,7 +1945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/216/APT2012QBC_D-226241.pdf"
 			(at 139.7 81.28 90)
 			(effects
 				(font
@@ -2044,7 +1972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kingbright"
 			(at 139.7 81.28 90)
 			(effects
 				(font
@@ -2053,7 +1981,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
+		(property "P/N" " APT2012QBC/D "
 			(at 139.7 81.28 90)
 			(effects
 				(font
@@ -2082,24 +2010,6 @@
 		)
 		(property "Notes" ""
 			(at 139.7 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 139.7 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 139.7 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2200,24 +2110,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 139.7 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 139.7 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "6b784052-afd6-466c-b399-81321a938b0c")
 		)
@@ -2308,24 +2200,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 139.7 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 139.7 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "b8d54671-8bdf-4765-b5b0-879bda26e357")
 		)
@@ -2368,7 +2242,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 111.76 111.76 0)
 			(effects
 				(font
@@ -2377,7 +2251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 111.76 111.76 0)
 			(effects
 				(font
@@ -2431,25 +2305,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
-			(at 111.76 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 111.76 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "P/N" "CRCW121015R0FKEA "
 			(at 111.76 111.76 0)
 			(effects
 				(font
@@ -2559,24 +2415,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 139.7 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 139.7 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "e5362236-bfad-4d7c-9fe1-207ec4a49e2d")
 		)
@@ -2633,7 +2471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/196/Infineon_BSP297_DS_v02_02_en-1226465.pdf"
 			(at 137.16 101.6 0)
 			(effects
 				(font
@@ -2753,7 +2591,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 116.84 101.6 0)
 			(effects
 				(font
@@ -2762,7 +2600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 116.84 101.6 0)
 			(effects
 				(font
@@ -2816,25 +2654,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
-			(at 116.84 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 116.84 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "P/N" "CRCW121015R0FKEA "
 			(at 116.84 101.6 0)
 			(effects
 				(font

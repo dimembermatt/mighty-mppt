@@ -3001,19 +3001,19 @@
 		)
 	)
 	(junction
-		(at 54.61 101.6)
+		(at 153.67 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1565b630-8516-48d0-901d-a1628b84f024")
+		(uuid "12bd5264-7e87-4836-88bc-9fcc072fcaeb")
 	)
 	(junction
-		(at 99.06 101.6)
+		(at 100.33 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c7ef325-9e44-4864-ac3b-7032072aa36c")
 	)
 	(junction
-		(at 165.1 127)
+		(at 177.8 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1dc0da87-84ce-4409-afec-953597a676a1")
@@ -3025,118 +3025,142 @@
 		(uuid "1dfbec70-2d81-4875-a7b8-46f0c89d0f28")
 	)
 	(junction
-		(at 76.2 101.6)
+		(at 77.47 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21212086-12b7-404e-b0a5-2c8db6b5905b")
 	)
 	(junction
-		(at 142.24 127)
+		(at 143.51 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "344de737-b33e-4814-9d2d-1d8e45aec3ef")
 	)
 	(junction
-		(at 44.45 101.6)
+		(at 35.56 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "41b52e62-9aa2-41f6-998b-ee050316b21d")
 	)
 	(junction
-		(at 54.61 127)
+		(at 133.35 127)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "517dac32-21b6-486e-80d3-b86fa101a958")
+		(uuid "442e2346-a466-4e16-86e8-eac5c5c703c1")
 	)
 	(junction
-		(at 176.53 127)
+		(at 133.35 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e3fd401-d1ba-4edc-ab53-23968acf1dec")
+	)
+	(junction
+		(at 189.23 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "57203b0c-1ac0-427d-90a4-f44415946122")
 	)
 	(junction
-		(at 114.3 127)
+		(at 115.57 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5838acdc-b2cc-4905-bde7-40fa9089e9ba")
 	)
 	(junction
-		(at 64.77 127)
+		(at 55.88 127)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6c95888a-2888-44b9-9d49-33a4b8c118c1")
+		(uuid "5d0ea2ab-db3a-4cea-944d-16159a72c5f7")
 	)
 	(junction
-		(at 114.3 101.6)
+		(at 115.57 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74b9c48f-9a1b-4baf-8d96-a2eb5b36edb4")
 	)
 	(junction
-		(at 142.24 101.6)
+		(at 66.04 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8043180c-ee08-4381-b53a-e75b7cfb6544")
+	)
+	(junction
+		(at 143.51 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85f499b3-5fd6-4e17-ac6c-7f4921f170b7")
 	)
 	(junction
-		(at 44.45 127)
+		(at 55.88 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8df436f9-08ff-4d4f-acab-2cfa67f6f1e3")
+	)
+	(junction
+		(at 35.56 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1cfd241-846f-40d5-bebb-a1a9182e5cf0")
 	)
 	(junction
-		(at 165.1 101.6)
+		(at 177.8 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a4d911f7-09e5-406c-beab-4c86ccc0ca07")
 	)
 	(junction
-		(at 153.67 101.6)
+		(at 166.37 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5d16bf9-ffe1-438f-9d97-2a2a79341fd8")
 	)
 	(junction
-		(at 132.08 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a94d9111-eb3d-4fe4-8adf-9553bed257f5")
-	)
-	(junction
-		(at 76.2 127)
+		(at 77.47 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "abafe785-ebef-46a0-9732-a52be95a2598")
 	)
 	(junction
-		(at 153.67 127)
+		(at 166.37 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "acb65134-43ab-40fd-aaad-ecaf923b3f01")
 	)
 	(junction
-		(at 132.08 127)
+		(at 153.67 127)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d03f7e80-b4c9-48b1-aa81-6bf54d5ce9fd")
+		(uuid "ae65711e-d49a-4e80-8470-0bc5a60deb7c")
 	)
 	(junction
-		(at 176.53 101.6)
+		(at 66.04 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5a6cbc8-f0c6-49b8-ae17-c208c7577de5")
+	)
+	(junction
+		(at 189.23 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df5c2b7d-57d3-4e3d-a531-2e7e21f0a299")
 	)
 	(junction
-		(at 99.06 127)
+		(at 100.33 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed834fcb-0d76-42b7-9f31-dd4e9ddbdf5e")
 	)
 	(junction
-		(at 64.77 101.6)
+		(at 45.72 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ff974c29-21e6-4368-a969-19bcf8e456b9")
+		(uuid "f4cf77c4-0f78-4262-a58b-6850b932da21")
+	)
+	(junction
+		(at 45.72 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffca79ba-ad28-42fd-8222-bdba9bef1ccd")
 	)
 	(polyline
 		(pts
@@ -3147,16 +3171,6 @@
 			(type default)
 		)
 		(uuid "0253d6ef-43aa-4396-b305-da28b3d3c57f")
-	)
-	(wire
-		(pts
-			(xy 132.08 101.6) (xy 132.08 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c071d0a-26e6-43a2-9dba-aa214ae85ca6")
 	)
 	(wire
 		(pts
@@ -3180,7 +3194,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 127) (xy 142.24 127)
+			(xy 127 127) (xy 133.35 127)
 		)
 		(stroke
 			(width 0)
@@ -3190,23 +3204,13 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 101.6) (xy 114.3 110.49)
+			(xy 115.57 101.6) (xy 115.57 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "11ed5e08-b29e-4d0e-b9d1-baa43eb3fe1f")
-	)
-	(wire
-		(pts
-			(xy 125.73 127) (xy 132.08 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14b37744-b30b-46f2-b951-009a36d0430a")
 	)
 	(polyline
 		(pts
@@ -3240,6 +3244,26 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 116.84) (xy 66.04 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2519f4e5-bee8-47ba-8b97-27b719bbb0d8")
+	)
+	(wire
+		(pts
+			(xy 45.72 127) (xy 55.88 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26332f3f-d38a-4d6e-9a1e-a503453438b2")
+	)
+	(wire
+		(pts
 			(xy 139.7 152.4) (xy 139.7 158.75)
 		)
 		(stroke
@@ -3250,33 +3274,23 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 101.6) (xy 54.61 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d952d69-c6a6-4d19-84fd-25c70c033826")
-	)
-	(wire
-		(pts
-			(xy 132.08 116.84) (xy 132.08 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e760e8b-6d9a-45af-9e84-d6d12d9681f5")
-	)
-	(wire
-		(pts
-			(xy 99.06 101.6) (xy 114.3 101.6)
+			(xy 100.33 101.6) (xy 115.57 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "303abfab-9820-4b53-aee2-91a67a79eeb5")
+	)
+	(wire
+		(pts
+			(xy 153.67 116.84) (xy 153.67 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3160635f-13fe-4fb5-bbcf-1c19f3869b18")
 	)
 	(polyline
 		(pts
@@ -3297,6 +3311,16 @@
 			(type default)
 		)
 		(uuid "39ca9b61-652d-4927-b7cc-e3bc3f5cf9a0")
+	)
+	(wire
+		(pts
+			(xy 133.35 101.6) (xy 143.51 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bb34909-0696-43c9-84f4-129ac572e4f6")
 	)
 	(polyline
 		(pts
@@ -3320,7 +3344,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 111.76) (xy 142.24 101.6)
+			(xy 143.51 111.76) (xy 143.51 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3330,7 +3354,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 127) (xy 114.3 127)
+			(xy 100.33 127) (xy 115.57 127)
 		)
 		(stroke
 			(width 0)
@@ -3340,7 +3364,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 106.68) (xy 99.06 101.6)
+			(xy 100.33 106.68) (xy 100.33 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3350,17 +3374,27 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 101.6) (xy 54.61 111.76)
+			(xy 66.04 101.6) (xy 66.04 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4894e17e-f552-4695-b30f-825faa4eea99")
+		(uuid "4831ee00-e07b-4636-aacc-c33cafccc59a")
 	)
 	(wire
 		(pts
-			(xy 114.3 127) (xy 120.65 127)
+			(xy 153.67 127) (xy 166.37 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bec3aaf-428b-4fe6-8530-f661292d663c")
+	)
+	(wire
+		(pts
+			(xy 115.57 127) (xy 121.92 127)
 		)
 		(stroke
 			(width 0)
@@ -3370,7 +3404,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 110.49) (xy 153.67 101.6)
+			(xy 166.37 110.49) (xy 166.37 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3400,7 +3434,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 127) (xy 165.1 127)
+			(xy 166.37 127) (xy 177.8 127)
 		)
 		(stroke
 			(width 0)
@@ -3410,7 +3444,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 127) (xy 153.67 127)
+			(xy 143.51 127) (xy 153.67 127)
 		)
 		(stroke
 			(width 0)
@@ -3420,7 +3454,27 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 118.11) (xy 114.3 127)
+			(xy 55.88 101.6) (xy 55.88 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d63daf8-d8e3-40a7-a8b4-daf718561100")
+	)
+	(wire
+		(pts
+			(xy 153.67 101.6) (xy 153.67 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eb70bc3-8b35-45f7-937d-6a1d054e1f8b")
+	)
+	(wire
+		(pts
+			(xy 115.57 118.11) (xy 115.57 127)
 		)
 		(stroke
 			(width 0)
@@ -3430,7 +3484,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 127) (xy 176.53 118.11)
+			(xy 189.23 127) (xy 189.23 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3450,23 +3504,13 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 118.11) (xy 76.2 127)
+			(xy 77.47 118.11) (xy 77.47 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "67dd51bb-bc2e-4e88-af1d-1b6b40323fc2")
-	)
-	(wire
-		(pts
-			(xy 64.77 116.84) (xy 64.77 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69799579-1edd-4ec5-96cb-bc7cfd3f60c2")
 	)
 	(wire
 		(pts
@@ -3480,7 +3524,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 110.49) (xy 76.2 101.6)
+			(xy 77.47 110.49) (xy 77.47 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3500,7 +3544,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 101.6) (xy 44.45 101.6)
+			(xy 55.88 101.6) (xy 45.72 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3510,17 +3554,27 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 101.6) (xy 132.08 101.6)
+			(xy 133.35 127) (xy 143.51 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7655a5fd-9a73-4907-a69a-8275b0810d52")
+		(uuid "73391445-d278-4627-a768-7cd77e229c73")
 	)
 	(wire
 		(pts
-			(xy 142.24 116.84) (xy 142.24 127)
+			(xy 132.08 101.6) (xy 133.35 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75832205-b097-4cd5-9a33-68db32b2c38c")
+	)
+	(wire
+		(pts
+			(xy 143.51 116.84) (xy 143.51 127)
 		)
 		(stroke
 			(width 0)
@@ -3530,7 +3584,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 101.6) (xy 176.53 101.6)
+			(xy 191.77 101.6) (xy 189.23 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3540,7 +3594,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 101.6) (xy 165.1 101.6)
+			(xy 166.37 101.6) (xy 177.8 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3550,7 +3604,17 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 101.6) (xy 176.53 101.6)
+			(xy 55.88 116.84) (xy 55.88 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8137c264-7423-45ea-a159-3d9ab7c2b658")
+	)
+	(wire
+		(pts
+			(xy 177.8 101.6) (xy 189.23 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3560,23 +3624,13 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 127) (xy 99.06 127)
+			(xy 77.47 127) (xy 100.33 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "86c21d4c-be23-4d75-8b5e-3cb2051d876c")
-	)
-	(wire
-		(pts
-			(xy 54.61 127) (xy 64.77 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a4e98cc-13b3-4e3e-b074-2fc0a1a4b92d")
 	)
 	(polyline
 		(pts
@@ -3590,7 +3644,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 101.6) (xy 153.67 101.6)
+			(xy 143.51 101.6) (xy 153.67 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3620,17 +3674,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 111.76) (xy 64.77 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9813a88b-cd95-4e6a-ae39-de2feff67893")
-	)
-	(wire
-		(pts
-			(xy 44.45 127) (xy 54.61 127)
+			(xy 35.56 127) (xy 45.72 127)
 		)
 		(stroke
 			(width 0)
@@ -3650,17 +3694,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 101.6) (xy 142.24 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fd42da8-9e28-4838-b4f8-a3d27afe1de8")
-	)
-	(wire
-		(pts
-			(xy 165.1 127) (xy 176.53 127)
+			(xy 177.8 127) (xy 189.23 127)
 		)
 		(stroke
 			(width 0)
@@ -3670,7 +3704,17 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 101.6) (xy 99.06 101.6)
+			(xy 133.35 101.6) (xy 133.35 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a68ffab0-dc0d-49c5-a5e2-1523f630a36c")
+	)
+	(wire
+		(pts
+			(xy 93.98 101.6) (xy 100.33 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3680,7 +3724,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 110.49) (xy 176.53 101.6)
+			(xy 189.23 110.49) (xy 189.23 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3690,23 +3734,23 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 116.84) (xy 54.61 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad89bc8c-406e-45ed-8bf1-8f3e6fe62fb7")
-	)
-	(wire
-		(pts
-			(xy 165.1 118.11) (xy 165.1 127)
+			(xy 177.8 118.11) (xy 177.8 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b3c789e8-7bd7-48cf-9c7d-69f1ffee55b1")
+	)
+	(wire
+		(pts
+			(xy 45.72 101.6) (xy 35.56 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b500a5c1-ee7b-489a-8496-500622a24aca")
 	)
 	(polyline
 		(pts
@@ -3720,7 +3764,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 127) (xy 76.2 127)
+			(xy 55.88 127) (xy 66.04 127)
 		)
 		(stroke
 			(width 0)
@@ -3730,7 +3774,47 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 127) (xy 44.45 127)
+			(xy 66.04 127) (xy 77.47 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9e33dbe-e5cc-4985-9271-9a5351d0bf4b")
+	)
+	(wire
+		(pts
+			(xy 66.04 101.6) (xy 77.47 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba561e1d-f09c-4b63-ab43-d18dc40fc6a7")
+	)
+	(wire
+		(pts
+			(xy 45.72 116.84) (xy 45.72 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beefb409-22af-42d5-ad16-a2494858707b")
+	)
+	(wire
+		(pts
+			(xy 133.35 116.84) (xy 133.35 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3398622-4593-43de-8f09-a5a35e52f548")
+	)
+	(wire
+		(pts
+			(xy 25.4 127) (xy 35.56 127)
 		)
 		(stroke
 			(width 0)
@@ -3740,7 +3824,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 101.6) (xy 44.45 101.6)
+			(xy 33.02 101.6) (xy 35.56 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3770,7 +3854,17 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 118.11) (xy 44.45 127)
+			(xy 45.72 101.6) (xy 45.72 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6d4f214-6764-49ad-aa78-f8a0e56be47d")
+	)
+	(wire
+		(pts
+			(xy 35.56 118.11) (xy 35.56 127)
 		)
 		(stroke
 			(width 0)
@@ -3790,7 +3884,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 101.6) (xy 76.2 101.6)
+			(xy 55.88 101.6) (xy 66.04 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3800,13 +3894,23 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 121.92) (xy 99.06 127)
+			(xy 100.33 121.92) (xy 100.33 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dd6607ec-ab81-40d1-abb2-b0b6e4c51006")
+	)
+	(wire
+		(pts
+			(xy 153.67 101.6) (xy 166.37 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd6ac614-8bfa-49d6-8e3d-4372ce992b3a")
 	)
 	(polyline
 		(pts
@@ -3830,7 +3934,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 101.6) (xy 114.3 101.6)
+			(xy 116.84 101.6) (xy 115.57 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3840,7 +3944,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 101.6) (xy 85.09 101.6)
+			(xy 77.47 101.6) (xy 86.36 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3850,7 +3954,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 127) (xy 186.69 127)
+			(xy 189.23 127) (xy 199.39 127)
 		)
 		(stroke
 			(width 0)
@@ -3860,7 +3964,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 101.6) (xy 44.45 110.49)
+			(xy 35.56 101.6) (xy 35.56 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3870,7 +3974,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 110.49) (xy 165.1 101.6)
+			(xy 177.8 110.49) (xy 177.8 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3880,7 +3984,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 118.11) (xy 153.67 127)
+			(xy 166.37 118.11) (xy 166.37 127)
 		)
 		(stroke
 			(width 0)
@@ -4099,7 +4203,7 @@
 	)
 	(text_box "Is this sized appropriately to protect 170VDS rated FETs?"
 		(exclude_from_sim no)
-		(at 99.06 129.54 0)
+		(at 102.87 129.54 0)
 		(size 15.24 6.35)
 		(stroke
 			(width 0)
@@ -4118,7 +4222,7 @@
 	)
 	(text_box "Is this sized appropriately to protect 170VDS rated FETs?"
 		(exclude_from_sim no)
-		(at 50.8 129.54 0)
+		(at 27.94 129.54 0)
 		(size 15.24 6.35)
 		(stroke
 			(width 0)
@@ -4191,7 +4295,7 @@
 	)
 	(text_box "Is this sized appropriately to protect 170VDS rated FETs?"
 		(exclude_from_sim no)
-		(at 157.48 129.54 0)
+		(at 181.61 129.54 0)
 		(size 15.24 6.35)
 		(stroke
 			(width 0)
@@ -4267,7 +4371,7 @@
 		(uuid "aa4a786f-6fb1-4083-9ace-d4aeb2b30480")
 	)
 	(label "VO"
-		(at 153.67 101.6 0)
+		(at 166.37 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4278,7 +4382,7 @@
 		(uuid "d2195d1c-ceec-4300-a2ca-306cb477f018")
 	)
 	(label "VI"
-		(at 44.45 101.6 0)
+		(at 35.56 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4301,7 +4405,7 @@
 	)
 	(hierarchical_label "VI-"
 		(shape input)
-		(at 34.29 127 180)
+		(at 25.4 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4313,7 +4417,7 @@
 	)
 	(hierarchical_label "SWH"
 		(shape input)
-		(at 123.19 93.98 90)
+		(at 124.46 93.98 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4325,7 +4429,7 @@
 	)
 	(hierarchical_label "VO-"
 		(shape input)
-		(at 186.69 127 0)
+		(at 199.39 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4349,7 +4453,7 @@
 	)
 	(hierarchical_label "VI+"
 		(shape input)
-		(at 34.29 101.6 180)
+		(at 25.4 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4373,7 +4477,7 @@
 	)
 	(hierarchical_label "SWL"
 		(shape input)
-		(at 91.44 114.3 180)
+		(at 92.71 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4397,7 +4501,7 @@
 	)
 	(hierarchical_label "VO+"
 		(shape input)
-		(at 186.69 101.6 0)
+		(at 199.39 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4409,7 +4513,7 @@
 	)
 	(hierarchical_label "VSW"
 		(shape input)
-		(at 99.06 101.6 90)
+		(at 100.33 101.6 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4465,24 +4569,6 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 119.38 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 119.38 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
 			(at 119.38 162.56 0)
 			(effects
 				(font
@@ -4574,24 +4660,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 114.3 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 114.3 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "70ac6e96-1817-4a34-b6b9-887fb96d7a6a")
 		)
@@ -4662,24 +4730,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 83.82 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 83.82 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Keystone Electronics"
 			(at 83.82 162.56 0)
 			(effects
@@ -4712,15 +4762,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 165.1 114.3 0)
+		(at 177.8 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "17e727d7-8a29-4076-a40c-3bc97fb1af5f")
-		(property "Reference" "C507"
-			(at 168.91 113.03 0)
+		(property "Reference" "C509"
+			(at 181.61 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4729,7 +4779,7 @@
 			)
 		)
 		(property "Value" "18u"
-			(at 168.91 115.57 0)
+			(at 181.61 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4738,7 +4788,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Radial_D10.0mm_H16.0mm_P5.00mm"
-			(at 166.0652 118.11 0)
+			(at 178.7652 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4747,7 +4797,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.kemet.com/download/datasheet/A759MS186M2CAAE090"
-			(at 165.1 114.3 0)
+			(at 177.8 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4756,7 +4806,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 165.1 114.3 0)
+			(at 177.8 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4765,7 +4815,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 165.1 114.3 0)
+			(at 177.8 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4774,7 +4824,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 165.1 114.3 0)
+			(at 177.8 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4783,7 +4833,7 @@
 			)
 		)
 		(property "P/N" "A759MS186M2CAAE090"
-			(at 165.1 114.3 0)
+			(at 177.8 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4792,7 +4842,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 165.1 114.3 0)
+			(at 177.8 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4801,7 +4851,7 @@
 			)
 		)
 		(property "Cost" ""
-			(at 165.1 114.3 0)
+			(at 177.8 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4809,26 +4859,8 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
-			(at 165.1 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 165.1 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 165.1 114.3 0)
+		(property "Notes" "150V Rating"
+			(at 177.8 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4845,7 +4877,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/9382a906-528a-4b60-b72c-00b03d72686e"
-					(reference "C507")
+					(reference "C509")
 					(unit 1)
 				)
 			)
@@ -4853,7 +4885,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 182.88 101.6 90)
+		(at 195.58 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4862,7 +4894,7 @@
 		(fields_autoplaced yes)
 		(uuid "1942ef4e-e827-48ac-9312-6d0daa9a5dbc")
 		(property "Reference" "F502"
-			(at 182.88 95.25 90)
+			(at 195.58 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4870,7 +4902,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 182.88 97.79 90)
+			(at 195.58 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4878,7 +4910,7 @@
 			)
 		)
 		(property "Footprint" "footprints:littelfuse_65600001009"
-			(at 182.88 103.378 90)
+			(at 195.58 103.378 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4887,7 +4919,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuse_blocks/littelfuse_fuse_block_656_datasheet.pdf.pdf"
-			(at 182.88 101.6 0)
+			(at 195.58 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4896,7 +4928,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 182.88 101.6 0)
+			(at 195.58 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4905,7 +4937,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 182.88 101.6 90)
+			(at 195.58 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4914,7 +4946,7 @@
 			)
 		)
 		(property "Manufacturer" "Littelfuse"
-			(at 182.88 101.6 90)
+			(at 195.58 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4923,7 +4955,7 @@
 			)
 		)
 		(property "P/N" "65600001009"
-			(at 182.88 101.6 90)
+			(at 195.58 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4932,7 +4964,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 182.88 101.6 90)
+			(at 195.58 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4941,7 +4973,7 @@
 			)
 		)
 		(property "Cost" ""
-			(at 182.88 101.6 90)
+			(at 195.58 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4950,25 +4982,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 182.88 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 182.88 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 182.88 101.6 0)
+			(at 195.58 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5046,24 +5060,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 99.06 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 99.06 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "6c0e987f-8529-4ea7-9d57-cf7c57e64e30")
 		)
@@ -5081,15 +5077,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 76.2 114.3 0)
+		(at 77.47 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "2f939c76-8111-44e0-b98f-b671054e444e")
-		(property "Reference" "C503"
-			(at 80.01 113.03 0)
+		(property "Reference" "C504"
+			(at 81.28 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5098,7 +5094,7 @@
 			)
 		)
 		(property "Value" "18u"
-			(at 80.01 115.57 0)
+			(at 81.28 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5107,7 +5103,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Radial_D10.0mm_H16.0mm_P5.00mm"
-			(at 77.1652 118.11 0)
+			(at 78.4352 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5116,7 +5112,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.kemet.com/download/datasheet/A759MS186M2CAAE090"
-			(at 76.2 114.3 0)
+			(at 77.47 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5125,7 +5121,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 76.2 114.3 0)
+			(at 77.47 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5134,7 +5130,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 76.2 114.3 0)
+			(at 77.47 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5143,7 +5139,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 76.2 114.3 0)
+			(at 77.47 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5152,7 +5148,7 @@
 			)
 		)
 		(property "P/N" "A759MS186M2CAAE090"
-			(at 76.2 114.3 0)
+			(at 77.47 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5161,7 +5157,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 76.2 114.3 0)
+			(at 77.47 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5170,7 +5166,7 @@
 			)
 		)
 		(property "Cost" ""
-			(at 76.2 114.3 0)
+			(at 77.47 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5178,26 +5174,8 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
-			(at 76.2 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 76.2 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 76.2 114.3 0)
+		(property "Notes" "150V Rating"
+			(at 77.47 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5214,7 +5192,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/9382a906-528a-4b60-b72c-00b03d72686e"
-					(reference "C503")
+					(reference "C504")
 					(unit 1)
 				)
 			)
@@ -5222,7 +5200,7 @@
 	)
 	(symbol
 		(lib_id "littelfuse_021306_3MXP:65900000009")
-		(at 182.88 76.2 0)
+		(at 195.58 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5230,7 +5208,7 @@
 		(dnp no)
 		(uuid "372555af-1809-4edf-b4d3-562aa865b31b")
 		(property "Reference" "FC502"
-			(at 179.578 73.66 0)
+			(at 192.278 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5239,7 +5217,7 @@
 			)
 		)
 		(property "Value" "65900000009"
-			(at 175.514 75.946 0)
+			(at 188.214 75.946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5248,7 +5226,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 76.2 0)
+			(at 195.58 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5257,7 +5235,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuse_blocks/littelfuse_fuse_block_656_datasheet.pdf.pdf"
-			(at 182.88 76.2 0)
+			(at 195.58 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5266,7 +5244,7 @@
 			)
 		)
 		(property "Description" "COVER FUSE TRANSPRNT FOR 656/658"
-			(at 182.88 76.2 0)
+			(at 195.58 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5275,7 +5253,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 182.88 76.2 0)
+			(at 195.58 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5284,7 +5262,7 @@
 			)
 		)
 		(property "Manufacturer" "Littelfuse"
-			(at 182.88 76.2 0)
+			(at 195.58 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5293,7 +5271,7 @@
 			)
 		)
 		(property "P/N" "65900000009"
-			(at 182.88 76.2 0)
+			(at 195.58 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5302,7 +5280,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 182.88 76.2 0)
+			(at 195.58 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5311,7 +5289,7 @@
 			)
 		)
 		(property "Cost" ""
-			(at 182.88 76.2 0)
+			(at 195.58 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5320,25 +5298,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 182.88 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 182.88 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 182.88 76.2 0)
+			(at 195.58 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5357,7 +5317,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 38.1 101.6 90)
+		(at 29.21 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5366,7 +5326,7 @@
 		(fields_autoplaced yes)
 		(uuid "49afa5c1-bd7e-451e-b8e6-31d3add0cfed")
 		(property "Reference" "F501"
-			(at 38.1 95.25 90)
+			(at 29.21 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5374,7 +5334,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 38.1 97.79 90)
+			(at 29.21 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5382,7 +5342,7 @@
 			)
 		)
 		(property "Footprint" "footprints:littelfuse_65600001009"
-			(at 38.1 103.378 90)
+			(at 29.21 103.378 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5391,7 +5351,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuse_blocks/littelfuse_fuse_block_656_datasheet.pdf.pdf"
-			(at 38.1 101.6 0)
+			(at 29.21 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5400,7 +5360,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 38.1 101.6 0)
+			(at 29.21 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5409,7 +5369,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 38.1 101.6 90)
+			(at 29.21 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5418,7 +5378,7 @@
 			)
 		)
 		(property "Manufacturer" "Littelfuse"
-			(at 38.1 101.6 90)
+			(at 29.21 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5427,7 +5387,7 @@
 			)
 		)
 		(property "P/N" "65600001009"
-			(at 38.1 101.6 90)
+			(at 29.21 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5436,7 +5396,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 38.1 101.6 90)
+			(at 29.21 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5445,7 +5405,7 @@
 			)
 		)
 		(property "Cost" ""
-			(at 38.1 101.6 90)
+			(at 29.21 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5454,25 +5414,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 38.1 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 38.1 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 38.1 101.6 0)
+			(at 29.21 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5497,7 +5439,7 @@
 	)
 	(symbol
 		(lib_id "Device:L_Ferrite")
-		(at 88.9 101.6 90)
+		(at 90.17 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5506,7 +5448,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ad2fa7e-e166-4d58-8016-a846a9f7cf8b")
 		(property "Reference" "L501"
-			(at 88.9 95.25 90)
+			(at 90.17 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5514,7 +5456,7 @@
 			)
 		)
 		(property "Value" "471u"
-			(at 88.9 97.79 90)
+			(at 90.17 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5522,7 +5464,7 @@
 			)
 		)
 		(property "Footprint" "footprints:ferroxcube_PQ32_30_3C97_wire"
-			(at 88.9 101.6 0)
+			(at 90.17 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5531,7 +5473,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/56/PolyurethaneMagnetWireDataSheet.pdf"
-			(at 88.9 101.6 0)
+			(at 90.17 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5540,7 +5482,7 @@
 			)
 		)
 		(property "Description" "Inductor with ferrite core"
-			(at 88.9 101.6 0)
+			(at 90.17 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5549,7 +5491,7 @@
 			)
 		)
 		(property "Distributor" "Remington Industries"
-			(at 88.9 101.6 90)
+			(at 90.17 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5558,7 +5500,7 @@
 			)
 		)
 		(property "Manufacturer" "Remington Industries"
-			(at 88.9 101.6 90)
+			(at 90.17 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5567,7 +5509,7 @@
 			)
 		)
 		(property "P/N" "21SNSP"
-			(at 88.9 101.6 90)
+			(at 90.17 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5576,7 +5518,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 88.9 101.6 90)
+			(at 90.17 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5585,7 +5527,7 @@
 			)
 		)
 		(property "Cost" ""
-			(at 88.9 101.6 90)
+			(at 90.17 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5594,25 +5536,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 88.9 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 88.9 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 88.9 101.6 0)
+			(at 90.17 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5630,6 +5554,375 @@
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/9382a906-528a-4b60-b72c-00b03d72686e"
 					(reference "L501")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 45.72 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "663a8d30-b1b2-40ce-8d2c-431b1aa98b18")
+		(property "Reference" "C501"
+			(at 48.26 113.0362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 48.26 115.5762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 45.72 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA5L3X7R2E104K160AA"
+			(at 45.72 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 45.72 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 45.72 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 45.72 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 45.72 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 45.72 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CGA5L3X7R2E104K160AA "
+			(at 45.72 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "85V Rating"
+			(at 45.72 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72f80468-2798-4e89-af83-fd72c374517a")
+		)
+		(pin "2"
+			(uuid "8eb755fa-59c2-4d55-a865-9311141f92a2")
+		)
+		(instances
+			(project "mppt"
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/9382a906-528a-4b60-b72c-00b03d72686e"
+					(reference "C501")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 153.67 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6766d957-a506-4f93-ba1e-b078dcb9ff0b")
+		(property "Reference" "C507"
+			(at 156.21 113.0362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2u"
+			(at 156.21 115.5762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
+			(at 153.67 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA9P3X7T2E225K250KA"
+			(at 153.67 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 153.67 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 153.67 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 153.67 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 153.67 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 153.67 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CGA9P3X7T2E225K250KA "
+			(at 153.67 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "150V Rating"
+			(at 153.67 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "23e582b6-a606-4e95-afea-0fc1b551b2df")
+		)
+		(pin "1"
+			(uuid "6d621f05-ac88-4643-9fba-1a7de61819fa")
+		)
+		(instances
+			(project "mppt"
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/9382a906-528a-4b60-b72c-00b03d72686e"
+					(reference "C507")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 133.35 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6910385d-e8bc-4b2a-a67c-63e6882ee365")
+		(property "Reference" "C505"
+			(at 135.89 113.0362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 135.89 115.5762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 133.35 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA5L3X7R2E104K160AA"
+			(at 133.35 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 133.35 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 133.35 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 133.35 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 133.35 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 133.35 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CGA5L3X7R2E104K160AA "
+			(at 133.35 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "85V Rating"
+			(at 133.35 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f4031ee-ec88-4df5-8633-628f526ce635")
+		)
+		(pin "2"
+			(uuid "4d26db39-120f-4e71-80bb-3c4df335037b")
+		)
+		(instances
+			(project "mppt"
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/9382a906-528a-4b60-b72c-00b03d72686e"
+					(reference "C505")
 					(unit 1)
 				)
 			)
@@ -5726,24 +6019,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 76.2 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 76.2 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "f849a41f-26d1-477c-ba6f-bfd0d14989ac")
 		)
@@ -5751,148 +6026,6 @@
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/9382a906-528a-4b60-b72c-00b03d72686e"
 					(reference "TP501")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 64.77 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6cc98833-26a5-4943-8050-7f7122d20412")
-		(property "Reference" "C502"
-			(at 67.31 113.0362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2u"
-			(at 67.31 115.5762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 64.77 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.77 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 64.77 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" ""
-			(at 64.77 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TDK"
-			(at 64.77 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" ""
-			(at 64.77 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 64.77 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost" ""
-			(at 64.77 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" "150V Rating"
-			(at 64.77 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 64.77 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 64.77 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "868ece23-c184-4456-928e-e414c832a2b6")
-		)
-		(pin "1"
-			(uuid "6d61ee54-4ea8-4072-a097-1caf3ec9f486")
-		)
-		(instances
-			(project "mppt"
-				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/9382a906-528a-4b60-b72c-00b03d72686e"
-					(reference "C502")
 					(unit 1)
 				)
 			)
@@ -5989,24 +6122,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 114.3 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 114.3 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "5a17e272-4656-43c3-aaaf-88b4b4473f7e")
 		)
@@ -6021,7 +6136,7 @@
 	)
 	(symbol
 		(lib_id "epc_EPC2059:EPC2059")
-		(at 99.06 114.3 0)
+		(at 100.33 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6030,7 +6145,7 @@
 		(fields_autoplaced yes)
 		(uuid "75ab4b07-bd77-4f81-85ce-b05561b81d00")
 		(property "Reference" "Q501"
-			(at 102.87 113.0299 0)
+			(at 104.14 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6039,7 +6154,7 @@
 			)
 		)
 		(property "Value" "EPC2059"
-			(at 102.87 115.5699 0)
+			(at 104.14 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6048,7 +6163,7 @@
 			)
 		)
 		(property "Footprint" "footprints:epc_EPC2059"
-			(at 107.6452 118.0084 0)
+			(at 108.9152 118.0084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6057,7 +6172,7 @@
 			)
 		)
 		(property "Datasheet" "https://epc-co.com/epc/Portals/0/epc/documents/datasheets/EPC2059_datasheet.pdf"
-			(at 99.06 114.3 0)
+			(at 100.33 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6066,7 +6181,7 @@
 			)
 		)
 		(property "Description" "170V 25A 9mE"
-			(at 109.22 116.2812 0)
+			(at 110.49 116.2812 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6075,7 +6190,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 99.06 114.3 0)
+			(at 100.33 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6084,7 +6199,7 @@
 			)
 		)
 		(property "Manufacturer" "EPC"
-			(at 99.06 114.3 0)
+			(at 100.33 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6093,7 +6208,7 @@
 			)
 		)
 		(property "P/N" "EPC2059"
-			(at 99.06 114.3 0)
+			(at 100.33 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6102,7 +6217,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 99.06 114.3 0)
+			(at 100.33 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6111,7 +6226,7 @@
 			)
 		)
 		(property "Cost" ""
-			(at 99.06 114.3 0)
+			(at 100.33 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6120,25 +6235,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 99.06 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 99.06 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 99.06 114.3 0)
+			(at 100.33 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6176,7 +6273,7 @@
 	(symbol
 		(lib_name "021306_3MXP_1")
 		(lib_id "littelfuse_021306_3MXP:021306_3MXP")
-		(at 43.18 86.36 0)
+		(at 29.21 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6185,7 +6282,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ee0ae6f-fb46-4469-abdf-1b7209ac2987")
 		(property "Reference" "FX501"
-			(at 43.18 82.55 0)
+			(at 29.21 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6193,7 +6290,7 @@
 			)
 		)
 		(property "Value" "021306.3MXP"
-			(at 43.18 85.09 0)
+			(at 29.21 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6201,7 +6298,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 86.36 0)
+			(at 29.21 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6210,7 +6307,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=69a7cc50-e735-4299-8e4b-0e5e11e91f14&filename=littelfuse_fuse_213_datasheet.pdf"
-			(at 43.18 86.36 0)
+			(at 29.21 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6219,7 +6316,7 @@
 			)
 		)
 		(property "Description" "FUSE GLASS 6.3A 250VAC 5X20MM"
-			(at 43.18 86.36 0)
+			(at 29.21 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6228,7 +6325,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 43.18 86.36 0)
+			(at 29.21 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6237,7 +6334,7 @@
 			)
 		)
 		(property "Manufacturer" "Littelfuse"
-			(at 43.18 86.36 0)
+			(at 29.21 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6246,7 +6343,7 @@
 			)
 		)
 		(property "P/N" "021306.3MXP"
-			(at 43.18 86.36 0)
+			(at 29.21 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6255,7 +6352,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 43.18 86.36 0)
+			(at 29.21 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6264,7 +6361,7 @@
 			)
 		)
 		(property "Cost" ""
-			(at 43.18 86.36 0)
+			(at 29.21 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6273,25 +6370,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 43.18 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 43.18 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 43.18 86.36 0)
+			(at 29.21 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6310,15 +6389,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 153.67 114.3 0)
+		(at 166.37 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "92ec7ea6-3075-4b46-a23c-6d1d69768890")
-		(property "Reference" "C506"
-			(at 157.48 113.03 0)
+		(property "Reference" "C508"
+			(at 170.18 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6327,7 +6406,7 @@
 			)
 		)
 		(property "Value" "18u"
-			(at 157.48 115.57 0)
+			(at 170.18 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6336,7 +6415,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Radial_D10.0mm_H16.0mm_P5.00mm"
-			(at 154.6352 118.11 0)
+			(at 167.3352 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6345,7 +6424,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.kemet.com/download/datasheet/A759MS186M2CAAE090"
-			(at 153.67 114.3 0)
+			(at 166.37 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6354,7 +6433,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 153.67 114.3 0)
+			(at 166.37 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6363,7 +6442,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 153.67 114.3 0)
+			(at 166.37 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6372,7 +6451,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 153.67 114.3 0)
+			(at 166.37 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6381,7 +6460,7 @@
 			)
 		)
 		(property "P/N" "A759MS186M2CAAE090"
-			(at 153.67 114.3 0)
+			(at 166.37 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6390,7 +6469,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 153.67 114.3 0)
+			(at 166.37 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6399,7 +6478,7 @@
 			)
 		)
 		(property "Cost" ""
-			(at 153.67 114.3 0)
+			(at 166.37 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6407,26 +6486,8 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
-			(at 153.67 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 153.67 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 153.67 114.3 0)
+		(property "Notes" "150V Rating"
+			(at 166.37 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6443,7 +6504,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/9382a906-528a-4b60-b72c-00b03d72686e"
-					(reference "C506")
+					(reference "C508")
 					(unit 1)
 				)
 			)
@@ -6451,7 +6512,7 @@
 	)
 	(symbol
 		(lib_id "ferroxcube_PQ32_30_3C97:PQ32/30-3C97")
-		(at 109.22 83.82 0)
+		(at 110.49 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6459,7 +6520,7 @@
 		(dnp no)
 		(uuid "99909c01-9582-4cf4-b6b7-6cd34092f16d")
 		(property "Reference" "LC501"
-			(at 106.172 81.026 0)
+			(at 107.442 81.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6468,7 +6529,7 @@
 			)
 		)
 		(property "Value" "PQ32/30-3C97"
-			(at 101.6 83.312 0)
+			(at 102.87 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6477,7 +6538,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 83.82 0)
+			(at 110.49 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6486,7 +6547,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ferroxcube.com/upload/media/product/file/Pr_ds/PQ32_30.pdf"
-			(at 109.22 83.82 0)
+			(at 110.49 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6495,7 +6556,7 @@
 			)
 		)
 		(property "Description" "FERRITE CORE PQ 3C97 2PC SET"
-			(at 109.22 83.82 0)
+			(at 110.49 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6504,7 +6565,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 109.22 83.82 0)
+			(at 110.49 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6513,7 +6574,7 @@
 			)
 		)
 		(property "Manufacturer" "Ferroxcube"
-			(at 109.22 83.82 0)
+			(at 110.49 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6522,7 +6583,7 @@
 			)
 		)
 		(property "P/N" "PQ32/30-3C97"
-			(at 109.22 83.82 0)
+			(at 110.49 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6531,7 +6592,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 109.22 83.82 0)
+			(at 110.49 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6540,7 +6601,7 @@
 			)
 		)
 		(property "Cost" ""
-			(at 109.22 83.82 0)
+			(at 110.49 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6549,25 +6610,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 109.22 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 109.22 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 109.22 83.82 0)
+			(at 110.49 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6670,7 +6713,7 @@
 	)
 	(symbol
 		(lib_id "ferroxcube_PQ32_30_3C97:CLM/P-PQ32/30")
-		(at 95.25 72.39 0)
+		(at 96.52 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6678,7 +6721,7 @@
 		(dnp no)
 		(uuid "a59e32d1-a2c2-432d-a7cf-a57e06e89c22")
 		(property "Reference" "LH501"
-			(at 91.44 69.85 0)
+			(at 92.71 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6687,7 +6730,7 @@
 			)
 		)
 		(property "Value" "CLM/P-PQ32/30"
-			(at 87.122 72.39 0)
+			(at 88.392 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6696,7 +6739,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 72.39 0)
+			(at 96.52 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6705,7 +6748,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ferroxcube.com/upload/media/product/file/Pr_ds/PQ32_30.pdf"
-			(at 95.25 72.39 0)
+			(at 96.52 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6714,7 +6757,7 @@
 			)
 		)
 		(property "Description" "U SHAPED CLIP"
-			(at 95.25 72.39 0)
+			(at 96.52 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6723,7 +6766,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 95.25 72.39 0)
+			(at 96.52 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6732,7 +6775,7 @@
 			)
 		)
 		(property "Manufacturer" "Ferroxcube"
-			(at 95.25 72.39 0)
+			(at 96.52 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6741,7 +6784,7 @@
 			)
 		)
 		(property "P/N" "CLM/P-PQ32/30"
-			(at 95.25 72.39 0)
+			(at 96.52 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6750,7 +6793,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 95.25 72.39 0)
+			(at 96.52 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6759,7 +6802,7 @@
 			)
 		)
 		(property "Cost" ""
-			(at 95.25 72.39 0)
+			(at 96.52 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6768,25 +6811,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 95.25 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 95.25 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 95.25 72.39 0)
+			(at 96.52 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6805,7 +6830,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 176.53 114.3 90)
+		(at 189.23 114.3 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6814,7 +6839,7 @@
 		(dnp no)
 		(uuid "ac2046c2-6b96-4d7c-ae24-83b0945ec552")
 		(property "Reference" "D503"
-			(at 179.07 113.0299 90)
+			(at 191.77 113.0299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6823,7 +6848,7 @@
 			)
 		)
 		(property "Value" "150"
-			(at 179.07 115.5699 90)
+			(at 191.77 115.5699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6831,8 +6856,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 176.53 114.3 0)
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
+			(at 189.23 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6841,7 +6866,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/86138/bzg03c-m-series.pdf"
-			(at 176.53 114.3 0)
+			(at 189.23 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6850,7 +6875,7 @@
 			)
 		)
 		(property "Description" "Zener diode"
-			(at 176.53 114.3 0)
+			(at 189.23 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6859,7 +6884,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 176.53 114.3 0)
+			(at 189.23 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6868,7 +6893,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay Electronics"
-			(at 176.53 114.3 0)
+			(at 189.23 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6877,7 +6902,7 @@
 			)
 		)
 		(property "P/N" "BZG03C150-M3-08"
-			(at 176.53 114.3 0)
+			(at 189.23 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6886,7 +6911,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 176.53 114.3 90)
+			(at 189.23 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6895,7 +6920,7 @@
 			)
 		)
 		(property "Cost" ""
-			(at 176.53 114.3 0)
+			(at 189.23 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6904,25 +6929,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 176.53 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 176.53 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 176.53 114.3 0)
+			(at 189.23 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6947,7 +6954,7 @@
 	)
 	(symbol
 		(lib_id "epc_EPC2059:EPC2059")
-		(at 123.19 101.6 270)
+		(at 124.46 101.6 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6956,7 +6963,7 @@
 		(fields_autoplaced yes)
 		(uuid "b39ed947-f14a-41d3-be98-0e06cde19020")
 		(property "Reference" "Q502"
-			(at 123.19 106.68 90)
+			(at 124.46 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6964,7 +6971,7 @@
 			)
 		)
 		(property "Value" "EPC2059"
-			(at 123.19 109.22 90)
+			(at 124.46 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6972,7 +6979,7 @@
 			)
 		)
 		(property "Footprint" "footprints:epc_EPC2059"
-			(at 119.4816 110.1852 0)
+			(at 120.7516 110.1852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6981,7 +6988,7 @@
 			)
 		)
 		(property "Datasheet" "https://epc-co.com/epc/Portals/0/epc/documents/datasheets/EPC2059_datasheet.pdf"
-			(at 123.19 101.6 0)
+			(at 124.46 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6990,7 +6997,7 @@
 			)
 		)
 		(property "Description" "170V 25A 9mE"
-			(at 121.2088 111.76 0)
+			(at 122.4788 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6999,7 +7006,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 123.19 101.6 0)
+			(at 124.46 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7008,7 +7015,7 @@
 			)
 		)
 		(property "Manufacturer" "EPC"
-			(at 123.19 101.6 0)
+			(at 124.46 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7017,7 +7024,7 @@
 			)
 		)
 		(property "P/N" "EPC2059"
-			(at 123.19 101.6 0)
+			(at 124.46 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7026,7 +7033,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 123.19 101.6 0)
+			(at 124.46 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7035,7 +7042,7 @@
 			)
 		)
 		(property "Cost" ""
-			(at 123.19 101.6 0)
+			(at 124.46 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7044,25 +7051,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 123.19 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 123.19 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 123.19 101.6 0)
+			(at 124.46 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7099,7 +7088,7 @@
 	)
 	(symbol
 		(lib_id "littelfuse_021306_3MXP:65900000009")
-		(at 43.18 76.2 0)
+		(at 29.21 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7107,7 +7096,7 @@
 		(dnp no)
 		(uuid "bce0fc5b-a8a5-4c2b-b2a8-48f1cdd41c21")
 		(property "Reference" "FC501"
-			(at 39.878 73.66 0)
+			(at 25.908 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7116,7 +7105,7 @@
 			)
 		)
 		(property "Value" "65900000009"
-			(at 35.814 75.946 0)
+			(at 21.844 75.946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7125,7 +7114,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 76.2 0)
+			(at 29.21 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7134,7 +7123,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuse_blocks/littelfuse_fuse_block_656_datasheet.pdf.pdf"
-			(at 43.18 76.2 0)
+			(at 29.21 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7143,7 +7132,7 @@
 			)
 		)
 		(property "Description" "COVER FUSE TRANSPRNT FOR 656/658"
-			(at 43.18 76.2 0)
+			(at 29.21 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7152,7 +7141,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 43.18 76.2 0)
+			(at 29.21 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7161,7 +7150,7 @@
 			)
 		)
 		(property "Manufacturer" "Littelfuse"
-			(at 43.18 76.2 0)
+			(at 29.21 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7170,7 +7159,7 @@
 			)
 		)
 		(property "P/N" "65900000009"
-			(at 43.18 76.2 0)
+			(at 29.21 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7179,7 +7168,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 43.18 76.2 0)
+			(at 29.21 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7188,7 +7177,7 @@
 			)
 		)
 		(property "Cost" ""
-			(at 43.18 76.2 0)
+			(at 29.21 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7197,25 +7186,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 43.18 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 43.18 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 43.18 76.2 0)
+			(at 29.21 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7233,114 +7204,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 132.08 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bd2dbb90-9a50-481c-ad0a-ece2f4553a77")
-		(property "Reference" "C504"
-			(at 134.62 113.0362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 134.62 115.5762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 132.08 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 132.08 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" "150V Rating"
-			(at 132.08 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 132.08 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 132.08 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "da07abb5-c3c9-4a41-af45-4863344ab3ac")
-		)
-		(pin "2"
-			(uuid "fe1f9152-e3f6-4e47-8f57-36104f3c7340")
-		)
-		(instances
-			(project "mppt"
-				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/9382a906-528a-4b60-b72c-00b03d72686e"
-					(reference "C504")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ferroxcube_PQ32_30_3C97:CPV-PQ32/30-1S-12P-Z")
-		(at 63.5 74.93 0)
+		(at 64.77 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7349,7 +7214,7 @@
 		(fields_autoplaced yes)
 		(uuid "bdc34e6c-0d81-4dea-a9eb-2985bfec85c6")
 		(property "Reference" "LB501"
-			(at 74.93 67.31 0)
+			(at 76.2 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7357,7 +7222,7 @@
 			)
 		)
 		(property "Value" "CPV-PQ32/30-1S-12P-Z"
-			(at 74.93 69.85 0)
+			(at 76.2 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7365,7 +7230,7 @@
 			)
 		)
 		(property "Footprint" "footprints:ferroxcube_CPV-PQ32_30-1S-12P-Z"
-			(at 82.55 169.85 0)
+			(at 83.82 169.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7375,7 +7240,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ferroxcube.com/upload/media/product/file/Pr_ds/PQ32_30.pdf"
-			(at 82.55 269.85 0)
+			(at 83.82 269.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7385,7 +7250,7 @@
 			)
 		)
 		(property "Description" "COIL FORMER VERTICAL"
-			(at 63.5 74.93 0)
+			(at 64.77 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7394,7 +7259,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 63.5 74.93 0)
+			(at 64.77 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7403,7 +7268,7 @@
 			)
 		)
 		(property "Manufacturer" "Ferroxcube"
-			(at 63.5 74.93 0)
+			(at 64.77 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7412,7 +7277,7 @@
 			)
 		)
 		(property "P/N" "CPV-PQ32/30-1S-12P-Z"
-			(at 63.5 74.93 0)
+			(at 64.77 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7421,7 +7286,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 63.5 74.93 0)
+			(at 64.77 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7430,7 +7295,7 @@
 			)
 		)
 		(property "Cost" ""
-			(at 63.5 74.93 0)
+			(at 64.77 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7439,25 +7304,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 63.5 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 63.5 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 63.5 74.93 0)
+			(at 64.77 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7601,24 +7448,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 139.7 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 139.7 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "bd104531-b45a-455d-8fb8-d3d06d4f5502")
 		)
@@ -7633,7 +7462,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SMAJ150CA")
-		(at 114.3 114.3 90)
+		(at 115.57 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7642,7 +7471,7 @@
 		(fields_autoplaced yes)
 		(uuid "d3bfbeaf-e1d8-41ef-a81f-4d1a5bfaf75d")
 		(property "Reference" "D502"
-			(at 116.84 113.0299 90)
+			(at 118.11 113.0299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7651,7 +7480,7 @@
 			)
 		)
 		(property "Value" "SMAJ150CA"
-			(at 116.84 115.5699 90)
+			(at 118.11 115.5699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7659,8 +7488,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 119.38 114.3 0)
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
+			(at 120.65 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7668,8 +7497,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf"
-			(at 114.3 114.3 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/115/DIOD_S_A0011538071_1-2543697.pdf"
+			(at 115.57 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7678,7 +7507,7 @@
 			)
 		)
 		(property "Description" "400W bidirectional Transient Voltage Suppressor, 150.0Vr, SMA(DO-214AC)"
-			(at 114.3 114.3 0)
+			(at 115.57 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7687,7 +7516,7 @@
 			)
 		)
 		(property "Cost" ""
-			(at 114.3 114.3 0)
+			(at 115.57 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7696,7 +7525,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 114.3 114.3 0)
+			(at 115.57 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7704,8 +7533,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Littelfuse"
-			(at 114.3 114.3 0)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 115.57 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7713,26 +7542,8 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "SMAJ150CA"
-			(at 114.3 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 114.3 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 114.3 114.3 0)
+		(property "P/N" " SMAJ150CA-13-F "
+			(at 115.57 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7758,7 +7569,7 @@
 	(symbol
 		(lib_name "021306_3MXP_1")
 		(lib_id "littelfuse_021306_3MXP:021306_3MXP")
-		(at 182.88 86.36 0)
+		(at 195.58 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7767,7 +7578,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd9275f6-b5d8-41cb-a70b-f3dc04659fc1")
 		(property "Reference" "FX502"
-			(at 182.88 82.55 0)
+			(at 195.58 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7775,7 +7586,7 @@
 			)
 		)
 		(property "Value" "021306.3MXP"
-			(at 182.88 85.09 0)
+			(at 195.58 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7783,7 +7594,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 86.36 0)
+			(at 195.58 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7792,7 +7603,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=69a7cc50-e735-4299-8e4b-0e5e11e91f14&filename=littelfuse_fuse_213_datasheet.pdf"
-			(at 182.88 86.36 0)
+			(at 195.58 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7801,7 +7612,7 @@
 			)
 		)
 		(property "Description" "FUSE GLASS 6.3A 250VAC 5X20MM"
-			(at 182.88 86.36 0)
+			(at 195.58 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7810,7 +7621,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 182.88 86.36 0)
+			(at 195.58 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7819,7 +7630,7 @@
 			)
 		)
 		(property "Manufacturer" "Littelfuse"
-			(at 182.88 86.36 0)
+			(at 195.58 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7828,7 +7639,7 @@
 			)
 		)
 		(property "P/N" "021306.3MXP"
-			(at 182.88 86.36 0)
+			(at 195.58 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7837,7 +7648,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 182.88 86.36 0)
+			(at 195.58 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7846,7 +7657,7 @@
 			)
 		)
 		(property "Cost" ""
-			(at 182.88 86.36 0)
+			(at 195.58 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7855,25 +7666,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 182.88 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 182.88 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 182.88 86.36 0)
+			(at 195.58 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7891,8 +7684,255 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 55.88 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dff807ac-82a5-43ba-91e2-af74df673260")
+		(property "Reference" "C502"
+			(at 58.42 113.0362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 58.42 115.5762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
+			(at 55.88 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA9N3X7R2E105K230KA"
+			(at 55.88 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 55.88 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 55.88 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 55.88 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CGA9N3X7R2E105K230KA "
+			(at 55.88 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 55.88 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 55.88 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "150V Rating"
+			(at 55.88 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "373a4edb-0b78-4de0-8d0c-d1eb899267cf")
+		)
+		(pin "1"
+			(uuid "fbae9f8e-76c4-4875-96f2-f7b6cda54c98")
+		)
+		(instances
+			(project "mppt"
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/9382a906-528a-4b60-b72c-00b03d72686e"
+					(reference "C502")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 66.04 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eab41aeb-162a-42f7-a4ad-aa0120cac3ee")
+		(property "Reference" "C503"
+			(at 68.58 113.0362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2u"
+			(at 68.58 115.5762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
+			(at 66.04 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA9P3X7T2E225K250KA"
+			(at 66.04 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 66.04 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 66.04 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 66.04 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 66.04 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 66.04 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CGA9P3X7T2E225K250KA "
+			(at 66.04 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "150V Rating"
+			(at 66.04 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5160a4e5-73f9-409e-bdc4-67033524f519")
+		)
+		(pin "1"
+			(uuid "5aa1e40e-17d5-4250-b8bd-4a85eda29559")
+		)
+		(instances
+			(project "mppt"
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/9382a906-528a-4b60-b72c-00b03d72686e"
+					(reference "C503")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
-		(at 123.19 129.54 0)
+		(at 124.46 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7901,7 +7941,7 @@
 		(fields_autoplaced yes)
 		(uuid "ef702d7b-fe69-4401-a5b7-2f7ef678f248")
 		(property "Reference" "#PWR0502"
-			(at 123.19 134.62 0)
+			(at 124.46 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7910,7 +7950,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 123.063 133.35 0)
+			(at 124.333 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7918,7 +7958,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 130.81 0)
+			(at 124.46 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7927,7 +7967,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 130.81 0)
+			(at 124.46 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7936,7 +7976,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 123.19 129.54 0)
+			(at 124.46 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7945,7 +7985,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 123.19 129.54 0)
+			(at 124.46 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7954,7 +7994,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 123.19 129.54 0)
+			(at 124.46 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7976,7 +8016,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 142.24 114.3 0)
+		(at 143.51 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7984,8 +8024,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f010c265-c350-4f60-98fd-094854af4ef8")
-		(property "Reference" "C505"
-			(at 144.78 113.0362 0)
+		(property "Reference" "C506"
+			(at 146.05 113.0362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7993,8 +8033,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2u"
-			(at 144.78 115.5762 0)
+		(property "Value" "1u"
+			(at 146.05 115.5762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8002,8 +8042,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 142.24 114.3 0)
+		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
+			(at 143.51 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8011,8 +8051,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 142.24 114.3 0)
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA9N3X7R2E105K230KA"
+			(at 143.51 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8021,7 +8061,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 142.24 114.3 0)
+			(at 143.51 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8030,7 +8070,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 142.24 114.3 0)
+			(at 143.51 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8039,7 +8079,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 142.24 114.3 0)
+			(at 143.51 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8047,8 +8087,8 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
-			(at 142.24 114.3 0)
+		(property "P/N" "CGA9N3X7R2E105K230KA "
+			(at 143.51 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8057,7 +8097,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 142.24 114.3 0)
+			(at 143.51 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8066,7 +8106,7 @@
 			)
 		)
 		(property "Cost" ""
-			(at 142.24 114.3 0)
+			(at 143.51 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8075,25 +8115,7 @@
 			)
 		)
 		(property "Notes" "150V Rating"
-			(at 142.24 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 142.24 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 142.24 114.3 0)
+			(at 143.51 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8110,7 +8132,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/9382a906-528a-4b60-b72c-00b03d72686e"
-					(reference "C505")
+					(reference "C506")
 					(unit 1)
 				)
 			)
@@ -8118,7 +8140,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 44.45 114.3 90)
+		(at 35.56 114.3 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8127,7 +8149,7 @@
 		(dnp no)
 		(uuid "f02ca32e-4ad9-4d6c-9dc1-f491ff9f31c0")
 		(property "Reference" "D501"
-			(at 46.99 113.0299 90)
+			(at 38.1 113.0299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8136,7 +8158,7 @@
 			)
 		)
 		(property "Value" "150"
-			(at 46.99 115.5699 90)
+			(at 38.1 115.5699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8144,8 +8166,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 44.45 114.3 0)
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
+			(at 35.56 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8154,7 +8176,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/86138/bzg03c-m-series.pdf"
-			(at 44.45 114.3 0)
+			(at 35.56 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8163,7 +8185,7 @@
 			)
 		)
 		(property "Description" "Zener diode"
-			(at 44.45 114.3 0)
+			(at 35.56 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8172,7 +8194,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 44.45 114.3 0)
+			(at 35.56 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8181,7 +8203,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay Electronics"
-			(at 44.45 114.3 0)
+			(at 35.56 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8190,7 +8212,7 @@
 			)
 		)
 		(property "P/N" "BZG03C150-M3-08"
-			(at 44.45 114.3 0)
+			(at 35.56 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8199,7 +8221,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 44.45 114.3 90)
+			(at 35.56 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8208,7 +8230,7 @@
 			)
 		)
 		(property "Cost" ""
-			(at 44.45 114.3 0)
+			(at 35.56 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8217,25 +8239,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 44.45 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 44.45 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 44.45 114.3 0)
+			(at 35.56 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8259,114 +8263,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 54.61 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f60470f6-375f-4ea7-a871-cd313ddc9fe4")
-		(property "Reference" "C501"
-			(at 57.15 113.0362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 57.15 115.5762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 54.61 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 54.61 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 54.61 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" "150V Rating"
-			(at 54.61 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 54.61 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 54.61 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2d783dfb-2889-4327-9a69-4ed54dfda48c")
-		)
-		(pin "2"
-			(uuid "582611f7-0082-467b-a311-e893deebb48f")
-		)
-		(instances
-			(project ""
-				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/9382a906-528a-4b60-b72c-00b03d72686e"
-					(reference "C501")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:NetTie_3_Tee")
-		(at 123.19 127 0)
+		(at 124.46 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -8375,7 +8273,7 @@
 		(fields_autoplaced yes)
 		(uuid "fda4ca71-2f7d-480a-880a-725207258dce")
 		(property "Reference" "NT501"
-			(at 123.19 121.92 0)
+			(at 124.46 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8383,15 +8281,15 @@
 			)
 		)
 		(property "Value" "NetTie_3_Tee"
-			(at 123.19 124.46 0)
+			(at 124.46 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 123.19 127 0)
+		(property "Footprint" "NetTie:NetTie-3_SMD_Pad2.0mm"
+			(at 124.46 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8400,7 +8298,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 127 0)
+			(at 124.46 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8409,25 +8307,7 @@
 			)
 		)
 		(property "Description" "Net tie, 3 pins, tee"
-			(at 123.19 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 123.19 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 123.19 127 0)
+			(at 124.46 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)

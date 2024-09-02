@@ -15,8 +15,9 @@
 - GaN Fets
   - EPC
 - Capacitors
-  - Samsung Electro-Mechanics
-  - TDK
+  - Samsung Electro-Mechanics : General purpose automotive MLCC
+  - TDK: High voltage, high capacitance automotive MLCC
+  - Kemet: High capacitance electrolytics
 - Resistors
   - Vishay / Dale
 - Inductors

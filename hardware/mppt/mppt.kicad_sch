@@ -1029,7 +1029,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 222.25 165.1 0)
 			(effects
 				(font
@@ -1056,25 +1056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "M5 Hole"
-			(at 222.25 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 222.25 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Notes" "M3 Hole"
 			(at 222.25 165.1 0)
 			(effects
 				(font
@@ -1120,7 +1102,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 184.15 165.1 0)
 			(effects
 				(font
@@ -1147,25 +1129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "M5 Hole"
-			(at 184.15 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 184.15 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Notes" "M3 Hole"
 			(at 184.15 165.1 0)
 			(effects
 				(font
@@ -1211,7 +1175,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 241.3 165.1 0)
 			(effects
 				(font
@@ -1238,25 +1202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "M5 Hole"
-			(at 241.3 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 241.3 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Notes" "M3 Hole"
 			(at 241.3 165.1 0)
 			(effects
 				(font
@@ -1302,7 +1248,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 203.2 165.1 0)
 			(effects
 				(font
@@ -1329,25 +1275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "M5 Hole"
-			(at 203.2 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 203.2 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "Notes" "M3 Hole"
 			(at 203.2 165.1 0)
 			(effects
 				(font
