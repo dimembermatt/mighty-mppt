@@ -1899,6 +1899,18 @@
 		)
 		(uuid "6d93edc3-4729-46e4-9b72-7ecb5d885cfa")
 	)
+	(hierarchical_label "V-"
+		(shape input)
+		(at 195.58 158.75 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "79b5df8d-6119-4cf6-af22-864e9776384f")
+	)
 	(hierarchical_label "SPI_COPI"
 		(shape input)
 		(at 152.4 111.76 0)
@@ -2212,7 +2224,7 @@
 					(unit 1)
 				)
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/ef801f28-5df3-4a7f-a59d-9cf49d40d7d5"
-					(reference "TP1310")
+					(reference "TP1309")
 					(unit 1)
 				)
 			)
@@ -2708,7 +2720,7 @@
 					(unit 1)
 				)
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/ef801f28-5df3-4a7f-a59d-9cf49d40d7d5"
-					(reference "TP1305")
+					(reference "TP1304")
 					(unit 1)
 				)
 			)
@@ -3324,7 +3336,7 @@
 					(unit 1)
 				)
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/ef801f28-5df3-4a7f-a59d-9cf49d40d7d5"
-					(reference "TP1303")
+					(reference "TP1302")
 					(unit 1)
 				)
 			)
@@ -3396,95 +3408,7 @@
 					(unit 1)
 				)
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/ef801f28-5df3-4a7f-a59d-9cf49d40d7d5"
-					(reference "TP1307")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 195.58 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b10abb10-191a-4514-9fd7-69ecee486ec0")
-		(property "Reference" "#PWR0807"
-			(at 195.58 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 195.58 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 195.58 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 195.58 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 195.58 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "81c41dec-b272-4a2c-b713-7225bdb4b249")
-		)
-		(instances
-			(project "mppt"
-				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/6e1b912f-3d04-4fc7-9635-6a40ec8ca7c8"
-					(reference "#PWR0807")
-					(unit 1)
-				)
-				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/ef801f28-5df3-4a7f-a59d-9cf49d40d7d5"
-					(reference "#PWR01307")
+					(reference "TP1306")
 					(unit 1)
 				)
 			)
@@ -3574,7 +3498,7 @@
 					(unit 1)
 				)
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/ef801f28-5df3-4a7f-a59d-9cf49d40d7d5"
-					(reference "TP1306")
+					(reference "TP1305")
 					(unit 1)
 				)
 			)
@@ -3926,96 +3850,6 @@
 					(unit 1)
 				)
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/ef801f28-5df3-4a7f-a59d-9cf49d40d7d5"
-					(reference "TP1302")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 127 127 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dbcafd5d-8343-4ff4-8715-c8fe1d52956b")
-		(property "Reference" "TP801"
-			(at 125.73 125.7299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 125.73 128.2699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 121.92 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 127 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 127 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" ""
-			(at 127 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "016ca1fc-f914-4e42-86f7-6c9edf84984b")
-		)
-		(instances
-			(project "mppt"
-				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/6e1b912f-3d04-4fc7-9635-6a40ec8ca7c8"
-					(reference "TP801")
-					(unit 1)
-				)
-				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/ef801f28-5df3-4a7f-a59d-9cf49d40d7d5"
 					(reference "TP1301")
 					(unit 1)
 				)
@@ -4106,7 +3940,7 @@
 					(unit 1)
 				)
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/ef801f28-5df3-4a7f-a59d-9cf49d40d7d5"
-					(reference "TP1304")
+					(reference "TP1303")
 					(unit 1)
 				)
 			)
@@ -4178,7 +4012,7 @@
 					(unit 1)
 				)
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/ef801f28-5df3-4a7f-a59d-9cf49d40d7d5"
-					(reference "TP1308")
+					(reference "TP1307")
 					(unit 1)
 				)
 			)
@@ -4324,7 +4158,7 @@
 					(unit 1)
 				)
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/ef801f28-5df3-4a7f-a59d-9cf49d40d7d5"
-					(reference "TP1309")
+					(reference "TP1308")
 					(unit 1)
 				)
 			)
