@@ -2331,6 +2331,12 @@
 		(uuid "a714c50d-a984-4da2-8541-17f3f4620e4c")
 	)
 	(junction
+		(at 120.65 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0039d50-aef7-4f45-a440-b0bc9cec55ab")
+	)
+	(junction
 		(at 50.8 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2353,12 +2359,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d31b2684-4b09-43ac-a133-3a5eea225c8d")
-	)
-	(junction
-		(at 120.65 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d329c5d6-93f2-40e8-8e9b-ee956d22fd10")
 	)
 	(junction
 		(at 120.65 111.76)
@@ -3823,89 +3823,6 @@
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/6fd27594-6b47-4401-bb7d-37a86a40ba18"
 					(reference "#PWR01004")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 120.65 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1f31e87d-364d-4f51-b3bd-9d02580be63a")
-		(property "Reference" "#PWR01008"
-			(at 120.65 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 120.65 123.698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 120.65 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 120.65 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6560809c-0f63-430f-8eb5-2e1a531c7d50")
-		)
-		(instances
-			(project "mppt"
-				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/6fd27594-6b47-4401-bb7d-37a86a40ba18"
-					(reference "#PWR01008")
 					(unit 1)
 				)
 			)
@@ -6177,6 +6094,90 @@
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/6fd27594-6b47-4401-bb7d-37a86a40ba18"
 					(reference "#PWR01010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 120.65 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a06b3104-d1a5-40b1-b861-01b8a565250e")
+		(property "Reference" "#PWR01008"
+			(at 120.65 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 120.523 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 120.65 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 120.65 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 120.65 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04d275ba-e4df-420a-b35c-e09f7a7abc15")
+		)
+		(instances
+			(project "mppt"
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/6fd27594-6b47-4401-bb7d-37a86a40ba18"
+					(reference "#PWR01008")
 					(unit 1)
 				)
 			)

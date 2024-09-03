@@ -4146,7 +4146,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "7838774c-5240-4269-98c1-ee88e4bb1fac")
 		(property "Reference" "HS401"
