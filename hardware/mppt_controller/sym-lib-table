@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "bom_component")(type "KiCad")(uri "${KIPRJMOD}/symbols/bom_component.kicad_sym")(options "")(descr ""))
-)

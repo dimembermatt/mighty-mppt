@@ -1,33 +1,243 @@
 # Next Steps
 
-With the conclusion of this design validation and study, the next proposed design iteration has two major changes:
+- [Next Steps](#next-steps)
+  - [Cost, Power, and Signal Optimization](#cost-power-and-signal-optimization)
+    - [SMBUS / PMBUS](#smbus--pmbus)
+    - [Low Power MCU](#low-power-mcu)
+    - [Isolation Divide](#isolation-divide)
+      - [Digital Isolators](#digital-isolators)
+  - [Power Path Isolation](#power-path-isolation)
+    - [Self Power 12V Input Subcircuit](#self-power-12v-input-subcircuit)
+    - [Gate Driver Subcircuit](#gate-driver-subcircuit)
+    - [Power Monitoring Subcircuit](#power-monitoring-subcircuit)
+    - [Active Load Subcircuit](#active-load-subcircuit)
+  - [Buck-Boost Converter](#buck-boost-converter)
+  - [FPGA Power Path Control](#fpga-power-path-control)
 
-- Fully isolating the power path, and
-- Changing the DC-DC converter topology to a 150V/10A 4-switch buck-boost converter.
+With the conclusion of this design validation and study, three major design
+changes are proposed for future iterations of this device, meant to improve
+safety, reduce BOM cost and complexity, and to improve functional performance:
+
+- Cost, power, and signal optimization
+- Full isolation of the power path
+- Moving to a 200V/10A buck-boost converter topology
+- FPGA hardware logic control of the power path
+
+## Cost, Power, and Signal Optimization
+
+This proposal defines the cost, power, and signal optimization of the system
+
+There is some argument to be made for
+
+- Drop down from F4 to L4 series
+- Drop down from 100 kHz - 1 MHz sampling to 100 Hz - 1 kHz sampling
+- Switch from SPI to I2C / SMBUS
+- 5V iso rail
+- Power digital
+
+### SMBUS / PMBUS
+
+
+### Low Power MCU
+
+
+### Isolation Divide
+
+| Functionality       | Isolation Side |
+| :------------------ | :------------- |
+| Power Monitor       | Power          |
+| HW Protection Logic | System         |
+| Active Loads        | Power          |
+| Load Switch         | Power          |
+| Gate Driver         | Power          |
+
+
+#### Digital Isolators
+
+| Signals          | Direction | Function    | IC      |
+| :--------------- | :-------- | :---------- | ------- |
+| SCL              | I/O       | SMBUS       | ISO1640 |
+| SDA              | I/O       | SMBUS       | ISO1640 |
+| ALERT            | I         | SMBUS       | ISO7741 |
+| CONV_EN/DIS      | O         | Gate Driver | ISO7741 |
+| CONV_PWM / IIM_A | O         | Gate Driver | ISO7741 |
+| N/A / IIM_B      | O         | Gate Driver | ISO7741 |
+| AL_IN_EN         | O         | HW Prot     | ISO6740 |
+| AL_OUT_EN        | O         | HW Prot     | ISO6740 |
+| LS_IN_EN         | O         | HW Prot     | ISO6740 |
+| LS_OUT_EN        | O         | HW Prot     | ISO6740 |
+
+[ISO1640](https://www.ti.com/lit/ds/symlink/iso1640.pdf) I2C isolator for SCL,
+SDA, VCC1 = 3.3V, VCC2 = 5V. nK pullups for both SCL and SDA to 3.3V, 5V rails.
+
+[ISO6741](https://www.ti.com/lit/ds/symlink/iso6741.pdf) for ALERT, CONV_EN/DIS,
+CONV_PWM / IIM_A, and N/A / IIM_B. 100k pullup on ALERT to 5V, 100k
+pullup/pulldown (DNP one side) CONV_EN/DIS to 5V, GND, 100k pulldown on both
+CONV_PWM / IIM_A, and N/A / IIM_B. 100k pullup on EN1 / EN2 to 3.3V, 5V rails.
+
+[ISO6740](https://www.ti.com/lit/ds/symlink/iso6740.pdf) for AL_x_EN, LS_x_EN,
+output pulldown 100k, VCC1 = 3.3V, VCC2 = 5V, 100k pullup on EN2 to 5V rail.
 
 ## Power Path Isolation
 
-Currently, the design fails to isolate the power path from the system ground at three major points:
+This proposal defines the complete isolation of the power path from the system
+ground. Currently, the design fails to isolate the power path from the system
+ground at three major points:
 
   1. The wide input buck subcircuit used for self-powering the device,
-  2. The power monitor subcircuits, and
-  3. The active loads.
+  2. The gate driver,
+  3. The power monitor subcircuits, and
+  4. The active loads.
 
 ### Self Power 12V Input Subcircuit
+
+The wide input buck subcircuit, used for self-powering the device, takes the
+input source and generates a 12V rail on the system ground for powering control
+logic that actuates the power path. Currently, it uses a TI SimpleSwitcher power
+converter with an input range of 4.2V (effectively >= 12V) to 80V. This is
+sufficient for the current design but will not enable future designs with a
+higher acceptable input voltage (see section [Buck-Boost Converter](#buck-boost-converter)).
+Additionally, the converter is not isolated, which provides a path for
+electrical failure on the power path to destroy components on the system ground.
+
+Ideally, the self power circuit would be a fly-buck (trademarked, courtesy of
+Texas Instruments) converter, in which a fixed output synchronous buck converter
+inductor is a coupled transformer providing a secondary isolated power rail. The
+desired fly-buck circuit shall be able to have an operating range of 0 - 200V,
+with a primary output rail of 5V and a secondary isolated output rail of 5V,
+thus dictating a 1:1 coupling of the transformer. The required output current
+for both shall be no more than 1A, for a total of 5W distributed across the
+output rails.
+
+The above setup would shift the power regulation power mux protection circuit to
+the 5V rails, with a 12V to 5V buck used for the 12V CARPWR or equivalent
+connection.
 
 - https://www.ti.com/lit/an/snva790a/snva790a.pdf
 - https://www.ti.com/lit/ds/symlink/lm5169.pdf
 - https://www.ti.com/power-management/acdc-dcdc-converters/products.html#-2=contains%3Bfly-buck&
 
+### Gate Driver Subcircuit
+
+Currently, the ADUM4221 gate driver is an isolated device using the 5V system
+rail for driving the gate signals. This inherently requires the system ground to
+be tied to the power ground, making the subcircuit non-isolated. The proposal
+defines a separate module to provide an isolated 5V rail to the gate driver, or
+making use of the self powered fly-buck circuit (see section
+[Self Power 12V Input Subcircuit](#self-power-12v-input-subcircuit))
+to generate the isolated rail without the extra cost and components of an
+isolated DC-DC converter.
+
+This design does not remove the use of a bootstrap diode to generate the high
+side gate driver signal power rail, however.
+
 ### Power Monitoring Subcircuit
+
+The proposal defines replacing the current power monitoring circuit with an
+equivalent power monitor IC with isolation rating; among the requirements is the
+ability to communicate via SPI or I2C protocol on the system side as well as the
+ability to set thresholds for faults like overcurrent, overvoltage,
+undervoltage, and so forth, which shall propagate to a an alert pin that can be
+used for hardware protection purposes.
 
 - ACS71020
 - https://www.allegromicro.com/en/products/sense/current-sensor-ics/zero-to-fifty-amp-integrated-conductor-sensor-ics/acs71020#ProductDetail
 
 ### Active Load Subcircuit
 
+Finally, the proposal defines isolating the active load control signal from the
+power path. This can easily be done with a digital isolator such as the ISO6720.
+
 - https://www.ti.com/product/ISO6720
 
 ## Buck-Boost Converter
 
-- 150V 10A -> 1.5kW
+This proposal defines the design of a 200V, 10A bidirectional buck-boost
+converter. For the current use case (solar car MPPT), the load falls under this
+rating, with an operating range of 80-134V. However, the source operating range
+is 0-80V, which severely limits the capability of the device in terms of the
+full array, which consists of 260 solar cells at 0.721V open circuit for a total
+of 161.46V.
+
+With the current setup, at least two MPPTs must be constructed to capture the
+entire solar array. This is typically three, since it is recommended that
+converters do not run at 100% duty (continuous short across high side switch).
+This is either due to (1) conduction losses - not a big deal in the current
+design due to the relatively low short circuit current of the solar array or (2)
+the inability of the gate driver to keep the high side rail charged through the
+bootstrap diode.
+
+With a 200V converter, a future solar car with a similar number of solar cells
+in series shall only need one MPPT for operation which saves cost, weight, and
+system complexity.
+
+At 200V, we reach the edge of acceptable GaNFETs with a suitable FOM, as the
+next set of rated FETs have a VDS of 650V. It has been observed that each VDS
+shift (e.g. 150V to 200V to 650V) is a significant step change in FOM. EPC still
+has the best listed FOM GaNFETs (if their numbers can be believed), with a
+suitable candidate being EPC2207 with a FOM of 5.4. The current rating of 14A is
+appropriate for this application and well above the 6.15A short circuit of the
+solar array. This is plenty of room for possible parallel configurations of any
+future solar array.
+
+Other components shall need to be rerated for 200V with appropriate margin.
+
+Given that the converter now supports a wider input than output, the converter
+topology needs to be shifted to a buck-boost topology. A four switch buck-boost
+converter allows for reduction in design risk while maintaining simple control
+(one side is always shorted high side). Additional complexity in the form of
+parallel low RDSON load switches may be added to reduce conduction losses across
+the switching fets.
+
+## FPGA Power Path Control
+
+This proposal defines the use of a small footprint, low cost FPGA to (1) replace
+the existing hardware protection logic circuitry, (2) offload microcontroller
+low level control algorithms, and (3) enhance gate driver actuation capabilities
+and converter efficiency via IIM (Independent Input Mode) and ZVS (Zero Voltage
+Switching).
+
+The first function is relatively easy, emulating the existing control logic (a
+total of six NOT, OR, and AND gates plus a Schmitt trigger buffer) in the FPGA.
+Additional functionality can be added, such as delay sequencing logic (e.g. turn
+on active loads before disabling load switches), to provide more robust
+operation.
+
+The second function takes the above one step further: with a SPI or I2C
+interface, the FPGA can directly query the power monitor, compare measurements
+against internal thresholds, and directly perform redline triggering. This can
+be coupled with the microcontroller to set the thresholds which may be saved in
+NVME.
+
+Additionally, the FPGA can take over microcontroller low level control
+algorithms; assuming the MCU maintains the high level MPPT algorithm, the FPGA
+may do the reference setpoint tuning and PID control (e.g. given some
+input/output voltage setpoint, maintain closed loop control to keep
+buck-boosting to that value until the next setpoint is provided). This provides
+faster feedback than the MCU.
+
+Finally, the third function is to enhance the gate driver control by switching
+from MCU PWM to FPGA IIM; the FPGA may be able to provide instantaneous
+measurement and feedback of the switching FET VDS profile and perform ZVS
+without a fixed dead time. This reduces switching losses, improves switching
+characteristics, and augments system performance, which can be particularly
+acute at higher power thresholds.
+
+Ideally, the FPGA used to implement this proposal shall have the following
+characteristics:
+
+- low footprint, with minimal supporting passives required
+- low cost, with easy accessibility from third party distributors
+- low power consumption to maintain high system efficiency
+- high clock speed (with respect to the previous requirement), capable of
+  potentially acting on converter switching frequencies of several hundred kHz
+- strong open source toolchain, which enables others to better repair existing
+  devices, replace broken devices, and improve upon the firmware design
+- sufficient amount of IO and communication peripherals to perform the necessary
+  functionality, including:
+  - SPI or I2C port(s) to the MCU and/or power monitors
+  - 7 I/Os for:
+    - Gate Driver IIM (2)
+    - Gate Driver Enable/Disable (1)
+    - Load Switch Enable/Disable (2)
+    - Active Load Enable/Disable (2)
