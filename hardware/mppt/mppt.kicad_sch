@@ -12,23 +12,23 @@
 		(comment 2 "Jacob Pustilnik")
 	)
 	(lib_symbols
-		(symbol "Mechanical:MountingHole"
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
 			(pin_names
-				(offset 1.016)
-			)
+				(offset 1.016) hide)
 			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
-				(at 0 5.08 0)
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -53,7 +53,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Mounting Hole without connection"
+			(property "Description" "Mounting Hole with connection"
 				(at 0 0 0)
 				(effects
 					(font
@@ -71,7 +71,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "MountingHole*"
+			(property "ki_fp_filters" "MountingHole*Pad*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -80,9 +80,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "MountingHole_0_1"
+			(symbol "MountingHole_Pad_0_1"
 				(circle
-					(center 0 0)
+					(center 0 1.27)
 					(radius 1.27)
 					(stroke
 						(width 1.27)
@@ -93,7 +93,43 @@
 					)
 				)
 			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
 		)
+	)
+	(no_connect
+		(at 222.25 167.64)
+		(uuid "d9e84786-b97a-4262-ada5-915664f33371")
+	)
+	(no_connect
+		(at 184.15 167.64)
+		(uuid "db7336d8-a427-4220-a839-ae0a8e2b8beb")
+	)
+	(no_connect
+		(at 241.3 167.64)
+		(uuid "e2f2deb3-37c6-4766-a904-81ac87cd43e2")
+	)
+	(no_connect
+		(at 203.2 167.64)
+		(uuid "e5cdfaf4-3f1c-4d4c-9238-40c7e5b1588e")
 	)
 	(rectangle
 		(start 38.1 114.3)
@@ -177,7 +213,7 @@
 		(uuid "0249c926-7c73-44c1-b27b-b792d8431790")
 	)
 	(label "FAN_TACH"
-		(at 152.4 158.75 0)
+		(at 152.4 156.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -231,7 +267,7 @@
 		)
 		(uuid "11904cb1-e4ef-4bcd-bf68-feac2e12aabc")
 	)
-	(label "TEMP_LS_FET"
+	(label "TEMP_FETS"
 		(at 152.4 153.67 0)
 		(fields_autoplaced yes)
 		(effects
@@ -363,17 +399,6 @@
 		)
 		(uuid "3f857b68-21e0-44c3-adeb-b9e4d8300856")
 	)
-	(label "TEMP_HS_FET"
-		(at 38.1 99.06 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "496633f7-2c12-4ad7-a556-e2d3ca78c1db")
-	)
 	(label "PROT_DISABLE"
 		(at 76.2 67.31 0)
 		(fields_autoplaced yes)
@@ -407,7 +432,7 @@
 		)
 		(uuid "50bd7160-7abe-4b45-9284-82087d4c1b20")
 	)
-	(label "USB_DM"
+	(label "USB-"
 		(at 114.3 41.91 180)
 		(fields_autoplaced yes)
 		(effects
@@ -572,7 +597,7 @@
 		)
 		(uuid "84cae69d-1e95-4dec-b87a-7c4da9cf9039")
 	)
-	(label "USB_DP"
+	(label "USB+"
 		(at 114.3 39.37 180)
 		(fields_autoplaced yes)
 		(effects
@@ -660,7 +685,7 @@
 		)
 		(uuid "9d6b212f-4dad-4752-97cc-08c0d8ff5c84")
 	)
-	(label "USB_DM"
+	(label "USB-"
 		(at 38.1 39.37 180)
 		(fields_autoplaced yes)
 		(effects
@@ -803,17 +828,6 @@
 		)
 		(uuid "c58bc5c6-1110-4b67-b7a7-42ff231faf1a")
 	)
-	(label "TEMP_HS_FET"
-		(at 152.4 156.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c703a3f0-7095-406b-b6fe-0c213cd9f43f")
-	)
 	(label "CAN_TX"
 		(at 38.1 43.18 180)
 		(fields_autoplaced yes)
@@ -858,7 +872,7 @@
 		)
 		(uuid "d1361fb3-0132-4abf-ab64-3143c5b247ae")
 	)
-	(label "USB_DP"
+	(label "USB+"
 		(at 38.1 36.83 180)
 		(fields_autoplaced yes)
 		(effects
@@ -892,7 +906,7 @@
 		(uuid "dad8bf99-459e-4ff1-b81a-4030e3586ce8")
 	)
 	(label "FAN_TACH"
-		(at 38.1 101.6 180)
+		(at 38.1 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -935,17 +949,6 @@
 		)
 		(uuid "ef40867f-aa30-42e5-b4e7-f698fcd36d5a")
 	)
-	(label "TEMP_LS_FET"
-		(at 38.1 96.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ef94db0a-2e1c-49a7-b15c-bc8a9559e922")
-	)
 	(label "MON_SPI_CLK"
 		(at 38.1 59.69 180)
 		(fields_autoplaced yes)
@@ -956,6 +959,17 @@
 			(justify right bottom)
 		)
 		(uuid "f0434804-ae52-4c70-94c2-8bf359f9a38a")
+	)
+	(label "TEMP_FETS"
+		(at 38.1 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f1a28632-22f6-4678-8c01-46e4673cc98b")
 	)
 	(label "LCD_SPI_COPI"
 		(at 114.3 69.85 180)
@@ -1024,17 +1038,17 @@
 		(uuid "fd320d21-bda0-4b3e-a301-0f96c0817906")
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 222.25 165.1 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "604170f4-add0-41f0-81f6-b5376059484b")
 		(property "Reference" "H103"
-			(at 224.79 163.8299 0)
+			(at 224.79 162.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1043,7 +1057,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 224.79 166.3699 0)
+			(at 224.79 165.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1060,7 +1074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 222.25 165.1 0)
 			(effects
 				(font
@@ -1069,7 +1083,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" "Mounting Hole with connection"
 			(at 222.25 165.1 0)
 			(effects
 				(font
@@ -1086,6 +1100,9 @@
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "49a211bf-6b0d-4827-9c57-e63966d513ea")
 		)
 		(instances
 			(project "mppt"
@@ -1097,17 +1114,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 184.15 165.1 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e3c78c2-29c4-4a35-a4c1-77abc7c834f6")
 		(property "Reference" "H101"
-			(at 186.69 163.8299 0)
+			(at 186.69 162.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1116,7 +1133,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 186.69 166.3699 0)
+			(at 186.69 165.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1133,7 +1150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 184.15 165.1 0)
 			(effects
 				(font
@@ -1142,7 +1159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" "Mounting Hole with connection"
 			(at 184.15 165.1 0)
 			(effects
 				(font
@@ -1159,6 +1176,9 @@
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "2224edf4-0b00-4a18-95c6-021ac58f3fbb")
 		)
 		(instances
 			(project "mppt"
@@ -1170,17 +1190,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 241.3 165.1 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e6f9a34-2961-4404-b318-290f28de3843")
 		(property "Reference" "H104"
-			(at 243.84 163.8299 0)
+			(at 243.84 162.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1189,7 +1209,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 243.84 166.3699 0)
+			(at 243.84 165.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1206,7 +1226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 241.3 165.1 0)
 			(effects
 				(font
@@ -1215,7 +1235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" "Mounting Hole with connection"
 			(at 241.3 165.1 0)
 			(effects
 				(font
@@ -1232,6 +1252,9 @@
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "2c3ec61f-2ff3-4294-a1b4-092172111df4")
 		)
 		(instances
 			(project "mppt"
@@ -1243,17 +1266,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 203.2 165.1 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82fc8c8e-edda-46ad-a745-7c03b6459fd0")
 		(property "Reference" "H102"
-			(at 205.74 163.8299 0)
+			(at 205.74 162.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1262,7 +1285,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 205.74 166.3699 0)
+			(at 205.74 165.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1279,7 +1302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 203.2 165.1 0)
 			(effects
 				(font
@@ -1288,7 +1311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" "Mounting Hole with connection"
 			(at 203.2 165.1 0)
 			(effects
 				(font
@@ -1305,6 +1328,9 @@
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "ed12346f-47ad-41bc-b7e8-f4e6e29ab755")
 		)
 		(instances
 			(project "mppt"
@@ -1611,17 +1637,7 @@
 				(justify left top)
 			)
 		)
-		(pin "TEMP_HS_FET" input
-			(at 38.1 99.06 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "46aa1393-1e13-42c4-85e6-48a97dca72b2")
-		)
-		(pin "TEMP_LS_FET" input
+		(pin "TEMP_FETS" input
 			(at 38.1 96.52 180)
 			(effects
 				(font
@@ -1629,7 +1645,7 @@
 				)
 				(justify left)
 			)
-			(uuid "11194a0a-79d3-43b0-b180-b79cf548eef6")
+			(uuid "46aa1393-1e13-42c4-85e6-48a97dca72b2")
 		)
 		(pin "LCD_CS" input
 			(at 38.1 127 180)
@@ -1731,7 +1747,7 @@
 			)
 			(uuid "a1d94e73-cbc8-42b0-9af7-3577df515cf5")
 		)
-		(pin "USB_DM" input
+		(pin "USB-" input
 			(at 38.1 39.37 180)
 			(effects
 				(font
@@ -1931,7 +1947,7 @@
 			)
 			(uuid "8b4ceb15-67c0-4c33-9589-2805776cda6c")
 		)
-		(pin "USB_DP" input
+		(pin "USB+" input
 			(at 38.1 36.83 180)
 			(effects
 				(font
@@ -1972,7 +1988,7 @@
 			(uuid "b4a3564e-0f51-4524-a930-268a416de2ec")
 		)
 		(pin "FAN_TACH" input
-			(at 38.1 101.6 180)
+			(at 38.1 99.06 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2019,26 +2035,6 @@
 				(justify left top)
 			)
 		)
-		(pin "TEMP_LS_FET" output
-			(at 152.4 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "6bcca975-2699-4dd2-aae7-3be88aa9efd7")
-		)
-		(pin "TEMP_HS_FET" output
-			(at 152.4 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "8effa587-9278-4924-ae95-88f274760b6f")
-		)
 		(pin "TEMP_IND" output
 			(at 152.4 151.13 0)
 			(effects
@@ -2070,7 +2066,7 @@
 			(uuid "5a50bd4f-ec81-49db-a1a0-3609e5d670cd")
 		)
 		(pin "FAN_TACH" output
-			(at 152.4 158.75 0)
+			(at 152.4 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2078,6 +2074,16 @@
 				(justify right)
 			)
 			(uuid "c34c9505-aa38-4966-bdae-0623f6907ecb")
+		)
+		(pin "TEMP_FETS" output
+			(at 152.4 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0738c3d9-47f7-42fd-b4d6-44474270686b")
 		)
 		(instances
 			(project "mppt"
@@ -2137,7 +2143,7 @@
 			)
 			(uuid "1651e610-e400-4f89-84e4-ce451f3e7d1d")
 		)
-		(pin "USB_DP" input
+		(pin "USB+" input
 			(at 114.3 39.37 180)
 			(effects
 				(font
@@ -2147,7 +2153,7 @@
 			)
 			(uuid "ecb05d84-2c65-4c92-bc6c-fd7d6580b35e")
 		)
-		(pin "USB_DM" input
+		(pin "USB-" input
 			(at 114.3 41.91 180)
 			(effects
 				(font

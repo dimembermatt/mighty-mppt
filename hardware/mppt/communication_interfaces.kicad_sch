@@ -2619,23 +2619,23 @@
 				)
 			)
 		)
-		(symbol "Mechanical:MountingHole"
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
 			(pin_names
-				(offset 1.016)
-			)
+				(offset 1.016) hide)
 			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
-				(at 0 5.08 0)
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2660,7 +2660,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Mounting Hole without connection"
+			(property "Description" "Mounting Hole with connection"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2678,7 +2678,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "MountingHole*"
+			(property "ki_fp_filters" "MountingHole*Pad*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2687,9 +2687,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "MountingHole_0_1"
+			(symbol "MountingHole_Pad_0_1"
 				(circle
-					(center 0 0)
+					(center 0 1.27)
 					(radius 1.27)
 					(stroke
 						(width 1.27)
@@ -2697,6 +2697,26 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -3772,6 +3792,12 @@
 		(uuid "4bb7bc05-a7cd-4f18-bca2-a4867240fa92")
 	)
 	(junction
+		(at 226.06 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6afb6422-4f6c-42ed-98eb-8ca400f76d0b")
+	)
+	(junction
 		(at 57.15 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3824,6 +3850,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9d2001b-717a-4700-a7bb-b0bfb6cf29a1")
+	)
+	(no_connect
+		(at 161.29 104.14)
+		(uuid "326f185f-d655-4836-a1bb-4392e12a0711")
+	)
+	(no_connect
+		(at 161.29 97.79)
+		(uuid "4257c1a5-32ce-4123-877e-ff6bc0506a62")
 	)
 	(no_connect
 		(at 203.2 81.28)
@@ -3922,6 +3956,16 @@
 			(type default)
 		)
 		(uuid "0d1134ae-cb80-4d21-8e67-90c72be680b7")
+	)
+	(wire
+		(pts
+			(xy 238.76 53.34) (xy 245.11 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1354bc3c-3b13-4f1d-9af0-5def73686a6c")
 	)
 	(wire
 		(pts
@@ -4235,6 +4279,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 53.34) (xy 233.68 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94341da2-d635-4b50-a31a-0836c8a7ff30")
+	)
+	(wire
+		(pts
 			(xy 123.19 77.47) (xy 123.19 76.2)
 		)
 		(stroke
@@ -4493,6 +4547,25 @@
 		)
 		(uuid "ff394937-7bbd-4e4c-b877-38017ac9f999")
 	)
+	(text_box "Used for controller breakout, DNP and use jumper in full board."
+		(exclude_from_sim no)
+		(at 228.6 39.37 0)
+		(size 16.51 5.08)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left top)
+		)
+		(uuid "b973a072-2589-400a-967f-53a957c849eb")
+	)
 	(text "1% TOL"
 		(exclude_from_sim no)
 		(at 208.28 78.74 0)
@@ -4561,7 +4634,7 @@
 		)
 		(uuid "e84b6d06-2bd4-410d-9b83-2c9c572c1652")
 	)
-	(label "CAN_H"
+	(label "CAN+"
 		(at 64.77 91.44 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4572,7 +4645,29 @@
 		)
 		(uuid "09a53a2a-6d23-4205-ad13-d8a87ee12d28")
 	)
-	(label "CAN_L"
+	(label "USB_RAW-"
+		(at 208.28 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0dacb45d-0569-4685-a3bc-2ab664d79dd3")
+	)
+	(label "USB_RAW+"
+		(at 208.28 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "14ce3d51-5980-427c-ac01-d7f267c55cf3")
+	)
+	(label "CAN-"
 		(at 55.88 71.12 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4583,7 +4678,7 @@
 		)
 		(uuid "2641d791-03ab-4348-8f23-e00ca68402f8")
 	)
-	(label "CAN_L"
+	(label "CAN-"
 		(at 64.77 93.98 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4594,7 +4689,7 @@
 		)
 		(uuid "e156a3cb-d858-41f5-a927-d9ae91e6bdf1")
 	)
-	(label "CAN_H"
+	(label "CAN+"
 		(at 55.88 68.58 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4619,7 +4714,7 @@
 	)
 	(hierarchical_label "VUSB"
 		(shape output)
-		(at 226.06 53.34 0)
+		(at 226.06 53.34 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4737,7 +4832,7 @@
 		)
 		(uuid "36dbacfc-d362-4ee7-bf14-e52422cd4d88")
 	)
-	(hierarchical_label "USB_DP"
+	(hierarchical_label "USB+"
 		(shape input)
 		(at 215.9 147.32 180)
 		(fields_autoplaced yes)
@@ -4773,7 +4868,7 @@
 		)
 		(uuid "5e60adc8-61f6-4406-968d-4a497ac12002")
 	)
-	(hierarchical_label "USB_DP"
+	(hierarchical_label "USB+"
 		(shape input)
 		(at 231.14 68.58 0)
 		(fields_autoplaced yes)
@@ -4965,7 +5060,7 @@
 		)
 		(uuid "d8ef7093-d44b-4419-b59c-560275120053")
 	)
-	(hierarchical_label "USB_DM"
+	(hierarchical_label "USB-"
 		(shape input)
 		(at 231.14 71.12 0)
 		(fields_autoplaced yes)
@@ -4989,7 +5084,7 @@
 		)
 		(uuid "e8c2602b-8fb5-455e-bce0-b8c170b0fbeb")
 	)
-	(hierarchical_label "USB_DM"
+	(hierarchical_label "USB-"
 		(shape input)
 		(at 215.9 151.13 180)
 		(fields_autoplaced yes)
@@ -5042,9 +5137,9 @@
 		(at 100.33 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02b34820-168e-47e2-b817-68cc94f6aeae")
 		(property "Reference" "J1403"
@@ -5129,9 +5224,9 @@
 		(at 218.44 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ae27ded-ab99-46d2-9fef-427fba53ac6e")
 		(property "Reference" "TP1413"
@@ -5197,9 +5292,9 @@
 		(at 250.19 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a0389e9-e099-4ace-b212-c6b00189fc98")
 		(property "Reference" "TP1415"
@@ -5265,9 +5360,9 @@
 		(at 74.93 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board no)
-		(dnp yes)
+		(dnp no)
 		(uuid "1ea4fd15-7803-44a0-be66-f09721ae734d")
 		(property "Reference" "G1401"
 			(at 78.74 43.18 0)
@@ -5342,35 +5437,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 161.29 101.6 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f88f157-b74c-41b4-95cb-9ed61941a867")
 		(property "Reference" "H1402"
-			(at 158.75 100.3299 0)
+			(at 158.75 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 158.75 102.8699 0)
+			(at 158.75 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad_TopBottom"
 			(at 161.29 101.6 0)
 			(effects
 				(font
@@ -5388,7 +5482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" "Mounting Hole with connection"
 			(at 161.29 101.6 0)
 			(effects
 				(font
@@ -5396,6 +5490,9 @@
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "971e9673-ef88-488e-b25a-7b254ec1046f")
 		)
 		(instances
 			(project "mppt"
@@ -5412,9 +5509,9 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "202cc7e0-6efd-4600-adbf-20e7765b5a3b")
 		(property "Reference" "#PWR01406"
@@ -5496,9 +5593,9 @@
 		(at 218.44 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "246313e6-6ebe-46bf-ab7e-6b3a9989af04")
 		(property "Reference" "TP1405"
@@ -5564,9 +5661,9 @@
 		(at 207.01 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "249659d5-57f3-4019-b2c0-59caaf580a89")
 		(property "Reference" "R1405"
 			(at 208.28 81.28 0)
@@ -5678,9 +5775,9 @@
 		(at 34.29 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f27eda2-80d5-4da0-999d-b9d84f8d1752")
 		(property "Reference" "#PWR01402"
@@ -5763,9 +5860,9 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33a6761e-8f75-43e6-b62a-d0d13d20e6aa")
 		(property "Reference" "#PWR01408"
@@ -5847,9 +5944,9 @@
 		(at 187.96 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3da37e75-6926-4970-aa88-d8fb11ed81a3")
 		(property "Reference" "#PWR01420"
@@ -5931,9 +6028,9 @@
 		(at 187.96 138.43 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ee211ba-744c-42ca-9ba3-b2c03d136898")
 		(property "Reference" "TP1404"
@@ -6012,13 +6109,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 236.22 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f718f65-668f-4c2e-b96c-2676ad3dd9ea")
+		(property "Reference" "NT1402"
+			(at 236.22 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 236.22 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
+			(at 236.22 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 236.22 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1e96a01c-70a4-4e02-8f87-4670e13e5b1b")
+		)
+		(pin "1"
+			(uuid "4eec9924-75dc-4ad9-a9aa-f4d1605afbb6")
+		)
+		(instances
+			(project ""
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/b2b2fe98-99d1-47fb-8d94-779d82bb2329"
+					(reference "NT1402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint_Small")
 		(at 218.44 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4572496f-e8b7-434c-be44-f9891a3be4a9")
 		(property "Reference" "TP1411"
@@ -6084,9 +6249,9 @@
 		(at 123.19 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f0c6a85-728d-4564-b123-c675df74e070")
 		(property "Reference" "#PWR01412"
@@ -6169,9 +6334,9 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "55df6c17-f0ee-4317-bc25-4668c9c2f632")
 		(property "Reference" "TP1403"
 			(at 177.8 150.3681 0)
@@ -6253,9 +6418,9 @@
 		(at 34.29 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "572d9ee3-010f-4c4d-b6da-bf2e81489425")
 		(property "Reference" "C1401"
@@ -6350,9 +6515,9 @@
 		(at 250.19 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a047f20-dedd-432e-94d9-43b65c27d9a7")
 		(property "Reference" "TP1416"
@@ -6419,9 +6584,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b11cabb-a89b-498e-931c-b9b6300afc91")
 		(property "Reference" "#PWR01410"
@@ -6504,9 +6669,9 @@
 		(at 218.44 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5cef28ec-914e-419c-9b85-7c27a156a1cb")
 		(property "Reference" "TP1408"
@@ -6572,9 +6737,9 @@
 		(at 250.19 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63c06901-9384-4fc7-942c-f877c1c33119")
 		(property "Reference" "TP1419"
@@ -6640,9 +6805,9 @@
 		(at 250.19 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67aa7fa3-2099-4969-a50f-4f0c5e1b8e72")
 		(property "Reference" "TP1417"
@@ -6708,9 +6873,9 @@
 		(at 161.29 138.43 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a7a507b-f41b-476c-a029-6e281eea4369")
 		(property "Reference" "TP1401"
@@ -6793,9 +6958,9 @@
 		(at 107.95 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ad5c583-8e8a-4ff8-9628-27319f534123")
 		(property "Reference" "#PWR01411"
@@ -6878,9 +7043,9 @@
 		(at 250.19 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f65d1df-106c-4acd-bb6d-54d4438608d0")
 		(property "Reference" "TP1421"
@@ -6946,9 +7111,9 @@
 		(at 156.21 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fc8008c-bcba-4807-ae27-e1bfc5b8f727")
 		(property "Reference" "#PWR01415"
@@ -7032,9 +7197,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fccf87c-6318-4e1c-8af5-3e3277ea5084")
 		(property "Reference" "NT1401"
@@ -7053,7 +7218,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
 			(at 45.72 83.82 0)
 			(effects
 				(font
@@ -7100,9 +7265,9 @@
 		(at 218.44 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84a4a5ba-b81f-4fdd-a3aa-13b1253c665b")
 		(property "Reference" "TP1409"
@@ -7168,9 +7333,9 @@
 		(at 67.31 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86a388a4-de10-4185-a51e-6d52236fe0ae")
 		(property "Reference" "R1401"
@@ -7254,9 +7419,9 @@
 		(at 109.22 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "879567f3-0355-4ce3-91c1-bf197783ce64")
 		(property "Reference" "R1402"
@@ -7342,9 +7507,9 @@
 		(at 203.2 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88dc49b1-3740-4606-91bf-38c3ae2abb40")
 		(property "Reference" "#FLG01402"
@@ -7427,9 +7592,9 @@
 		(at 156.21 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f9f4ac4-17c3-4d4d-9268-94213308f3de")
 		(property "Reference" "#PWR01414"
@@ -7512,9 +7677,9 @@
 		(at 217.17 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "91804efa-f039-4479-bbd1-bdc722dab64b")
 		(property "Reference" "R1406"
 			(at 218.44 81.28 0)
@@ -7626,9 +7791,9 @@
 		(at 57.15 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "932f8bf9-fd56-495d-bc67-02be82011df3")
 		(property "Reference" "#PWR01407"
@@ -7710,9 +7875,9 @@
 		(at 250.19 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "943a7455-7006-4395-afff-11ff4a934d82")
 		(property "Reference" "TP1418"
@@ -7779,9 +7944,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95d91c3d-942f-452f-a599-709eab620d50")
 		(property "Reference" "#PWR01409"
@@ -7864,9 +8029,9 @@
 		(at 34.29 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99b1ac3c-88b2-4117-ab4b-fc7f542a43c0")
 		(property "Reference" "#PWR01403"
@@ -7948,9 +8113,9 @@
 		(at 74.93 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "9bed33bb-ff26-48c9-980e-864d1550b540")
 		(property "Reference" "J1402"
 			(at 74.93 85.09 0)
@@ -8033,9 +8198,9 @@
 		(at 218.44 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e94ae81-a234-4e68-bc17-43b1233cfa05")
 		(property "Reference" "TP1410"
@@ -8101,9 +8266,9 @@
 		(at 57.15 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a45d49fa-5f66-44d8-8787-49d66a40797d")
 		(property "Reference" "#PWR01405"
@@ -8185,9 +8350,9 @@
 		(at 57.15 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4fac97b-813e-4369-aaf4-98aa64904f6b")
 		(property "Reference" "C1402"
@@ -8282,9 +8447,9 @@
 		(at 67.31 76.2 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a55341ce-3a29-4973-88de-994a3353573b")
 		(property "Reference" "#FLG01401"
@@ -8348,9 +8513,9 @@
 		(at 175.26 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1e4eada-e137-4afc-ba29-dbfa5149141f")
 		(property "Reference" "#PWR01418"
@@ -8432,9 +8597,9 @@
 		(at 123.19 80.01 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b53f6c8f-c568-4a3e-977c-f3f2eaf02c58")
 		(property "Reference" "R1404"
@@ -8520,9 +8685,9 @@
 		(at 34.29 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5e891c4-4e5c-4fbe-b75d-57831ed404e8")
 		(property "Reference" "#PWR01401"
@@ -8604,9 +8769,9 @@
 		(at 218.44 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6a2cd58-e382-4f66-9e04-13e87a716a86")
 		(property "Reference" "TP1407"
@@ -8668,14 +8833,98 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 245.11 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf8dcfb6-a670-4b5a-84d1-3b90be38a0b1")
+		(property "Reference" "#PWR01421"
+			(at 245.11 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 245.11 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 245.11 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 245.11 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 245.11 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9fad1aee-55bb-423f-b7d2-262b8709860a")
+		)
+		(instances
+			(project "mppt"
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/b2b2fe98-99d1-47fb-8d94-779d82bb2329"
+					(reference "#PWR01421")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "generic_symbol:Generic_Symbol")
 		(at 161.29 85.09 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board no)
-		(dnp yes)
+		(dnp no)
 		(uuid "c36c1659-adbd-4efd-90f7-4e5147001c63")
 		(property "Reference" "G1402"
 			(at 157.48 87.63 0)
@@ -8790,9 +9039,9 @@
 		(at 156.21 63.5 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c482c23c-9a85-44d6-9254-46675569357f")
 		(property "Reference" "#PWR01416"
@@ -8875,9 +9124,9 @@
 		(at 180.34 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c54aec4e-ed31-4cdd-a88e-9a2ba0fa952e")
 		(property "Reference" "#PWR01419"
@@ -8959,9 +9208,9 @@
 		(at 226.06 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5a5e457-20ea-4926-a7d2-7adfe1919371")
 		(property "Reference" "U1402"
@@ -9089,9 +9338,9 @@
 		(at 45.72 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c68afabb-db15-44d9-95c7-92b1fc7dc431")
 		(property "Reference" "U1401"
@@ -9194,9 +9443,9 @@
 		(at 175.26 138.43 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9aa4aed-ec6d-4de2-96ad-11ae60b38a4c")
 		(property "Reference" "TP1402"
@@ -9279,9 +9528,9 @@
 		(at 161.29 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cec175e0-5b45-49d5-8933-c4962427375e")
 		(property "Reference" "J1404"
@@ -9376,9 +9625,9 @@
 		(at 250.19 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d49b6c4c-dcd5-4155-a5e1-b9fd558d65fe")
 		(property "Reference" "TP1414"
@@ -9444,9 +9693,9 @@
 		(at 218.44 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dedbfbd8-1997-4997-8578-5c16b3e0a704")
 		(property "Reference" "TP1406"
@@ -9512,9 +9761,9 @@
 		(at 175.26 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e18fd7b3-0256-4ecb-b452-189161e03aca")
 		(property "Reference" "#PWR01417"
@@ -9596,9 +9845,9 @@
 		(at 74.93 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5c933cd-6218-40e5-9db0-326ef1ba665a")
 		(property "Reference" "J1401"
@@ -9724,9 +9973,9 @@
 		(at 34.29 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9ef9058-1c79-4a19-a0bb-4aca8e7ba01d")
 		(property "Reference" "#PWR01404"
@@ -9808,9 +10057,9 @@
 		(at 123.19 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f69e6111-7726-4cc5-b4f2-9ad033f10c85")
 		(property "Reference" "R1403"
@@ -9896,9 +10145,9 @@
 		(at 123.19 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f88068ea-bad5-422a-9650-b8056b93488e")
 		(property "Reference" "#PWR01413"
@@ -9980,9 +10229,9 @@
 		(at 250.19 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9d70356-713c-4750-993d-15f5beabd1bd")
 		(property "Reference" "TP1420"
@@ -10044,35 +10293,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 161.29 95.25 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb3a4ce3-de84-4f05-8d63-f218b0f3f5f9")
 		(property "Reference" "H1401"
-			(at 158.75 93.9799 0)
+			(at 158.75 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 158.75 96.5199 0)
+			(at 158.75 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad_TopBottom"
 			(at 161.29 95.25 0)
 			(effects
 				(font
@@ -10090,7 +10338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" "Mounting Hole with connection"
 			(at 161.29 95.25 0)
 			(effects
 				(font
@@ -10098,6 +10346,9 @@
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "1a1b6528-e24b-4b52-b535-209b4f8d74be")
 		)
 		(instances
 			(project ""
@@ -10113,9 +10364,9 @@
 		(at 187.96 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "fc7dca81-538a-4170-bc51-74ef0ebb9860")
 		(property "Reference" "J1405"
 			(at 183.896 46.736 0)
@@ -10281,9 +10532,9 @@
 		(at 218.44 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fefca42e-992d-4be4-8df2-34736ab7f5df")
 		(property "Reference" "TP1412"

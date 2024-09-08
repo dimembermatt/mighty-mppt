@@ -58,7 +58,14 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "hole_clearance|128150000|56820000|4a59cd19-1734-470e-9898-cbed1d9de6e8|2c61d168-52c2-42a3-877f-f3fd6a691652",
+        "hole_clearance|128150000|56820000|4a59cd19-1734-470e-9898-cbed1d9de6e8|84c05b83-90e3-4113-8c1d-b99bb345d597",
+        "hole_clearance|128150000|62920000|369208b3-b6a7-4ab6-aa34-79320c7050a6|2512e767-e858-4e8e-b1be-123a87d8b746",
+        "hole_clearance|128150000|62920000|369208b3-b6a7-4ab6-aa34-79320c7050a6|8a72264d-0372-4df6-ace9-a983ee6cdd87",
+        "lib_footprint_mismatch|131115000|59870000|97d313a2-4a9a-41d8-9490-28cf28f9408a|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|86978911|92472964|bb47e2ea-0dee-494a-8b16-297f7c35ccf7|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -545,7 +552,7 @@
     },
     "bom_presets": [],
     "bom_settings": {
-      "exclude_dnp": true,
+      "exclude_dnp": false,
       "fields_ordered": [
         {
           "group_by": false,
@@ -560,7 +567,7 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Value",
           "name": "Value",
           "show": true
