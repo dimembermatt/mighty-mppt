@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-	(symbol "CLM/P-PQ32/30"
+	(symbol "CLM/P-PQ26/25"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
@@ -14,7 +14,7 @@
 				)
 			)
 		)
-		(property "Value" "CLM/P-PQ32/30"
+		(property "Value" "CLM/P-PQ26/25"
 			(at 0 0 0)
 			(effects
 				(font
@@ -31,7 +31,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ferroxcube.com/upload/media/product/file/Pr_ds/PQ32_30.pdf"
+		(property "Datasheet" "https://www.ferroxcube.com/upload/media/product/file/Pr_ds/PQ26_25.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -67,7 +67,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "CLM/P-PQ32/30"
+		(property "P/N" "CLM/P-PQ26/25"
 			(at 0 0 0)
 			(effects
 				(font
@@ -103,7 +103,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "CLM/P-PQ32/30_1_1"
+		(symbol "CLM/P-PQ26/25_1_1"
 			(polyline
 				(pts
 					(xy -5.08 -2.54) (xy 5.08 -2.54) (xy 5.08 -17.78) (xy 2.54 -17.78) (xy 2.54 -16.51) (xy 3.81 -16.51)
@@ -120,7 +120,7 @@
 			)
 		)
 	)
-	(symbol "CPV-PQ32/30-1S-12P-Z"
+	(symbol "CPV-PQ26/25-1S-12P-Z"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -133,7 +133,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "CPV-PQ32/30-1S-12P-Z"
+		(property "Value" "CPV-PQ26/25-1S-12P-Z"
 			(at 4.572 4.826 0)
 			(effects
 				(font
@@ -142,7 +142,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "footprints:ferroxcube_CPV-PQ32_30-1S-12P-Z"
+		(property "Footprint" "footprints:tdk_B65878E1012D001"
 			(at 19.05 -94.92 0)
 			(effects
 				(font
@@ -152,7 +152,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ferroxcube.com/upload/media/product/file/Pr_ds/PQ32_30.pdf"
+		(property "Datasheet" "https://www.ferroxcube.com/upload/media/product/file/Pr_ds/PQ26_25.pdf"
 			(at 19.05 -194.92 0)
 			(effects
 				(font
@@ -189,7 +189,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "CPV-PQ32/30-1S-12P-Z"
+		(property "P/N" "CPV-PQ26/25-1S-12P-Z"
 			(at 0 0 0)
 			(effects
 				(font
@@ -225,10 +225,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "CPV-PQ32/30-1S-12P-Z_1_1"
+		(symbol "CPV-PQ26/25-1S-12P-Z_1_1"
 			(rectangle
 				(start 5.08 2.54)
-				(end 17.78 -15.24)
+				(end 17.78 -19.05)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -302,6 +302,42 @@
 					)
 				)
 				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 2.54 -16.51 0)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 20.32 -16.51 180)
+				(length 2.54)
+				(name "B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -455,7 +491,7 @@
 			)
 		)
 	)
-	(symbol "PQ32/30-3C97"
+	(symbol "PQ26/25-3C96"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
@@ -467,7 +503,7 @@
 				)
 			)
 		)
-		(property "Value" "PQ32/30-3C97 "
+		(property "Value" "PQ26/25-3C96"
 			(at 0 0 0)
 			(effects
 				(font
@@ -484,7 +520,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ferroxcube.com/upload/media/product/file/Pr_ds/PQ32_30.pdf"
+		(property "Datasheet" "https://www.ferroxcube.com/upload/media/product/file/Pr_ds/PQ26_25.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -493,7 +529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "FERRITE CORE PQ 3C97 2PC SET"
+		(property "Description" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -520,7 +556,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "PQ32/30-3C97"
+		(property "P/N" "PQ26/25-3C96"
 			(at 0 0 0)
 			(effects
 				(font
@@ -556,7 +592,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "PQ32/30-3C97_0_1"
+		(symbol "PQ26/25-3C96_0_1"
 			(polyline
 				(pts
 					(xy -5.08 -1.27) (xy 5.08 -1.27) (xy 5.08 -6.35) (xy 2.54 -6.35) (xy 2.54 -5.08) (xy -2.54 -5.08)

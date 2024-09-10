@@ -1,4 +1,4 @@
-(footprint "ferroxcube_PQ32_30_3C97_wire"
+(footprint "ferroxcube_PQ32_20_3C97_wire"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "ferroxcube_PQ32_30_3C97_wire"
+	(property "Value" "ferroxcube_PQ32_20_3C97_wire"
 		(at 23 -3.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -84,11 +84,11 @@
 		(layer "Dwgs.User")
 		(uuid "15d9bdee-4b98-4f7b-89d6-e5ce8de30a34")
 		(pts
-			(xy 41 0) (xy 46 0)
+			(xy 41 0) (xy 43.5 0)
 		)
 		(height 1)
-		(gr_text "5.0000 mm"
-			(at 43.5 -0.15 0)
+		(gr_text "2.5000 mm"
+			(at 42.25 -0.15 0)
 			(layer "Dwgs.User")
 			(uuid "15d9bdee-4b98-4f7b-89d6-e5ce8de30a34")
 			(effects
@@ -150,11 +150,11 @@
 		(layer "Dwgs.User")
 		(uuid "c4588fe9-1583-4304-99b3-0f7228205d89")
 		(pts
-			(xy 5 0) (xy 0 0)
+			(xy 5 0) (xy 2.5 0)
 		)
 		(height -1)
-		(gr_text "5.0000 mm"
-			(at 2.5 -0.15 0)
+		(gr_text "2.5000 mm"
+			(at 3.75 -0.15 0)
 			(layer "Dwgs.User")
 			(uuid "c4588fe9-1583-4304-99b3-0f7228205d89")
 			(effects
@@ -179,7 +179,7 @@
 			(extension_offset 0.5) keep_text_aligned)
 	)
 	(pad "1" thru_hole circle
-		(at 0 0)
+		(at 2.5 0)
 		(size 3 3)
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
@@ -187,7 +187,7 @@
 		(uuid "db3608d1-251e-46c3-abd6-11f0380779d1")
 	)
 	(pad "2" thru_hole circle
-		(at 46 0)
+		(at 43.5 0)
 		(size 3 3)
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")

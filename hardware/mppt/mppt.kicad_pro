@@ -59,12 +59,14 @@
         }
       ],
       "drc_exclusions": [
-        "hole_clearance|128150000|56820000|4a59cd19-1734-470e-9898-cbed1d9de6e8|2c61d168-52c2-42a3-877f-f3fd6a691652",
-        "hole_clearance|128150000|56820000|4a59cd19-1734-470e-9898-cbed1d9de6e8|84c05b83-90e3-4113-8c1d-b99bb345d597",
-        "hole_clearance|128150000|62920000|369208b3-b6a7-4ab6-aa34-79320c7050a6|2512e767-e858-4e8e-b1be-123a87d8b746",
-        "hole_clearance|128150000|62920000|369208b3-b6a7-4ab6-aa34-79320c7050a6|8a72264d-0372-4df6-ace9-a983ee6cdd87",
-        "lib_footprint_mismatch|131115000|59870000|97d313a2-4a9a-41d8-9490-28cf28f9408a|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|86978911|92472964|bb47e2ea-0dee-494a-8b16-297f7c35ccf7|00000000-0000-0000-0000-000000000000"
+        "lib_footprint_mismatch|137470000|52175000|2c0ac150-665b-4a2c-b808-0dcb80cc8020|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|138735000|52175000|020295b1-935d-4544-ac44-e886a6292628|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|62280000|54785000|5ea4f492-8040-481e-b9d9-ea0907adaada|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|63545000|54785000|e7818976-73c3-40ef-a2e3-9eeadb022c56|00000000-0000-0000-0000-000000000000",
+        "missing_courtyard|117275080|66760000|b31b4c70-3f4f-4729-a6f3-ddc9c742520a|00000000-0000-0000-0000-000000000000",
+        "missing_courtyard|120375080|67360000|264a0709-d7f9-4e72-b3d6-a8f8564c6a2c|00000000-0000-0000-0000-000000000000",
+        "missing_courtyard|62760000|74110000|88365aa9-8bfa-418b-a7ba-9488927a0679|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|128749933|77360000|87feb88c-d368-448d-9a8a-b9e3979dec5e|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
@@ -100,7 +102,7 @@
         "missing_footprint": "warning",
         "net_conflict": "warning",
         "npth_inside_courtyard": "warning",
-        "padstack": "warning",
+        "padstack": "ignore",
         "pth_inside_courtyard": "warning",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
@@ -138,7 +140,7 @@
         "min_track_width": 0.127,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.4,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [

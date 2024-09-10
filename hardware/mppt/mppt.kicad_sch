@@ -509,28 +509,6 @@
 		)
 		(uuid "69804404-088b-4e2b-8caf-560b9801ad73")
 	)
-	(label "MON_OUT_CS"
-		(at 114.3 107.95 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "700b1a12-a033-4f02-a2e5-e40a7786481a")
-	)
-	(label "MON_IN_CS"
-		(at 114.3 105.41 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7238c2b5-55ff-4076-8aec-f4d94645db0c")
-	)
 	(label "NRST"
 		(at 38.1 27.94 180)
 		(fields_autoplaced yes)
@@ -685,6 +663,17 @@
 		)
 		(uuid "9d6b212f-4dad-4752-97cc-08c0d8ff5c84")
 	)
+	(label "MON_OUT_CS"
+		(at 114.3 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9eba1e81-b2b1-4488-9753-c0a689119caf")
+	)
 	(label "USB-"
 		(at 38.1 39.37 180)
 		(fields_autoplaced yes)
@@ -706,6 +695,17 @@
 			(justify left bottom)
 		)
 		(uuid "a3637b58-4eb7-4e90-ae99-995c1417aaa0")
+	)
+	(label "MON_IN_CS"
+		(at 114.3 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a641d41e-384c-4cd2-9d37-e5b3706e90a1")
 	)
 	(label "MON_OUT_CS"
 		(at 38.1 69.85 180)
@@ -1372,7 +1372,7 @@
 			)
 		)
 		(pin "SPI_SNK_CS" input
-			(at 114.3 105.41 180)
+			(at 114.3 107.95 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1412,7 +1412,7 @@
 			(uuid "8d58c941-5479-49e5-b85d-ae848d745171")
 		)
 		(pin "SPI_SRC_CS" input
-			(at 114.3 107.95 180)
+			(at 114.3 105.41 180)
 			(effects
 				(font
 					(size 1.27 1.27)
