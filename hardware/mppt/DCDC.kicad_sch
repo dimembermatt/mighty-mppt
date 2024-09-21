@@ -12,159 +12,6 @@
 		(comment 2 "Jacob Pustilnik")
 	)
 	(lib_symbols
-		(symbol "021306_3MXP_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board no)
-			(property "Reference" "FX"
-				(at 0 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "021306.3MXP"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=69a7cc50-e735-4299-8e4b-0e5e11e91f14&filename=littelfuse_fuse_213_datasheet.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "FUSE GLASS 6.3A 250VAC 5X20MM"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Distributor" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Littelfuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "P/N" "021306.3MXP"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part #" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Cost" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Notes" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "021306_3MXP_1_0_1"
-				(polyline
-					(pts
-						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -3.81) (xy 1.27 -1.27) (xy 1.27 -1.27) (xy 2.54 -2.54)
-						(xy 3.81 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "021306_3MXP_1_1_1"
-				(rectangle
-					(start -5.08 -1.27)
-					(end -3.81 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -1.27) (xy 3.81 -1.27) (xy 3.81 -3.81) (xy -3.81 -3.81) (xy -3.81 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -1.27)
-					(end 5.08 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers hide)
 			(pin_names
@@ -817,139 +664,6 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:Fuse"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "F"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Fuse"
-				(at -1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Fuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "fuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*Fuse*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Fuse_0_1"
-				(rectangle
-					(start -0.762 -2.54)
-					(end 0.762 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Fuse_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2048,7 +1762,7 @@
 				)
 			)
 		)
-		(symbol "ferroxcube_PQ32_30_3C97:CLM/P-PQ32/30"
+		(symbol "ferroxcube_PQ32_20_3C97:CLM/P-PQ32/30"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board no)
@@ -2060,7 +1774,7 @@
 					)
 				)
 			)
-			(property "Value" "CLM/P-PQ32/30"
+			(property "Value" "CLM/P-PQ32/20"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2077,7 +1791,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.ferroxcube.com/upload/media/product/file/Pr_ds/PQ32_30.pdf"
+			(property "Datasheet" "https://www.ferroxcube.com/upload/media/product/file/Pr_ds/PQ32_20.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2113,7 +1827,7 @@
 					(hide yes)
 				)
 			)
-			(property "P/N" "CLM/P-PQ32/30"
+			(property "P/N" "CLM/P-PQ32/20"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2166,7 +1880,7 @@
 				)
 			)
 		)
-		(symbol "ferroxcube_PQ32_30_3C97:CPV-PQ32/30-1S-12P-Z"
+		(symbol "ferroxcube_PQ32_20_3C97:CPV-PQ32/20-1S-12P-Z"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2179,7 +1893,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "CPV-PQ32/30-1S-12P-Z"
+			(property "Value" "CPV-PQ32/20-1S-12PD-Z"
 				(at 4.572 4.826 0)
 				(effects
 					(font
@@ -2188,7 +1902,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "footprints:ferroxcube_CPV-PQ32_30-1S-12P-Z"
+			(property "Footprint" "footprints:ferroxcube_CPV-PQ32_20-1S-12P-Z"
 				(at 19.05 -94.92 0)
 				(effects
 					(font
@@ -2198,7 +1912,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.ferroxcube.com/upload/media/product/file/Pr_ds/PQ32_30.pdf"
+			(property "Datasheet" "https://www.ferroxcube.com/upload/media/product/file/Pr_ds/PQ32_20.pdf"
 				(at 19.05 -194.92 0)
 				(effects
 					(font
@@ -2235,7 +1949,7 @@
 					(hide yes)
 				)
 			)
-			(property "P/N" "CPV-PQ32/30-1S-12P-Z"
+			(property "P/N" "CPV-PQ32/20-1S-12PD-Z"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2271,7 +1985,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "CPV-PQ32/30-1S-12P-Z_1_1"
+			(symbol "CPV-PQ32/20-1S-12P-Z_1_1"
 				(rectangle
 					(start 5.08 2.54)
 					(end 17.78 -15.24)
@@ -2501,7 +2215,7 @@
 				)
 			)
 		)
-		(symbol "ferroxcube_PQ32_30_3C97:PQ32/30-3C97"
+		(symbol "ferroxcube_PQ32_20_3C97:PQ32/20-3C97"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board no)
@@ -2513,7 +2227,7 @@
 					)
 				)
 			)
-			(property "Value" "PQ32/30-3C97 "
+			(property "Value" "PQ32/20-3C97 "
 				(at 0 0 0)
 				(effects
 					(font
@@ -2530,7 +2244,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.ferroxcube.com/upload/media/product/file/Pr_ds/PQ32_30.pdf"
+			(property "Datasheet" "https://www.ferroxcube.com/upload/media/product/file/Pr_ds/PQ32_20.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2566,7 +2280,7 @@
 					(hide yes)
 				)
 			)
-			(property "P/N" "PQ32/30-3C97"
+			(property "P/N" "PQ32/20-3C97"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2602,128 +2316,11 @@
 					(hide yes)
 				)
 			)
-			(symbol "PQ32/30-3C97_0_1"
+			(symbol "PQ32/20-3C97_0_1"
 				(polyline
 					(pts
 						(xy -5.08 -1.27) (xy 5.08 -1.27) (xy 5.08 -6.35) (xy 2.54 -6.35) (xy 2.54 -5.08) (xy -2.54 -5.08)
 						(xy -2.54 -6.35) (xy -5.08 -6.35) (xy -5.08 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-		)
-		(symbol "littelfuse_021306_3MXP:65900000009"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board no)
-			(property "Reference" "FC"
-				(at 0 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "65900000009"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuse_blocks/littelfuse_fuse_block_656_datasheet.pdf.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "COVER FUSE TRANSPRNT FOR 656/658"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Distributor" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Littelfuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "P/N" "65900000009"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part #" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Cost" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Notes" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "65900000009_1_1"
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy 2.54 -1.27) (xy 2.54 -3.81) (xy 1.27 -3.81) (xy 1.27 -2.54) (xy -1.27 -2.54)
-						(xy -1.27 -3.81) (xy -2.54 -3.81) (xy -2.54 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -2911,6 +2508,12 @@
 		(uuid "12bd5264-7e87-4836-88bc-9fcc072fcaeb")
 	)
 	(junction
+		(at 133.35 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c471705-1ad9-4174-bc90-36da4952f5fa")
+	)
+	(junction
 		(at 100.33 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2929,10 +2532,10 @@
 		(uuid "21212086-12b7-404e-b0a5-2c8db6b5905b")
 	)
 	(junction
-		(at 99.06 180.34)
+		(at 100.33 127)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "39954f44-0300-43e1-af0b-f210114bb475")
+		(uuid "292c7a73-fc10-450f-a4df-c8ef9f4d8f01")
 	)
 	(junction
 		(at 143.51 127)
@@ -2963,12 +2566,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5838acdc-b2cc-4905-bde7-40fa9089e9ba")
-	)
-	(junction
-		(at 133.35 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5cf3c9cb-344a-46d8-b8a2-ef506f90c782")
 	)
 	(junction
 		(at 55.88 127)
@@ -3019,12 +2616,6 @@
 		(uuid "a5d16bf9-ffe1-438f-9d97-2a2a79341fd8")
 	)
 	(junction
-		(at 77.47 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "abafe785-ebef-46a0-9732-a52be95a2598")
-	)
-	(junction
 		(at 166.37 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3046,13 +2637,13 @@
 		(at 189.23 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "df5c2b7d-57d3-4e3d-a531-2e7e21f0a299")
+		(uuid "d7d1250f-6da3-443f-913d-4a378374eb3e")
 	)
 	(junction
-		(at 100.33 127)
+		(at 77.47 127)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ed834fcb-0d76-42b7-9f31-dd4e9ddbdf5e")
+		(uuid "dcf5fc40-f2e0-4114-bdea-8b69b88c77dd")
 	)
 	(junction
 		(at 45.72 101.6)
@@ -3075,6 +2666,16 @@
 			(type default)
 		)
 		(uuid "0253d6ef-43aa-4396-b305-da28b3d3c57f")
+	)
+	(wire
+		(pts
+			(xy 92.71 127) (xy 92.71 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0902a0e6-9e93-493f-806d-f3590b47569f")
 	)
 	(wire
 		(pts
@@ -3138,6 +2739,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 101.6) (xy 189.23 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22056033-5995-4352-937b-ce6c15a2dd38")
+	)
+	(wire
+		(pts
 			(xy 66.04 116.84) (xy 66.04 127)
 		)
 		(stroke
@@ -3155,6 +2766,16 @@
 			(type default)
 		)
 		(uuid "26332f3f-d38a-4d6e-9a1e-a503453438b2")
+	)
+	(wire
+		(pts
+			(xy 90.17 129.54) (xy 100.33 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "273458a3-7e3a-45f0-93e1-2983d9cff227")
 	)
 	(wire
 		(pts
@@ -3185,16 +2806,6 @@
 			(type default)
 		)
 		(uuid "3160635f-13fe-4fb5-bbcf-1c19f3869b18")
-	)
-	(wire
-		(pts
-			(xy 133.35 127) (xy 135.89 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3443eb9c-e861-4e56-9fa6-2c2af6409df4")
 	)
 	(polyline
 		(pts
@@ -3235,6 +2846,16 @@
 			(type default)
 		)
 		(uuid "3bf52192-998a-43d2-b58d-32d62c19524f")
+	)
+	(wire
+		(pts
+			(xy 25.4 101.6) (xy 35.56 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d4ca9e3-7677-4f72-87b1-e194364c50f4")
 	)
 	(polyline
 		(pts
@@ -3378,6 +2999,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 127) (xy 87.63 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f36473d-ae44-4b63-b3d8-f37f6c729fa8")
+	)
+	(wire
+		(pts
 			(xy 115.57 118.11) (xy 115.57 127)
 		)
 		(stroke
@@ -3408,6 +3039,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 127) (xy 143.51 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6617293a-915c-4573-b88e-3d1c60d8cb14")
+	)
+	(wire
+		(pts
 			(xy 77.47 118.11) (xy 77.47 127)
 		)
 		(stroke
@@ -3425,16 +3066,6 @@
 			(type default)
 		)
 		(uuid "6ba4dd85-7a07-4902-aec4-fc3b679997f1")
-	)
-	(wire
-		(pts
-			(xy 140.97 127) (xy 143.51 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e5cac1b-597e-4b83-9ada-eb6313440b6e")
 	)
 	(wire
 		(pts
@@ -3488,13 +3119,13 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 101.6) (xy 189.23 101.6)
+			(xy 100.33 129.54) (xy 100.33 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "78efd21f-5ba0-4a44-9a6c-e9702f4f06de")
+		(uuid "7a9af2c2-37ad-4041-b694-20f01422594d")
 	)
 	(wire
 		(pts
@@ -3525,16 +3156,6 @@
 			(type default)
 		)
 		(uuid "82799085-e782-405c-99bb-3196479edc59")
-	)
-	(wire
-		(pts
-			(xy 77.47 127) (xy 100.33 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86c21d4c-be23-4d75-8b5e-3cb2051d876c")
 	)
 	(polyline
 		(pts
@@ -3628,16 +3249,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 110.49) (xy 189.23 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa1b1a1a-c72a-422b-a933-a329e26ad595")
-	)
-	(wire
-		(pts
 			(xy 177.8 118.11) (xy 177.8 127)
 		)
 		(stroke
@@ -3725,16 +3336,6 @@
 			(type default)
 		)
 		(uuid "cdfead0d-b61e-4441-8584-d8d83af139d9")
-	)
-	(wire
-		(pts
-			(xy 33.02 101.6) (xy 35.56 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d09b0847-52f2-44c9-b715-5c8c72bbe200")
 	)
 	(polyline
 		(pts
@@ -3878,6 +3479,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 101.6) (xy 189.23 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec93f21d-32aa-413e-86e5-cc5a76031e98")
+	)
+	(wire
+		(pts
 			(xy 177.8 110.49) (xy 177.8 101.6)
 		)
 		(stroke
@@ -3908,7 +3519,7 @@
 	)
 	(rectangle
 		(start 93.98 95.25)
-		(end 135.89 129.54)
+		(end 135.89 130.81)
 		(stroke
 			(width 0)
 			(type default)
@@ -4119,7 +3730,7 @@
 	)
 	(text_box "Is this sized appropriately to protect 170VDS rated FETs?"
 		(exclude_from_sim no)
-		(at 107.95 130.81 0)
+		(at 107.95 133.35 0)
 		(size 15.24 6.35)
 		(stroke
 			(width 0)
@@ -4274,61 +3885,6 @@
 		)
 		(uuid "09786834-9c6f-4d3d-af68-98709df396ec")
 	)
-	(label "VO"
-		(at 139.7 158.75 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4a31b0ed-ec91-4452-81d7-9559b1c09059")
-	)
-	(label "VI"
-		(at 76.2 158.75 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "aa4a786f-6fb1-4083-9ace-d4aeb2b30480")
-	)
-	(label "VO"
-		(at 166.37 101.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d2195d1c-ceec-4300-a2ca-306cb477f018")
-	)
-	(label "VI"
-		(at 35.56 101.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f787ac47-d381-4601-a261-9871271bc997")
-	)
-	(label "VO"
-		(at 127 152.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f7f93c7c-f4fd-4c5d-a131-7a8a72c6511d")
-	)
 	(hierarchical_label "VI-"
 		(shape input)
 		(at 25.4 127 180)
@@ -4340,6 +3896,18 @@
 			(justify right)
 		)
 		(uuid "03c0ac3f-171c-475b-875e-2a0a5c1c0137")
+	)
+	(hierarchical_label "VO+"
+		(shape input)
+		(at 139.7 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2f687720-5072-4bad-8986-fc4b3e36ee71")
 	)
 	(hierarchical_label "SWH"
 		(shape input)
@@ -4412,6 +3980,42 @@
 			(justify right)
 		)
 		(uuid "afa0f3c9-b9a5-44cf-9573-5a8dfc13ffce")
+	)
+	(hierarchical_label "VI+"
+		(shape input)
+		(at 76.2 158.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c76b58a3-9463-4b35-98fe-8f6eafbb1c23")
+	)
+	(hierarchical_label "VO+"
+		(shape input)
+		(at 127 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ca7fe8db-a745-4504-98f2-20e5ec3e4171")
+	)
+	(hierarchical_label "VO-"
+		(shape input)
+		(at 99.06 180.34 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d24a1ec4-314f-413a-93fd-b001b8469dc9")
 	)
 	(hierarchical_label "SWH"
 		(shape input)
@@ -4810,128 +4414,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Fuse")
-		(at 195.58 101.6 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1942ef4e-e827-48ac-9312-6d0daa9a5dbc")
-		(property "Reference" "F502"
-			(at 195.58 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Fuse"
-			(at 195.58 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:littelfuse_65600001009"
-			(at 195.58 103.378 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuse_blocks/littelfuse_fuse_block_656_datasheet.pdf.pdf"
-			(at 195.58 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 195.58 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" ""
-			(at 195.58 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Littelfuse"
-			(at 195.58 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "65600001009"
-			(at 195.58 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 195.58 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost" ""
-			(at 195.58 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 195.58 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "47b37819-ec83-46cd-8fbf-3685d638e658")
-		)
-		(pin "2"
-			(uuid "a472fe29-8cf2-4910-a21d-ad30897cce66")
-		)
-		(instances
-			(project "mppt"
-				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/9382a906-528a-4b60-b72c-00b03d72686e"
-					(reference "F502")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint_2Pole")
 		(at 99.06 167.64 90)
 		(unit 1)
@@ -4996,6 +4478,160 @@
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/9382a906-528a-4b60-b72c-00b03d72686e"
 					(reference "TP503")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ferroxcube_PQ32_20_3C97:CPV-PQ32/20-1S-12P-Z")
+		(at 67.31 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2cc95f55-cc3b-4930-9f03-272352221007")
+		(property "Reference" "LB501"
+			(at 78.74 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPV-PQ32/20-1S-12PD-Z"
+			(at 78.74 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:ferroxcube_CPV-PQ32_20-1S-12P-Z"
+			(at 86.36 169.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ferroxcube.com/upload/media/product/file/Pr_ds/PQ32_20.pdf"
+			(at 86.36 269.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "COIL FORMER VERTICAL"
+			(at 67.31 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 67.31 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Ferroxcube"
+			(at 67.31 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CPV-PQ32/20-1S-12PD-Z"
+			(at 67.31 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 67.31 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 67.31 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 67.31 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "6928d7d7-76e6-490c-ba60-b1099a5f6e7d")
+		)
+		(pin "2"
+			(uuid "cf3887f7-102d-4982-87f7-ff085fe96a30")
+		)
+		(pin "6"
+			(uuid "6b109454-fea9-49a3-926e-3df53b2354f6")
+		)
+		(pin "10"
+			(uuid "87d40a31-c28b-438c-835b-89284573d05b")
+		)
+		(pin "5"
+			(uuid "c15767b2-98be-4233-9d45-5f385692adcf")
+		)
+		(pin "1"
+			(uuid "4ce71837-cb40-45e0-8dc1-2d9b496afcde")
+		)
+		(pin "12"
+			(uuid "467e68e9-6b11-42fc-b064-f071519965ec")
+		)
+		(pin "8"
+			(uuid "1a5176af-3f0f-409a-baef-25e4a3ac1421")
+		)
+		(pin "4"
+			(uuid "d8b744ee-4a81-405e-9155-9e1464242d7e")
+		)
+		(pin "3"
+			(uuid "fa06947e-b407-4a75-b0be-272e23614ddf")
+		)
+		(pin "7"
+			(uuid "044c805e-96fb-4f44-b5a1-21adfb64b470")
+		)
+		(pin "11"
+			(uuid "98d9cd4d-c518-4873-b593-f0584ee15766")
+		)
+		(instances
+			(project ""
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/9382a906-528a-4b60-b72c-00b03d72686e"
+					(reference "LB501")
 					(unit 1)
 				)
 			)
@@ -5125,329 +4761,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDPWR")
-		(at 138.43 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "30b94b2b-9ba4-432d-a743-17ac7a4d7ce2")
-		(property "Reference" "#PWR0502"
-			(at 138.43 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 138.303 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 138.43 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 138.43 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 138.43 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "84846fb7-d89f-4f74-964d-c70a57569126")
-		)
-		(instances
-			(project "mppt"
-				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/9382a906-528a-4b60-b72c-00b03d72686e"
-					(reference "#PWR0502")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "littelfuse_021306_3MXP:65900000009")
-		(at 195.58 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(uuid "372555af-1809-4edf-b4d3-562aa865b31b")
-		(property "Reference" "FC502"
-			(at 192.278 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "65900000009"
-			(at 188.214 75.946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuse_blocks/littelfuse_fuse_block_656_datasheet.pdf.pdf"
-			(at 195.58 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "COVER FUSE TRANSPRNT FOR 656/658"
-			(at 195.58 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" ""
-			(at 195.58 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Littelfuse"
-			(at 195.58 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "65900000009"
-			(at 195.58 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 195.58 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost" ""
-			(at 195.58 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 195.58 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "mppt"
-				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/9382a906-528a-4b60-b72c-00b03d72686e"
-					(reference "FC502")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse")
-		(at 29.21 101.6 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "49afa5c1-bd7e-451e-b8e6-31d3add0cfed")
-		(property "Reference" "F501"
-			(at 29.21 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Fuse"
-			(at 29.21 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:littelfuse_65600001009"
-			(at 29.21 103.378 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuse_blocks/littelfuse_fuse_block_656_datasheet.pdf.pdf"
-			(at 29.21 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 29.21 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" ""
-			(at 29.21 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Littelfuse"
-			(at 29.21 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "65600001009"
-			(at 29.21 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 29.21 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost" ""
-			(at 29.21 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 29.21 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ed2db965-5949-4310-8bc0-c95d49e59964")
-		)
-		(pin "2"
-			(uuid "69e42b12-4103-4ea4-aa3e-07b432e37360")
-		)
-		(instances
-			(project "mppt"
-				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/9382a906-528a-4b60-b72c-00b03d72686e"
-					(reference "F501")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L_Ferrite")
 		(at 90.17 101.6 90)
 		(unit 1)
@@ -5473,7 +4786,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:ferroxcube_PQ32_30_3C97_wire"
+		(property "Footprint" "footprints:ferroxcube_PQ32_20_3C97_wire"
 			(at 90.17 101.6 0)
 			(effects
 				(font
@@ -6042,6 +5355,161 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_3_Tee")
+		(at 90.17 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bf1c44a-8145-4208-a6e9-8a4222443633")
+		(property "Reference" "NT501"
+			(at 90.17 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_3_Tee"
+			(at 90.17 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-3_SMD_Pad2.0mm"
+			(at 90.17 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 3 pins, tee"
+			(at 90.17 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b03ddf96-76aa-4207-8570-5afb63a50d85")
+		)
+		(pin "2"
+			(uuid "bbcbb976-003a-4682-aca7-8fcb5f56c79f")
+		)
+		(pin "3"
+			(uuid "3a29bfee-9efa-45f8-889d-0b1c559f59f4")
+		)
+		(instances
+			(project "mppt"
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/9382a906-528a-4b60-b72c-00b03d72686e"
+					(reference "NT501")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 92.71 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e6a1292-d212-45c6-8dd2-fddc3542b525")
+		(property "Reference" "#PWR0501"
+			(at 92.71 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 92.583 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 92.71 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 92.71 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 92.71 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54978a26-e512-4b01-ba7c-475c8d0efbe0")
+		)
+		(instances
+			(project "mppt"
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/9382a906-528a-4b60-b72c-00b03d72686e"
+					(reference "#PWR0501")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 114.3 180.34 180)
 		(unit 1)
@@ -6281,123 +5749,6 @@
 		)
 	)
 	(symbol
-		(lib_name "021306_3MXP_1")
-		(lib_id "littelfuse_021306_3MXP:021306_3MXP")
-		(at 29.21 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7ee0ae6f-fb46-4469-abdf-1b7209ac2987")
-		(property "Reference" "FX501"
-			(at 29.21 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "021306.3MXP"
-			(at 29.21 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=69a7cc50-e735-4299-8e4b-0e5e11e91f14&filename=littelfuse_fuse_213_datasheet.pdf"
-			(at 29.21 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "FUSE GLASS 6.3A 250VAC 5X20MM"
-			(at 29.21 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" ""
-			(at 29.21 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Littelfuse"
-			(at 29.21 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "021306.3MXP"
-			(at 29.21 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 29.21 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost" ""
-			(at 29.21 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 29.21 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "mppt"
-				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/9382a906-528a-4b60-b72c-00b03d72686e"
-					(reference "FX501")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 166.37 114.3 0)
 		(unit 1)
@@ -6521,240 +5872,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ferroxcube_PQ32_30_3C97:PQ32/30-3C97")
-		(at 110.49 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(uuid "99909c01-9582-4cf4-b6b7-6cd34092f16d")
-		(property "Reference" "LC501"
-			(at 107.442 81.026 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PQ32/30-3C97"
-			(at 102.87 83.312 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ferroxcube.com/upload/media/product/file/Pr_ds/PQ32_30.pdf"
-			(at 110.49 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "FERRITE CORE PQ 3C97 2PC SET"
-			(at 110.49 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" ""
-			(at 110.49 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Ferroxcube"
-			(at 110.49 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "PQ32/30-3C97"
-			(at 110.49 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 110.49 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost" ""
-			(at 110.49 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 110.49 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "mppt"
-				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/9382a906-528a-4b60-b72c-00b03d72686e"
-					(reference "LC501")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ferroxcube_PQ32_30_3C97:CLM/P-PQ32/30")
-		(at 96.52 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(uuid "a59e32d1-a2c2-432d-a7cf-a57e06e89c22")
-		(property "Reference" "LH501"
-			(at 92.71 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CLM/P-PQ32/30"
-			(at 88.392 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ferroxcube.com/upload/media/product/file/Pr_ds/PQ32_30.pdf"
-			(at 96.52 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "U SHAPED CLIP"
-			(at 96.52 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" ""
-			(at 96.52 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Ferroxcube"
-			(at 96.52 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "CLM/P-PQ32/30"
-			(at 96.52 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 96.52 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost" ""
-			(at 96.52 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 96.52 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "mppt"
-				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/9382a906-528a-4b60-b72c-00b03d72686e"
-					(reference "LH501")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Zener")
 		(at 189.23 114.3 90)
 		(mirror x)
@@ -6782,7 +5899,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 189.23 114.3 0)
 			(effects
 				(font
@@ -7013,277 +6130,6 @@
 		)
 	)
 	(symbol
-		(lib_id "littelfuse_021306_3MXP:65900000009")
-		(at 29.21 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(uuid "bce0fc5b-a8a5-4c2b-b2a8-48f1cdd41c21")
-		(property "Reference" "FC501"
-			(at 25.908 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "65900000009"
-			(at 21.844 75.946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuse_blocks/littelfuse_fuse_block_656_datasheet.pdf.pdf"
-			(at 29.21 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "COVER FUSE TRANSPRNT FOR 656/658"
-			(at 29.21 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" ""
-			(at 29.21 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Littelfuse"
-			(at 29.21 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "65900000009"
-			(at 29.21 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 29.21 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost" ""
-			(at 29.21 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 29.21 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "mppt"
-				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/9382a906-528a-4b60-b72c-00b03d72686e"
-					(reference "FC501")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ferroxcube_PQ32_30_3C97:CPV-PQ32/30-1S-12P-Z")
-		(at 64.77 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bdc34e6c-0d81-4dea-a9eb-2985bfec85c6")
-		(property "Reference" "LB501"
-			(at 76.2 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CPV-PQ32/30-1S-12P-Z"
-			(at 76.2 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:ferroxcube_CPV-PQ32_30-1S-12P-Z"
-			(at 83.82 169.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ferroxcube.com/upload/media/product/file/Pr_ds/PQ32_30.pdf"
-			(at 83.82 269.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "COIL FORMER VERTICAL"
-			(at 64.77 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" ""
-			(at 64.77 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Ferroxcube"
-			(at 64.77 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "CPV-PQ32/30-1S-12P-Z"
-			(at 64.77 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 64.77 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost" ""
-			(at 64.77 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 64.77 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "12"
-			(uuid "df740192-e06d-48af-9dc6-f9c9d8758395")
-		)
-		(pin "8"
-			(uuid "a0d20dec-5885-43e5-bd52-bea69e043e3b")
-		)
-		(pin "7"
-			(uuid "8c2948b0-475b-46e8-b325-b8b149c1d366")
-		)
-		(pin "6"
-			(uuid "2039dcd5-31db-463b-8ef9-e8e047e1c762")
-		)
-		(pin "5"
-			(uuid "447a1187-df86-4ddb-8b74-fb221ab92f50")
-		)
-		(pin "1"
-			(uuid "e6e9b20d-242b-4104-b6b0-e22fa8cf488c")
-		)
-		(pin "10"
-			(uuid "fdbab96d-8409-48f7-bc12-490d8ef0e8bf")
-		)
-		(pin "11"
-			(uuid "206f0734-25e2-4cad-a8d0-1047fc931ab4")
-		)
-		(pin "3"
-			(uuid "cfc3bdb1-5d94-4f9a-bffc-5833a4d582a5")
-		)
-		(pin "9"
-			(uuid "f8e48bd0-1747-45e7-8474-e8f2e347c933")
-		)
-		(pin "2"
-			(uuid "1bd34872-7e9c-44cf-a27e-710b5d39fbc8")
-		)
-		(pin "4"
-			(uuid "37d7fd69-c42f-4dc7-8b41-c94da5dc8622")
-		)
-		(instances
-			(project "mppt"
-				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/9382a906-528a-4b60-b72c-00b03d72686e"
-					(reference "LB501")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 139.7 152.4 0)
 		(unit 1)
@@ -7387,77 +6233,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:NetTie_3_Tee")
-		(at 138.43 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cd35762f-264d-40c3-8953-fbfd789598c7")
-		(property "Reference" "NT501"
-			(at 138.43 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NetTie_3_Tee"
-			(at 138.43 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NetTie:NetTie-3_SMD_Pad2.0mm"
-			(at 138.43 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 3 pins, tee"
-			(at 138.43 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "57b9da9e-6960-44b2-84d8-ee6860af4109")
-		)
-		(pin "2"
-			(uuid "f9781a8d-9a4d-44de-a79d-57ce6793f2e2")
-		)
-		(pin "3"
-			(uuid "462dcb36-7c3e-49d5-905f-7d05d126f389")
-		)
-		(instances
-			(project "mppt"
-				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/9382a906-528a-4b60-b72c-00b03d72686e"
-					(reference "NT501")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:SMAJ150CA")
 		(at 115.57 114.3 90)
 		(unit 1)
@@ -7485,7 +6260,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 120.65 114.3 0)
 			(effects
 				(font
@@ -7564,34 +6339,35 @@
 		)
 	)
 	(symbol
-		(lib_name "021306_3MXP_1")
-		(lib_id "littelfuse_021306_3MXP:021306_3MXP")
-		(at 195.58 86.36 0)
+		(lib_id "ferroxcube_PQ32_20_3C97:PQ32/20-3C97")
+		(at 100.33 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dd9275f6-b5d8-41cb-a70b-f3dc04659fc1")
-		(property "Reference" "FX502"
-			(at 195.58 82.55 0)
+		(uuid "d737bc53-2c67-47b4-a3cc-36957a58ae7d")
+		(property "Reference" "LC501"
+			(at 106.68 69.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "021306.3MXP"
-			(at 195.58 85.09 0)
+		(property "Value" "PQ32/20-3C97"
+			(at 106.68 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 86.36 0)
+			(at 100.33 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7599,8 +6375,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=69a7cc50-e735-4299-8e4b-0e5e11e91f14&filename=littelfuse_fuse_213_datasheet.pdf"
-			(at 195.58 86.36 0)
+		(property "Datasheet" "https://www.ferroxcube.com/upload/media/product/file/Pr_ds/PQ32_20.pdf"
+			(at 100.33 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7608,8 +6384,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "FUSE GLASS 6.3A 250VAC 5X20MM"
-			(at 195.58 86.36 0)
+		(property "Description" "FERRITE CORE PQ 3C97 2PC SET"
+			(at 100.33 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7618,7 +6394,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 195.58 86.36 0)
+			(at 100.33 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7626,8 +6402,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Littelfuse"
-			(at 195.58 86.36 0)
+		(property "Manufacturer" "Ferroxcube"
+			(at 100.33 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7635,8 +6411,8 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "021306.3MXP"
-			(at 195.58 86.36 0)
+		(property "P/N" "PQ32/20-3C97"
+			(at 100.33 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7645,7 +6421,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 195.58 86.36 0)
+			(at 100.33 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7654,7 +6430,7 @@
 			)
 		)
 		(property "Cost" ""
-			(at 195.58 86.36 0)
+			(at 100.33 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7663,7 +6439,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 195.58 86.36 0)
+			(at 100.33 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7672,9 +6448,9 @@
 			)
 		)
 		(instances
-			(project "mppt"
+			(project ""
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/9382a906-528a-4b60-b72c-00b03d72686e"
-					(reference "FX502")
+					(reference "LC501")
 					(unit 1)
 				)
 			)
@@ -8079,7 +6855,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 35.56 114.3 0)
 			(effects
 				(font
@@ -8176,34 +6952,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDPWR")
-		(at 99.06 180.34 0)
+		(lib_id "ferroxcube_PQ32_20_3C97:CLM/P-PQ32/30")
+		(at 100.33 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f276fc70-4b77-4219-8601-03e095797801")
-		(property "Reference" "#PWR0501"
-			(at 99.06 185.42 0)
+		(uuid "fcaf233e-b28e-455d-932f-76c1ec6aedf5")
+		(property "Reference" "LH501"
+			(at 106.68 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "GNDPWR"
-			(at 98.933 184.15 0)
+		(property "Value" "CLM/P-PQ32/20"
+			(at 106.68 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 181.61 0)
+			(at 100.33 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8211,8 +6988,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 99.06 181.61 0)
+		(property "Datasheet" "https://www.ferroxcube.com/upload/media/product/file/Pr_ds/PQ32_20.pdf"
+			(at 100.33 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8220,8 +6997,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 99.06 180.34 0)
+		(property "Description" "U SHAPED CLIP"
+			(at 100.33 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8229,8 +7006,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 99.06 180.34 0)
+		(property "Distributor" ""
+			(at 100.33 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8238,8 +7015,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
-			(at 99.06 180.34 0)
+		(property "Manufacturer" "Ferroxcube"
+			(at 100.33 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8247,13 +7024,46 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "91d550ff-6d62-4350-a267-ed8d7f1a6255")
+		(property "P/N" "CLM/P-PQ32/20"
+			(at 100.33 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 100.33 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 100.33 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 100.33 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(instances
-			(project "mppt"
+			(project ""
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/9382a906-528a-4b60-b72c-00b03d72686e"
-					(reference "#PWR0501")
+					(reference "LH501")
 					(unit 1)
 				)
 			)

@@ -12,23 +12,23 @@
 		(comment 2 "Jacob Pustilnik")
 	)
 	(lib_symbols
-		(symbol "Mechanical:MountingHole"
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
 			(pin_names
-				(offset 1.016)
-			)
+				(offset 1.016) hide)
 			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
-				(at 0 5.08 0)
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -53,7 +53,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Mounting Hole without connection"
+			(property "Description" "Mounting Hole with connection"
 				(at 0 0 0)
 				(effects
 					(font
@@ -71,7 +71,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "MountingHole*"
+			(property "ki_fp_filters" "MountingHole*Pad*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -80,9 +80,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "MountingHole_0_1"
+			(symbol "MountingHole_Pad_0_1"
 				(circle
-					(center 0 0)
+					(center 0 1.27)
 					(radius 1.27)
 					(stroke
 						(width 1.27)
@@ -93,11 +93,47 @@
 					)
 				)
 			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
 		)
 	)
+	(no_connect
+		(at 222.25 167.64)
+		(uuid "d9e84786-b97a-4262-ada5-915664f33371")
+	)
+	(no_connect
+		(at 184.15 167.64)
+		(uuid "db7336d8-a427-4220-a839-ae0a8e2b8beb")
+	)
+	(no_connect
+		(at 241.3 167.64)
+		(uuid "e2f2deb3-37c6-4766-a904-81ac87cd43e2")
+	)
+	(no_connect
+		(at 203.2 167.64)
+		(uuid "e5cdfaf4-3f1c-4d4c-9238-40c7e5b1588e")
+	)
 	(rectangle
-		(start 38.1 90.17)
-		(end 76.2 114.3)
+		(start 38.1 114.3)
+		(end 76.2 139.7)
 		(stroke
 			(width 0)
 			(type default)
@@ -108,8 +144,8 @@
 		(uuid 216dcd37-95ce-43d8-8dae-cd05270dfea0)
 	)
 	(rectangle
-		(start 38.1 53.34)
-		(end 76.2 77.47)
+		(start 38.1 57.15)
+		(end 76.2 88.9)
 		(stroke
 			(width 0)
 			(type default)
@@ -120,8 +156,8 @@
 		(uuid 2dc692c4-8297-49d4-b73b-8986f1a5ebd8)
 	)
 	(rectangle
-		(start 38.1 77.47)
-		(end 76.2 90.17)
+		(start 38.1 88.9)
+		(end 76.2 114.3)
 		(stroke
 			(width 0)
 			(type default)
@@ -133,7 +169,7 @@
 	)
 	(rectangle
 		(start 38.1 25.4)
-		(end 76.2 53.34)
+		(end 76.2 57.15)
 		(stroke
 			(width 0)
 			(type default)
@@ -155,7 +191,7 @@
 		(uuid "00eeb4f7-b27d-4ebf-853a-0786f529bb02")
 	)
 	(label "VI-"
-		(at 38.1 124.46 180)
+		(at 38.1 151.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -176,16 +212,16 @@
 		)
 		(uuid "0249c926-7c73-44c1-b27b-b792d8431790")
 	)
-	(label "MON_SPI_CLK"
-		(at 38.1 55.88 180)
+	(label "FAN_TACH"
+		(at 152.4 156.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "05c9e636-b680-461a-8090-041af96f755c")
+		(uuid "042c7b1a-d79f-4954-9f89-cab91c9b35d3")
 	)
 	(label "SDC_CS"
 		(at 114.3 74.93 180)
@@ -197,6 +233,17 @@
 			(justify right bottom)
 		)
 		(uuid "0726b5a7-9171-46a5-8e33-b5c836173d8e")
+	)
+	(label "FAN_PWM"
+		(at 76.2 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "081d1879-5c46-41a1-8a59-e293b9135b53")
 	)
 	(label "LCD_CS"
 		(at 114.3 72.39 180)
@@ -210,7 +257,7 @@
 		(uuid "0dbe071a-ce63-43f3-9a75-9c78ddbe0088")
 	)
 	(label "MON_SPI_CLK"
-		(at 114.3 104.14 180)
+		(at 114.3 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -220,8 +267,8 @@
 		)
 		(uuid "11904cb1-e4ef-4bcd-bf68-feac2e12aabc")
 	)
-	(label "TEMP_LS_FET"
-		(at 76.2 153.67 0)
+	(label "TEMP_FETS"
+		(at 152.4 153.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -232,7 +279,7 @@
 		(uuid "133a4063-b62c-4be3-be1b-c632552d83ab")
 	)
 	(label "VUSB"
-		(at 38.1 127 180)
+		(at 38.1 153.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -241,6 +288,17 @@
 			(justify right bottom)
 		)
 		(uuid "16b2c92e-df48-4ce3-be9e-cf1e2c369c66")
+	)
+	(label "SWDIO"
+		(at 38.1 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1719d748-0d9a-4c07-a85c-b6225388f3cd")
 	)
 	(label "NRST"
 		(at 114.3 29.21 180)
@@ -253,50 +311,6 @@
 		)
 		(uuid "179b9dad-d9a8-4dfc-9590-0f23797fc9cb")
 	)
-	(label "LCD_CS"
-		(at 38.1 102.87 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1c18b8b2-e210-4d37-acbc-0038dcb6c9a9")
-	)
-	(label "SWCLK"
-		(at 38.1 29.21 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1ca00949-b898-4663-b205-bb66cb46bafb")
-	)
-	(label "SWDIO"
-		(at 38.1 31.75 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1e9e8cb5-35b4-4eb5-ba12-ab1294527509")
-	)
-	(label "DC"
-		(at 38.1 107.95 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1f3572ce-bf84-4d87-bbaa-4d069cd66711")
-	)
 	(label "VUSB"
 		(at 152.4 29.21 0)
 		(fields_autoplaced yes)
@@ -307,17 +321,6 @@
 			(justify left bottom)
 		)
 		(uuid "1fab4b52-d39c-4b56-8fae-790cf3210793")
-	)
-	(label "MON_SPI_COPI"
-		(at 38.1 60.96 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "24b251a7-70a3-434a-a667-bd9ab5cc7408")
 	)
 	(label "USART_TX"
 		(at 114.3 46.99 180)
@@ -331,7 +334,7 @@
 		(uuid "26229787-64ed-4ca6-8a32-0a9f347a7299")
 	)
 	(label "AL_IN_EN"
-		(at 114.3 120.65 180)
+		(at 114.3 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -342,7 +345,7 @@
 		(uuid "2a88cccc-1b0b-446d-bb82-0a8f63a98a81")
 	)
 	(label "TEMP_BOARD"
-		(at 38.1 80.01 180)
+		(at 38.1 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -352,19 +355,8 @@
 		)
 		(uuid "309c669c-0385-4e95-af4d-bf266fe5f534")
 	)
-	(label "AL_OUT_EN"
-		(at 76.2 74.93 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3c7ee807-5e8b-4ae1-bd9a-360eb133221b")
-	)
-	(label "NRST"
-		(at 38.1 26.67 180)
+	(label "RESET"
+		(at 38.1 134.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -372,7 +364,29 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "3f3a1eb3-8420-4f26-a0d0-a19d04122613")
+		(uuid "34cc967b-c6a8-45a1-8424-aa3b3bea4d02")
+	)
+	(label "LCD_SPI_COPI"
+		(at 38.1 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3b835b90-7148-48b5-943c-365fa40f6cd8")
+	)
+	(label "MON_ALERT"
+		(at 38.1 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3c92947d-1922-4c4d-8370-d048457f7001")
 	)
 	(label "CAN_RX"
 		(at 114.3 57.15 180)
@@ -385,30 +399,19 @@
 		)
 		(uuid "3f857b68-21e0-44c3-adeb-b9e4d8300856")
 	)
-	(label "TEMP_HS_FET"
-		(at 38.1 87.63 180)
+	(label "PROT_DISABLE"
+		(at 76.2 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "496633f7-2c12-4ad7-a556-e2d3ca78c1db")
-	)
-	(label "BACKLIGHT_PWM"
-		(at 38.1 92.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "49c99487-aa6f-4aa1-9a95-18efd9dc0ecd")
+		(uuid "4af23159-cdc7-4f23-a633-eed9949a595f")
 	)
 	(label "VI+"
-		(at 38.1 121.92 180)
+		(at 38.1 148.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -418,7 +421,18 @@
 		)
 		(uuid "4cdedc8f-60a5-4823-b4ad-055bc940f97e")
 	)
-	(label "USB_DM"
+	(label "MON_SPI_CIPO"
+		(at 38.1 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "50bd7160-7abe-4b45-9284-82087d4c1b20")
+	)
+	(label "USB-"
 		(at 114.3 41.91 180)
 		(fields_autoplaced yes)
 		(effects
@@ -429,8 +443,19 @@
 		)
 		(uuid "519e3af6-e76b-4865-ac52-7a2c6738bdf2")
 	)
+	(label "BACKLIGHT_PWM"
+		(at 38.1 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "57d1eabc-7341-4841-b348-6f37deeddb07")
+	)
 	(label "CONV_DISABLE"
-		(at 76.2 60.96 0)
+		(at 76.2 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -438,10 +463,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "5724dd8f-ed01-4c3f-b360-80f812522fe5")
+		(uuid "58f65f91-5031-4c3b-9c63-59c3566a1042")
 	)
 	(label "TEMP_BOARD"
-		(at 76.2 148.59 0)
+		(at 152.4 148.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -450,6 +475,28 @@
 			(justify left bottom)
 		)
 		(uuid "5a5da197-065d-46d0-9a5d-a7afa0bf567c")
+	)
+	(label "MON_SPI_COPI"
+		(at 38.1 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5d19e55d-30b6-4a68-987b-c39cbb185766")
+	)
+	(label "MON_IN_CS"
+		(at 38.1 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5f076749-0093-47f6-839d-19ef5337ee07")
 	)
 	(label "SWDIO"
 		(at 114.3 34.29 180)
@@ -462,8 +509,8 @@
 		)
 		(uuid "69804404-088b-4e2b-8caf-560b9801ad73")
 	)
-	(label "MON_OUT_CS"
-		(at 114.3 114.3 180)
+	(label "NRST"
+		(at 38.1 27.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -471,54 +518,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "700b1a12-a033-4f02-a2e5-e40a7786481a")
-	)
-	(label "CONV_EN"
-		(at 76.2 55.88 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7010b07d-c8e6-4b3b-bc62-febab976b907")
-	)
-	(label "SDC_CS"
-		(at 38.1 105.41 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "701c26bc-fb6c-4c0d-a80d-b3d6e921399b")
-	)
-	(label "MON_IN_CS"
-		(at 114.3 111.76 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7238c2b5-55ff-4076-8aec-f4d94645db0c")
-	)
-	(label "USB_DM"
-		(at 38.1 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "74b1650a-83ae-4d85-841c-507372906c42")
+		(uuid "72c03aa8-cf85-433c-8ae7-7025a50cd5a0")
 	)
 	(label "CONV_PWM"
-		(at 114.3 133.35 180)
+		(at 114.3 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -528,19 +531,8 @@
 		)
 		(uuid "750a8cdf-6a62-43cc-b0ea-b3e2990a1f20")
 	)
-	(label "PROT_DISABLE"
-		(at 76.2 63.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "767711f5-7203-4efb-86c2-f0227b30ff13")
-	)
-	(label "MON_SPI_CIPO"
-		(at 38.1 58.42 180)
+	(label "USART_RX"
+		(at 38.1 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -548,10 +540,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "7f6a5ae0-9760-4906-b11f-19610b804889")
+		(uuid "75293c02-5cce-4250-96f6-4a6aaee825ac")
 	)
 	(label "LS_OUT_EN"
-		(at 76.2 72.39 0)
+		(at 76.2 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -559,32 +551,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "7fd22e07-e34f-4158-bd34-a29cedfb6c2e")
-	)
-	(label "CONV_PWM"
-		(at 76.2 58.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "817ced88-dab3-4e20-a47e-af3a0407cdb3")
-	)
-	(label "CAN_TX"
-		(at 38.1 41.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8306b669-bec3-44e0-8593-3087a4e5776f")
+		(uuid "7644768b-f000-4887-860b-3e559bf9249f")
 	)
 	(label "MON_SPI_CIPO"
-		(at 114.3 106.68 180)
+		(at 114.3 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -594,7 +564,18 @@
 		)
 		(uuid "8365bf79-58d7-41a2-a491-8c6d9ba2dd16")
 	)
-	(label "USB_DP"
+	(label "DC"
+		(at 38.1 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "84cae69d-1e95-4dec-b87a-7c4da9cf9039")
+	)
+	(label "USB+"
 		(at 114.3 39.37 180)
 		(fields_autoplaced yes)
 		(effects
@@ -605,8 +586,19 @@
 		)
 		(uuid "85707155-8794-4b18-96b4-5cc55e527413")
 	)
+	(label "LCD_CS"
+		(at 38.1 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "86893b4e-6d14-4182-8f35-ca9abe78cef2")
+	)
 	(label "CONV_DISABLE"
-		(at 114.3 135.89 180)
+		(at 114.3 129.54 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -617,7 +609,7 @@
 		(uuid "884c53d5-1683-4693-ad12-6e7455013504")
 	)
 	(label "PROT_DISABLE"
-		(at 114.3 138.43 180)
+		(at 114.3 132.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -626,17 +618,6 @@
 			(justify right bottom)
 		)
 		(uuid "89421096-41d5-44b9-bfbd-0b318600cb99")
-	)
-	(label "MON_IN_CS"
-		(at 38.1 63.5 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8c3e9825-8a4b-4856-8de8-b258adb39f7b")
 	)
 	(label "DC"
 		(at 114.3 77.47 180)
@@ -648,17 +629,6 @@
 			(justify right bottom)
 		)
 		(uuid "9001db42-b44d-4cb1-bac4-2d29a6e5506c")
-	)
-	(label "CAN_RX"
-		(at 38.1 44.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "97935b7e-ccc2-4e97-ac81-57ba2bcfae51")
 	)
 	(label "BACKLIGHT_PWM"
 		(at 114.3 62.23 180)
@@ -683,7 +653,7 @@
 		(uuid "98faf0a4-66ec-4d32-8bb4-ef600144741b")
 	)
 	(label "MON_SPI_COPI"
-		(at 114.3 109.22 180)
+		(at 114.3 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -693,8 +663,63 @@
 		)
 		(uuid "9d6b212f-4dad-4752-97cc-08c0d8ff5c84")
 	)
+	(label "MON_OUT_CS"
+		(at 114.3 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9eba1e81-b2b1-4488-9753-c0a689119caf")
+	)
+	(label "USB-"
+		(at 38.1 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a08ab194-3568-411e-b303-5d75ff9cfea5")
+	)
+	(label "CONV_EN"
+		(at 76.2 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a3637b58-4eb7-4e90-ae99-995c1417aaa0")
+	)
+	(label "MON_IN_CS"
+		(at 114.3 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a641d41e-384c-4cd2-9d37-e5b3706e90a1")
+	)
+	(label "MON_OUT_CS"
+		(at 38.1 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a6b5ab4b-402a-44d5-bc46-0b07059ed9ea")
+	)
 	(label "AL_OUT_EN"
-		(at 114.3 125.73 180)
+		(at 114.3 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -715,8 +740,8 @@
 		)
 		(uuid "ae758b2d-ced7-49fc-ac9b-d6869faef87b")
 	)
-	(label "LCD_SPI_CIPO"
-		(at 38.1 95.25 180)
+	(label "CAN_RX"
+		(at 38.1 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -724,10 +749,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "b4d6072a-996b-4713-8fab-5f0f9a204165")
+		(uuid "b5436696-c694-4833-bb84-fd2b702937a3")
 	)
 	(label "TEMP_IND"
-		(at 76.2 151.13 0)
+		(at 152.4 151.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -737,19 +762,8 @@
 		)
 		(uuid "b5d9d244-2efe-4358-9ac2-5604b8dfc415")
 	)
-	(label "LCD_SPI_CLK"
-		(at 38.1 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b6765641-54e0-4ec2-b448-8e638d427786")
-	)
 	(label "TEMP_IND"
-		(at 38.1 82.55 180)
+		(at 38.1 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -759,8 +773,8 @@
 		)
 		(uuid "b698bfd5-ad4e-42ba-ae7f-41909bb278b1")
 	)
-	(label "RESET"
-		(at 38.1 110.49 180)
+	(label "SWCLK"
+		(at 38.1 30.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -768,7 +782,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "b6e08cbc-a03c-4e8c-9aa1-77d3c52fc7d1")
+		(uuid "bac9cee2-88f5-4581-9fc0-85a2670889a1")
 	)
 	(label "LCD_SPI_CIPO"
 		(at 114.3 67.31 180)
@@ -782,7 +796,7 @@
 		(uuid "bb2170f4-9350-4c22-9f1a-60298650168e")
 	)
 	(label "VI+"
-		(at 152.4 107.95 0)
+		(at 152.4 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -792,8 +806,30 @@
 		)
 		(uuid "bcb7182c-a8ba-4d4b-8fc1-638f3e21cf29")
 	)
-	(label "USART_RX"
-		(at 38.1 50.8 180)
+	(label "AL_IN_EN"
+		(at 76.2 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c28e1c35-6dbf-4bce-8f0d-d524de564196")
+	)
+	(label "LS_IN_EN"
+		(at 76.2 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c58bc5c6-1110-4b67-b7a7-42ff231faf1a")
+	)
+	(label "CAN_TX"
+		(at 38.1 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -801,10 +837,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "bde00e0b-286d-43a5-969e-d3a246307bb4")
+		(uuid "cadcad9f-8cc1-4e87-b258-f6059b1dda73")
 	)
-	(label "AL_IN_EN"
-		(at 76.2 69.85 0)
+	(label "CONV_PWM"
+		(at 76.2 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -812,21 +848,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "befdb73f-6f2e-4039-8d9b-d9a73624d6b9")
-	)
-	(label "TEMP_HS_FET"
-		(at 76.2 156.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c703a3f0-7095-406b-b6fe-0c213cd9f43f")
+		(uuid "ccb5ebf7-7b4d-4b58-916f-088fe3d0f2a0")
 	)
 	(label "VI-"
-		(at 152.4 110.49 0)
+		(at 152.4 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -836,19 +861,19 @@
 		)
 		(uuid "cf49bd66-3e0a-4839-a563-77eeef67ccbe")
 	)
-	(label "USB_DP"
-		(at 38.1 35.56 180)
+	(label "AL_OUT_EN"
+		(at 76.2 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "d3bf92de-9e0b-4194-9e55-3afb49b98673")
+		(uuid "d1361fb3-0132-4abf-ab64-3143c5b247ae")
 	)
-	(label "MON_OUT_CS"
-		(at 38.1 66.04 180)
+	(label "USB+"
+		(at 38.1 36.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -856,10 +881,21 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "daa21f49-716f-4a62-9ca2-a8461c21b814")
+		(uuid "d67008b9-5363-48c4-93ae-55b75e3144be")
+	)
+	(label "LCD_SPI_CIPO"
+		(at 38.1 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d95fca54-79bb-4a2a-965e-c39b7df9c2a7")
 	)
 	(label "LS_IN_EN"
-		(at 114.3 118.11 180)
+		(at 114.3 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -869,8 +905,8 @@
 		)
 		(uuid "dad8bf99-459e-4ff1-b81a-4030e3586ce8")
 	)
-	(label "USART_TX"
-		(at 38.1 48.26 180)
+	(label "FAN_TACH"
+		(at 38.1 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -878,43 +914,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "de2235dc-b4e2-445e-9e31-fa7f7f56bc2f")
-	)
-	(label "MON_ALERT"
-		(at 38.1 68.58 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e007cf77-81bb-4e53-ad9b-b164b85a3b7a")
-	)
-	(label "LCD_SPI_COPI"
-		(at 38.1 100.33 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e0805765-9018-4817-8795-7b6909c1f82f")
-	)
-	(label "LS_IN_EN"
-		(at 76.2 67.31 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e164a424-1d75-42b0-bbc9-a0b9458863a8")
+		(uuid "e61671d1-b064-4c64-b880-0339a42b84f0")
 	)
 	(label "FAN_PWM"
-		(at 38.1 148.59 180)
+		(at 114.3 148.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -925,7 +928,7 @@
 		(uuid "e9387d4d-5a93-4e7d-a1b1-e26a4a0f8856")
 	)
 	(label "CONV_EN"
-		(at 114.3 130.81 180)
+		(at 114.3 124.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -935,19 +938,8 @@
 		)
 		(uuid "ebe07222-c15e-45aa-87fd-932b31beefa2")
 	)
-	(label "FAN_PWM"
-		(at 76.2 80.01 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ed3e8a84-07f5-4c3c-a7c2-38dcda8c082d")
-	)
-	(label "TEMP_LS_FET"
-		(at 38.1 85.09 180)
+	(label "USART_TX"
+		(at 38.1 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -955,7 +947,29 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "ef94db0a-2e1c-49a7-b15c-bc8a9559e922")
+		(uuid "ef40867f-aa30-42e5-b4e7-f698fcd36d5a")
+	)
+	(label "MON_SPI_CLK"
+		(at 38.1 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f0434804-ae52-4c70-94c2-8bf359f9a38a")
+	)
+	(label "TEMP_FETS"
+		(at 38.1 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f1a28632-22f6-4678-8c01-46e4673cc98b")
 	)
 	(label "LCD_SPI_COPI"
 		(at 114.3 69.85 180)
@@ -969,7 +983,7 @@
 		(uuid "f51ca180-1b9a-4b34-9218-80cc88de7d92")
 	)
 	(label "MON_ALERT"
-		(at 152.4 104.14 0)
+		(at 152.4 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -980,7 +994,7 @@
 		(uuid "f58068b3-48f1-4072-b9be-5f0fc522e5b5")
 	)
 	(label "LS_OUT_EN"
-		(at 114.3 123.19 180)
+		(at 114.3 116.84 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -989,6 +1003,17 @@
 			(justify right bottom)
 		)
 		(uuid "f61e8d1b-c417-4fde-b211-a85978c04a5c")
+	)
+	(label "LCD_SPI_CLK"
+		(at 38.1 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f8a4773e-f271-4eea-a29a-f71b7dae169b")
 	)
 	(label "USART_RX"
 		(at 114.3 49.53 180)
@@ -1001,18 +1026,29 @@
 		)
 		(uuid "fb717f46-650a-4be4-a7db-5f21970e4669")
 	)
+	(label "SDC_CS"
+		(at 38.1 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fd320d21-bda0-4b3e-a301-0f96c0817906")
+	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 222.25 165.1 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "604170f4-add0-41f0-81f6-b5376059484b")
 		(property "Reference" "H103"
-			(at 224.79 163.8299 0)
+			(at 224.79 162.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1021,7 +1057,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 224.79 166.3699 0)
+			(at 224.79 165.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1029,7 +1065,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad_TopBottom"
 			(at 222.25 165.1 0)
 			(effects
 				(font
@@ -1038,7 +1074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 222.25 165.1 0)
 			(effects
 				(font
@@ -1047,7 +1083,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" "Mounting Hole with connection"
 			(at 222.25 165.1 0)
 			(effects
 				(font
@@ -1056,7 +1092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "M3 Hole"
+		(property "Notes" "M2.5 Hole"
 			(at 222.25 165.1 0)
 			(effects
 				(font
@@ -1064,6 +1100,9 @@
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "49a211bf-6b0d-4827-9c57-e63966d513ea")
 		)
 		(instances
 			(project "mppt"
@@ -1075,17 +1114,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 184.15 165.1 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e3c78c2-29c4-4a35-a4c1-77abc7c834f6")
 		(property "Reference" "H101"
-			(at 186.69 163.8299 0)
+			(at 186.69 162.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1094,7 +1133,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 186.69 166.3699 0)
+			(at 186.69 165.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1102,7 +1141,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad_TopBottom"
 			(at 184.15 165.1 0)
 			(effects
 				(font
@@ -1111,7 +1150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 184.15 165.1 0)
 			(effects
 				(font
@@ -1120,7 +1159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" "Mounting Hole with connection"
 			(at 184.15 165.1 0)
 			(effects
 				(font
@@ -1129,7 +1168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "M3 Hole"
+		(property "Notes" "M2.5 Hole"
 			(at 184.15 165.1 0)
 			(effects
 				(font
@@ -1137,6 +1176,9 @@
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "2224edf4-0b00-4a18-95c6-021ac58f3fbb")
 		)
 		(instances
 			(project "mppt"
@@ -1148,17 +1190,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 241.3 165.1 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e6f9a34-2961-4404-b318-290f28de3843")
 		(property "Reference" "H104"
-			(at 243.84 163.8299 0)
+			(at 243.84 162.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1167,7 +1209,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 243.84 166.3699 0)
+			(at 243.84 165.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1175,7 +1217,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad_TopBottom"
 			(at 241.3 165.1 0)
 			(effects
 				(font
@@ -1184,7 +1226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 241.3 165.1 0)
 			(effects
 				(font
@@ -1193,7 +1235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" "Mounting Hole with connection"
 			(at 241.3 165.1 0)
 			(effects
 				(font
@@ -1202,7 +1244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "M3 Hole"
+		(property "Notes" "M2.5 Hole"
 			(at 241.3 165.1 0)
 			(effects
 				(font
@@ -1210,6 +1252,9 @@
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "2c3ec61f-2ff3-4294-a1b4-092172111df4")
 		)
 		(instances
 			(project "mppt"
@@ -1221,17 +1266,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 203.2 165.1 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82fc8c8e-edda-46ad-a745-7c03b6459fd0")
 		(property "Reference" "H102"
-			(at 205.74 163.8299 0)
+			(at 205.74 162.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1240,7 +1285,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 205.74 166.3699 0)
+			(at 205.74 165.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1248,7 +1293,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad_TopBottom"
 			(at 203.2 165.1 0)
 			(effects
 				(font
@@ -1257,7 +1302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 203.2 165.1 0)
 			(effects
 				(font
@@ -1266,7 +1311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" "Mounting Hole with connection"
 			(at 203.2 165.1 0)
 			(effects
 				(font
@@ -1275,7 +1320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "M3 Hole"
+		(property "Notes" "M2.5 Hole"
 			(at 203.2 165.1 0)
 			(effects
 				(font
@@ -1283,6 +1328,9 @@
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "ed12346f-47ad-41bc-b7e8-f4e6e29ab755")
 		)
 		(instances
 			(project "mppt"
@@ -1294,8 +1342,8 @@
 		)
 	)
 	(sheet
-		(at 114.3 101.6)
-		(size 38.1 50.8)
+		(at 114.3 95.25)
+		(size 38.1 44.45)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1306,7 +1354,7 @@
 		)
 		(uuid "1e7e948a-199f-4420-b7b6-1130e9474bfe")
 		(property "Sheetname" "power_converter"
-			(at 114.3 100.8884 0)
+			(at 114.3 94.5384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1315,7 +1363,7 @@
 			)
 		)
 		(property "Sheetfile" "power_converter.kicad_sch"
-			(at 114.3 152.9846 0)
+			(at 114.3 140.2846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1324,7 +1372,7 @@
 			)
 		)
 		(pin "SPI_SNK_CS" input
-			(at 114.3 111.76 180)
+			(at 114.3 107.95 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1334,7 +1382,7 @@
 			(uuid "c4edeb5e-8d63-4992-ad7b-d5930f6e2b06")
 		)
 		(pin "SPI_CLK" input
-			(at 114.3 104.14 180)
+			(at 114.3 97.79 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1344,7 +1392,7 @@
 			(uuid "1bbbbdab-2e9c-4936-80ba-5e745f7614d7")
 		)
 		(pin "SPI_COPI" input
-			(at 114.3 109.22 180)
+			(at 114.3 102.87 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1354,7 +1402,7 @@
 			(uuid "5309bb05-d7ac-4145-b26a-53f655d126c4")
 		)
 		(pin "SPI_CIPO" output
-			(at 114.3 106.68 180)
+			(at 114.3 100.33 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1364,7 +1412,7 @@
 			(uuid "8d58c941-5479-49e5-b85d-ae848d745171")
 		)
 		(pin "SPI_SRC_CS" input
-			(at 114.3 114.3 180)
+			(at 114.3 105.41 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1374,7 +1422,7 @@
 			(uuid "f9e342a4-950a-4609-8ba9-c773042da312")
 		)
 		(pin "AL_SNK_EN" input
-			(at 114.3 125.73 180)
+			(at 114.3 119.38 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1384,7 +1432,7 @@
 			(uuid "3e48ff20-9b85-45f2-a2f0-c04ecb5b526c")
 		)
 		(pin "LS_SNK_EN" input
-			(at 114.3 123.19 180)
+			(at 114.3 116.84 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1394,7 +1442,7 @@
 			(uuid "982b8c9c-749b-47b2-bb43-8d434c5785b8")
 		)
 		(pin "AL_SRC_EN" input
-			(at 114.3 120.65 180)
+			(at 114.3 114.3 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1404,7 +1452,7 @@
 			(uuid "856fb68d-4db7-4842-be87-75e24d1acb55")
 		)
 		(pin "LS_SRC_EN" input
-			(at 114.3 118.11 180)
+			(at 114.3 111.76 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1414,7 +1462,7 @@
 			(uuid "9c6c9d70-3ac5-4314-8b66-6ca9346115f9")
 		)
 		(pin "CONV_DIS" input
-			(at 114.3 135.89 180)
+			(at 114.3 129.54 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1424,7 +1472,7 @@
 			(uuid "1c029cc6-33e7-41e7-bd2a-c7620887635d")
 		)
 		(pin "PROT_DIS" input
-			(at 114.3 138.43 180)
+			(at 114.3 132.08 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1434,7 +1482,7 @@
 			(uuid "5ca310e9-a9af-4be4-87a2-9f9c0c6741f4")
 		)
 		(pin "CONV_PWM" input
-			(at 114.3 133.35 180)
+			(at 114.3 127 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1444,7 +1492,7 @@
 			(uuid "5a5d052d-2da1-4bf5-91f2-4c52d8260957")
 		)
 		(pin "CONV_EN" input
-			(at 114.3 130.81 180)
+			(at 114.3 124.46 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1454,7 +1502,7 @@
 			(uuid "748d8050-9f1d-4fa3-b5ac-77c70e3fc326")
 		)
 		(pin "IN+" output
-			(at 152.4 107.95 0)
+			(at 152.4 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1464,7 +1512,7 @@
 			(uuid "ab827029-ca8a-445a-bc67-4db5f5e9dea6")
 		)
 		(pin "IN-" output
-			(at 152.4 110.49 0)
+			(at 152.4 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1474,7 +1522,7 @@
 			(uuid "ddd1f926-3045-406b-a218-03ffc4c9e831")
 		)
 		(pin "MON_ALERT" output
-			(at 152.4 104.14 0)
+			(at 152.4 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1492,7 +1540,7 @@
 		)
 	)
 	(sheet
-		(at 38.1 119.38)
+		(at 38.1 146.05)
 		(size 38.1 19.05)
 		(fields_autoplaced yes)
 		(stroke
@@ -1504,7 +1552,7 @@
 		)
 		(uuid "3fa627ed-7954-4ea1-a3eb-24639dbb3a70")
 		(property "Sheetname" "power regulation"
-			(at 38.1 118.6684 0)
+			(at 38.1 145.3384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1513,7 +1561,7 @@
 			)
 		)
 		(property "Sheetfile" "power_regulation.kicad_sch"
-			(at 38.1 139.0146 0)
+			(at 38.1 165.6846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1522,7 +1570,7 @@
 			)
 		)
 		(pin "VI-" input
-			(at 38.1 124.46 180)
+			(at 38.1 151.13 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1532,7 +1580,7 @@
 			(uuid "567c7b51-2b5a-4a2e-9294-14f629e0e8c9")
 		)
 		(pin "VI+" input
-			(at 38.1 121.92 180)
+			(at 38.1 148.59 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1542,7 +1590,7 @@
 			(uuid "fd066f11-40b8-45bf-abf3-f99d42eba337")
 		)
 		(pin "VUSB" input
-			(at 38.1 127 180)
+			(at 38.1 153.67 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1561,7 +1609,7 @@
 	)
 	(sheet
 		(at 38.1 25.4)
-		(size 38.1 88.9)
+		(size 38.1 114.3)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1581,7 +1629,7 @@
 			)
 		)
 		(property "Sheetfile" "controller.kicad_sch"
-			(at 38.1 114.8846 0)
+			(at 38.1 140.2846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1589,8 +1637,8 @@
 				(justify left top)
 			)
 		)
-		(pin "TEMP_HS_FET" input
-			(at 38.1 87.63 180)
+		(pin "TEMP_FETS" input
+			(at 38.1 96.52 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1599,18 +1647,8 @@
 			)
 			(uuid "46aa1393-1e13-42c4-85e6-48a97dca72b2")
 		)
-		(pin "TEMP_LS_FET" input
-			(at 38.1 85.09 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "11194a0a-79d3-43b0-b180-b79cf548eef6")
-		)
 		(pin "LCD_CS" input
-			(at 38.1 102.87 180)
+			(at 38.1 127 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1620,7 +1658,7 @@
 			(uuid "72783229-233e-4de2-aeb7-ea7a8cbd310a")
 		)
 		(pin "TEMP_IND" input
-			(at 38.1 82.55 180)
+			(at 38.1 93.98 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1630,7 +1668,7 @@
 			(uuid "3904e81b-391c-470c-bee6-10d8444b2bd6")
 		)
 		(pin "MON_ALERT" input
-			(at 38.1 68.58 180)
+			(at 38.1 72.39 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1640,7 +1678,7 @@
 			(uuid "040212e3-caef-4e3b-a115-247fec5dcf5d")
 		)
 		(pin "MON_OUT_CS" input
-			(at 38.1 66.04 180)
+			(at 38.1 69.85 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1650,7 +1688,7 @@
 			(uuid "1b235339-1cbc-4d6a-a349-591e09bdc144")
 		)
 		(pin "TEMP_BOARD" input
-			(at 38.1 80.01 180)
+			(at 38.1 91.44 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1660,7 +1698,7 @@
 			(uuid "110ccb7b-153d-4b29-b198-3b0af17515fb")
 		)
 		(pin "LCD_SPI_CIPO" input
-			(at 38.1 97.79 180)
+			(at 38.1 121.92 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1670,7 +1708,7 @@
 			(uuid "1b1d92ef-77d7-46de-ad14-04c5fc4f03b4")
 		)
 		(pin "LCD_SPI_COPI" input
-			(at 38.1 100.33 180)
+			(at 38.1 124.46 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1680,7 +1718,7 @@
 			(uuid "1b12a936-6cfd-4093-ac63-f76872fe116e")
 		)
 		(pin "LCD_SPI_CLK" input
-			(at 38.1 95.25 180)
+			(at 38.1 119.38 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1690,7 +1728,7 @@
 			(uuid "69993f20-0a62-40bc-8e27-a1bcd4041f14")
 		)
 		(pin "CONV_EN" output
-			(at 76.2 55.88 0)
+			(at 76.2 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1700,7 +1738,7 @@
 			(uuid "422b96bb-aca6-4b3c-86f6-95b43299d862")
 		)
 		(pin "FAN_PWM" output
-			(at 76.2 80.01 0)
+			(at 76.2 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1709,8 +1747,8 @@
 			)
 			(uuid "a1d94e73-cbc8-42b0-9af7-3577df515cf5")
 		)
-		(pin "USB_DM" input
-			(at 38.1 38.1 180)
+		(pin "USB-" input
+			(at 38.1 39.37 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1720,7 +1758,7 @@
 			(uuid "b1ef7f36-570d-49a2-a2e7-19b262411ff2")
 		)
 		(pin "SWCLK" input
-			(at 38.1 29.21 180)
+			(at 38.1 30.48 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1730,7 +1768,7 @@
 			(uuid "44c5054b-c9a2-45b5-a56d-d8af62354d94")
 		)
 		(pin "SWDIO" input
-			(at 38.1 31.75 180)
+			(at 38.1 33.02 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1740,7 +1778,7 @@
 			(uuid "e3163149-129f-4228-866e-449f17a6073f")
 		)
 		(pin "AL_IN_EN" output
-			(at 76.2 69.85 0)
+			(at 76.2 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1750,7 +1788,7 @@
 			(uuid "fa1aa3fd-bbe8-4820-a369-0e9d94076c93")
 		)
 		(pin "LS_IN_EN" output
-			(at 76.2 67.31 0)
+			(at 76.2 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1760,7 +1798,7 @@
 			(uuid "5c99995a-69b5-47f9-b80e-49ecf1194375")
 		)
 		(pin "USART_TX" input
-			(at 38.1 48.26 180)
+			(at 38.1 49.53 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1770,7 +1808,7 @@
 			(uuid "d57f1d7b-1b4f-45cb-b223-0b3a55a8c78c")
 		)
 		(pin "PROT_DISABLE" output
-			(at 76.2 63.5 0)
+			(at 76.2 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1780,7 +1818,7 @@
 			(uuid "037775b4-d808-4667-9c52-3d525e45a75f")
 		)
 		(pin "CONV_DISABLE" output
-			(at 76.2 60.96 0)
+			(at 76.2 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1790,7 +1828,7 @@
 			(uuid "2013ee49-49b2-4951-8447-ac6208dad67a")
 		)
 		(pin "AL_OUT_EN" output
-			(at 76.2 74.93 0)
+			(at 76.2 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1800,7 +1838,7 @@
 			(uuid "569e618b-9761-49cf-a67a-a3c954263829")
 		)
 		(pin "CONV_PWM" output
-			(at 76.2 58.42 0)
+			(at 76.2 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1810,7 +1848,7 @@
 			(uuid "df0baf36-5380-478b-bf6b-4130bcb77765")
 		)
 		(pin "BACKLIGHT_PWM" input
-			(at 38.1 92.71 180)
+			(at 38.1 116.84 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1820,7 +1858,7 @@
 			(uuid "7b969506-63c5-458d-b555-4a45751e3f2e")
 		)
 		(pin "MON_IN_CS" input
-			(at 38.1 63.5 180)
+			(at 38.1 67.31 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1830,7 +1868,7 @@
 			(uuid "41e017ed-70ba-4856-b482-95fa9e851d74")
 		)
 		(pin "LS_OUT_EN" output
-			(at 76.2 72.39 0)
+			(at 76.2 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1840,7 +1878,7 @@
 			(uuid "3744f5e4-67b4-4c3b-9995-9020d2eaaacf")
 		)
 		(pin "MON_SPI_CLK" input
-			(at 38.1 55.88 180)
+			(at 38.1 59.69 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1850,7 +1888,7 @@
 			(uuid "c0fcb4ae-233b-4310-830c-efef213a1b5f")
 		)
 		(pin "MON_SPI_CIPO" input
-			(at 38.1 58.42 180)
+			(at 38.1 62.23 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1860,7 +1898,7 @@
 			(uuid "21db5451-e24d-4ada-98b3-a1e0a2093069")
 		)
 		(pin "USART_RX" input
-			(at 38.1 50.8 180)
+			(at 38.1 52.07 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1870,7 +1908,7 @@
 			(uuid "bd2f4f8f-bff0-4d96-93eb-c28cf34cd739")
 		)
 		(pin "MON_SPI_COPI" input
-			(at 38.1 60.96 180)
+			(at 38.1 64.77 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1880,7 +1918,7 @@
 			(uuid "9e06f002-45b0-4862-88eb-84017f787a1b")
 		)
 		(pin "CAN_RX" input
-			(at 38.1 44.45 180)
+			(at 38.1 45.72 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1890,7 +1928,7 @@
 			(uuid "f9f4e641-bd41-472f-b842-95eebccb0581")
 		)
 		(pin "RESET" input
-			(at 38.1 110.49 180)
+			(at 38.1 134.62 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1900,7 +1938,7 @@
 			(uuid "f510b992-d991-4373-ade1-b23325c53f7a")
 		)
 		(pin "DC" input
-			(at 38.1 107.95 180)
+			(at 38.1 132.08 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1909,8 +1947,8 @@
 			)
 			(uuid "8b4ceb15-67c0-4c33-9589-2805776cda6c")
 		)
-		(pin "USB_DP" input
-			(at 38.1 35.56 180)
+		(pin "USB+" input
+			(at 38.1 36.83 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1920,7 +1958,7 @@
 			(uuid "3f86515a-54ab-4fe7-83df-9654e7765d65")
 		)
 		(pin "SDC_CS" input
-			(at 38.1 105.41 180)
+			(at 38.1 129.54 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1930,7 +1968,7 @@
 			(uuid "6932d0c6-8500-4575-b75b-03f3e12e7f42")
 		)
 		(pin "CAN_TX" input
-			(at 38.1 41.91 180)
+			(at 38.1 43.18 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1940,7 +1978,7 @@
 			(uuid "5e86d2d5-ed9e-4d0f-83d1-89bffca54d3a")
 		)
 		(pin "NRST" input
-			(at 38.1 26.67 180)
+			(at 38.1 27.94 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1948,6 +1986,16 @@
 				(justify left)
 			)
 			(uuid "b4a3564e-0f51-4524-a930-268a416de2ec")
+		)
+		(pin "FAN_TACH" input
+			(at 38.1 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c1a64455-cf8f-4c69-b4b2-a698feb129ed")
 		)
 		(instances
 			(project "mppt"
@@ -1958,8 +2006,8 @@
 		)
 	)
 	(sheet
-		(at 38.1 144.78)
-		(size 38.1 25.4)
+		(at 114.3 146.05)
+		(size 38.1 19.05)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1970,7 +2018,7 @@
 		)
 		(uuid "a8048510-1eee-49ed-8147-6520db6307f0")
 		(property "Sheetname" "thermals"
-			(at 38.1 144.0684 0)
+			(at 114.3 145.3384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1979,7 +2027,7 @@
 			)
 		)
 		(property "Sheetfile" "thermals.kicad_sch"
-			(at 38.1 170.7646 0)
+			(at 114.3 165.6846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1987,28 +2035,8 @@
 				(justify left top)
 			)
 		)
-		(pin "TEMP_LS_FET" output
-			(at 76.2 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "6bcca975-2699-4dd2-aae7-3be88aa9efd7")
-		)
-		(pin "TEMP_HS_FET" output
-			(at 76.2 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "8effa587-9278-4924-ae95-88f274760b6f")
-		)
 		(pin "TEMP_IND" output
-			(at 76.2 151.13 0)
+			(at 152.4 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2018,7 +2046,7 @@
 			(uuid "ae69b52c-5703-4818-a055-81ffb3052351")
 		)
 		(pin "FAN_PWM" input
-			(at 38.1 148.59 180)
+			(at 114.3 148.59 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2028,7 +2056,7 @@
 			(uuid "3aff8cfd-758c-4c10-94fd-7821452770f9")
 		)
 		(pin "TEMP_BOARD" output
-			(at 76.2 148.59 0)
+			(at 152.4 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2036,6 +2064,26 @@
 				(justify right)
 			)
 			(uuid "5a50bd4f-ec81-49db-a1a0-3609e5d670cd")
+		)
+		(pin "FAN_TACH" output
+			(at 152.4 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c34c9505-aa38-4966-bdae-0623f6907ecb")
+		)
+		(pin "TEMP_FETS" output
+			(at 152.4 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0738c3d9-47f7-42fd-b4d6-44474270686b")
 		)
 		(instances
 			(project "mppt"
@@ -2095,7 +2143,7 @@
 			)
 			(uuid "1651e610-e400-4f89-84e4-ce451f3e7d1d")
 		)
-		(pin "USB_DP" input
+		(pin "USB+" input
 			(at 114.3 39.37 180)
 			(effects
 				(font
@@ -2105,7 +2153,7 @@
 			)
 			(uuid "ecb05d84-2c65-4c92-bc6c-fd7d6580b35e")
 		)
-		(pin "USB_DM" input
+		(pin "USB-" input
 			(at 114.3 41.91 180)
 			(effects
 				(font

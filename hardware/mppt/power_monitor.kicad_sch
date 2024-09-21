@@ -2168,7 +2168,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "285d8297-d110-4f5b-a518-e019d0602967")
-		(property "Reference" "TP810"
+		(property "Reference" "TP809"
 			(at 217.17 140.97 0)
 			(effects
 				(font
@@ -2220,7 +2220,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/6e1b912f-3d04-4fc7-9635-6a40ec8ca7c8"
-					(reference "TP810")
+					(reference "TP809")
 					(unit 1)
 				)
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/ef801f28-5df3-4a7f-a59d-9cf49d40d7d5"
@@ -2646,7 +2646,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e865ef1-7f85-4262-b73b-ea372a6bd4f6")
-		(property "Reference" "TP805"
+		(property "Reference" "TP804"
 			(at 143.51 113.0299 0)
 			(effects
 				(font
@@ -2716,7 +2716,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/6e1b912f-3d04-4fc7-9635-6a40ec8ca7c8"
-					(reference "TP805")
+					(reference "TP804")
 					(unit 1)
 				)
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/ef801f28-5df3-4a7f-a59d-9cf49d40d7d5"
@@ -3262,7 +3262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e652a78-2193-4c89-811c-2eba18bcbe47")
-		(property "Reference" "TP803"
+		(property "Reference" "TP802"
 			(at 143.51 107.9499 0)
 			(effects
 				(font
@@ -3332,7 +3332,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/6e1b912f-3d04-4fc7-9635-6a40ec8ca7c8"
-					(reference "TP803")
+					(reference "TP802")
 					(unit 1)
 				)
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/ef801f28-5df3-4a7f-a59d-9cf49d40d7d5"
@@ -3352,7 +3352,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac043326-b11f-447a-8983-a9ec60019ac3")
-		(property "Reference" "TP807"
+		(property "Reference" "TP806"
 			(at 181.61 149.8599 0)
 			(effects
 				(font
@@ -3404,7 +3404,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/6e1b912f-3d04-4fc7-9635-6a40ec8ca7c8"
-					(reference "TP807")
+					(reference "TP806")
 					(unit 1)
 				)
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/ef801f28-5df3-4a7f-a59d-9cf49d40d7d5"
@@ -3424,7 +3424,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b15cc0a0-2898-4864-8fab-a486aee3c015")
-		(property "Reference" "TP806"
+		(property "Reference" "TP805"
 			(at 143.51 115.5699 0)
 			(effects
 				(font
@@ -3494,7 +3494,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/6e1b912f-3d04-4fc7-9635-6a40ec8ca7c8"
-					(reference "TP806")
+					(reference "TP805")
 					(unit 1)
 				)
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/ef801f28-5df3-4a7f-a59d-9cf49d40d7d5"
@@ -3685,8 +3685,8 @@
 		(at 114.3 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be31cae9-a6dd-4c5f-9b15-bc2a74372350")
@@ -3776,7 +3776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1ca7ea1-79b1-4346-b0d1-3ccf9bcc0a86")
-		(property "Reference" "TP802"
+		(property "Reference" "TP801"
 			(at 143.51 105.4099 0)
 			(effects
 				(font
@@ -3846,7 +3846,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/6e1b912f-3d04-4fc7-9635-6a40ec8ca7c8"
-					(reference "TP802")
+					(reference "TP801")
 					(unit 1)
 				)
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/ef801f28-5df3-4a7f-a59d-9cf49d40d7d5"
@@ -3866,7 +3866,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc2ae53a-165a-4170-965a-577f79988e44")
-		(property "Reference" "TP804"
+		(property "Reference" "TP803"
 			(at 143.51 110.4899 0)
 			(effects
 				(font
@@ -3936,7 +3936,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/6e1b912f-3d04-4fc7-9635-6a40ec8ca7c8"
-					(reference "TP804")
+					(reference "TP803")
 					(unit 1)
 				)
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/ef801f28-5df3-4a7f-a59d-9cf49d40d7d5"
@@ -3956,7 +3956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de387b7e-f2e2-4288-8f3a-609c5f2ab92f")
-		(property "Reference" "TP808"
+		(property "Reference" "TP807"
 			(at 181.61 153.6699 0)
 			(effects
 				(font
@@ -4008,7 +4008,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/6e1b912f-3d04-4fc7-9635-6a40ec8ca7c8"
-					(reference "TP808")
+					(reference "TP807")
 					(unit 1)
 				)
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/ef801f28-5df3-4a7f-a59d-9cf49d40d7d5"
@@ -4023,7 +4023,7 @@
 		(at 104.14 127 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4100,7 +4100,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb036512-9f9b-45e2-a165-3030f2f405ba")
-		(property "Reference" "TP809"
+		(property "Reference" "TP808"
 			(at 198.12 152.3999 90)
 			(effects
 				(font
@@ -4154,7 +4154,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/6e1b912f-3d04-4fc7-9635-6a40ec8ca7c8"
-					(reference "TP809")
+					(reference "TP808")
 					(unit 1)
 				)
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/1e7e948a-199f-4420-b7b6-1130e9474bfe/ef801f28-5df3-4a7f-a59d-9cf49d40d7d5"

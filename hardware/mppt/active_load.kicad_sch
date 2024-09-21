@@ -1447,7 +1447,7 @@
 		(at 116.84 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -1702,7 +1702,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "4213f21f-ee06-4703-b43e-8991f990d55c")
 		(property "Reference" "D601"
 			(at 121.666 106.68 0)
@@ -2223,7 +2223,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fd38e1d-c73e-46c9-8b80-1b63ec8e785e")
 		(property "Reference" "R601"

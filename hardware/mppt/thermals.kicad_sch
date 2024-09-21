@@ -216,145 +216,6 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_01x02"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_1_1"
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016) hide)
@@ -523,6 +384,203 @@
 				)
 			)
 		)
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -649,437 +707,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:D_Schottky_Small"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -1.27 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "D_Schottky_Small"
-				(at -7.112 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Schottky diode, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Schottky_Small_0_1"
-				(polyline
-					(pts
-						(xy -0.762 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0.762) (xy -1.27 1.016) (xy -0.762 1.016) (xy -0.762 -1.016) (xy -0.254 -1.016) (xy -0.254 -0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Schottky_Small_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.778)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.778)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:Q_NMOS_GDS"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_NMOS_GDS"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "N-MOSFET transistor, gate/drain/source"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Q_NMOS_GDS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "Q_NMOS_GDS_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1309,23 +936,23 @@
 				)
 			)
 		)
-		(symbol "Mechanical:MountingHole"
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
 			(pin_names
-				(offset 1.016)
-			)
+				(offset 1.016) hide)
 			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
-				(at 0 5.08 0)
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1350,7 +977,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Mounting Hole without connection"
+			(property "Description" "Mounting Hole with connection"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1368,7 +995,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "MountingHole*"
+			(property "ki_fp_filters" "MountingHole*Pad*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1377,9 +1004,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "MountingHole_0_1"
+			(symbol "MountingHole_Pad_0_1"
 				(circle
-					(center 0 0)
+					(center 0 1.27)
 					(radius 1.27)
 					(stroke
 						(width 1.27)
@@ -1387,6 +1014,26 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -2176,104 +1823,86 @@
 		)
 	)
 	(junction
-		(at 41.91 83.82)
+		(at 129.54 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "558d9bf6-4e31-4811-9cae-e9f400857b6a")
+		(uuid "028be48b-0570-4429-abbb-df47dd964df9")
 	)
 	(junction
-		(at 101.6 58.42)
+		(at 129.54 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7d8dddba-7b88-4d6b-b495-a91953ca0455")
+		(uuid "249fbd96-ca43-4b37-9ebc-067b9909ee0c")
 	)
 	(junction
-		(at 101.6 96.52)
+		(at 97.79 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9bf36290-3fc0-4d1e-9626-71065f777f61")
+		(uuid "4f002399-ec63-4f4a-babb-e3f99d084fb9")
 	)
 	(junction
-		(at 123.19 76.2)
+		(at 97.79 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9e96f469-2fee-4f7d-9658-8e67d126eb47")
+		(uuid "57cdd319-f20b-4ef3-803a-63214084a533")
 	)
 	(junction
-		(at 119.38 58.42)
+		(at 97.79 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ace13649-b1a0-4db5-af8a-4bc2a1f440f0")
+		(uuid "60a366ef-bc70-4c63-a71c-67aafceee03b")
 	)
 	(junction
-		(at 59.69 67.31)
+		(at 97.79 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b2d50765-cf1c-4192-8458-f7a27cdf6819")
+		(uuid "9218a721-ebed-4f49-98bf-73bc74749513")
 	)
 	(junction
-		(at 123.19 96.52)
+		(at 129.54 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b55bc302-e33d-4076-b956-4f71130a8029")
+		(uuid "92e6cc98-0466-4eb4-b053-47144a097c40")
 	)
 	(junction
-		(at 119.38 71.12)
+		(at 107.95 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b6ba1827-c222-4a6f-932d-9431eb548647")
+		(uuid "9b256160-ad77-46f8-8254-bbd86f246b55")
 	)
 	(junction
-		(at 59.69 74.93)
+		(at 107.95 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c92fb879-fde2-40f3-858a-9960fbf6bace")
+		(uuid "f4efd0d4-21ba-47cc-8cbb-7cbaa168785f")
 	)
 	(junction
-		(at 59.69 96.52)
+		(at 97.79 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d7c87824-6a77-4a8c-80bf-4380aab33e1d")
+		(uuid "f81a24ce-fa92-4d4f-8c4f-8f44b51e522f")
+	)
+	(no_connect
+		(at 33.02 111.76)
+		(uuid "66627dd2-3285-46ee-8de3-bbfca1356c38")
+	)
+	(no_connect
+		(at 33.02 124.46)
+		(uuid "dc978854-369a-41e2-adaf-0c74fdf6ca3e")
+	)
+	(no_connect
+		(at 50.8 111.76)
+		(uuid "fbdcbbf0-9735-41b7-aeb3-e9f426c79c96")
 	)
 	(wire
 		(pts
-			(xy 123.19 96.52) (xy 139.7 96.52)
+			(xy 97.79 68.58) (xy 97.79 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "00c6464b-a768-441f-bbca-215549081a73")
-	)
-	(wire
-		(pts
-			(xy 44.45 83.82) (xy 41.91 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0756b5c3-cf70-41ea-aab0-0f35876f0fc0")
-	)
-	(wire
-		(pts
-			(xy 59.69 74.93) (xy 59.69 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bd98b6c-a720-4d5b-916c-5f39a46ff89b")
-	)
-	(wire
-		(pts
-			(xy 48.26 74.93) (xy 59.69 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "191a231e-2e40-4cc6-a405-ae23edc56268")
+		(uuid "00b9ed1e-8ab8-496e-9b16-205dcf30731b")
 	)
 	(wire
 		(pts
@@ -2287,93 +1916,43 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 76.2) (xy 139.7 76.2)
+			(xy 97.79 41.91) (xy 107.95 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "227b27e1-53b8-4468-a2c6-535ce81eb362")
+		(uuid "20112e2c-e0df-4693-b76e-0475776071f6")
 	)
 	(wire
 		(pts
-			(xy 139.7 71.12) (xy 119.38 71.12)
+			(xy 148.59 58.42) (xy 148.59 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2d9c3612-2d93-41d6-9f44-41766f86c4eb")
+		(uuid "2d088045-bf8b-4ff2-85c1-548a1d45061d")
 	)
 	(wire
 		(pts
-			(xy 36.83 83.82) (xy 41.91 83.82)
+			(xy 129.54 68.58) (xy 129.54 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2ef578c1-8ebe-4705-b3a4-8ae0eb9480b3")
+		(uuid "3f6e807e-15c5-4b33-bb29-ac80d25ca943")
 	)
 	(wire
 		(pts
-			(xy 119.38 58.42) (xy 119.38 71.12)
+			(xy 129.54 96.52) (xy 148.59 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2fe7c09b-d6c6-4e6a-851f-d8594b083f1b")
-	)
-	(wire
-		(pts
-			(xy 49.53 83.82) (xy 52.07 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33ab71e8-35f2-4b85-a241-46efe3c06c2b")
-	)
-	(wire
-		(pts
-			(xy 123.19 63.5) (xy 139.7 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4324c4a2-091b-4251-81d9-ad37b91cf974")
-	)
-	(wire
-		(pts
-			(xy 101.6 58.42) (xy 97.79 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fe85543-bcf4-44e1-9bf3-49b352e7a29d")
-	)
-	(wire
-		(pts
-			(xy 236.22 165.1) (xy 240.03 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "548ce095-668e-4e23-b2c8-bc508ab7df76")
-	)
-	(wire
-		(pts
-			(xy 48.26 67.31) (xy 48.26 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5646e4fd-9fdc-455a-ba0f-acc2734e5813")
+		(uuid "52e72b93-2975-4a54-a96a-0804e4db37c1")
 	)
 	(wire
 		(pts
@@ -2387,133 +1966,73 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 74.93) (xy 59.69 73.66)
+			(xy 129.54 66.04) (xy 129.54 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "60839f7e-0957-4b51-9b7d-2697df2d5ae7")
+		(uuid "5b3a8948-c772-42a9-b301-15f25d1217df")
 	)
 	(wire
 		(pts
-			(xy 41.91 83.82) (xy 41.91 87.63)
+			(xy 97.79 66.04) (xy 97.79 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "69791ca0-5cd2-4473-87c7-fc3905c055d0")
+		(uuid "67694ad1-c1ee-4c59-b194-80ae3b80f731")
 	)
 	(wire
 		(pts
-			(xy 59.69 67.31) (xy 59.69 68.58)
+			(xy 129.54 58.42) (xy 129.54 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "69b0eeee-f113-435a-8295-e9faa3f04807")
+		(uuid "6b98eecb-df08-479c-926e-60b9ba1f7a45")
 	)
 	(wire
 		(pts
-			(xy 88.9 96.52) (xy 101.6 96.52)
+			(xy 97.79 36.83) (xy 107.95 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "71418df4-c87c-4f5b-aaac-2cdcb3f06a57")
+		(uuid "748cc34f-2ace-4203-b4d1-3c54f59dcda1")
 	)
 	(wire
 		(pts
-			(xy 59.69 88.9) (xy 59.69 96.52)
+			(xy 129.54 85.09) (xy 129.54 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "75559a41-735d-47d8-b93f-5e25b7df3f46")
+		(uuid "84214f58-f39c-4bcc-a3d3-1b94a55ab023")
 	)
 	(wire
 		(pts
-			(xy 139.7 83.82) (xy 119.38 83.82)
+			(xy 107.95 36.83) (xy 118.11 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "760e7841-f5bc-4a35-9136-22e75de32094")
+		(uuid "a64745bc-e388-4b91-861f-f42d0b896d5e")
 	)
 	(wire
 		(pts
-			(xy 48.26 67.31) (xy 59.69 67.31)
+			(xy 107.95 41.91) (xy 118.11 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "79bafb9e-3a8b-4b92-88cd-9ab50f6e9e49")
-	)
-	(wire
-		(pts
-			(xy 88.9 58.42) (xy 92.71 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80b642f3-ca09-4c0f-bc02-c5f1d143a706")
-	)
-	(wire
-		(pts
-			(xy 101.6 58.42) (xy 119.38 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cb26082-5b84-47e0-ba12-78d44ec1464a")
-	)
-	(wire
-		(pts
-			(xy 59.69 58.42) (xy 59.69 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ccdefa1-3e01-4a5c-b30e-636ac9ff2044")
-	)
-	(wire
-		(pts
-			(xy 101.6 96.52) (xy 123.19 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9df7d498-edae-4bd7-8b54-50bb7b69e316")
-	)
-	(wire
-		(pts
-			(xy 123.19 76.2) (xy 123.19 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afc0040c-54ea-4069-94de-ad305e6ad359")
-	)
-	(wire
-		(pts
-			(xy 41.91 92.71) (xy 41.91 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3af078f-453b-47ce-ab03-59a2007121c6")
+		(uuid "a873d0cc-e73a-4696-b6ec-f8dbc9c6a41a")
 	)
 	(wire
 		(pts
@@ -2527,37 +2046,37 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 72.39) (xy 48.26 74.93)
+			(xy 148.59 58.42) (xy 129.54 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b5ea1dcd-6076-4543-b912-432653eed04d")
+		(uuid "b7117bcb-39ff-44eb-b757-02e0055fc170")
 	)
 	(wire
 		(pts
-			(xy 101.6 69.85) (xy 101.6 58.42)
+			(xy 97.79 96.52) (xy 129.54 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bccdd489-ef92-4470-8ebb-5e509eb4bdc6")
+		(uuid "c3583e96-f2e5-4278-ad3d-dd8cf48e6884")
 	)
 	(wire
 		(pts
-			(xy 139.7 96.52) (xy 139.7 88.9)
+			(xy 97.79 58.42) (xy 97.79 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c40ff8e7-e77d-48a4-ba3e-36002ee07b07")
+		(uuid "c972c7e2-6629-4e6c-9368-3e4d755d18d1")
 	)
 	(wire
 		(pts
-			(xy 123.19 63.5) (xy 123.19 76.2)
+			(xy 148.59 78.74) (xy 148.59 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2577,13 +2096,13 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 58.42) (xy 139.7 58.42)
+			(xy 148.59 66.04) (xy 148.59 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dcd4b434-cddc-4130-93ec-518711d73c5b")
+		(uuid "db7a58b2-49c1-4b13-8ec9-39eb3310e147")
 	)
 	(wire
 		(pts
@@ -2597,17 +2116,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 96.52) (xy 59.69 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2dadb4f-daab-4684-bb0e-6497fa885669")
-	)
-	(wire
-		(pts
-			(xy 101.6 96.52) (xy 101.6 85.09)
+			(xy 97.79 96.52) (xy 97.79 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2617,17 +2126,36 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 83.82) (xy 119.38 71.12)
+			(xy 97.79 58.42) (xy 129.54 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f3e25c37-cef9-44dd-a97c-370da46d8d24")
+		(uuid "f7980255-e0c6-439e-8a6e-31f416deafd0")
+	)
+	(text_box "DNP in breakout version."
+		(exclude_from_sim no)
+		(at 179.07 134.62 0)
+		(size 16.51 5.08)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left top)
+		)
+		(uuid "34a2246f-75ff-4b9d-a7f8-cbfc8d816e33")
 	)
 	(text_box "Apply fan on heatsink, fan should blow inwards/ downwards\n"
 		(exclude_from_sim no)
-		(at 27.94 44.45 0)
+		(at 29.21 60.96 0)
 		(size 8.89 7.62)
 		(stroke
 			(width 0)
@@ -2644,31 +2172,9 @@
 		)
 		(uuid "ff729450-ed90-4c9f-81da-eb67ccaacdb0")
 	)
-	(label "FAN_SW_NODE"
-		(at 59.69 77.47 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3ada0fdf-d779-4ab1-8b8c-2a0cfd791d4b")
-	)
-	(label "FAN_SW_NODE"
-		(at 236.22 148.59 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6be89d91-3761-4d22-a447-bbd4bc61c64d")
-	)
-	(hierarchical_label "TEMP_HS_FET"
+	(hierarchical_label "FAN_TACH"
 		(shape output)
-		(at 236.22 165.1 180)
+		(at 39.37 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2676,11 +2182,11 @@
 			)
 			(justify right)
 		)
-		(uuid "0693b6ac-912f-4aa0-a838-82b72ba4cc9b")
+		(uuid "18a210c0-cab6-4537-9d54-5563eb627cc6")
 	)
 	(hierarchical_label "TEMP_IND"
 		(shape output)
-		(at 139.7 60.96 180)
+		(at 148.59 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2692,7 +2198,7 @@
 	)
 	(hierarchical_label "TEMP_BOARD"
 		(shape output)
-		(at 91.44 77.47 180)
+		(at 87.63 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2726,7 +2232,7 @@
 		)
 		(uuid "307ec621-c1ff-4b69-a19f-5986b61c43b4")
 	)
-	(hierarchical_label "TEMP_LS_FET"
+	(hierarchical_label "TEMP_FETS"
 		(shape output)
 		(at 236.22 161.29 180)
 		(fields_autoplaced yes)
@@ -2740,7 +2246,7 @@
 	)
 	(hierarchical_label "FAN_PWM"
 		(shape input)
-		(at 36.83 83.82 180)
+		(at 39.37 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2762,9 +2268,9 @@
 		)
 		(uuid "67b69ede-5dec-4f88-8b38-9e6e14c8a8d3")
 	)
-	(hierarchical_label "TEMP_HS_FET"
+	(hierarchical_label "FAN_TACH"
 		(shape output)
-		(at 139.7 86.36 180)
+		(at 236.22 148.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2772,11 +2278,11 @@
 			)
 			(justify right)
 		)
-		(uuid "8168bbc6-9aaf-483d-809d-e651fa7bee98")
+		(uuid "7b469db1-1fe9-466a-8cea-4636eaed682b")
 	)
-	(hierarchical_label "TEMP_LS_FET"
+	(hierarchical_label "TEMP_FETS"
 		(shape output)
-		(at 139.7 73.66 180)
+		(at 119.38 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2784,19 +2290,19 @@
 			)
 			(justify right)
 		)
-		(uuid "cd366027-d561-4d41-802c-6ec4817a227b")
+		(uuid "9c5e75c0-1371-4b83-9ebe-d58dc786ac7e")
 	)
 	(symbol
 		(lib_id "power:+5V")
 		(at 173.99 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0409faad-cb69-49da-ae8d-507375f376ce")
-		(property "Reference" "#PWR0409"
+		(property "Reference" "#PWR0407"
 			(at 173.99 152.4 0)
 			(effects
 				(font
@@ -2864,24 +2370,33 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/a8048510-1eee-49ed-8147-6520db6307f0"
-					(reference "#PWR0409")
+					(reference "#PWR0407")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky_Small")
-		(at 59.69 71.12 270)
+		(lib_id "power:+5V")
+		(at 39.37 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
-		(uuid "0f260e55-2415-41ae-bd45-a7bd9eefb121")
-		(property "Reference" "D401"
-			(at 62.23 69.5959 90)
+		(uuid "0a5d8817-5420-4e19-b842-43be370286e4")
+		(property "Reference" "#PWR0401"
+			(at 43.18 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 35.56 77.4699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2889,115 +2404,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Schottky"
-			(at 62.23 72.1359 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 59.69 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/115/DIOD_S_A0002960396_1-2542090.pdf"
-			(at 59.69 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode, small symbol"
-			(at 59.69 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 59.69 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Diodes Incorporated"
-			(at 59.69 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" " SBR3U40S1F-7 "
-			(at 59.69 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "014b4492-6904-4126-9347-6adf3520ff12")
-		)
-		(pin "1"
-			(uuid "48fc19ff-cd49-4164-9b4d-d3f503ad931b")
-		)
-		(instances
-			(project ""
-				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/a8048510-1eee-49ed-8147-6520db6307f0"
-					(reference "D401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 240.03 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "20fca99f-aed3-4006-a7f7-6beed0e23a9a")
-		(property "Reference" "TP409"
-			(at 241.3 163.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 241.3 166.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 245.11 165.1 0)
+		(property "Footprint" ""
+			(at 39.37 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3006,7 +2414,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 165.1 0)
+			(at 39.37 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3014,8 +2422,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 240.03 165.1 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 39.37 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 39.37 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 39.37 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3024,55 +2450,130 @@
 			)
 		)
 		(pin "1"
-			(uuid "599baea6-7870-43ca-927d-e80aaccfe493")
+			(uuid "cc3a24fe-9172-4a59-841f-1e8f0b8ba301")
 		)
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/a8048510-1eee-49ed-8147-6520db6307f0"
-					(reference "TP409")
+					(reference "#PWR0401")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 43.18 69.85 0)
-		(mirror y)
+		(lib_id "power:PWR_FLAG")
+		(at 129.54 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
-		(uuid "29cccdd0-6392-4b89-8f8b-159537b7781b")
+		(uuid "0b44e5df-f762-4828-88a0-517c77c1f68a")
+		(property "Reference" "#FLG0402"
+			(at 127.635 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 125.73 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 129.54 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 129.54 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 129.54 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d003201d-acfc-434f-9efa-19c7bb94ef75")
+		)
+		(instances
+			(project "mppt"
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/a8048510-1eee-49ed-8147-6520db6307f0"
+					(reference "#FLG0402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 44.45 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "2c447ff5-3624-4376-b4a9-30722b5b5c25")
 		(property "Reference" "J401"
-			(at 43.18 63.5 0)
+			(at 44.45 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_01x02"
-			(at 43.18 66.04 0)
+		(property "Value" "Conn_01x04"
+			(at 44.45 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
-			(at 43.18 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/436500215?display=pdf"
-			(at 43.18 69.85 0)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0415_1x04_P3.00mm_Vertical"
+			(at 44.45 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3080,8 +2581,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 43.18 69.85 0)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/436500415?display=pdf"
+			(at 44.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 44.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 44.45 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3090,7 +2609,7 @@
 			)
 		)
 		(property "Manufacturer" "Molex"
-			(at 43.18 69.85 0)
+			(at 44.45 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3098,8 +2617,8 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" " 43650-0215 "
-			(at 43.18 69.85 0)
+		(property "P/N" " 43650-0415 "
+			(at 44.45 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3107,14 +2626,47 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "2e66ef04-be9a-4760-a0a3-af2bbb3e3195")
+		(property "LCSC Part #" ""
+			(at 44.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" ""
+			(at 44.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 44.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "9ddd0fe6-8833-4055-9490-b1643f09a4a1")
+			(uuid "14131e0a-ebf8-4183-9e41-992f3e352f47")
+		)
+		(pin "3"
+			(uuid "015bd748-561a-4cb7-bee4-a485e22c37fd")
+		)
+		(pin "4"
+			(uuid "90b0edda-7b3f-4d16-aa23-ebe72cf2a8d6")
+		)
+		(pin "2"
+			(uuid "86d939ef-fe19-4078-b9ed-dbe894d50c1f")
 		)
 		(instances
-			(project ""
+			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/a8048510-1eee-49ed-8147-6520db6307f0"
 					(reference "J401")
 					(unit 1)
@@ -3124,15 +2676,15 @@
 	)
 	(symbol
 		(lib_id "generic_symbol:Generic_Symbol")
-		(at 165.1 57.15 0)
+		(at 153.67 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(uuid "306a8fc6-c6de-4c36-a819-d1126d2fbc2e")
-		(property "Reference" "G407"
-			(at 168.91 59.69 0)
+		(property "Reference" "G404"
+			(at 157.48 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3141,7 +2693,7 @@
 			)
 		)
 		(property "Value" "Molex Connector"
-			(at 168.91 61.5951 0)
+			(at 157.48 85.7251 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3150,7 +2702,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 57.15 0)
+			(at 153.67 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3159,7 +2711,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/436450300?display=pdf"
-			(at 165.1 57.15 0)
+			(at 153.67 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3168,7 +2720,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 165.1 57.15 0)
+			(at 153.67 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3177,7 +2729,7 @@
 			)
 		)
 		(property "P/N" "43645-0300"
-			(at 165.1 57.15 0)
+			(at 153.67 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3186,7 +2738,7 @@
 			)
 		)
 		(property "Manufacturer" "Molex"
-			(at 165.1 57.15 0)
+			(at 153.67 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3197,24 +2749,42 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/a8048510-1eee-49ed-8147-6520db6307f0"
-					(reference "G407")
+					(reference "G404")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 59.69 96.52 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 33.02 121.92 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "34c6d690-584a-4fef-9a30-e1226fb10d36")
-		(property "Reference" "#PWR0404"
-			(at 59.69 102.87 0)
+		(uuid "397f7625-420b-4a16-b3f0-781c6ca98b04")
+		(property "Reference" "H402"
+			(at 35.56 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 35.56 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
+			(at 33.02 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3222,16 +2792,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 59.69 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 96.52 0)
+		(property "Datasheet" "~"
+			(at 33.02 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3239,8 +2801,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 59.69 96.52 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 33.02 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3248,26 +2810,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 59.69 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 59.69 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 59.69 96.52 0)
+		(property "Notes" "M2 Hole"
+			(at 33.02 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3276,12 +2820,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d95d9760-1606-4601-be9b-67c621694625")
+			(uuid "93d00025-5dc5-42a8-b09c-23e47518c644")
 		)
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/a8048510-1eee-49ed-8147-6520db6307f0"
-					(reference "#PWR0404")
+					(reference "H402")
 					(unit 1)
 				)
 			)
@@ -3289,224 +2833,16 @@
 	)
 	(symbol
 		(lib_id "generic_symbol:Generic_Symbol")
-		(at 165.1 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(uuid "3937e5fd-34b0-4111-9816-6fbbf27cf645")
-		(property "Reference" "G408"
-			(at 168.91 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Molex Connector"
-			(at 168.91 74.2951 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/436450300?display=pdf"
-			(at 165.1 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 165.1 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "43645-0300"
-			(at 165.1 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Molex"
-			(at 165.1 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "mppt"
-				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/a8048510-1eee-49ed-8147-6520db6307f0"
-					(reference "G408")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 144.78 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3df63b5c-9fab-4eb1-b259-4ae71949ffc5")
-		(property "Reference" "J403"
-			(at 147.32 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x03"
-			(at 147.32 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0315_1x03_P3.00mm_Vertical"
-			(at 144.78 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/436500315?display=pdf"
-			(at 144.78 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 144.78 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" ""
-			(at 144.78 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Molex"
-			(at 144.78 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" " 43650-0315 "
-			(at 144.78 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 144.78 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost" ""
-			(at 144.78 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 144.78 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a182723d-f3e3-4da5-aae6-f4a7f1024aef")
-		)
-		(pin "1"
-			(uuid "16f51ce5-04a4-4c7a-b300-f0a92688541b")
-		)
-		(pin "3"
-			(uuid "2d8d358e-3b5b-4d26-8884-b3ae5b4da396")
-		)
-		(instances
-			(project "mppt"
-				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/a8048510-1eee-49ed-8147-6520db6307f0"
-					(reference "J403")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "generic_symbol:Generic_Symbol")
-		(at 31.75 59.69 0)
+		(at 54.61 72.39 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(uuid "3e5c3a44-005c-4b66-aca2-0c062dfa2630")
-		(property "Reference" "G401"
-			(at 34.29 55.88 0)
+		(property "Reference" "G402"
+			(at 63.5 75.184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3515,7 +2851,7 @@
 			)
 		)
 		(property "Value" "Fan"
-			(at 33.274 58.42 0)
+			(at 61.976 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3524,7 +2860,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 59.69 0)
+			(at 54.61 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3532,8 +2868,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.adafruit.com/product/4468"
-			(at 31.75 59.69 0)
+		(property "Datasheet" "https://www.cuidevices.com/product/resource/pdf/cfm-20cf.pdf"
+			(at 54.61 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3542,7 +2878,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.75 59.69 0)
+			(at 54.61 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3550,8 +2886,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Adafruit"
-			(at 31.75 59.69 0)
+		(property "Manufacturer" "CUI Devices"
+			(at 54.61 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3559,8 +2895,8 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "4468"
-			(at 31.75 59.69 0)
+		(property "P/N" "CFM-2010CF-060-066-22"
+			(at 54.61 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3571,7 +2907,7 @@
 		(instances
 			(project ""
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/a8048510-1eee-49ed-8147-6520db6307f0"
-					(reference "G401")
+					(reference "G402")
 					(unit 1)
 				)
 			)
@@ -3582,9 +2918,9 @@
 		(at 240.03 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "45e315ed-80f3-4b22-822e-86695168911d")
 		(property "Reference" "TP405"
@@ -3646,16 +2982,113 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 107.95 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "4e1b26bb-c8b7-4c2e-89d0-180ac14349f5")
+		(property "Reference" "C402"
+			(at 110.49 38.1062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 110.49 40.6462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 107.95 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA3E1X7R1V105K080AC"
+			(at 107.95 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 107.95 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "3.3V Rating"
+			(at 107.95 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 107.95 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CGA3E1X7R1V105K080AC"
+			(at 107.95 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8326ea15-9506-41a3-8cfe-9942cd614b8a")
+		)
+		(pin "1"
+			(uuid "f27d15c4-c18a-41ca-a816-b7bf95a7a348")
+		)
+		(instances
+			(project "mppt"
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/a8048510-1eee-49ed-8147-6520db6307f0"
+					(reference "C402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 173.99 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "517b2f5c-4ddb-4842-8912-0cb83ebd06b3")
-		(property "Reference" "#PWR0410"
+		(property "Reference" "#PWR0408"
 			(at 173.99 167.64 0)
 			(effects
 				(font
@@ -3723,7 +3156,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/a8048510-1eee-49ed-8147-6520db6307f0"
-					(reference "#PWR0410")
+					(reference "#PWR0408")
 					(unit 1)
 				)
 			)
@@ -3731,16 +3164,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 88.9 40.64 0)
+		(at 97.79 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5511b40a-b555-4418-a53b-45325f64a331")
-		(property "Reference" "#PWR0406"
-			(at 88.9 46.99 0)
+		(property "Reference" "#PWR0404"
+			(at 97.79 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3749,7 +3182,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 45.72 0)
+			(at 97.79 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3757,7 +3190,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 40.64 0)
+			(at 97.79 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3766,7 +3199,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 40.64 0)
+			(at 97.79 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3775,7 +3208,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 40.64 0)
+			(at 97.79 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3784,7 +3217,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 88.9 40.64 0)
+			(at 97.79 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3793,7 +3226,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 88.9 40.64 0)
+			(at 97.79 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3807,7 +3240,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/a8048510-1eee-49ed-8147-6520db6307f0"
-					(reference "#PWR0406")
+					(reference "#PWR0404")
 					(unit 1)
 				)
 			)
@@ -3815,16 +3248,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 88.9 96.52 0)
+		(at 97.79 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5d7ebbea-66aa-4ea9-988a-64cb5938b75e")
-		(property "Reference" "#PWR0408"
-			(at 88.9 102.87 0)
+		(property "Reference" "#PWR0406"
+			(at 97.79 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3833,7 +3266,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 101.6 0)
+			(at 97.79 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3841,7 +3274,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 96.52 0)
+			(at 97.79 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3850,7 +3283,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 96.52 0)
+			(at 97.79 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3859,7 +3292,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 96.52 0)
+			(at 97.79 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3868,7 +3301,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 88.9 96.52 0)
+			(at 97.79 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3877,7 +3310,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 88.9 96.52 0)
+			(at 97.79 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3891,7 +3324,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/a8048510-1eee-49ed-8147-6520db6307f0"
-					(reference "#PWR0408")
+					(reference "#PWR0406")
 					(unit 1)
 				)
 			)
@@ -3903,9 +3336,9 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "69e9a788-b2ab-4ea8-8875-22ce4051de63")
 		(property "Reference" "TP402"
 			(at 176.53 159.2581 0)
@@ -3983,90 +3416,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 52.07 121.92 0)
+		(lib_id "power:+3V3")
+		(at 97.79 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6d03e888-45f9-4552-998e-bcf8b4e9fe84")
-		(property "Reference" "H404"
-			(at 54.61 120.6499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 54.61 123.1899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
-			(at 52.07 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 52.07 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" "M2.5 Hole"
-			(at 52.07 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "mppt"
-				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/a8048510-1eee-49ed-8147-6520db6307f0"
-					(reference "H404")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 88.9 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6da2497d-c460-45da-84e4-b16d2b4ffc2a")
-		(property "Reference" "#PWR0405"
-			(at 88.9 39.37 0)
+		(property "Reference" "#PWR0403"
+			(at 97.79 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4075,7 +3435,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 88.9 30.48 0)
+			(at 97.79 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4083,7 +3443,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 35.56 0)
+			(at 97.79 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4092,7 +3452,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 35.56 0)
+			(at 97.79 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4101,7 +3461,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 88.9 35.56 0)
+			(at 97.79 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4110,7 +3470,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 88.9 35.56 0)
+			(at 97.79 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4119,7 +3479,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 88.9 35.56 0)
+			(at 97.79 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4133,7 +3493,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/a8048510-1eee-49ed-8147-6520db6307f0"
-					(reference "#PWR0405")
+					(reference "#PWR0403")
 					(unit 1)
 				)
 			)
@@ -4141,16 +3501,16 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Heatsink")
-		(at 43.18 58.42 0)
+		(at 44.45 67.31 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(uuid "7838774c-5240-4269-98c1-ee88e4bb1fac")
 		(property "Reference" "HS401"
-			(at 46.482 48.514 0)
+			(at 47.752 57.404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4159,7 +3519,7 @@
 			)
 		)
 		(property "Value" "Heatsink"
-			(at 47.498 51.054 0)
+			(at 48.768 59.944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4168,7 +3528,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 42.8752 58.42 0)
+			(at 44.1452 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4176,8 +3536,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/433/624-844326.pdf"
-			(at 42.8752 58.42 0)
+		(property "Datasheet" "https://www.cuidevices.com/product/resource/pdf/hsb03-141406.pdf"
+			(at 44.1452 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4185,8 +3545,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Heatsink"
-			(at 43.18 58.42 0)
+		(property "Description" ""
+			(at 44.45 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4194,8 +3554,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Wakefield Thermal"
-			(at 43.18 58.42 0)
+		(property "Manufacturer" "CUI Devices"
+			(at 44.45 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4203,8 +3563,8 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" " 624-60AB "
-			(at 43.18 58.42 0)
+		(property "P/N" "HSB03-141406"
+			(at 44.45 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4222,103 +3582,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 46.99 83.82 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "79fe0dae-2c75-48d2-ae6a-cb41fde05085")
-		(property "Reference" "R402"
-			(at 46.99 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.3k"
-			(at 46.99 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 46.99 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 46.99 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 46.99 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Vishay / Dale"
-			(at 46.99 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "CRCW06033K30FKEA "
-			(at 46.99 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5c001d34-3b5f-43d9-b24a-bb2bc6b4fb2c")
-		)
-		(pin "1"
-			(uuid "26b2a25b-4c44-4655-ab49-99a9cbd8fd40")
-		)
-		(instances
-			(project ""
-				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/a8048510-1eee-49ed-8147-6520db6307f0"
-					(reference "R402")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
-		(at 88.9 38.1 0)
+		(at 97.79 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7a2a1fe3-b8ed-468f-a382-37fd0f617085")
-		(property "Reference" "C402"
-			(at 91.44 36.8362 0)
+		(property "Reference" "C401"
+			(at 100.33 38.1062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4327,7 +3601,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 91.44 39.3762 0)
+			(at 100.33 40.6462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4336,7 +3610,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 88.9 38.1 0)
+			(at 97.79 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4345,7 +3619,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA3E1X7R1V105K080AC"
-			(at 88.9 38.1 0)
+			(at 97.79 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4354,7 +3628,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 88.9 38.1 0)
+			(at 97.79 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4363,7 +3637,7 @@
 			)
 		)
 		(property "Notes" "3.3V Rating"
-			(at 88.9 38.1 0)
+			(at 97.79 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4372,7 +3646,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 88.9 38.1 0)
+			(at 97.79 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4381,7 +3655,7 @@
 			)
 		)
 		(property "P/N" "CGA3E1X7R1V105K080AC"
-			(at 88.9 38.1 0)
+			(at 97.79 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4398,7 +3672,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/a8048510-1eee-49ed-8147-6520db6307f0"
-					(reference "C402")
+					(reference "C401")
 					(unit 1)
 				)
 			)
@@ -4406,15 +3680,15 @@
 	)
 	(symbol
 		(lib_id "generic_symbol:Generic_Symbol")
-		(at 88.9 105.41 0)
+		(at 153.67 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(uuid "7b23d340-14c1-4891-aad9-8ad58a9abbc2")
-		(property "Reference" "G404"
-			(at 92.71 107.95 0)
+		(property "Reference" "G405"
+			(at 157.48 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4423,7 +3697,7 @@
 			)
 		)
 		(property "Value" "Temperature Sensor"
-			(at 92.71 109.8551 0)
+			(at 157.48 93.3451 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4432,7 +3706,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 105.41 0)
+			(at 153.67 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4441,7 +3715,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/268/MCP970X_Family_Data_Sheet_DS20001942-3443103.pdf"
-			(at 88.9 105.41 0)
+			(at 153.67 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4450,7 +3724,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 105.41 0)
+			(at 153.67 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4459,7 +3733,7 @@
 			)
 		)
 		(property "P/N" "MCP9700A-E/TO"
-			(at 88.9 105.41 0)
+			(at 153.67 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4468,7 +3742,7 @@
 			)
 		)
 		(property "Manufacturer" "Microchip Technology"
-			(at 88.9 105.41 0)
+			(at 153.67 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4479,7 +3753,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/a8048510-1eee-49ed-8147-6520db6307f0"
-					(reference "G404")
+					(reference "G405")
 					(unit 1)
 				)
 			)
@@ -4490,9 +3764,9 @@
 		(at 240.03 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7ba6d512-2384-4599-a569-1de99f06b435")
 		(property "Reference" "TP407"
@@ -4558,9 +3832,9 @@
 		(at 199.39 148.59 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7c2f061c-cf25-487f-8ed0-e9cf66b12b4f")
 		(property "Reference" "TP403"
@@ -4639,43 +3913,111 @@
 		)
 	)
 	(symbol
-		(lib_id "generic_symbol:Generic_Symbol")
-		(at 88.9 118.11 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 50.8 109.22 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f1add3d-7852-4f3a-89c7-9b3231bcedf6")
+		(property "Reference" "H403"
+			(at 53.34 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 53.34 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
+			(at 50.8 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 50.8 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "M2 Hole"
+			(at 50.8 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6141a997-de85-49a8-a962-8d440028b598")
+		)
+		(instances
+			(project "mppt"
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/a8048510-1eee-49ed-8147-6520db6307f0"
+					(reference "H403")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:MCP9700Ax-ELT")
+		(at 129.54 77.47 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
-		(uuid "7feb9193-fb6e-4818-9556-cb9b20bbbf35")
-		(property "Reference" "G405"
-			(at 92.71 120.65 0)
+		(dnp yes)
+		(uuid "8811fce8-7723-4643-be65-0eab91cbe052")
+		(property "Reference" "U402"
+			(at 130.048 68.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "Temperature Sensor"
-			(at 92.71 122.5551 0)
+		(property "Value" "MCP9700Ax-ELT"
+			(at 130.048 70.866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 88.9 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/268/MCP970X_Family_Data_Sheet_DS20001942-3443103.pdf"
-			(at 88.9 118.11 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+			(at 129.54 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4683,8 +4025,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 88.9 118.11 0)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001942G.pdf"
+			(at 129.54 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4692,8 +4034,8 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "MCP9700A-E/TO"
-			(at 88.9 118.11 0)
+		(property "Description" "Low power, analog thermistor temperature sensor, ±2C accuracy, -40C to +125C, in SC-70-5"
+			(at 129.54 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4702,7 +4044,7 @@
 			)
 		)
 		(property "Manufacturer" "Microchip Technology"
-			(at 88.9 118.11 0)
+			(at 129.54 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4710,45 +4052,8 @@
 				(hide yes)
 			)
 		)
-		(instances
-			(project ""
-				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/a8048510-1eee-49ed-8147-6520db6307f0"
-					(reference "G405")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_NMOS_GDS")
-		(at 57.15 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7ffe318a-a12a-408f-bbe1-3d4337bc8c08")
-		(property "Reference" "Q401"
-			(at 63.5 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_NMOS_GDS"
-			(at 63.5 85.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 62.23 81.28 0)
+		(property "P/N" "MCP9700A-ELT"
+			(at 129.54 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4756,205 +4061,42 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/196/Infineon_BSP297_DS_v02_02_en-1226465.pdf"
-			(at 57.15 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "4"
+			(uuid "ea314e4d-1a82-4eb5-aa9b-75123c3a57ee")
 		)
-		(property "Description" "N-MOSFET transistor, gate/drain/source"
-			(at 57.15 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "2"
+			(uuid "cff4f21a-1408-4ce2-99fc-08cfe1395c05")
 		)
-		(property "Distributor" ""
-			(at 57.15 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Infineon"
-			(at 57.15 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "BSP297H6327"
-			(at 57.15 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 57.15 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost" ""
-			(at 57.15 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 57.15 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "5"
+			(uuid "3fee5523-d480-48cd-83cc-07eb2175d0c6")
 		)
 		(pin "3"
-			(uuid "0f01add5-1ddf-4382-88c8-e4c0bc427483")
-		)
-		(pin "2"
-			(uuid "423a2a7c-b453-4716-b034-e5c5c057aa8a")
+			(uuid "ede19814-234e-4bfa-9f03-8e798fe942a2")
 		)
 		(pin "1"
-			(uuid "7083c72e-4a98-4260-8bee-274a64fbb0f8")
-		)
-		(instances
-			(project ""
-				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/a8048510-1eee-49ed-8147-6520db6307f0"
-					(reference "Q401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "generic_symbol:Generic_Symbol")
-		(at 165.1 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(uuid "8333ba43-75e9-4665-b697-cccb36020147")
-		(property "Reference" "G409"
-			(at 168.91 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Molex Connector"
-			(at 168.91 86.9951 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/436450300?display=pdf"
-			(at 165.1 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 165.1 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "43645-0300"
-			(at 165.1 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Molex"
-			(at 165.1 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(uuid "d197e71f-2313-4e42-a240-fad8dfc880c1")
 		)
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/a8048510-1eee-49ed-8147-6520db6307f0"
-					(reference "G409")
+					(reference "U402")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 95.25 58.42 90)
+		(lib_id "power:PWR_FLAG")
+		(at 97.79 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
-		(uuid "8a8b62e9-bcf6-449b-a316-9791263694a3")
-		(property "Reference" "R403"
-			(at 95.25 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "205"
-			(at 95.25 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 95.25 58.42 0)
+		(uuid "941cb77e-b585-4d00-aa5c-48c6ebafe8ae")
+		(property "Reference" "#FLG0401"
+			(at 95.885 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4962,78 +4104,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 95.25 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 95.25 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Vishay / Dale"
-			(at 95.25 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "CRCW0603205RFKEA "
-			(at 95.25 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eeb55191-dc03-473a-b70b-12aa53284170")
-		)
-		(pin "2"
-			(uuid "23bea5d3-5eea-494f-b5d6-c71c7124a681")
-		)
-		(instances
-			(project ""
-				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/a8048510-1eee-49ed-8147-6520db6307f0"
-					(reference "R403")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "generic_symbol:Generic_Symbol")
-		(at 31.75 67.31 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(uuid "8cdec42a-9966-4201-9f91-5fc701ef6b1f")
-		(property "Reference" "G402"
-			(at 27.94 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Molex Connector"
-			(at 27.94 71.7551 0)
+		(property "Value" "PWR_FLAG"
+			(at 93.98 68.5799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5042,7 +4114,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 67.31 0)
+			(at 97.79 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5050,8 +4122,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/436450200?display=pdf"
-			(at 31.75 67.31 0)
+		(property "Datasheet" "~"
+			(at 97.79 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5059,8 +4131,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 31.75 67.31 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 97.79 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5068,8 +4140,8 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "43645-0200"
-			(at 31.75 67.31 0)
+		(property "Sim.Device" ""
+			(at 97.79 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5077,19 +4149,22 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Molex"
-			(at 31.75 67.31 0)
+		(property "Sim.Pins" ""
+			(at 97.79 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "9e839382-2fab-47fd-8aab-ac85877c82d0")
 		)
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/a8048510-1eee-49ed-8147-6520db6307f0"
-					(reference "G402")
+					(reference "#FLG0401")
 					(unit 1)
 				)
 			)
@@ -5097,16 +4172,16 @@
 	)
 	(symbol
 		(lib_id "generic_symbol:Generic_Symbol")
-		(at 43.18 38.1 0)
+		(at 54.61 60.96 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(uuid "9936642b-0817-4c46-a805-2026c87e472e")
-		(property "Reference" "G403"
-			(at 45.72 34.29 0)
+		(property "Reference" "G401"
+			(at 63.246 63.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5115,7 +4190,7 @@
 			)
 		)
 		(property "Value" "Thermal Interface Pad"
-			(at 53.848 37.338 0)
+			(at 80.01 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5124,7 +4199,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 38.1 0)
+			(at 54.61 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5132,8 +4207,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/433/ulTIMiFlux_Thermal_Gap_Pads-2933408.pdf"
-			(at 43.18 38.1 0)
+		(property "Datasheet" ""
+			(at 54.61 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5142,7 +4217,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 43.18 38.1 0)
+			(at 54.61 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5150,8 +4225,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Wakefield Thermal"
-			(at 43.18 38.1 0)
+		(property "Manufacturer" "OwlTree"
+			(at 54.61 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5159,8 +4234,107 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" " PL-2-3-254-H "
-			(at 43.18 38.1 0)
+		(property "P/N" "B096ZNHY8F"
+			(at 54.61 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Amazon"
+			(at 54.61 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://www.amazon.com/gp/product/B096ZNHY8F/ref=sw_img_1?smid=AC08NVFNSP7VC&psc=1"
+			(at 54.61 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "mppt"
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/a8048510-1eee-49ed-8147-6520db6307f0"
+					(reference "G401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "generic_symbol:Generic_Symbol")
+		(at 54.61 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(uuid "a306071c-4c1c-44c2-bd57-1ffa1f9a92a6")
+		(property "Reference" "G403"
+			(at 58.42 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Molex Connector"
+			(at 58.42 84.4551 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/436450400?display=pdf"
+			(at 54.61 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "43645-0400"
+			(at 54.61 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 54.61 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5178,181 +4352,13 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 59.69 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ccd3f07-cad3-438d-b3bc-b1a49b4e78d2")
-		(property "Reference" "#PWR0402"
-			(at 59.69 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 59.69 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 59.69 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 59.69 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 59.69 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e8ebe1b7-0311-41ba-ba23-2cba4861e94b")
-		)
-		(instances
-			(project "mppt"
-				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/a8048510-1eee-49ed-8147-6520db6307f0"
-					(reference "#PWR0402")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 59.69 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a67c1c1c-d9b3-48b7-a694-f5b9cf672091")
-		(property "Reference" "#PWR0403"
-			(at 59.69 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 59.69 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 59.69 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 59.69 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 59.69 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0beb310c-247d-4d02-a31d-7b79ef9ef00a")
-		)
-		(instances
-			(project "mppt"
-				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/a8048510-1eee-49ed-8147-6520db6307f0"
-					(reference "#PWR0403")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint_Small")
 		(at 240.03 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a88c833e-255e-454f-9354-746dc74418e9")
 		(property "Reference" "TP404"
@@ -5414,13 +4420,168 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 97.79 63.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "adf9d583-4956-4cb8-acb2-897dc5627869")
+		(property "Reference" "R401"
+			(at 100.33 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "205"
+			(at 100.33 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 97.79 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 97.79 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 97.79 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay / Dale"
+			(at 97.79 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW0603205RFKEA "
+			(at 97.79 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0faebeb-e2f7-4cae-9e6c-75ed99b992b3")
+		)
+		(pin "2"
+			(uuid "f7ab9a86-5159-40c2-a199-734b53238caf")
+		)
+		(instances
+			(project "mppt"
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/a8048510-1eee-49ed-8147-6520db6307f0"
+					(reference "R401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 39.37 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "b018c8e1-44a3-4aaa-889d-9ce6704102cc")
+		(property "Reference" "#PWR0402"
+			(at 33.02 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 39.37 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d5ff3bc-8289-448c-8506-2c1e2eb961e9")
+		)
+		(instances
+			(project ""
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/a8048510-1eee-49ed-8147-6520db6307f0"
+					(reference "#PWR0402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint_Small")
 		(at 240.03 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b420a5b3-f890-40cc-aae1-4f5180f0ea2c")
 		(property "Reference" "TP408"
@@ -5483,16 +4644,16 @@
 	)
 	(symbol
 		(lib_id "Sensor_Temperature:MCP9700Ax-ELT")
-		(at 101.6 77.47 0)
+		(at 97.79 77.47 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "b56d740c-d2eb-4761-a222-511980e1742f")
 		(property "Reference" "U401"
-			(at 102.108 68.326 0)
+			(at 98.298 68.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5501,7 +4662,7 @@
 			)
 		)
 		(property "Value" "MCP9700Ax-ELT"
-			(at 102.108 70.866 0)
+			(at 98.298 70.866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5510,7 +4671,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
-			(at 101.6 87.63 0)
+			(at 97.79 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5519,7 +4680,7 @@
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001942G.pdf"
-			(at 101.6 77.47 0)
+			(at 97.79 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5528,7 +4689,7 @@
 			)
 		)
 		(property "Description" "Low power, analog thermistor temperature sensor, ±2C accuracy, -40C to +125C, in SC-70-5"
-			(at 101.6 77.47 0)
+			(at 97.79 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5537,7 +4698,7 @@
 			)
 		)
 		(property "Manufacturer" "Microchip Technology"
-			(at 101.6 77.47 0)
+			(at 97.79 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5546,7 +4707,7 @@
 			)
 		)
 		(property "P/N" "MCP9700A-ELT"
-			(at 101.6 77.47 0)
+			(at 97.79 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5579,90 +4740,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 33.02 121.92 0)
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 153.67 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b5dd5b10-f45c-4754-be48-9ba8b177a897")
-		(property "Reference" "H402"
-			(at 35.56 120.6499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 35.56 123.1899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
-			(at 33.02 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 33.02 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" "M2.5 Hole"
-			(at 33.02 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "mppt"
-				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/a8048510-1eee-49ed-8147-6520db6307f0"
-					(reference "H402")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 144.78 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "bc32f7e9-20f0-4700-975c-5f8ffa14ec29")
 		(property "Reference" "J402"
-			(at 147.32 59.6899 0)
+			(at 156.21 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5671,7 +4759,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 147.32 62.2299 0)
+			(at 156.21 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5680,7 +4768,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0315_1x03_P3.00mm_Vertical"
-			(at 144.78 60.96 0)
+			(at 153.67 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5689,7 +4777,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/436500315?display=pdf"
-			(at 144.78 60.96 0)
+			(at 153.67 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5698,7 +4786,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 144.78 60.96 0)
+			(at 153.67 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5707,7 +4795,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 144.78 60.96 0)
+			(at 153.67 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5716,7 +4804,7 @@
 			)
 		)
 		(property "Manufacturer" "Molex"
-			(at 144.78 60.96 0)
+			(at 153.67 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5725,7 +4813,7 @@
 			)
 		)
 		(property "P/N" " 43650-0315 "
-			(at 144.78 60.96 0)
+			(at 153.67 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5734,7 +4822,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 144.78 60.96 0)
+			(at 153.67 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5743,7 +4831,7 @@
 			)
 		)
 		(property "Cost" ""
-			(at 144.78 60.96 0)
+			(at 153.67 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5752,7 +4840,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 144.78 60.96 0)
+			(at 153.67 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5779,203 +4867,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 119.38 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bff8d703-ca92-47c4-91f8-7bed92b26374")
-		(property "Reference" "#FLG0401"
-			(at 119.38 56.515 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 119.38 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 119.38 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 119.38 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 119.38 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9b0af459-b343-488c-b8f4-00a46a447572")
-		)
-		(instances
-			(project ""
-				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/a8048510-1eee-49ed-8147-6520db6307f0"
-					(reference "#FLG0401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 59.69 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d2278e31-f28c-4ed3-94d1-04c672935cfe")
-		(property "Reference" "#PWR0401"
-			(at 59.69 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 59.69 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 59.69 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 59.69 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 59.69 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fff3ea99-2bf9-47b4-9bff-a92a46630da3")
-		)
-		(instances
-			(project "mppt"
-				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/a8048510-1eee-49ed-8147-6520db6307f0"
-					(reference "#PWR0401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 50.8 109.22 0)
+		(lib_id "Device:R_Small")
+		(at 129.54 63.5 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
-		(uuid "da131db9-be52-4077-b0ec-436999cbecc7")
-		(property "Reference" "H403"
-			(at 53.34 107.9499 0)
+		(uuid "c238be09-f596-4a3c-880f-5bd44520db2a")
+		(property "Reference" "R402"
+			(at 132.08 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 53.34 110.4899 0)
+		(property "Value" "205"
+			(at 132.08 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
-			(at 50.8 109.22 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 129.54 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5983,8 +4903,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 50.8 109.22 0)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 129.54 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5992,8 +4912,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 50.8 109.22 0)
+		(property "Description" "Resistor, small symbol"
+			(at 129.54 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6001,19 +4921,34 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "M2.5 Hole"
-			(at 50.8 109.22 0)
+		(property "Manufacturer" "Vishay / Dale"
+			(at 129.54 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "P/N" "CRCW0603205RFKEA "
+			(at 129.54 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f2911e8-62dd-4a11-adb6-64cab7698ec9")
+		)
+		(pin "2"
+			(uuid "3b2dd489-f8c9-4ef8-883e-0a1d71d54fe8")
 		)
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/a8048510-1eee-49ed-8147-6520db6307f0"
-					(reference "H403")
+					(reference "R402")
 					(unit 1)
 				)
 			)
@@ -6021,16 +4956,16 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 88.9 58.42 0)
+		(at 97.79 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "dc02c89e-a121-4815-b57d-1a4082cfbc5c")
-		(property "Reference" "#PWR0407"
-			(at 88.9 62.23 0)
+		(property "Reference" "#PWR0405"
+			(at 97.79 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6039,7 +4974,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 88.9 53.34 0)
+			(at 97.79 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6047,7 +4982,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 58.42 0)
+			(at 97.79 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6056,7 +4991,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 58.42 0)
+			(at 97.79 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6065,7 +5000,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 88.9 58.42 0)
+			(at 97.79 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6074,7 +5009,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 88.9 58.42 0)
+			(at 97.79 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6083,7 +5018,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 88.9 58.42 0)
+			(at 97.79 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6097,176 +5032,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/a8048510-1eee-49ed-8147-6520db6307f0"
-					(reference "#PWR0407")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 41.91 90.17 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dd513a9e-6e6d-49fc-9ebb-ef589db500b2")
-		(property "Reference" "R401"
-			(at 44.45 88.8999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "3.3k"
-			(at 44.45 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 41.91 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 41.91 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 41.91 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Vishay / Dale"
-			(at 41.91 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "CRCW06033K30FKEA "
-			(at 41.91 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "96dc5b01-cc36-44c8-a924-b2ded456f80f")
-		)
-		(pin "1"
-			(uuid "a8495b67-d58e-42b1-bc8f-d2ab0d290f66")
-		)
-		(instances
-			(project "mppt"
-				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/a8048510-1eee-49ed-8147-6520db6307f0"
-					(reference "R401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "generic_symbol:Generic_Symbol")
-		(at 120.65 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(uuid "df1c1605-6bc4-4be5-815e-5ebbcbb5512d")
-		(property "Reference" "G406"
-			(at 124.46 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Temperature Sensor"
-			(at 124.46 109.8551 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/268/MCP970X_Family_Data_Sheet_DS20001942-3443103.pdf"
-			(at 120.65 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 120.65 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "MCP9700A-E/TO"
-			(at 120.65 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Microchip Technology"
-			(at 120.65 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "mppt"
-				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/a8048510-1eee-49ed-8147-6520db6307f0"
-					(reference "G406")
+					(reference "#PWR0405")
 					(unit 1)
 				)
 			)
@@ -6277,12 +5043,12 @@
 		(at 199.39 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e5581bbf-4547-4ab4-9a57-b72f20e3793d")
-		(property "Reference" "#PWR0411"
+		(property "Reference" "#PWR0409"
 			(at 199.39 152.4 0)
 			(effects
 				(font
@@ -6350,104 +5116,7 @@
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/a8048510-1eee-49ed-8147-6520db6307f0"
-					(reference "#PWR0411")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 59.69 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ecc030fc-c62d-47f7-91d5-436aa9d3e105")
-		(property "Reference" "C401"
-			(at 62.23 36.8362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 62.23 39.3762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 59.69 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA3E1X7R1V105K080AC"
-			(at 59.69 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 59.69 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" "5.0V Rating"
-			(at 59.69 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TDK"
-			(at 59.69 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "CGA3E1X7R1V105K080AC"
-			(at 59.69 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8b2a562e-8a4a-4ce9-82c8-6a45af34e5b8")
-		)
-		(pin "1"
-			(uuid "8952555f-0496-469e-bd02-ccd72a2b3696")
-		)
-		(instances
-			(project ""
-				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/a8048510-1eee-49ed-8147-6520db6307f0"
-					(reference "C401")
+					(reference "#PWR0409")
 					(unit 1)
 				)
 			)
@@ -6458,9 +5127,9 @@
 		(at 173.99 148.59 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ed3ceea0-f9f3-4754-ad57-91b06bffbc74")
 		(property "Reference" "TP401"
@@ -6543,9 +5212,9 @@
 		(at 240.03 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f4edfa4e-adc9-412b-961b-06392f7dcbe3")
 		(property "Reference" "TP406"
@@ -6607,44 +5276,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 144.78 86.36 0)
+		(lib_id "Device:R_Small")
+		(at 148.59 63.5 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
-		(uuid "fa7bd4a7-6862-4a03-a048-1b63ee272421")
-		(property "Reference" "J404"
-			(at 147.32 85.0899 0)
+		(uuid "fa67e9fa-87bb-4a7c-8cdf-913014923b54")
+		(property "Reference" "R403"
+			(at 151.13 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x03"
-			(at 147.32 87.6299 0)
+		(property "Value" "205"
+			(at 151.13 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0315_1x03_P3.00mm_Vertical"
-			(at 144.78 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/436500315?display=pdf"
-			(at 144.78 86.36 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 148.59 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6652,8 +5312,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 144.78 86.36 0)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 148.59 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6661,8 +5321,8 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" ""
-			(at 144.78 86.36 0)
+		(property "Description" "Resistor, small symbol"
+			(at 148.59 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6670,8 +5330,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Molex"
-			(at 144.78 86.36 0)
+		(property "Manufacturer" "Vishay / Dale"
+			(at 148.59 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6679,72 +5339,42 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" " 43650-0315 "
-			(at 144.78 86.36 0)
+		(property "P/N" "CRCW0603205RFKEA "
+			(at 148.59 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "LCSC Part #" ""
-			(at 144.78 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost" ""
-			(at 144.78 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 144.78 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f9cc867f-a6ef-4250-8d58-cdc71fcff583")
 		)
 		(pin "1"
-			(uuid "eb6ae4f7-eb13-4944-acf9-9b3da8558db2")
+			(uuid "472b14af-b0c9-4fd8-ad1b-635d8437d269")
 		)
-		(pin "3"
-			(uuid "134ce055-f44b-40ae-9eeb-057fde5310c9")
+		(pin "2"
+			(uuid "66d5c8e2-9863-4a1b-8b03-abef9cf12fb8")
 		)
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/a8048510-1eee-49ed-8147-6520db6307f0"
-					(reference "J404")
+					(reference "R403")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 33.02 109.22 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb7748bb-ed5b-4575-bf32-4b374cc1df0c")
 		(property "Reference" "H401"
-			(at 35.56 107.9499 0)
+			(at 35.56 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6753,7 +5383,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 35.56 110.4899 0)
+			(at 35.56 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6761,7 +5391,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
 			(at 33.02 109.22 0)
 			(effects
 				(font
@@ -6770,7 +5400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 33.02 109.22 0)
 			(effects
 				(font
@@ -6779,7 +5409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" "Mounting Hole with connection"
 			(at 33.02 109.22 0)
 			(effects
 				(font
@@ -6788,7 +5418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "M2.5 Hole"
+		(property "Notes" "M2 Hole"
 			(at 33.02 109.22 0)
 			(effects
 				(font
@@ -6796,11 +5426,111 @@
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "25754783-3e43-4740-b18b-361af0da31f6")
 		)
 		(instances
 			(project "mppt"
 				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/a8048510-1eee-49ed-8147-6520db6307f0"
 					(reference "H401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 118.11 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "fc4a36b5-7cdc-4da6-a927-e598c3835ae5")
+		(property "Reference" "C403"
+			(at 120.65 38.1062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 120.65 40.6462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 118.11 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA3E1X7R1V105K080AC"
+			(at 118.11 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 118.11 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "3.3V Rating"
+			(at 118.11 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 118.11 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CGA3E1X7R1V105K080AC"
+			(at 118.11 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cb13dd12-9018-47a2-88fa-a857523254c6")
+		)
+		(pin "1"
+			(uuid "746efdd5-74c2-4cba-baa2-0322f5c81b7e")
+		)
+		(instances
+			(project "mppt"
+				(path "/83ad0d2f-976b-4ec4-beba-98e6b6988069/a8048510-1eee-49ed-8147-6520db6307f0"
+					(reference "C403")
 					(unit 1)
 				)
 			)

@@ -3835,7 +3835,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 232.41 111.7599 0)
 			(effects
 				(font
@@ -3880,7 +3880,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "CRCW060310K0FKEA "
+		(property "P/N" "CRCW0603100KFKEA "
 			(at 229.87 110.49 0)
 			(effects
 				(font
@@ -4007,7 +4007,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 214.63 88.8999 0)
 			(effects
 				(font
@@ -4052,7 +4052,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "CRCW060310K0FKEA "
+		(property "P/N" "CRCW0603100KFKEA "
 			(at 212.09 87.63 0)
 			(effects
 				(font
@@ -4177,7 +4177,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 205.74 111.7599 0)
 			(effects
 				(font
@@ -4222,7 +4222,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "CRCW060310K0FKEA "
+		(property "P/N" "CRCW0603100KFKEA "
 			(at 203.2 110.49 0)
 			(effects
 				(font
@@ -5364,7 +5364,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 214.63 111.7599 0)
 			(effects
 				(font
@@ -5409,7 +5409,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "CRCW060310K0FKEA "
+		(property "P/N" "CRCW0603100KFKEA "
 			(at 212.09 110.49 0)
 			(effects
 				(font
@@ -5451,7 +5451,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 205.74 88.8999 0)
 			(effects
 				(font
@@ -5496,7 +5496,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "CRCW060310K0FKEA "
+		(property "P/N" "CRCW0603100KFKEA "
 			(at 203.2 87.63 0)
 			(effects
 				(font
@@ -5985,7 +5985,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 223.52 111.7599 0)
 			(effects
 				(font
@@ -6030,7 +6030,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "CRCW060310K0FKEA "
+		(property "P/N" "CRCW0603100KFKEA "
 			(at 220.98 110.49 0)
 			(effects
 				(font
@@ -6073,7 +6073,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 57.15 58.4199 0)
 			(effects
 				(font
@@ -6118,7 +6118,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "CRCW060310K0FKEA "
+		(property "P/N" "CRCW0603100KFKEA "
 			(at 54.61 57.15 0)
 			(effects
 				(font

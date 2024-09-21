@@ -58,7 +58,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "lib_footprint_mismatch|137470000|52175000|2c0ac150-665b-4a2c-b808-0dcb80cc8020|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|138735000|52175000|020295b1-935d-4544-ac44-e886a6292628|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|62280000|54785000|5ea4f492-8040-481e-b9d9-ea0907adaada|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|63545000|54785000|e7818976-73c3-40ef-a2e3-9eeadb022c56|00000000-0000-0000-0000-000000000000",
+        "missing_courtyard|117275080|66760000|b31b4c70-3f4f-4729-a6f3-ddc9c742520a|00000000-0000-0000-0000-000000000000",
+        "missing_courtyard|120375080|67360000|264a0709-d7f9-4e72-b3d6-a8f8564c6a2c|00000000-0000-0000-0000-000000000000",
+        "missing_courtyard|62760000|74110000|88365aa9-8bfa-418b-a7ba-9488927a0679|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|128749933|77360000|87feb88c-d368-448d-9a8a-b9e3979dec5e|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -93,7 +102,7 @@
         "missing_footprint": "warning",
         "net_conflict": "warning",
         "npth_inside_courtyard": "warning",
-        "padstack": "warning",
+        "padstack": "ignore",
         "pth_inside_courtyard": "warning",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
@@ -131,7 +140,7 @@
         "min_track_width": 0.127,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.4,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -551,7 +560,7 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -560,7 +569,7 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -575,7 +584,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -623,7 +632,7 @@
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": true
+          "show": false
         }
       ],
       "filter_string": "",

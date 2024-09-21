@@ -31,3 +31,12 @@
 - Digikey
 - Texas Instruments
 - LCSC
+
+
+In the current design, there is a hardware and software path implemented by logic ICs and the microcontroller, respectively, in order to actuate protection circuitry and the converter. Both are initiated by the power monitors; it provides both hardware and firmware interfaces to determine if there is an operating fault.
+
+The hardware path relies on the ALERT pin of the power monitors; the power monitors can be programmed with operating redlines which when crossed will raise the ALERT pin signal: this is fed into logic ICs that generate a set of signals to disable the load switches and converter and enable the active loads.
+
+The software path relies on the microcontroller to read continuous measurements from the power monitors; the microcontroller internally preprocesses, filters, and manages a state machine which determines whether operating redlines are crossed and if it needs to perform the same actions as the hardware logic.
+
+The hardware path works in complement with the software path; it is designed to trigger more rapidly than the software path, protecting the circuit from extreme transient failures. On the other hand, the software path has tighter thresholds, and has priority in normal operation to gracefully disable and enable the converter.
