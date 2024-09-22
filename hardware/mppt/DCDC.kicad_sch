@@ -4909,7 +4909,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 45.72 114.3 0)
 			(effects
 				(font
@@ -4918,7 +4918,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA5L3X7R2E104K160AA"
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA4J3X7T2E104K125AA"
 			(at 45.72 114.3 0)
 			(effects
 				(font
@@ -4972,7 +4972,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "CGA5L3X7R2E104K160AA "
+		(property "P/N" "CGA4J3X7T2E104K125AA "
 			(at 45.72 114.3 0)
 			(effects
 				(font
@@ -4981,7 +4981,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "85V Rating"
+		(property "Notes" "200V Rating"
 			(at 45.72 114.3 0)
 			(effects
 				(font
@@ -5032,7 +5032,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric"
 			(at 153.67 114.3 0)
 			(effects
 				(font
@@ -5104,7 +5104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "150V Rating"
+		(property "Notes" "200V Rating"
 			(at 153.67 114.3 0)
 			(effects
 				(font
@@ -5155,7 +5155,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 133.35 114.3 0)
 			(effects
 				(font
@@ -5164,7 +5164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA5L3X7R2E104K160AA"
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA4J3X7T2E104K125AA"
 			(at 133.35 114.3 0)
 			(effects
 				(font
@@ -5218,7 +5218,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "CGA5L3X7R2E104K160AA "
+		(property "P/N" "CGA4J3X7T2E104K125AA "
 			(at 133.35 114.3 0)
 			(effects
 				(font
@@ -5227,7 +5227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "85V Rating"
+		(property "Notes" "200V Rating"
 			(at 133.35 114.3 0)
 			(effects
 				(font
@@ -6484,7 +6484,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric"
 			(at 55.88 114.3 0)
 			(effects
 				(font
@@ -6556,7 +6556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "150V Rating"
+		(property "Notes" "200V Rating"
 			(at 55.88 114.3 0)
 			(effects
 				(font
@@ -6607,7 +6607,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric"
 			(at 66.04 114.3 0)
 			(effects
 				(font
@@ -6679,7 +6679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "150V Rating"
+		(property "Notes" "200V Rating"
 			(at 66.04 114.3 0)
 			(effects
 				(font
@@ -6731,7 +6731,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric"
 			(at 143.51 114.3 0)
 			(effects
 				(font
@@ -6803,7 +6803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "150V Rating"
+		(property "Notes" "200V Rating"
 			(at 143.51 114.3 0)
 			(effects
 				(font

@@ -14434,7 +14434,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 40.64 116.84 0)
 			(effects
 				(font
@@ -15372,7 +15372,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 40.64 91.44 0)
 			(effects
 				(font
@@ -15435,7 +15435,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "CGA2B2C0G1H100D050BA "
+		(property "P/N" "CGA2B2C0G1H100D050BA"
 			(at 40.64 91.44 0)
 			(effects
 				(font
@@ -16095,7 +16095,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 63.5 91.44 0)
 			(effects
 				(font
@@ -16158,7 +16158,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "CGA2B2C0G1H100D050BA "
+		(property "P/N" "CGA2B2C0G1H100D050BA"
 			(at 63.5 91.44 0)
 			(effects
 				(font
@@ -16505,7 +16505,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 63.5 116.84 0)
 			(effects
 				(font
@@ -19196,7 +19196,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 86.36 118.11 0)
 			(effects
 				(font
@@ -19205,7 +19205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA4J1X7R1E475K125AC"
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA3E1X7T1A475K080AC"
 			(at 86.36 118.11 0)
 			(effects
 				(font
@@ -19241,7 +19241,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "CGA4J1X7R1E475K125AC "
+		(property "P/N" "CGA3E1X7T1A475K080AC"
 			(at 86.36 118.11 0)
 			(effects
 				(font

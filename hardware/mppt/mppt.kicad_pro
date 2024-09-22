@@ -58,16 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "lib_footprint_mismatch|137470000|52175000|2c0ac150-665b-4a2c-b808-0dcb80cc8020|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|138735000|52175000|020295b1-935d-4544-ac44-e886a6292628|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|62280000|54785000|5ea4f492-8040-481e-b9d9-ea0907adaada|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|63545000|54785000|e7818976-73c3-40ef-a2e3-9eeadb022c56|00000000-0000-0000-0000-000000000000",
-        "missing_courtyard|117275080|66760000|b31b4c70-3f4f-4729-a6f3-ddc9c742520a|00000000-0000-0000-0000-000000000000",
-        "missing_courtyard|120375080|67360000|264a0709-d7f9-4e72-b3d6-a8f8564c6a2c|00000000-0000-0000-0000-000000000000",
-        "missing_courtyard|62760000|74110000|88365aa9-8bfa-418b-a7ba-9488927a0679|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|128749933|77360000|87feb88c-d368-448d-9a8a-b9e3979dec5e|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -635,11 +626,11 @@
           "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "R*",
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "${QUANTITY}"
+      "sort_field": "Value"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -723,11 +714,11 @@
     ],
     [
       "4ded7f21-c954-474a-8fd2-fbcb33684719",
-      "Load Switch Source"
+      "Load Switch Sink"
     ],
     [
       "8b5de3fc-30f5-4fad-822c-e963a3c1cfb6",
-      "Load Switch Sink"
+      "Load Switch Source"
     ],
     [
       "ef801f28-5df3-4a7f-a59d-9cf49d40d7d5",
